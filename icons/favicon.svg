@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cf2c2c"/>
+      <stop offset="100%" stop-color="#8a1414"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd54f"/>
+      <stop offset="100%" stop-color="#ffb300"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer squircle -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bgGrad)" filter="url(#shadow)"/>
+  
+  <!-- Inner subtle border -->
+  <rect x="30" y="30" width="452" height="452" rx="102" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="4"/>
+  
+  <!-- Sun / Emblem circle -->
+  <circle cx="256" cy="256" r="176" fill="#ffffff" opacity="0.08"/>
+  <circle cx="256" cy="256" r="148" fill="#ffffff" opacity="0.12"/>
+
+  <!-- Japanese Torii / Gate motif with Kanji '日' -->
+  <!-- Upper beam -->
+  <path d="M 120 156 Q 256 142 392 156 L 396 178 Q 256 166 116 178 Z" fill="#ffffff"/>
+  <!-- Second beam -->
+  <rect x="144" y="196" width="224" height="16" rx="4" fill="#ffffff" opacity="0.9"/>
+  <!-- Two vertical pillars -->
+  <path d="M 174 178 L 160 380 L 184 380 L 194 178 Z" fill="#ffffff"/>
+  <path d="M 338 178 L 348 380 L 324 380 L 318 178 Z" fill="#ffffff"/>
+  <!-- Central Kanji: 日 in gold or clean white -->
+  <g transform="translate(216, 224)">
+    <!-- Outer rectangle -->
+    <rect x="0" y="0" width="80" height="116" rx="6" fill="none" stroke="url(#goldGrad)" stroke-width="12"/>
+    <!-- Middle crossbar -->
+    <line x1="4" y1="58" x2="76" y2="58" stroke="url(#goldGrad)" stroke-width="10"/>
+  </g>
+  <!-- Small badge dots -->
+  <circle cx="256" cy="120" r="10" fill="url(#goldGrad)"/>
+</svg>

@@ -4,72 +4,187 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Yaponcha → O'zbekcha lug'at · Test · Dokkai</title>
-<meta name="description" content="Yaponcha-o'zbekcha lug'at va testlar: できる日本語, 20日で合格N2 — kanji, so'z, grammatika va dokkai mashqlari.">
+<meta name="description" content="Yaponcha-o'zbekcha lug'at va testlar: できる日本語, 20日で合格N2 — kanji, so'z, grammatika va dokkai mashqlari (100% oflayn PWA).">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#b3261e" id="themeColorMeta">
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Dekiru N2">
+<script>
+  (function(){
+    try{
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if(saved === 'dark' || (!saved && prefersDark)){
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    }catch(e){}
+  })();
+</script>
 <style>
-:root{--washi:#f6f4ef;--paper:#fffdf9;--ink:#191714;--mut:#6d675d;--line:#e6e1d6;--shu:#b3261e;--ai:#1f3a5f;--match:#fff3c4;--shadow:0 10px 30px rgba(25,23,20,.07)}
+:root{
+  --washi:#f6f4ef;
+  --paper:#fffdf9;
+  --card-inner:#ffffff;
+  --ink:#191714;
+  --mut:#6d675d;
+  --line:#e6e1d6;
+  --shu:#b3261e;
+  --shu-bg:#fff6f4;
+  --ai:#1f3a5f;
+  --ai-light:#eef2f8;
+  --ai-border:#dbe4f1;
+  --match:#fff3c4;
+  --match-ink:#191714;
+  --shadow:0 10px 30px rgba(25,23,20,.07);
+  --th-bg:#f1ede3;
+  --tr-border:#f0ebdf;
+  --tr-hover:#fbf8f1;
+  --td-uz:#22262c;
+  --opt-border:#e6e1d6;
+  --opt-hover:#cfc8b8;
+  --opt-sel-bg:#eef2f8;
+  --ok-bg:#e7f7ef;
+  --ok-border:#0b6b45;
+  --ok-color:#0b6b45;
+  --no-bg:#fdecec;
+  --no-border:#a01212;
+  --no-color:#a01212;
+  --dok-bg:#fffdf6;
+  --dok-border:#f0e6c8;
+  --dok-text:#2c2821;
+  --hero-grad:linear-gradient(180deg,#fffdf9,#f7f3ea);
+  --toolbar-bg:rgba(246,244,239,.94);
+  --modal-bg:rgba(255,255,255,0.96);
+  --backdrop:rgba(25,23,20,0.6);
+}
+
+[data-theme="dark"]{
+  --washi:#0f1115;
+  --paper:#171920;
+  --card-inner:#1f232c;
+  --ink:#f0f2f5;
+  --mut:#9aa2b2;
+  --line:#2b303e;
+  --shu:#ff5e57;
+  --shu-bg:rgba(255,94,87,0.12);
+  --ai:#5a9df8;
+  --ai-light:#1c2738;
+  --ai-border:#2c3f5f;
+  --match:#4d3a08;
+  --match-ink:#ffeb99;
+  --shadow:0 10px 30px rgba(0,0,0,.5);
+  --th-bg:#14161c;
+  --tr-border:#232834;
+  --tr-hover:#1f232c;
+  --td-uz:#e2e5ec;
+  --opt-border:#2e3444;
+  --opt-hover:#414a60;
+  --opt-sel-bg:#1c2738;
+  --ok-bg:#0e291c;
+  --ok-border:#1d7e4c;
+  --ok-color:#4ade80;
+  --no-bg:#321313;
+  --no-border:#b82828;
+  --no-color:#f87171;
+  --dok-bg:#151821;
+  --dok-border:#2d3446;
+  --dok-text:#e1e4ec;
+  --hero-grad:linear-gradient(180deg,#161820,#0f1115);
+  --toolbar-bg:rgba(15,17,21,.94);
+  --modal-bg:rgba(23,25,32,0.98);
+  --backdrop:rgba(0,0,0,0.75);
+}
+
 *{box-sizing:border-box}html,body{margin:0}
-body{background:var(--washi);color:var(--ink);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+body{background:var(--washi);color:var(--ink);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;transition:background-color .2s ease,color .2s ease}
 .wrap{max-width:1140px;margin:0 auto;padding:0 18px}
-header.hero{border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fffdf9,#f7f3ea)}
+header.hero{border-bottom:1px solid var(--line);background:var(--hero-grad);transition:background .2s ease,border-color .2s ease}
 .hero .wrap{padding:30px 18px 22px}
 .kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--shu);font-weight:700}
-h1{font-size:clamp(23px,3.6vw,34px);line-height:1.15;margin:.35em 0 .2em;letter-spacing:-.01em}
+h1{font-size:clamp(23px,3.6vw,34px);line-height:1.15;margin:.35em 0 .2em;letter-spacing:-.01em;color:var(--ink)}
 h1 .jp{display:block;font-size:.62em;color:var(--mut);font-weight:600;margin-top:.3em}
-.lede{color:#454039;max-width:76ch;margin:10px 0 0;font-size:14.5px}
+.lede{color:var(--mut);max-width:76ch;margin:10px 0 0;font-size:14.5px}
+.lede b{color:var(--ink)}
 .tabs{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
-.tab{display:flex;flex-direction:column;gap:2px;border:1px solid var(--line);background:#fff;border-radius:14px;padding:10px 15px;cursor:pointer;box-shadow:var(--shadow);min-width:180px}
-.tab .t{font-weight:700;font-size:14.5px}.tab .s{font-size:11.5px;color:var(--mut)}.tab .c{font-size:11.5px;color:var(--shu);font-weight:700}
-.tab.on{border-color:var(--shu);background:linear-gradient(180deg,#fff,#fff6f4)}
-.toolbar{position:sticky;top:0;z-index:20;background:rgba(246,244,239,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.tab{display:flex;flex-direction:column;gap:2px;border:1px solid var(--line);background:var(--card-inner);border-radius:14px;padding:10px 15px;cursor:pointer;box-shadow:var(--shadow);min-width:180px;transition:border-color .15s ease,background .15s ease,transform .15s ease}
+.tab:hover{transform:translateY(-1px);border-color:var(--opt-hover)}
+.tab .t{font-weight:700;font-size:14.5px;color:var(--ink)}
+.tab .s{font-size:11.5px;color:var(--mut)}
+.tab .c{font-size:11.5px;color:var(--shu);font-weight:700}
+.tab.on{border-color:var(--shu);background:var(--shu-bg)}
+
+.toolbar{position:sticky;top:0;z-index:20;background:var(--toolbar-bg);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);transition:background .2s ease,border-color .2s ease}
 .toolbar .inner{max-width:1140px;margin:0 auto;padding:11px 18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.search{flex:1 1 230px;display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 12px;box-shadow:var(--shadow)}
-.search input{border:0;outline:0;font:inherit;font-size:15px;flex:1;background:transparent;color:inherit}
+.search{flex:1 1 220px;display:flex;align-items:center;gap:8px;background:var(--card-inner);border:1px solid var(--line);border-radius:12px;padding:9px 12px;box-shadow:var(--shadow);transition:border-color .15s ease,box-shadow .15s ease}
+.search:focus-within{border-color:var(--ai);box-shadow:0 0 0 3px var(--ai-border)}
+.search input{border:0;outline:0;font:inherit;font-size:15px;flex:1;background:transparent;color:var(--ink)}
+.search input::placeholder{color:var(--mut);opacity:.8}
 .search .ico{color:var(--mut)}
-.seg{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}
-.seg button{border:0;background:transparent;font:inherit;font-size:14px;padding:9px 14px;cursor:pointer;color:var(--mut)}
-.seg button.on{background:var(--ai);color:#fff}
-.toggle{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:#4a453d;background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 12px;cursor:pointer;box-shadow:var(--shadow)}
-.toggle input{accent-color:var(--shu)}
+.seg{display:inline-flex;background:var(--card-inner);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}
+.seg button{border:0;background:transparent;font:inherit;font-size:14px;padding:9px 14px;cursor:pointer;color:var(--mut);transition:background .15s ease,color .15s ease}
+.seg button:hover{color:var(--ink)}
+.seg button.on{background:var(--ai);color:#fff;font-weight:600}
+.toggle{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:var(--ink);background:var(--card-inner);border:1px solid var(--line);border-radius:12px;padding:9px 12px;cursor:pointer;box-shadow:var(--shadow);user-select:none}
+.toggle input{accent-color:var(--shu);cursor:pointer}
+
+.toolbar-actions{display:inline-flex;gap:8px;align-items:center}
+.btn-tool{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card-inner);color:var(--ink);border-radius:12px;padding:8px 13px;font:inherit;font-size:13.5px;font-weight:600;cursor:pointer;box-shadow:var(--shadow);transition:background .15s ease,border-color .15s ease,transform .15s ease}
+.btn-tool:hover{border-color:var(--opt-hover);transform:translateY(-1px)}
+.btn-tool:active{transform:translateY(0)}
+.btn-tool.btn-install{background:var(--ai);color:#fff;border-color:var(--ai)}
+.btn-tool.btn-install:hover{opacity:.92}
+
+.offline-banner{display:none;background:var(--shu);color:#fff;font-size:13.5px;font-weight:600;padding:8px 18px;text-align:center;justify-content:center;align-items:center;gap:8px;box-shadow:var(--shadow);animation:slideDown .3s ease}
+@keyframes slideDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+
 main.wrap{padding-bottom:30px}
 .secnote{color:var(--mut);font-size:13.5px;margin:14px 2px 0}
 .stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-.stat{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:13px;box-shadow:var(--shadow)}
+.stat{background:var(--card-inner);border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:13px;color:var(--ink);box-shadow:var(--shadow)}
 .stat b{color:var(--shu)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 6px}
-.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer;color:#4a453d}
-.chip:hover{border-color:#cfc8b8}.chip.on{background:var(--shu);border-color:var(--shu);color:#fff}
+.chip{border:1px solid var(--line);background:var(--card-inner);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer;color:var(--ink);transition:border-color .15s ease,background .15s ease,color .15s ease}
+.chip:hover{border-color:var(--opt-hover)}
+.chip.on{background:var(--shu);border-color:var(--shu);color:#fff;font-weight:600}
 .countline{color:var(--mut);font-size:13px;margin:6px 2px 14px}
 .tablewrap{background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
 table{width:100%;border-collapse:collapse}
-thead th{position:sticky;top:62px;background:#f1ede3;text-align:left;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);padding:11px 14px;border-bottom:1px solid var(--line);z-index:5}
-tbody td{padding:10px 14px;border-bottom:1px solid #f0ebdf;vertical-align:top;font-size:15px}
-tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#fbf8f1}
-td.n{color:#b9b2a4;font-size:12px;width:44px}
-td.jp{font-size:17px;font-weight:600;white-space:nowrap}
-td.kana{color:#4a453d;white-space:nowrap}
-td.ro{color:#8b8477;font-style:italic;white-space:nowrap}
-td.uz{color:#22262c;font-weight:500}
-td.en{display:none;color:#98a0ad;font-size:13px}
+thead th{position:sticky;top:62px;background:var(--th-bg);text-align:left;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);padding:11px 14px;border-bottom:1px solid var(--line);z-index:5}
+tbody td{padding:10px 14px;border-bottom:1px solid var(--tr-border);vertical-align:top;font-size:15px}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--tr-hover)}
+td.n{color:var(--mut);font-size:12px;width:44px}
+td.jp{font-size:17px;font-weight:600;white-space:nowrap;color:var(--ink)}
+td.kana{color:var(--ink);white-space:nowrap}
+td.ro{color:var(--mut);font-style:italic;white-space:nowrap}
+td.uz{color:var(--td-uz);font-weight:500}
+td.en{display:none;color:var(--mut);font-size:13px}
 body.showen td.en{display:table-cell}
 thead th.en{display:none}
 body.showen thead th.en{display:table-cell}
-.lesson-tag{display:inline-block;font-size:11px;color:var(--ai);background:#eef2f8;border:1px solid #dbe4f1;border-radius:6px;padding:1px 7px;margin-top:4px}
-mark{background:var(--match);padding:0 2px;border-radius:3px}
+.lesson-tag{display:inline-block;font-size:11px;color:var(--ai);background:var(--ai-light);border:1px solid var(--ai-border);border-radius:6px;padding:1px 7px;margin-top:4px}
+mark{background:var(--match);color:var(--match-ink);padding:0 3px;border-radius:3px;font-weight:600}
 .empty{padding:40px 24px;text-align:center;color:var(--mut);display:none}
 .card-mode{display:none;margin-top:8px}
-.flash{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:34px 26px;text-align:center;min-height:250px;display:flex;flex-direction:column;justify-content:center;gap:10px;cursor:pointer}
-.flash .q{font-size:clamp(30px,6vw,52px);font-weight:700}
+.flash{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:34px 26px;text-align:center;min-height:250px;display:flex;flex-direction:column;justify-content:center;gap:10px;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease}
+.flash:hover{box-shadow:0 14px 34px rgba(0,0,0,.15)}
+.flash .q{font-size:clamp(30px,6vw,52px);font-weight:700;color:var(--ink)}
 .flash .hint{color:var(--mut);font-size:13px}
 .flash .ans{margin-top:10px;border-top:1px dashed var(--line);padding-top:16px;display:none}
 .flash.rev .ans{display:block}
-.flash .kana{font-size:20px;color:#3c3831}
-.flash .ro{font-style:italic;color:#8b8477}
+.flash .kana{font-size:20px;color:var(--ink)}
+.flash .ro{font-style:italic;color:var(--mut)}
 .flash .uz{margin-top:8px;font-size:19px;color:var(--shu);font-weight:600}
-.flash .en{display:none;margin-top:5px;font-size:14px;color:#98a0ad}
+.flash .en{display:none;margin-top:5px;font-size:14px;color:var(--mut)}
 body.showen .flash .en{display:block}
 .fnav{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap}
-.btn{border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 16px;font:inherit;font-size:14px;cursor:pointer;box-shadow:var(--shadow)}
-.btn.primary{background:var(--shu);border-color:var(--shu);color:#fff}
+.btn{border:1px solid var(--line);background:var(--card-inner);border-radius:12px;padding:10px 16px;font:inherit;font-size:14px;cursor:pointer;box-shadow:var(--shadow);color:var(--ink);transition:border-color .15s ease,transform .15s ease,background .15s ease}
+.btn:hover{border-color:var(--opt-hover);transform:translateY(-1px)}
+.btn.primary{background:var(--shu);border-color:var(--shu);color:#fff;font-weight:600}
+.btn.primary:hover{opacity:.94}
 .prog{text-align:center;color:var(--mut);font-size:13px;margin-top:12px}
 .tbar{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:12px 14px;box-shadow:var(--shadow);margin-top:8px}
 .tbar-left{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
@@ -78,27 +193,51 @@ body.showen .flash .en{display:block}
 .q{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-top:10px;box-shadow:var(--shadow)}
 .qhead{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
 .qnum{background:var(--ai);color:#fff;border-radius:8px;font-size:12px;font-weight:700;padding:2px 8px}
-.qword{font-size:20px;font-weight:700}
+.qword{font-size:20px;font-weight:700;color:var(--ink)}
 .qkana{color:var(--mut);font-size:13px;margin-left:6px}
 .opts{display:flex;flex-direction:column;gap:6px;margin-top:10px}
-.opt{border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 12px;font:inherit;font-size:14px;text-align:left;cursor:pointer}
-.opt:hover{border-color:#cfc8b8}
-.opt.sel{background:#eef2f8;border-color:var(--ai)}
-.opt.ok{background:#e7f7ef;border-color:#0b6b45;color:#0b6b45;font-weight:600}
-.opt.no{background:#fdecec;border-color:#a01212;color:#a01212}
-.fb{display:none;margin-top:10px;border-top:1px dashed var(--line);padding-top:10px;font-size:13.5px;color:#39424f}
-.fb.show{display:block}.fb b{color:var(--ink)}
-.tfoot{margin-top:14px;font-size:15px;font-weight:600}
-.bookbadge{display:inline-block;background:#eef2f8;border:1px solid #dbe4f1;color:var(--ai);border-radius:10px;padding:6px 12px;font-size:13px;font-weight:600;margin-top:6px}
-.segmini{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 12px}
-.segmini button{border:0;background:transparent;font:inherit;font-size:13px;padding:7px 12px;cursor:pointer;color:var(--mut)}
-.segmini button.on{background:var(--shu);color:#fff}
-.dokpass{background:#fffdf6;border:1px solid #f0e6c8;border-radius:14px;padding:16px 18px;margin-top:10px;font-family:"Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif;font-size:15px;line-height:2;white-space:pre-wrap}
+.opt{border:1px solid var(--opt-border);background:var(--card-inner);border-radius:10px;padding:8px 12px;font:inherit;font-size:14px;text-align:left;cursor:pointer;color:var(--ink);transition:border-color .12s ease,background .12s ease}
+.opt:hover{border-color:var(--opt-hover)}
+.opt.sel{background:var(--opt-sel-bg);border-color:var(--ai)}
+.opt.ok{background:var(--ok-bg)!important;border-color:var(--ok-border)!important;color:var(--ok-color)!important;font-weight:600}
+.opt.no{background:var(--no-bg)!important;border-color:var(--no-border)!important;color:var(--no-color)!important}
+.fb{display:none;margin-top:10px;border-top:1px dashed var(--line);padding-top:10px;font-size:13.5px;color:var(--ink)}
+.fb.show{display:block}
+.fb b{color:var(--ink)}
+.tfoot{margin-top:14px;font-size:15px;font-weight:600;color:var(--ink)}
+.bookbadge{display:inline-block;background:var(--ai-light);border:1px solid var(--ai-border);color:var(--ai);border-radius:10px;padding:6px 12px;font-size:13px;font-weight:600;margin-top:6px}
+.segmini{display:inline-flex;background:var(--card-inner);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 12px}
+.segmini button{border:0;background:transparent;font:inherit;font-size:13px;padding:7px 12px;cursor:pointer;color:var(--mut);transition:background .15s ease,color .15s ease}
+.segmini button.on{background:var(--shu);color:#fff;font-weight:600}
+.dokpass{background:var(--dok-bg);border:1px solid var(--dok-border);color:var(--dok-text);border-radius:14px;padding:16px 18px;margin-top:10px;font-family:"Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif;font-size:15px;line-height:2;white-space:pre-wrap}
 .doknotes{color:var(--mut);font-size:12.5px;margin-top:8px}
 .doksrc{color:var(--mut);font-size:12.5px;margin:6px 0 4px;text-align:right}
 footer{color:var(--mut);font-size:12.5px;padding:34px 18px 56px;text-align:center}
-@media (max-width:700px){td.ro,thead th.ro{display:none}thead th{top:56px}}
-</style><!-- build:day3 -->
+
+/* Modal styles for PWA installation */
+.modal-backdrop{position:fixed;inset:0;background:var(--backdrop);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;z-index:999;padding:16px}
+.modal-box{background:var(--modal-bg);border:1px solid var(--line);border-radius:18px;max-width:540px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,0.5);overflow:hidden;animation:modalZoom .2s ease}
+@keyframes modalZoom{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}
+.modal-head{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line)}
+.modal-head h3{margin:0;font-size:17px;color:var(--ink)}
+.modal-close{border:0;background:transparent;font-size:22px;cursor:pointer;color:var(--mut);padding:0 4px;line-height:1}
+.modal-close:hover{color:var(--ink)}
+.modal-body{padding:20px;font-size:14px;line-height:1.6;color:var(--ink)}
+.install-guide{margin-top:14px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.guide-item{margin-bottom:12px}
+.guide-item:last-child{margin-bottom:0}
+.guide-item b{color:var(--ink);display:block;margin-bottom:2px}
+.guide-item p{margin:0;color:var(--mut)}
+
+@media (max-width:700px){
+  td.ro,thead th.ro{display:none}
+  thead th{top:56px}
+  .toolbar .inner{gap:8px}
+  .search{flex:1 1 100%}
+  .theme-text,.install-text{display:none}
+  .btn-tool{padding:8px 10px}
+}
+</style>
 </head><body>
 <header class="hero"><div class="wrap">
   <div class="kicker">Yaponcha → O'zbekcha · O'quv platformasi</div>
@@ -110,8 +249,20 @@ footer{color:var(--mut);font-size:12.5px;padding:34px 18px 56px;text-align:cente
 <div class="toolbar"><div class="inner">
   <label class="search"><span class="ico">⌕</span><input id="q" type="search" placeholder="Qidirish: yaponcha, kana, romaji, o'zbekcha yoki inglizcha…" autocomplete="off"></label>
   <div class="seg"><button id="mList" class="on">Ro'yxat</button><button id="mCard">Kartochka</button><button id="mTest">Test</button></div>
-  <label class="toggle"><input type="checkbox" id="enTog"> Inglizcha manbani ham ko'rsatish</label>
+  <label class="toggle"><input type="checkbox" id="enTog"> Inglizcha</label>
+  <div class="toolbar-actions">
+    <button id="themeTog" class="btn-tool" type="button" aria-label="Mavzuni almashtirish" title="Mavzuni almashtirish (Tun/Kun)">
+      <span class="theme-icon">🌙</span><span class="theme-text">Tun</span>
+    </button>
+    <button id="pwaInstall" class="btn-tool btn-install" type="button" aria-label="Ilovani o'rnatish" title="MacBook yoki telefonga o'rnatish">
+      <span>📲</span><span class="install-text">O'rnatish</span>
+    </button>
+  </div>
 </div></div>
+
+<div id="offlineBanner" class="offline-banner">
+  <span>📡 Oflayn rejim faol — barcha lug'at, kartochka va testlar 100% internetsiz ishlamoqda!</span>
+</div>
 
 <main class="wrap">
   <div class="secnote" id="secnote"></div>
@@ -13656,5 +13807,163 @@ $("#tcheck").onclick=checkTest;
 $("#treset").onclick=()=>renderTest();
 const _origSetMode=setMode;
 renderTabs();renderChips();renderStats();renderList();
+
+// ---------- THEME TOGGLE (DARK / LIGHT) ----------
+function getPreferredTheme(){
+  const saved = localStorage.getItem('theme');
+  if(saved) return saved;
+  return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+}
+
+function applyTheme(theme){
+  document.documentElement.setAttribute('data-theme', theme);
+  const isDark = (theme === 'dark');
+  const tog = $("#themeTog");
+  if(tog){
+    tog.innerHTML = isDark
+      ? '<span class="theme-icon">☀️</span><span class="theme-text">Kun</span>'
+      : '<span class="theme-icon">🌙</span><span class="theme-text">Tun</span>';
+    tog.title = isDark ? "Yorug' mavzuga o'tish" : "Qorong'i mavzuga o'tish";
+  }
+  const meta = $("#themeColorMeta");
+  if(meta){
+    meta.setAttribute('content', isDark ? '#0f1115' : '#b3261e');
+  }
+}
+
+function toggleTheme(){
+  const curTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+  const nextTheme = curTheme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', nextTheme);
+  applyTheme(nextTheme);
+}
+
+const curTheme = getPreferredTheme();
+applyTheme(curTheme);
+if($("#themeTog")) $("#themeTog").onclick = toggleTheme;
+
+if(window.matchMedia){
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+    if(!localStorage.getItem('theme')){
+      applyTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+}
+
+// ---------- SERVICE WORKER & OFFLINE SUPPORT ----------
+if('serviceWorker' in navigator){
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').then(reg => {
+      console.log('SW faollashdi:', reg.scope);
+    }).catch(err => {
+      console.warn('SW xatolik:', err);
+    });
+  });
+}
+
+function updateOnlineStatus(){
+  const b = $("#offlineBanner");
+  if(!b) return;
+  if(!navigator.onLine){
+    b.style.display = "flex";
+  } else {
+    b.style.display = "none";
+  }
+}
+window.addEventListener('online', updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
+updateOnlineStatus();
+
+// ---------- PWA INSTALLATION PROMPT & MODAL ----------
+let deferredPrompt = null;
+const pwaBtn = $("#pwaInstall");
+const modal = $("#installModal");
+const modalInstallBtn = $("#modalInstallBtn");
+const closeInstallBtn = $("#closeInstallModal");
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  if(pwaBtn) pwaBtn.style.display = "inline-flex";
+  if(modalInstallBtn) modalInstallBtn.style.display = "inline-block";
+});
+
+function openInstallModal(){
+  if(modal) modal.style.display = "flex";
+}
+function closeInstallModal(){
+  if(modal) modal.style.display = "none";
+}
+
+if(pwaBtn){
+  pwaBtn.onclick = () => {
+    if(deferredPrompt){
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if(choiceResult.outcome === 'accepted'){
+          if(pwaBtn) pwaBtn.style.display = 'none';
+        }
+        deferredPrompt = null;
+      });
+    } else {
+      openInstallModal();
+    }
+  };
+}
+
+if(modalInstallBtn){
+  modalInstallBtn.onclick = () => {
+    if(deferredPrompt){
+      deferredPrompt.prompt();
+      closeInstallModal();
+    } else {
+      alert("Brauzer orqali o'rnatish uchun manzil satridagi yuklab olish belgisini bosing yoki Safari menyusidagi «Dokka qo'shish» opsiyasidan foydalaning.");
+    }
+  };
+}
+
+if(closeInstallBtn) closeInstallBtn.onclick = closeInstallModal;
+if(modal){
+  modal.onclick = (e) => {
+    if(e.target === modal) closeInstallModal();
+  };
+}
+
+window.addEventListener('appinstalled', () => {
+  console.log('Ilova muvaffaqiyatli o\'rnatildi!');
+  if(pwaBtn) pwaBtn.style.display = 'none';
+  closeInstallModal();
+});
 </script>
+
+<div id="installModal" class="modal-backdrop" style="display:none">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h3>📲 Ilovani o'rnatish (PWA)</h3>
+      <button class="modal-close" id="closeInstallModal" aria-label="Yopish">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p>Ushbu platformani MacBook yoki telefoningizga ilova sifatida o'rnatib, <b>100% oflayn</b> (internetsiz) foydalanishingiz mumkin.</p>
+      <div class="install-guide">
+        <div class="guide-item" id="chromeInstallSection">
+          <b>💻 MacBook (Google Chrome & Microsoft Edge):</b>
+          <p>Brauzer manzil qatoridagi o'rnatish (⊕) belgisini bosing yoki quyidagi tugmani bosing:</p>
+          <button class="btn primary" id="modalInstallBtn" style="margin-top:6px">Dastur sifatida o'rnatish</button>
+        </div>
+        <div class="guide-item" style="margin-top:14px">
+          <b>🍎 MacBook (Safari — macOS Sonoma 14+):</b>
+          <p>Safari menyusidan: <b>Fayl (File)</b> → <b>«Dokka qo'shish...» (Add to Dock...)</b> ni tanlang.</p>
+        </div>
+        <div class="guide-item" style="margin-top:14px">
+          <b>📱 iPhone / iPad (Safari):</b>
+          <p>Pastki <b>«Ulashish» (Share ⎋)</b> tugmasini bosing va <b>«Bosh ekranga qo'shish» (Add to Home Screen)</b> ni bosing.</p>
+        </div>
+        <div class="guide-item" style="margin-top:14px">
+          <b>🤖 Android (Chrome):</b>
+          <p>Brauzer menyusidan (⋮) <b>«Ilovani o'rnatish»</b> yoki <b>«Bosh ekranga qo'shish»</b> ni tanlang.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body></html>
