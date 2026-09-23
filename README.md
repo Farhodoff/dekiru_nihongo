@@ -13,9 +13,10 @@ Yapon tilini o'rganuvchilar va JLPT N2 imtihoniga tayyorlanuvchilar uchun intera
   - **20日で合格N2:** 1028+ so'z (20 kunlik to'liq dastur).
 - 🔍 **Tezkor qidiruv va filtrlash:** Kanji, kana (o'qilishi), romaji va o'zbekcha tarjimalar bo'yicha real-vaqtda qidirish.
 - 🎴 **Kartochka (Flashcard) rejimi:** So'zlarni yodlash uchun interaktiv fleshkartalar.
-- 📝 **Test (Quiz) rejimi:** 
-  - 20 kunlik to'liq test dasturi (1080+ savol).
-  - 漢字 (Kanji), 語彙 (Lug'at boyligi), 文法 (Grammatika) va 読解 (Dokkai) bo'limlari.
+- 📝 **Test (Quiz) & Dokkai (読解 · 文章の文法) rejimi:** 
+  - 20 kunlik to'liq test dasturi (1180+ savol).
+  - 漢字 (Kanji), 語彙 (Lug'at boyligi), 文法 (Grammatika) bo'limlari.
+  - 📖 **読解 (Dokkai / 問題9):** 『日本語能力試験 20日で合格N2』kitobidagi barcha 20 kunlik original adabiy va publitsistik matnlar (100 ta savol, 50–54). Rasmiy kalit asosida to'liq tekshirish va har bir savol uchun batafsil o'zbekcha tahliliy izohlar.
   - Har bir savol uchun batafsil izoh va to'g'ri/xato tahlili.
 - 🌙 **Dark Theme (Tun rejimi):** Yuqori kontrastli, ko'zga qulay zamonaviy qorong'i dizayn. Tizim rejimiga avtomatik moslashadi yoki toolbar'dagi 🌙/☀️ tugmasi orqali o'zgartiriladi (tanlov brauzerda eslab qolinadi).
 - 📲 **PWA (Progressive Web App):** MacBook va telefonlarga mustaqil dastur ko'rinishida o'rnatiladi (Dock yoki Bosh ekranga qo'shiladi).
