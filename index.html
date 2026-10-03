@@ -330,14 +330,14 @@ const GRAMMAR = [{"point":"〜ものだ","meaning":"kuchli his-tuyg'u, hayrat yo
 let si=0, lesson="all", mode="list", q="";
 let tDay=0, tSec="kanji", tQ=[], tAns=[], tChecked=false;
 const $=s=>document.querySelector(s);
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const norm=s=>s.toLowerCase();
+const esc=s=>s==null ? "" : String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>s?String(s).toLowerCase():"";
 const cur=()=>SECTIONS[si];
 function filtered(){
   const k=norm(q.trim());
   return cur().words.filter(r=>(lesson==="all"||r[5]===lesson) && (!k||norm(r[0]).includes(k)||norm(r[1]).includes(k)||norm(r[2]).includes(k)||norm(r[3]).includes(k)||norm(r[4]).includes(k)||(r[6]&&(norm(r[6][0]||"").includes(k)||norm(r[6][1]||"").includes(k)))));
 }
-function hi(t){t=String(t);if(!q.trim())return esc(t);const k=norm(q.trim()),i=norm(t).indexOf(k);if(i<0)return esc(t);return esc(t.slice(0,i))+"<mark>"+esc(t.slice(i,i+k.length))+"</mark>"+esc(t.slice(i+k.length));}
+function hi(t){t=t==null?"":String(t);if(!q.trim())return esc(t);const k=norm(q.trim()),i=norm(t).indexOf(k);if(i<0)return esc(t);return esc(t.slice(0,i))+"<mark>"+esc(t.slice(i,i+k.length))+"</mark>"+esc(t.slice(i+k.length));}
 function renderTabs(){
   $("#tabs").innerHTML=SECTIONS.map((s,i)=>`<button class="tab ${i===si?'on':''}" data-i="${i}"><span class="t">${esc(s.title)}</span><span class="s">${esc(s.sub)}</span><span class="c">${s.words.length} so'z · ${s.lessons.length} bo'lim</span></button>`).join("");
   $("#tabs").querySelectorAll(".tab").forEach(b=>b.onclick=()=>{si=+b.dataset.i;lesson="all";cardGroup=0;renderTabs();renderStats();renderChips();renderList();if(mode==="card"){renderCardChips();startCards();}});

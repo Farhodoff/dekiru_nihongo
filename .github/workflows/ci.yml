@@ -1,0 +1,41 @@
+name: CI Verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: HTML & CSV Verification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate Files & CSV Parsing
+        run: |
+          python3 -c "
+          import csv, os
+          assert os.path.exists('index.html'), 'index.html missing'
+          assert os.path.getsize('index.html') > 100000, 'index.html too small'
+          
+          for csv_file in ['sozlar-dekiru.csv', 'sozlar-n2.csv']:
+              assert os.path.exists(csv_file), f'{csv_file} missing'
+              with open(csv_file, 'r', encoding='utf-8') as f:
+                  reader = csv.reader(f)
+                  header = next(reader)
+                  count = sum(1 for row in reader if row)
+                  print(f'Parsed {csv_file}: {count} valid entries')
+                  assert count > 0, f'{csv_file} has 0 entries'
+          print('All verification checks passed!')
+          "
