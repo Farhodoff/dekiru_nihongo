@@ -314,3 +314,12 @@ MUST 表現 & 文法,部門長と面談する,ぶもんちょうとめんだん�
 MUST 表現 & 文法,自分の希望を伝える,じぶんのきぼうをつたえる,jibun no kibou o tsutaeru,O‘z xohish va maqsadlarini ochiq bildirish,express one's wishes,
 MUST 表現 & 文法,研究・開発を行う,けんきゅう・かいはつをおこなう,kenkyuu - kaihatsu o okonau,Tadqiqot va yangi ishlanmalar ustida ishlash,conduct R&D,
 MUST 表現 & 文法,新しいサービスが生まれる,あたらしいサービスがうまれる,atarashii saabisu ga umareru,Yangi xizmat va mahsulotning yaratilishi,new service is born,
+MUST 表現 & 文法,可能ですよ,かのうですよ,kanou desu yo,"Mumkin, albatta iloji bor (og‘zaki)",it is definitely possible (spoken),「職種の変更はできますか」「可能ですよ」 («Lavozimni o‘zgartirsa bo‘ladimi?» «Albatta mumkin»)
+MUST 表現 & 文法,よくありがちなのは,よくありがちなのは,yoku arigachi na no wa,Ko‘p uchraydigan holat / odatda sodir bo‘ladigani,what often happens is...,よくありがちなのは、プログラマーからディレクタへの変更です。 (Ko‘p uchraydigan holat — dasturchilikdan Directorlikka o‘tishdir.)
+MUST 表現 & 文法,もともと～を行っている,もともと～をおこなっている,motomoto ~ o okonatte iru,Avvaldan ... bilan shug‘ullanib kelayotgan,originally engaged in...,もともとプログラミングを行っている方々がステップアップします。 (Dastlabdan dasturlash bilan shug‘ullanib kelgan insonlar yuqori bosqichga ko‘tariladi.)
+MUST 表現 & 文法,～に興味がある,～にきょうみがある,~ni kyoumi ga aru,...ga qiziqishi bor / ...ga qiziqmoq,to have an interest in...,新しい技術や市場に興味があります。 (Yangi texnologiyalar yoki bozorlarga qiziqishim bor.)
+MUST 表現 & 文法,～をやってみたい,～をやってみたい,~o yatte mitai,...ni qilib ko‘rmoqchi / sinab ko‘rmoqchi,want to try doing...,企業研修の仕事をやってみたいです。 (Korporativ trening ishini qilib ko‘rmoqchiman.)
+MUST 表現 & 文法,面談する機会がある,めんだんするきかいがある,mendan suru kikai ga aru,Suhbatlashish / individual muloqot imkoniyati mavjud,there is an opportunity for one-on-one interview,年に4回、部門長と面談する機会があります。 (Yiliga 4 marta bo‘lim boshlig‘i bilan suhbatlashish imkoniyati bor.)
+MUST 表現 & 文法,希望を伝える,きぼうをつたえる,kibou o tsutaeru,Istak / kelajakdagi maqsadlarini ochiq bildirmoq,express one's hopes/wishes,面談の時に今後の希望を伝えます。 (Suhbat vaqtida kelajakdagi maqsad va xohishlarini bildiradi.)
+MUST 表現 & 文法,仕事をするだけじゃなくて,しごとをするだけじゃなくて,shigoto o suru dake ja nakute,Faqat ishni bajarish bilan cheklanmasdan,not only doing assigned work,"与えられた仕事をするだけじゃなくて、挑戦も可能です。 (Berilgan ishni qilish bilangina cheklanmasdan, yangi tashabbuslarni ham qilish mumkin.)"
+MUST 表現 & 文法,自分のやりたい研究,じぶんのやりたいけんきゅう,jibun no yaritai kenkyuu,O‘zi shug‘ullanishni xohlagan shaxsiy tadqiqot,research that one wants to do oneself,業務時間外に自分のやりたい研究を進めます。 (Ish vaqtidan tashqarida o‘zi qiziqqan tadqiqotni olib boradi.)
