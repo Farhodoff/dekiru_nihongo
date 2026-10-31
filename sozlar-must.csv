@@ -1,316 +1,316 @@
-﻿Bo'lim,Yaponcha,O'qilishi (kana),Romaji,O'zbekcha tarjima,English (manba)
-MUST 語彙 (1-qism),職種,しょくしゅ,shokushu,"Kasb turi / lavozim yo‘nalishi (masalan, Engineer, Director, Coordinator)","job category, occupation type"
-MUST 語彙 (1-qism),提案受注活動,ていあんじゅちゅうかつどう,teian juchuu katsudou,Taklif kiritish va buyurtma olish faoliyati (mijozga yechim taklif qilib shartnoma tuzish),proposal and order-winning activities
-MUST 語彙 (1-qism),営業的な素養,えいぎょうてきなそよう,eigyou-teki na soyou,Savdo va muloqotga oid qobiliyat / ko‘nikma (mijoz bilan til topishish salohiyati),"sales aptitude, business communication skills"
-MUST 語彙 (1-qism),取りまとめを行う,とりまとめをおこなう,torimatome o okonau,Umumlashtirish / muvofiqlashtirish (Direktorning barcha talab va muddatlarni boshqarishi),"coordinate, summarize and manage"
-MUST 語彙 (1-qism),視野に入る,しやにはいる,shiya ni hairu,Ko‘rib chiqish doirasiga kirmoq / variant sifatida qaralmoq (Director lavozimi haqida),come into consideration / be within scope
-MUST 語彙 (1-qism),質疑応答,しつぎおうとう,shitsugi outou,Savol-javob sessiyasi (Q&A),question and answer session (Q&A)
-MUST 語彙 (1-qism),部署をまたぐ,ぶしょをまたぐ,busho o matagu,Bo‘limlar chegarasini kesib o‘tmoq / boshqa bo‘limga o‘tmoq (bo‘limlararo),"cross department boundaries, work across divisions"
-MUST 語彙 (1-qism),上流工程,じょうりゅうこうてい,jouryuu koutei,Yuqori bosqich jarayonlari (ITda: talablarni belgilash va arxitektura chizish bosqichlari),"upstream process (requirements definition, system design)"
-MUST 語彙 (1-qism),全社を挙げて,ぜんしゃをあげて,zensha o agete,Butun kompaniya miqyosida / barcha kuchni birlashtirib,"company-wide, united as an entire company"
-MUST 語彙 (1-qism),手を挙げる,てをあげる,te o ageru,Tashabbus ko‘rsatmoq / ko‘ngilli bo‘lib chiqmoq (yangi loyihalarga qo‘shilishda),"raise one's hand, volunteer, take initiative"
-MUST 語彙 (1-qism),面談,めんだん,mendan,Yakkama-yakka suhbat (bo‘lim boshlig‘i bilan har chorakda o‘tkaziladigan muloqot),"interview, one-on-one meeting, consultation"
-MUST 語彙 (1-qism),業務時間外,ぎょうむじかんがい,gyoumu jikangai,Ish vaqtidan tashqari payt (Challenge Project doirasida shaxsiy tadqiqot qilish vaqti),"outside working hours, off-duty hours"
-MUST 語彙 (1-qism),周辺領域,しゅうへんりょういき,shuuhen ryouiki,Yondosh sohalar (e-Learning'ga yaqin bo‘lgan onlayn imtihon va CBT texnologiyalari),peripheral/adjacent fields or domains
-MUST 語彙 (1-qism),エンハンスする,エンハンスする,enhansu suru,Kuchaytirmoq / takomillashtirmoq (Enhance — raqamli texnologiyalar bilan boyitish),"enhance, improve, upgrade"
-MUST 語彙 (1-qism),届き次第,とどきしだい,todoki shidai,Yetib kelishi bilanoq (ro‘yxat kelishi bilan topshiriqni jo‘natish haqida),"as soon as it arrives, upon receipt"
-MUST 語彙 (1-qism),本エントリー,ほんエントリー,hon entorii,Rasmiy ariza topshirish (3 ta hujjatni topshirish orqali tanlovga rasman kirish),"formal entry, official application submission"
-MUST 語彙 (1-qism),本文,ほんぶん,honbun,Xatning asosiy matni (emailning fayl biriktiriladigan joyidan tashqari yozuv qismi),"main body, body text (of an email or document)"
-MUST 語彙 (1-qism),時差,じさ,jisa,Vaqt farqi (Yaponiya va O‘zbekiston o‘rtasidagi 4 soatlik farq),time difference
-MUST 語彙 (1-qism),向き不向き,むきふむき,muki-fumuki,Mos kelish yoki kelmaslik / qobiliyatga to‘g‘ri kelishi,"aptitude, suitability, compatibility"
-MUST 語彙 (1-qism),鑑みて,かんがみて,kangamite,Inobatga olib / hisobga olgan holda (amaliyot natijalariga qarab bo‘limga qo‘yish),"in view of, in light of, taking into account"
-MUST 語彙 (1-qism),本配属,ほんはいぞく,hon-haizoku,Asosiy bo‘limga rasman tayinlanish (2 oylik o‘quv amaliyotidan so‘ng),"official department assignment, final placement"
-MUST 単語 (2-qism),説明,せつめい,setsumei,"Tushuntirish, izoh",explanation
-MUST 単語 (2-qism),主に,おもに,omoni,"Asosan, ko'proq","mainly, primarily"
-MUST 単語 (2-qism),一般的,いっぱんてき,ippanteki,"Umumiy, odatiy, keng tarqalgan","general, standard"
-MUST 単語 (2-qism),営業,えいぎょう,eigyou,"Savdo, mijozlar bilan ishlash, biznes faoliyati","sales, business operations"
-MUST 単語 (2-qism),考える,かんがえる,kangaeru,"O‘ylamoq, hisoblamoq, mulohaza qilmoq","to think, consider"
-MUST 単語 (2-qism),結構,けっこう,kekkou,"Yetarli, yaxshi, ma'qul","quite, fairly, sufficient"
-MUST 単語 (2-qism),次,つぎ,tsugi,"Keyingi, navbatdagi",next
-MUST 単語 (2-qism),支援,しえん,shien,"Yordam, qo‘llab-quvvatlash, madad","support, assistance"
-MUST 単語 (2-qism),開発,かいはつ,kaihatsu,"Ishlab chiqish, rivojlantirish",development
-MUST 単語 (2-qism),管理,かんり,kanri,"Boshqarish, nazorat, ma'muriyat","management, administration"
-MUST 単語 (2-qism),開発マネジメント,かいはつマネジメント,kaihatsu manejimento,Dastur/ishlanma jarayonini boshqarish,development management
-MUST 単語 (2-qism),最後,さいご,saigo,"Oxiri, so'nggi","end, conclusion, last"
-MUST 単語 (2-qism),新技術,しんぎじゅつ,shingijutsu,Yangi texnologiya,new technology
-MUST 単語 (2-qism),調査,ちょうさ,chousa,"Tadqiqot, o'rganish, tekshirish","investigation, research, survey"
-MUST 単語 (2-qism),製品化,せいひんか,seihinka,"Mahsulotga aylantirish, tijoratlashtirish","commercialization, productization"
-MUST 単語 (2-qism),ほか,ほか,hoka,"Boshqa, tashqari","other, besides"
-MUST 単語 (2-qism),要望,ようぼう,youbou,"Talab, istak, iltimos","request, demand"
-MUST 単語 (2-qism),応じる,おうじる,oujiru,"Javob bermoq, talabga muvofiq harakat qilmoq","to respond, comply with"
-MUST 単語 (2-qism),システム,システム,shisutemu,"Tizim, tizimli dastur",system
-MUST 単語 (2-qism),卒業生,そつぎょうせい,sotsugyousei,Bitiruvchi (talaba/o'quvchi),graduate
-MUST 単語 (2-qism),対して,たいして,taishite,"Nisbatan, ...ga qarab","towards, regarding"
-MUST 単語 (2-qism),期待,きたい,kitai,"Kutish, umid, ishonch","expectation, anticipation"
-MUST 単語 (2-qism),部分,ぶぶん,bubun,"Qism, bo'lak, jihat","part, portion, section"
-MUST 単語 (2-qism),学ぶ,まなぶ,manabu,"O‘rganmoq, saboq olmoq","to learn, study"
-MUST 単語 (2-qism),応募,おうぼ,oubo,"Ariza topshirish, nomzod bo'lish","application, entry"
-MUST 単語 (2-qism),メイン,メイン,mein,"Asosiy, bosh","main, primary"
-MUST 単語 (2-qism),営業的,えいぎょうてき,eigyouteki,"Savdoga oid, tijoriy","sales-related, business-oriented"
-MUST 単語 (2-qism),素養,そよう,soyou,"Bilim va qobiliyat asosi, ko‘nikma","grounding, aptitude"
-MUST 単語 (2-qism),併せ持つ,あわせもつ,awasemotsu,Birgalikda o‘zida mujassam etmoq,to possess both simultaneously
-MUST 単語 (2-qism),能力,のうりょく,nouryoku,"Qobiliyat, malaka, layoqat","ability, capability"
-MUST 単語 (2-qism),学び,まなび,manabi,"Ta'lim, o‘rganish, saboq","study, learning"
-MUST 単語 (2-qism),浮上する,ふじょうする,fujousuru,"Yuzaga chiqmoq, paydo bo‘lmoq","to surface, emerge"
-MUST IT & Biznes,コーディネータ,コーディネータ,koodineeta,Koordinator (mijoz va jamoa o'rtasida muvofiqlashtiruvchi),coordinator
-MUST IT & Biznes,ディレクタ,ディレクタ,direkuta,Direktor / loyiha boshqaruvchisi,"director, project director"
-MUST IT & Biznes,エンジニア,エンジニア,enjinia,Muhandis / dasturchi,"engineer, software developer"
-MUST IT & Biznes,営業担当,えいぎょうたんとう,eigyou tantou,Savdo va mijozlar bilan ishlash bo'yicha mas'ul xodim,sales representative
-MUST IT & Biznes,新技術の調査,しんぎじゅつのちょうさ,shingijutsu no chousa,Yangi texnologiyalarni o‘rganish va tadqiq qilish,research on new technologies
-MUST IT & Biznes,プログラムの開発,プログラムのかいはつ,puroguramu no kaihatsu,Dasturiy ta'minot ishlab chiqish,software development
-MUST IT & Biznes,システムの開発,システムのかいはつ,shisutemu no kaihatsu,Tizim ishlab chiqish va joriy etish,system development
-MUST IT & Biznes,お客さんからの要望,おきゃくさんからのようぼう,okyakusan kara no youbou,Mijozlarning talablari va istaklari,customer requests and demands
-MUST IT & Biznes,マネジメント能力,マネジメントのうりょく,manejimento nouryoku,Boshqaruv va yetakchilik qobiliyati,management skills / ability
-MUST 表現 & 文法,ご説明します,ごせつめいします,gosetsumeishimasu,Tushuntirib beraman (muloyim / rasmiy),I will explain (polite)
-MUST 表現 & 文法,3つございまして,みっつございまして,mittsu gozaimashite,Uchta mavjud bo'lib... (biznes nutqi),there are three (formal)
-MUST 表現 & 文法,お考えください,おかんがえください,okangaekudasai,Shunday deb o‘ylang / tushuning (muloyim),please consider / think of it as
-MUST 表現 & 文法,行うということもやります,おこなうということもやります,okonau to iu koto mo yarimasu,Bunday ishni ham bajaramiz / amalga oshiramiz,we also perform such tasks
-MUST 表現 & 文法,応募がメインになる,おうぼがメインになる,oubo ga mein ni naru,Arizalarning asosiy qismi ... bo‘ladi,applications are mainly for...
-MUST 表現 & 文法,期待している部分,きたいしているぶぶん,kitai shite iru bubun,Asosiy kutilayotgan jihatlar,the parts/aspects that are expected
-MUST 表現 & 文法,1つ浮上する,ひとつふじょうする,hitotsu fujousuru,Bitta imkoniyat / variant yuzaga chiqadi,an option / opportunity emerges
-MUST 表現 & 文法,～について,～について,~ni tsuite,"... haqida, ... to'g'risida (N3)","about, regarding"
-MUST 表現 & 文法,～としましては,～としましては,~to shimashite wa,"... sifatida / ...ga kelsak (N2, rasmiy)","as for, from the viewpoint of"
-MUST 表現 & 文法,～ということで,～ということで,~to iu koto de,... degan ma'noda / sababli / deb (N3),"meaning that, because of, as"
-MUST 表現 & 文法,～というふうに考える,～というふうにかんがえる,~to iu fuu ni kangaeru,... deb hisoblamoq / tarzda o‘ylamoq (N3),to think in the manner that...
-MUST 表現 & 文法,～ていただければ結構です,～ていただければけっこうです,~te itadakereba kekkou desu,"... qilsangiz bo‘ladi / kifoya (N2, juda muloyim)","it is fine if you do..., please feel free to"
-MUST 表現 & 文法,～という職種,～というしょくしゅ,~to iu shokushu,... deb ataladigan kasb / lavozim turi,an occupation referred to as...
-MUST 表現 & 文法,～をサポートする,～をサポートする,~o sapooto suru,"...ni qo‘llab-quvvatlamoq, yordam bermoq",to support / assist...
-MUST 表現 & 文法,～ほか,～ほか,~hoka,...dan tashqari / ... bilan bir qatorda (N3),"besides, in addition to..."
-MUST 表現 & 文法,～に応じて,～におうじて,~ni oujite,...ga qarab / ...ga muvofiq (N2),"in accordance with, depending on"
-MUST 表現 & 文法,～に対して,～にたいして,~ni taishite,...ga nisbatan / ...ga (N3),"towards, in contrast to, regarding"
-MUST 表現 & 文法,～として,～として,~to shite,... sifatida (N3),"as, in the capacity of"
-MUST 表現 & 文法,～を併せ持つ,～をあわせもつ,~o awasemotsu,Birgalikda o‘zida mujassam etmoq (N2),to possess both at the same time
-MUST 表現 & 文法,～にとって,～にとって,~ni totte,... uchun / nuqtayi nazaridan (N3),"for, from the perspective of"
-MUST 表現 & 文法,～というような,～というような,~to iu you na,... kabi / ... singari,"such as, like..."
-MUST 単語 (3-qism),仕事,しごと,shigoto,"Ish, mehnat, kasb","work, job"
-MUST 単語 (3-qism),内容,ないよう,naiyou,"Mazmun, tarkib, tafsilotlar","content, details"
-MUST 単語 (3-qism),通り,とおり,toori,"...dek, ...bo‘yicha","as, in accordance with"
-MUST 単語 (3-qism),最初,さいしょ,saisho,"Boshida, avvalida, dastlab","beginning, first"
-MUST 単語 (3-qism),お客さん,おきゃくさん,okyakusan,"Mijoz, xaridor, mehmon","customer, client, guest"
-MUST 単語 (3-qism),行う,おこなう,okonau,"Bajarmoq, amalga oshirmoq","to conduct, carry out, perform"
-MUST 単語 (3-qism),中心,ちゅうしん,chuushin,"Markaz, asosiy qism, o‘zak","center, focus, core"
-MUST 単語 (3-qism),一緒,いっしょ,issho,"Birgalikda, birga",together
-MUST 単語 (3-qism),資料,しりょう,shiryou,"Hujjat, material, ma'lumotlar to‘plami","materials, documents, data"
-MUST 単語 (3-qism),作る,つくる,tsukuru,"Tayyorlamoq, tuzmoq, yasamoq","to make, create, prepare"
-MUST 単語 (3-qism),実際,じっさい,jissai,"Amalda, haqiqatda, voqelik","actually, in practice, reality"
-MUST 単語 (3-qism),当社,とうしゃ,tousha,Bizning kompaniyamiz (rasmiy),our company
-MUST 単語 (3-qism),提供,ていきょう,teikyou,"Taqdim etish, yetkazib berish","offer, provision, supply"
-MUST 単語 (3-qism),場合,ばあい,baai,"Holat, vaziyat, taqdirda","case, situation"
-MUST 単語 (3-qism),発生,はっせい,hassei,"Yuzaga kelish, paydo bo‘lish","occurrence, outbreak, emergence"
-MUST 単語 (3-qism),設計,せっけい,sekkei,"Loyihalash, arxitektura chizish","design, planning"
-MUST 単語 (3-qism),携わる,たずさわる,tazusawaru,"Ishtirok etmoq, mashg‘ul bo‘lmoq","to engage in, participate in"
-MUST 単語 (3-qism),指示,しじ,shiji,"Ko‘rsatma, buyruq, direktiva","instruction, direction, order"
-MUST 単語 (3-qism),従う,したがう,shitagau,"Amal qilmoq, bo‘ysunmoq, ergashmoq","to obey, follow, abide by"
-MUST 単語 (3-qism),形,かたち,katachi,"Shakl, tuzilma, ko‘rinish","form, shape"
-MUST 単語 (3-qism),それぞれ,それぞれ,sorezore,"Har biri, alohida-alohida","each, respectively"
-MUST 単語 (3-qism),機能,きのう,kinou,"Funksiya, vazifa, imkoniyat","function, feature"
-MUST 単語 (3-qism),機能する,きのうする,kinousuru,"Faoliyat yuritmoq, ishlamoq","to function, work"
-MUST 単語 (3-qism),進行,しんこう,shinkou,"Jarayon, rivojlanish, borish","progress, advancement"
-MUST 単語 (3-qism),主役,しゅやく,shuyaku,"Bosh qahramon, asosiy rol/yetakchi","leading role, main actor"
-MUST 単語 (3-qism),段階,だんかい,dankai,"Bosqich, daraja","stage, phase, step"
-MUST 単語 (3-qism),締め切り,しめきり,shimekiri,"Muddat, deadline, oxirgi muddat","deadline, closing date"
-MUST 単語 (3-qism),全て,すべて,subete,"Barcha, barchasi, butunlay","all, entire, completely"
-MUST 単語 (3-qism),お客様,おきゃくさま,okyakusama,Mijoz (juda hurmatli shakl),honored customer / client
-MUST 単語 (3-qism),需要,じゅよう,juyou,"Talab, ehtiyoj (iqtisodiy)","demand, request"
-MUST 単語 (3-qism),ニーズ,ニーズ,niizu,"Ehtiyojlar, talablar (needs)","needs, requirements"
-MUST 単語 (3-qism),持つ,もつ,motsu,"Ega bo‘lmoq, tutmoq","to have, hold, possess"
-MUST 単語 (3-qism),社内,しゃない,shanai,"Kompaniya ichida, ichki","in-house, within company"
-MUST 単語 (3-qism),協議,きょうぎ,kyougi,"Muhokama, maslahatlashuv, muzokara","consultation, discussion, conference"
-MUST 単語 (3-qism),取りまとめる,とりまとめる,torimatomeru,"Umumlashtirmoq, muvofiqlashtirmoq","to coordinate, collect and arrange"
-MUST 単語 (3-qism),使役形,しえきけい,shiekikei,Majburiy/ruxsat fe'li grammatik shakli (bajartirmoq),causative form
-MUST IT & Biznes,カスタマイズ,カスタマイズ,kasutamaizu,"Moslashtirish, mijoz talabiga ko‘ra o‘zgartirish (customization)",customization
-MUST IT & Biznes,システム開発,システムかいはつ,shisutemu kaihatsu,Tizim / axborot tizimini ishlab chiqish,system development
-MUST IT & Biznes,資料作成,しりょうさくせい,shiryou sakusei,Hujjatlar / taqdimot materiallarini tayyorlash,document / material preparation
-MUST IT & Biznes,営業活動,えいぎょうかつどう,eigyou katsudou,Savdo va mijozlarni jalb qilish faoliyati,sales activities
-MUST IT & Biznes,指示に従う,しじにしたがう,shiji ni shitagau,Ko‘rsatma va direktivaga qat'iy amal qilish,to follow instructions
-MUST IT & Biznes,システムを提供する,システムをていきょうする,shisutemu o teikyou suru,Tizimni mijozga taqdim etish va o‘rnatib berish,to provide a system
-MUST IT & Biznes,開発に携わる,かいはつにたずさわる,kaihatsu ni tazusawaru,Ishlab chiqish va dasturlash jarayonida qatnashish,to be involved in development
-MUST IT & Biznes,プロジェクト進行,プロジェクトしんこう,purojekuto shinkou,Loyihaning borishi va boshqarilishi (progress),project progress
-MUST IT & Biznes,フェーズ,フェーズ,feezu,"Bosqich, davr (phase)","phase, stage"
-MUST IT & Biznes,開発フェーズ,かいはつフェーズ,kaihatsu feezu,Ishlab chiqish (development) bosqichi,development phase
-MUST IT & Biznes,社内エンジニア,しゃないエンジニア,shanai enjinia,Kompaniyaning ichki muhandislari / dasturchilari,in-house engineers
-MUST IT & Biznes,プロジェクト管理,プロジェクトかんり,purojekuto kanri,Loyihani rejalashtirish va boshqarish (Project Management),project management
-MUST 表現 & 文法,～た通り（に）,～たとおり（に）,~ta toori (ni),... aytilganidek / ... bo‘yicha / ... qilganimdek (N3),"as, just as, in the way..."
-MUST 表現 & 文法,～時（に）,～とき（に）,~toki (ni),... vaqtida / ... paytida (N4/N3),"when, at the time of"
-MUST 表現 & 文法,～たり～たりする,～たり～たりする,~tari ~tari suru,"... qilish, ... qilish kabi ishlarni bajarish (N4)",doing such things as... and...
-MUST 表現 & 文法,～ことがございます,～ことがございます,~koto ga gozaimasu,... holatlari bo‘ladi / qilishimiz mumkin (juda rasmiy),there are occasions when...
-MUST 表現 & 文法,～なくてはいけない,～なくてはいけない,~nakute wa ikenai,... qilish kerak / qilmaslik mumkin emas (N3),"must, have to"
-MUST 表現 & 文法,あるいは,あるいは,aruiwa,"Yoki, yoxud, bo‘lmasa (rasmiy)","or, alternatively"
-MUST 表現 & 文法,～わけなんです,～わけなんです,~wake nan desu,"... degani / vaziyat shunday (tushuntirish ohangida, N2)","that explains why, the fact is..."
-MUST 表現 & 文法,～場合には,～ばあいには,~baai ni wa,... holatida / ... bo‘lgan taqdirda (N3),"in case of, if..."
-MUST 表現 & 文法,～に携わる,～にたずさわる,~ni tazusawaru,...da ishtirok etmoq / ... bilan shug‘ullanmoq (N2),"to participate in, engage in"
-MUST 表現 & 文法,～に従って,～にしたがって,~ni shitagatte,...ga muvofiq / ...ga amal qilgan holda (N2),"in accordance with, following..."
-MUST 表現 & 文法,～というような形で,～というようなかたちで,~to iu you na katachi de,... degan shaklda / ... tarzida,in the form of...
-MUST 表現 & 文法,～については,～については,~ni tsuite wa,...ga kelsak / ... haqida gapiradigan bo‘lsak (N3),"as for, regarding..."
-MUST 表現 & 文法,～になった時（には）,～になったとき（には）,~ni natta toki (ni wa),...ga kelgan paytda / ... bo‘lganida,when it reaches/becomes...
-MUST 表現 & 文法,～どのような～,～どのような～,~dono you na~,Qanday / qanaqa / qaysi turdagi (N3),what kind of...
-MUST 表現 & 文法,～させる（使役形）,～させる（しえきけい）,~saseru (shiekikei),...ga bajartirmoq / ish buyurmoq (N3),causative (make/let do)
-MUST 表現 & 文法,～等（など）,～とう（など）,~tou (nado),...va hokazo / ...kabi narsalar (rasmiy),"etc., and the like"
-MUST 表現 & 文法,お仕事の内容としましては,おしごとのないようとしましては,oshigoto no naiyou to shimashite wa,Ish mazmuniga kelsak (muloyim),as for the content of the work
-MUST 表現 & 文法,今説明した通り,いませつめいしたとおり,ima setsumei shita toori,Hozir tushuntirganimdek / aytib o'tganimdek,as I just explained
-MUST 表現 & 文法,一緒に説明をする,いっしょにせつめいをする,issho ni setsumei o suru,Birgalikda tushuntirish berish,explain together
-MUST 表現 & 文法,資料を作る,しりょうをつくる,shiryou o tsukuru,Hujjatlar tayyorlash,prepare materials / documents
-MUST 表現 & 文法,開発しなくてはいけない,かいはつしなくてはいけない,kaihatsu shinakute wa ikenai,Ishlab chiqish / yaratish kerak,must develop
-MUST 表現 & 文法,カスタマイズする,カスタマイズする,kasutamaizu suru,"Moslashtirish, customization qilish",to customize
-MUST 表現 & 文法,発生する場合には,はっせいするばあいには,hassei suru baai ni wa,Yuzaga kelgan taqdirda / holatda,in case it occurs
-MUST 表現 & 文法,設計・開発に携わる,せっけい・かいはつにたずさわる,sekkei - kaihatsu ni tazusawaru,Loyihalash va ishlab chiqishda qatnashish,participate in design and development
-MUST 表現 & 文法,指示に従って,しじにしたがって,shiji ni shitagatte,Ko‘rsatmaga amal qilgan holda,following instructions
-MUST 表現 & 文法,それぞれが機能する,それぞれがきのおする,sorezore ga kinou suru,Har biri o‘z vazifasini bajaradi,each functions properly
-MUST 表現 & 文法,ディレクタが主役,ディレクタがしゅやく,direkuta ga shuyaku,Director asosiy rolni / yetakchilikni bajaradi,director plays the leading role
-MUST 表現 & 文法,開発のフェーズ,かいはつのフェーズ,kaihatsu no feezu,Development bosqichi,development phase
-MUST 表現 & 文法,全ての締め切り,すべてのしめきり,subete no shimekiri,Barcha muddatlar / deadline'lar,all deadlines
-MUST 表現 & 文法,どういうお仕事をするか,どういうおしごとをするか,douiu oshigoto o suru ka,Qanday ish bajarilishi kerakligi,what kind of work is to be done
-MUST 表現 & 文法,どのようなニーズを持っているか,どのようなニーズをもっているか,dono you na niizu o motte iru ka,Mijozlar qanday ehtiyojlarga ega ekanligi,what kind of needs they have
-MUST 表現 & 文法,社内のエンジニアと協議する,しゃないのエンジニアときょうぎする,shanai no enjinia to kyougi suru,Ichki dasturchilar bilan muhokama qilish,discuss with in-house engineers
-MUST 表現 & 文法,開発をさせる,かいはつをさせる,kaihatsu o saseru,Development ishlarini bajartirish,have them carry out development
-MUST 単語 (3-qism),また,また,mata,"Shuningdek, yana, bundan tashqari","also, again, furthermore"
-MUST 単語 (3-qism),採用,さいよう,saiyou,"Ishga qabul qilish, tanlab olish","recruitment, employment, adoption"
-MUST 単語 (3-qism),職,しょく,shoku,"Kasb, lavozim, ish o‘rni","job, occupation, employment"
-MUST 単語 (3-qism),主な,おもな,omona,"Asosiy, yetakchi, bosh","main, primary, principal"
-MUST 単語 (3-qism),簡単,かんたん,kantan,"Oson, oddiy, qisqacha","simple, brief, easy"
-MUST 単語 (3-qism),視野,しや,shiya,"Ko‘rish maydoni, nazar, ufq","field of vision, horizon, outlook"
-MUST 単語 (3-qism),興味,きょうみ,kyoumi,"Qiziqish, rag‘bat","interest, curiosity"
-MUST 単語 (3-qism),申し込み,もうしこみ,moushikomi,"Ariza, talabnoma, ro‘yxatdan o‘tish","application, entry, registration"
-MUST 単語 (3-qism),以上,いじょう,ijou,"Shu bilan tamom, yuqoridagilar, ...dan ortiq","that is all, more than, above-mentioned"
-MUST 単語 (3-qism),よろしく,よろしく,yoroshiku,"Iltimos, yaxshi munosabatda bo‘lishni so‘rayman","regards, please treat favorably"
-MUST IT & Biznes,エンジニア職,エンジニアしょく,enjinia shoku,Engineer (muhandislik) lavozimi,engineer position
-MUST IT & Biznes,ディレクタ職,ディレクタしょく,direkuta shoku,Director (loyiha boshqaruvchisi) lavozimi,director position
-MUST IT & Biznes,応募する,おうぼする,oubo suru,Ishga ariza topshirmoq,to apply for a job
-MUST IT & Biznes,採用される,さいようされる,saiyou sareru,Ishga qabul qilinmoq,to be hired / recruited
-MUST IT & Biznes,設計したもの,せっけいしたもの,sekkei shita mono,Loyihalashtirilgan tizim/yechim,designed system / product
-MUST IT & Biznes,主な仕事,おもなしごと,omona shigoto,"Asosiy ish, bosh vazifa","main duty, primary work"
-MUST IT & Biznes,申し込む,もうしこむ,moushikomu,"Ariza bermoq, ro‘yxatdan o‘tmoq","to apply, sign up"
-MUST 表現 & 文法,～っていうことになります,～っていうことになります,~tte iu koto ni narimasu,... degani bo‘ladi / hisoblanadi (N3),"means that, comes down to..."
-MUST 表現 & 文法,～ので,～ので,~node,... sababli / ... bo‘lgani uchun (N4),"because, since"
-MUST 表現 & 文法,～ていただく,～ていただく,~te itadaku,... qilishingizni so‘ramoq / sharafiga ega bo‘lmoq (N3),to have someone politely do...
-MUST 表現 & 文法,～てもらう,～てもらう,~te morau,... qilib olish / kimdir siz uchun bajarishi (N4),to get someone to do...
-MUST 表現 & 文法,～っていうのが,～っていうのが,~tte iu no ga,... degan narsa / ... degani (izohlash),"the thing called..., as for..."
-MUST 表現 & 文法,～かと思います,～かとおもいます,~ka to omoimasu,"... deb o‘ylayman / bo‘lsa kerak (muloyim fikr, N2)",I think that probably...
-MUST 表現 & 文法,～ではありますが,～ではありますが,~dewa arimasu ga,... bo‘lsa-da / bo‘lsa ham (N2),"although it is..., even so"
-MUST 表現 & 文法,～のかなと思っています,～のかなとおもっています,~no kana to omotte imasu,... bo‘lsa kerak deb taxmin qilyapman,I am wondering/thinking if...
-MUST 表現 & 文法,～いただければと思います,～いただければとおもいます,~itadakereba to omoimasu,... qilsangiz xursand bo‘lardik (rasmiy taklif),we would appreciate it if you could...
-MUST 表現 & 文法,応募していただく,おうぼしていただく,oubo shite itadaku,Ariza topshirishingiz (hurmat shakli),you kindly applying
-MUST 表現 & 文法,採用になった時,さいようになったとき,saiyou ni natta toki,Ishga qabul qilingan paytda,when hired
-MUST 表現 & 文法,主な仕事になる,おもなしごとになる,omona shigoto ni naru,Asosiy vazifa / ish bo‘ladi,becomes the primary work
-MUST 表現 & 文法,簡単ではありますが,かんたんではありますが,kantan dewa arimasu ga,Qisqacha bo‘lsa-da (muloyim kirish),brief though it may be
-MUST 表現 & 文法,ご興味がおありになった場合,ごきょうみがおありになったばあい,gokyoumi ga oari ni natta baai,Agar qiziqishingiz bo‘lsa (juda muloyim),in case you have interest
-MUST 表現 & 文法,お申し込みいただければと思います,おもうしこみいただければとおもいます,omoushikomi itadakereba to omoimasu,Ariza topshirishingizni so‘rab qolamiz,we hope you will apply
-MUST 表現 & 文法,よろしくお願いします,よろしくおねがいします,yoroshiku onegaishimasu,Hamkorlik uchun oldindan rahmat / marhamat,thank you in advance / looking forward
-MUST 表現 & 文法,以上です,いじょうです,ijou desu,Shu bilan tamom (taqdimot yakuni),that is all / thank you
-MUST 単語 (3-qism),選考,せんこう,senkou,"Nomzodlarni saralash, tanlov","selection, screening"
-MUST 単語 (3-qism),流れ,ながれ,nagare,"Jarayon, ketma-ketlik, oqim","flow, stream, procedure"
-MUST 単語 (3-qism),フロー,フロー,furoo,"Jarayon, bosqichlar ketma-ketligi (flow)","flow, process sequence"
-MUST 単語 (3-qism),案内,あんない,annai,"Yo‘l-yo‘riq, ma'lumot berish, yo‘naltirish","guidance, information"
-MUST 単語 (3-qism),私,わたし,watashi,Men,"I, me"
-MUST 単語 (3-qism),方,ほう,hou,"Tomon, taraf, yo‘nalish","side, direction"
-MUST 単語 (3-qism),時間,じかん,jikan,"Vaqt, soat","time, hour"
-MUST 単語 (3-qism),先に,さきに,sakini,"Avval, oldin, birinchi bo‘lib","ahead, before, first"
-MUST 単語 (3-qism),質問,しつもん,shitsumon,Savol,"question, inquiry"
-MUST 単語 (3-qism),先生,せんせい,sensei,"O‘qituvchi, ustoz, mutaxassis","teacher, instructor"
-MUST 単語 (3-qism),感じ,かんじ,kanji,"His, taassurot, kayfiyat, vaziyat","feeling, sense, impression"
-MUST 単語 (3-qism),いただく,いただく,itadaku,"Qabul qilmoq, olmoq (kamtarlik shakli)",to receive (humble)
-MUST 単語 (3-qism),ありがとうございます,ありがとうございます,arigatou gozaimasu,"Rahmat, minnatdorman (muloyim)",thank you very much
-MUST IT & Biznes,選考フロー,せんこうフロー,senkou furoo,Ishga qabul qilish / saralash bosqichlari,selection / recruitment process flow
-MUST IT & Biznes,最後のフロー,さいごのフロー,saigo no furoo,Saralash jarayonining oxirgi bosqichi,final stage of selection flow
-MUST IT & Biznes,案内する,あんないする,annai suru,"Ma'lumot bermoq, yo‘l-yo‘riq ko‘rsatmoq","to guide, show around, inform"
-MUST IT & Biznes,質疑応答の時間,しつぎおうとうのじかん,shitsugi outou no jikan,Savol-javob sessiyasi vaqti,Q&A session time
-MUST IT & Biznes,質問を受け付ける,しつもんをうけつける,shitsumon o uketsukeru,Savollarni qabul qilmoq / eshitmoq,to accept questions
-MUST IT & Biznes,質問があれば,しつもんがあれば,shitsumon ga areba,Agar savollar bo‘lsa,if there are any questions
-MUST 表現 & 文法,～では,～では,~dewa,Unday bo‘lsa / u holda / xo‘sh (N4),"well then, in that case"
-MUST 表現 & 文法,～の方から,～のほうから,~no hou kara,... tomonidan / ... tarafdan (gapni muloyimlashtiradi),from the side of...
-MUST 表現 & 文法,～んですけれども,～んですけれども,~n desu keredomo,"... qilmoqchiman, lekin... / ... bo‘ladi-yu (N3)","I would like to..., but..."
-MUST 表現 & 文法,～ばと思います,～ばとおもいます,~ba to omoimasu,... qilsak yaxshi bo‘lardi deb o‘ylayman (N2),I hope/think it would be good if...
-MUST 表現 & 文法,じゃあ,じゃあ,jaa,Unday bo‘lsa / xo‘sh / yaxshi (og‘zaki),"well then, so"
-MUST 表現 & 文法,～かな,～かな,~kana,"...mikan? / ... qanday ekan? (o‘y-mulohaza, N3)",I wonder if...
-MUST 表現 & 文法,～とか,～とか,~toka,... kabi / ... yoki shunga o‘xshash,"such as, like, and so on"
-MUST 表現 & 文法,～ば,～ば,~ba,"Agar ... bo‘lsa (shart shakli, N4)","if, provided that"
-MUST 表現 & 文法,～ていただけますか,～ていただけますか,~te itadakemasu ka,"... qilib bera olasizmi? (rasmiy iltimos, N2)",could you please do...?
-MUST 表現 & 文法,私の方から,わたしのかたから,watashi no hou kara,Men tomondan / shaxsan men,"from my side, from me"
-MUST 表現 & 文法,案内をする,あんないをする,annai o suru,"Yo‘l-yo‘riq ko‘rsatmoq, ma'lumot bermoq",to provide guidance
-MUST 表現 & 文法,時間があるので,じかんがあるので,jikan ga aru node,Vaqt borligi sababli / imkoniyat borida,since there is time
-MUST 表現 & 文法,質疑応答の時間に入る,しつぎおうとうのじかんにはいる,shitsugi outou no jikan ni hairu,Savol-javob qismiga o‘tmoq,enter into Q&A time
-MUST 表現 & 文法,どんな感じかな,どんなかんじかな,donna kanji kana,Qanday vaziyat ekan? / qanday holatda?,how does it feel / how is it?
-MUST 表現 & 文法,もし質問とかあれば,もししつもんとかあれば,moshi shitsumon toka areba,Agar savollaringiz yoki tushunarsiz joylar bo‘lsa,if you have any questions
-MUST 表現 & 文法,いただけますか,いただけますか,itadakemasu ka,Qilib bera olasizmi? / mumkinmi?,could you please?
-MUST 単語 (3-qism),聞こえる,きこえる,kikoeru,"Eshitilmoq, quloqqa chalinmoq","to be heard, audible"
-MUST 単語 (3-qism),転職,てんしょく,tenshoku,Boshqa kompaniyaga ishga o‘tish (job change),"job change, career change"
-MUST 単語 (3-qism),部署,ぶしょ,busho,"Bo‘lim, departament, xizmat bo'linmasi","department, section"
-MUST 単語 (3-qism),またぐ,またぐ,matagu,"Kesib o‘tmoq, qamrab olmoq","to straddle, cross over, span"
-MUST 単語 (3-qism),別,べつ,betsu,"Boshqa, alohida, ajratilgan","different, another, separate"
-MUST 単語 (3-qism),挑戦,ちょうせん,chousen,"Sinov, chaqiriq, yangi narsaga urinish","challenge, attempt"
-MUST 単語 (3-qism),可能,かのう,kanou,"Mumkin, amalga oshirsa bo‘ladigan","possible, feasible"
-MUST 単語 (3-qism),変更,へんこう,henkou,"O‘zgartirish, tahrirlash","change, alteration, modification"
-MUST 単語 (3-qism),ありがち,ありがち,arigachi,"Tez-tez uchraydigan, odatiy hol","common, frequent"
-MUST 単語 (3-qism),もともと,もともと,motomoto,"Avvaldan, dastlab, aslida","originally, from the start"
-MUST 単語 (3-qism),方々,かたがた,katagata,"Kishilar, insonlar (hurmat shakli)","people, gentlemen/ladies"
-MUST 単語 (3-qism),部門,ぶもん,bumon,"Bo‘lim, tarmoq, departament","division, branch, sector"
-MUST 単語 (3-qism),先ほど,さきほど,sakihodo,"Biroz oldin, boyagina","a while ago, earlier"
-MUST 単語 (3-qism),市場,しじょう,shijou,"Bozor, iqtisodiy bozor yo‘nalishi",market
-MUST 単語 (3-qism),大学向け,だいがくむけ,daigakumuke,Universitetlar va oliygohlar uchun mo‘ljallangan,intended for universities
-MUST 単語 (3-qism),企業,きぎょう,kigyou,"Korxona, kompaniya, biznes tashkilot","enterprise, corporation"
-MUST 単語 (3-qism),研修,けんしゅう,kenshuu,"Trening, malaka oshirish, amaliyot","training, in-service study"
-MUST 単語 (3-qism),最近,さいきん,saikin,"So‘nggi paytlarda, yaqinda","recently, lately"
-MUST 単語 (3-qism),全社,ぜんしゃ,zensha,"Butun kompaniya, jamoa",whole company
-MUST 単語 (3-qism),製品,せいひん,seihin,"Mahsulot, tayyor tovar","product, manufactured goods"
-MUST 単語 (3-qism),試す,ためす,tamesu,"Sinab ko‘rmoq, tekshirib ko‘rmoq","to try, test, attempt"
-MUST 単語 (3-qism),既存,きそん,kison,"Mavjud, amaldagi, avvaldan bor","existing, established"
-MUST 単語 (3-qism),事業部,じぎょうぶ,jigyoubu,Biznes / operatsion bo‘lim,business division
-MUST 単語 (3-qism),体制,たいせい,taisei,"Tashkiliy tizim, tuzilma","system, structure, organization"
-MUST 単語 (3-qism),枠,わく,waku,"Chegara, ramka, me'yor doirasi","frame, limit, boundary"
-MUST 単語 (3-qism),越える,こえる,koeru,"Oshib o‘tmoq, chegaradan chiqmoq","to cross over, exceed, transcend"
-MUST 単語 (3-qism),任務,にんむ,ninmu,"Vazifa, topshiriq, burch","duty, task, mission"
-MUST 単語 (3-qism),制度,せいど,seido,"Tizim, tartib, qoida, institut","system, institution, policy"
-MUST 単語 (3-qism),機会,きかい,kikai,"Imkoniyat, qulay fursat","opportunity, chance"
-MUST 単語 (3-qism),部門長,ぶもんちょう,bumonchou,"Bo‘lim boshlig‘i, departament rahbari","department manager, division head"
-MUST 単語 (3-qism),単に,たんに,tanni,"Shunchaki, faqatgina","simply, merely, solely"
-MUST 単語 (3-qism),与える,あたえる,ataeru,"Bermoq, taqdim qilmoq, yuklamoq","to give, grant, assign"
-MUST 単語 (3-qism),叶える,かなえる,kanaeru,Orzu yoki istakni amalga oshirmoq,"to fulfill, grant (a dream/wish)"
-MUST 単語 (3-qism),付け加える,つけくわえる,tsukekuwaeru,"Qo‘shimcha qilmoq, ilova qilmoq","to add, append"
-MUST 単語 (3-qism),業務,ぎょうむ,gyoumu,"Xizmat vazifasi, ish faoliyati, operatsiyalar","business operations, duties"
-MUST 単語 (3-qism),時間外,じかんがい,jikangai,Ish vaqtidan tashqari vaqt,"overtime, outside hours"
-MUST 単語 (3-qism),研究,けんきゅう,kenkyuu,"Tadqiqot, ilmiy izlanish","research, study"
-MUST 単語 (3-qism),抱える,かかえる,kakaeru,"O‘z zimmasida bo‘lmoq, muammoga ega bo‘lmoq","to hold, shoulder, have (problems)"
-MUST 単語 (3-qism),生まれる,うまれる,umareru,"Yaratilmoq, dunyoga kelmoq, paydo bo‘lmoq","to be born, created, come into being"
-MUST IT & Biznes,職種変更,しょくしゅへんこう,shokushu henkou,Kompaniya ichida kasb/lavozim turini o‘zgartirish (Career Change),internal career change / position change
-MUST IT & Biznes,部署異動,ぶしょいどう,busho idou,Boshqa bo‘limga o‘tish (Department Transfer),"department transfer, reassignment"
-MUST IT & Biznes,下流工程,かりゅうこうてい,karyuu koutei,"Quyi loyiha bosqichlari (dasturlash, testlash va o'rnatish)","downstream process (coding, testing, deployment)"
-MUST IT & Biznes,企業研修,きぎょうけんしゅう,kigyou kenshuu,Korxona / korporativ trening (Corporate Training),corporate training
-MUST IT & Biznes,市場調査,しじょうちょうさ,shijou chousa,Bozor tadqiqoti va tahlili (Market Research),"market research, marketing analysis"
-MUST IT & Biznes,新製品開発,しんせいひんかいはつ,shinseihin kaihatsu,Yangi mahsulot ishlab chiqish (Product Development),new product development
-MUST IT & Biznes,組織体制,そしきたいせい,soshiki taisei,Tashkiliy tuzilma va jamoa strukturosi,organizational structure
-MUST IT & Biznes,ミッションチーム,ミッションチーム,misshon chiimu,Maxsus vazifali jamoa (Mission Team),"mission team, task force"
-MUST IT & Biznes,チャレンジプロジェクト,チャレンジプロジェクト,charenji purojekuto,Sinov va erkin tashabbus loyihasi (Challenge Project),challenge project
-MUST IT & Biznes,研究開発,けんきゅうかいはつ,kenkyuu kaihatsu,Tadqiqot va ishlab chiqish (R&D),research and development (R&D)
-MUST 表現 & 文法,～っていうのは,～っていうのは,~tte iu no wa,... degani nima? / ... deganda nimani tushunamiz? (N3),as for what is called...
-MUST 表現 & 文法,～をまたいで,～をまたいで,~o mataide,... chegarasini kesib o‘tib / bir nechta sohani qamrab olib,"straddling across, spanning..."
-MUST 表現 & 文法,～たい,～たい,~tai,...moqchi bo‘lmoq / qilishni xohlamoq (N5),want to do...
-MUST 表現 & 文法,～ってことですよね,～ってことですよね,~tte koto desu yo ne,"... degani, to‘g‘rimi? / ... demoqchisiz, shundaymi? (N3)","you mean that..., right?"
-MUST 表現 & 文法,～可能だ,～かのうだ,~kanou da,... imkoniyati mavjud / mumkin (N3),it is possible to...
-MUST 表現 & 文法,～ありがちだ,～ありがちだ,~arigachi da,Ko‘p uchraydigan / tez-tez sodir bo‘ladigan (N2),"prone to, frequently occurring"
-MUST 表現 & 文法,～ごとに,～ごとに,~goto ni,Har bir ...ga / ... bo‘yicha (N2),"every, per, each"
-MUST 表現 & 文法,～てみたい,～てみたい,~te mitai,... qilib ko‘rmoqchi bo‘lmoq (N3),want to try doing...
-MUST 表現 & 文法,～を挙げて,～をあげて,~o agete,...ni safarbar qilib / barchasini jalb qilib (N2),"with the whole..., mobilizing..."
-MUST 表現 & 文法,～を越えて,～をこえて,~o koete,... chegarasidan oshib / ...dan o‘tib (N3),"crossing beyond, transcending..."
-MUST 表現 & 文法,～みたいな,～みたいな,~mitai na,...ga o‘xshagan / ... kabi,"like, similar to..."
-MUST 表現 & 文法,～こともある,～こともある,~koto mo aru,... holatlari ham bo‘ladi / qilish ham mumkin (N3),sometimes there are cases where...
-MUST 表現 & 文法,～に手を挙げる,～にてをあげる,~ni te o ageru,Ko‘ngilli bo‘lib chiqmoq / tashabbus ko'rsatmoq (biznes),"volunteer for, raise hand for"
-MUST 表現 & 文法,～ていただくこともできる,～ていただくこともできる,~te itadaku koto mo dekiru,... qilishingiz ham mumkin (rasmiy taklif),it is also possible for you to...
-MUST 表現 & 文法,～し,～し,~shi,"... ham / ... va bundan tashqari (sabab/omil, N3)","and, moreover, besides"
-MUST 表現 & 文法,～なくても,～なくても,~nakutemo,... bo‘lmasa ham / qilmasdan ham (N3),"even without, even if not..."
-MUST 表現 & 文法,～際に,～さいに,~sai ni,... vaqtida / ... paytida (N3),"at the time of, on the occasion of"
-MUST 表現 & 文法,～だけじゃなくて,～だけじゃなくて,~dake ja nakute,"...gina emas, balki... (N3)",not only... but also...
-MUST 表現 & 文法,～を叶える,～をかなえる,~o kanaeru,Orzu yoki istakni amalga oshirmoq,"to fulfill, make (a wish) come true"
-MUST 表現 & 文法,～という制度がある,～というせいどがある,~to iu seido ga aru,... degan tizim / tartib mavjud,there is a system called...
-MUST 表現 & 文法,～時間外に,～じかんがいに,~jikangai ni,Ish vaqtidan tashqarida,outside working hours
-MUST 表現 & 文法,～というふうにして,～というふうにして,~to iu fuu ni shite,... shu tarzda / ... yo‘li bilan,in such a way that...
-MUST 表現 & 文法,職種を変更する,しょくしゅをへんこうする,shokushu o henkou suru,Lavozim turini o‘zgartirish,to change job category
-MUST 表現 & 文法,新しいことに挑戦する,あたらしいことにちょうせんする,atarashii koto ni chousen suru,Yangi sohaga urinish / sinab ko‘rish,take on a new challenge
-MUST 表現 & 文法,上流工程に変える,じょうりゅうこうていにかえる,jouryuu koutei ni kaeru,Yuqori bosqichdagi loyihalash ishlariga o‘tish,shift to upstream processes
-MUST 表現 & 文法,市場ごとに部門がある,しじょうごとにぶもんがある,shijou goto ni bumon ga aru,Har bir bozor yo‘nalishi uchun alohida bo‘lim mavjud,there is a division for each market
-MUST 表現 & 文法,大学向けのシステム,だいがくむけのシステム,daigakumuke no shisutemu,Universitetlar va OTMlar uchun tizim,systems for universities
-MUST 表現 & 文法,企業研修をやってみる,きぎょうけんしゅうをやってみる,kigyou kenshuu o yatte miru,Korporativ trening o‘tkazib ko‘rmoq,try conducting corporate training
-MUST 表現 & 文法,枠を越える,わくをこえる,waku o koeru,Doira va chegaralardan tashqariga chiqish,transcend the boundaries
-MUST 表現 & 文法,部門長と面談する,ぶもんちょうとめんだんする,bumonchou to mendan suru,Bo‘lim boshlig‘i bilan suhbatlashish,interview with department manager
-MUST 表現 & 文法,自分の希望を伝える,じぶんのきぼうをつたえる,jibun no kibou o tsutaeru,O‘z xohish va maqsadlarini ochiq bildirish,express one's wishes
-MUST 表現 & 文法,研究・開発を行う,けんきゅう・かいはつをおこなう,kenkyuu - kaihatsu o okonau,Tadqiqot va yangi ishlanmalar ustida ishlash,conduct R&D
-MUST 表現 & 文法,新しいサービスが生まれる,あたらしいサービスがうまれる,atarashii saabisu ga umareru,Yangi xizmat va mahsulotning yaratilishi,new service is born
+﻿Bo'lim,Yaponcha,O'qilishi (kana),Romaji,O'zbekcha tarjima,English (manba),Misol gap
+MUST 語彙 (1-qism),職種,しょくしゅ,shokushu,"Kasb turi / lavozim yo‘nalishi (masalan, Engineer, Director, Coordinator)","job category, occupation type",会社の職種について説明します。 (Kompaniyadagi kasb turlari va lavozimlar haqida tushuntiraman.)
+MUST 語彙 (1-qism),提案受注活動,ていあんじゅちゅうかつどう,teian juchuu katsudou,Taklif kiritish va buyurtma olish faoliyati (mijozga yechim taklif qilib shartnoma tuzish),proposal and order-winning activities,クライアントに対して提案受注活動を行います。 (Mijozlarga taklif kiritish va shartnoma tuzish faoliyatini olib boradi.)
+MUST 語彙 (1-qism),営業的な素養,えいぎょうてきなそよう,eigyou-teki na soyou,Savdo va muloqotga oid qobiliyat / ko‘nikma (mijoz bilan til topishish salohiyati),"sales aptitude, business communication skills",エンジニアにも営業的な素養が求められます。 (Muhandisdan ham savdo va muloqot ko‘nikmalari talab etiladi.)
+MUST 語彙 (1-qism),取りまとめを行う,とりまとめをおこなう,torimatome o okonau,Umumlashtirish / muvofiqlashtirish (Direktorning barcha talab va muddatlarni boshqarishi),"coordinate, summarize and manage",ディレクタが要件とスケジュールの取りまとめを行います。 (Director barcha talablar va muddatlarni muvofiqlashtirib boshqaradi.)
+MUST 語彙 (1-qism),視野に入る,しやにはいる,shiya ni hairu,Ko‘rib chiqish doirasiga kirmoq / variant sifatida qaralmoq (Director lavozimi haqida),come into consideration / be within scope,将来はディレクタ職も視野に入ります。 (Kelajakda Director lavozimi ham ko‘rib chiqiladigan imkoniyatga kiradi.)
+MUST 語彙 (1-qism),質疑応答,しつぎおうとう,shitsugi outou,Savol-javob sessiyasi (Q&A),question and answer session (Q&A),説明会の最後に質疑応答の時間を設けます。 (Taqdimot oxirida savol-javob sessiyasiga vaqt ajratamiz.)
+MUST 語彙 (1-qism),部署をまたぐ,ぶしょをまたぐ,busho o matagu,Bo‘limlar chegarasini kesib o‘tmoq / boshqa bo‘limga o‘tmoq (bo‘limlararo),"cross department boundaries, work across divisions",開発部と営業部の部署をまたいで連携します。 (Dasturlash va savdo bo‘limlari o‘rtasida chegaralarni kesib hamkorlik qilamiz.)
+MUST 語彙 (1-qism),上流工程,じょうりゅうこうてい,jouryuu koutei,Yuqori bosqich jarayonlari (ITda: talablarni belgilash va arxitektura chizish bosqichlari),"upstream process (requirements definition, system design)",要件定義などの上流工程からプロジェクトに関わります。 (Talablarni aniqlash kabi yuqori bosqich jarayonlaridan boshlab loyihada qatnashadi.)
+MUST 語彙 (1-qism),全社を挙げて,ぜんしゃをあげて,zensha o agete,Butun kompaniya miqyosida / barcha kuchni birlashtirib,"company-wide, united as an entire company",全社を挙げて新しい事業に挑戦しています。 (Butun kompaniya barcha kuchni birlashtirib yangi yo‘nalishga qadam qo‘ymoqda.)
+MUST 語彙 (1-qism),手を挙げる,てをあげる,te o ageru,Tashabbus ko‘rsatmoq / ko‘ngilli bo‘lib chiqmoq (yangi loyihalarga qo‘shilishda),"raise one's hand, volunteer, take initiative",新規プロジェクトに自ら手を挙げました。 (Yangi loyihaga o‘z xohishim bilan ko‘ngilli bo‘lib chiqdim.)
+MUST 語彙 (1-qism),面談,めんだん,mendan,Yakkama-yakka suhbat (bo‘lim boshlig‘i bilan har chorakda o‘tkaziladigan muloqot),"interview, one-on-one meeting, consultation",四半期ごとに上司と個別面談を行います。 (Har chorakda rahbar bilan yakkama-yakka suhbat o‘tkaziladi.)
+MUST 語彙 (1-qism),業務時間外,ぎょうむじかんがい,gyoumu jikangai,Ish vaqtidan tashqari payt (Challenge Project doirasida shaxsiy tadqiqot qilish vaqti),"outside working hours, off-duty hours",業務時間外に自分のスキルアップに取り組みます。 (Ish vaqtidan tashqarida o‘z malakasini oshirish bilan shug‘ullanadi.)
+MUST 語彙 (1-qism),周辺領域,しゅうへんりょういき,shuuhen ryouiki,Yondosh sohalar (e-Learning'ga yaqin bo‘lgan onlayn imtihon va CBT texnologiyalari),peripheral/adjacent fields or domains,eラーニングの周辺領域の技術も学びます。 (Masofaviy ta'limga yondosh sohalardagi texnologiyalarni ham o‘rganadi.)
+MUST 語彙 (1-qism),エンハンスする,エンハンスする,enhansu suru,Kuchaytirmoq / takomillashtirmoq (Enhance — raqamli texnologiyalar bilan boyitish),"enhance, improve, upgrade",
+MUST 語彙 (1-qism),届き次第,とどきしだい,todoki shidai,Yetib kelishi bilanoq (ro‘yxat kelishi bilan topshiriqni jo‘natish haqida),"as soon as it arrives, upon receipt","資料が届き次第、すぐにお送りします。 (Hujjatlar yetib kelishi bilanoq, darhol jo‘nataman.)"
+MUST 語彙 (1-qism),本エントリー,ほんエントリー,hon entorii,Rasmiy ariza topshirish (3 ta hujjatni topshirish orqali tanlovga rasman kirish),"formal entry, official application submission","書類を提出して本エントリーを完了しました。 (Hujjatlarni topshirib, rasmiy arizani yakunladim.)"
+MUST 語彙 (1-qism),本文,ほんぶん,honbun,Xatning asosiy matni (emailning fayl biriktiriladigan joyidan tashqari yozuv qismi),"main body, body text (of an email or document)",メールの本文をご確認ください。 (Email xatining asosiy matnini ko‘rib chiqing.)
+MUST 語彙 (1-qism),時差,じさ,jisa,Vaqt farqi (Yaponiya va O‘zbekiston o‘rtasidagi 4 soatlik farq),time difference,日本とウズベキスタンの時差は4時間です。 (Yaponiya va O‘zbekiston o‘rtasidagi vaqt farqi 4 soatdir.)
+MUST 語彙 (1-qism),向き不向き,むきふむき,muki-fumuki,Mos kelish yoki kelmaslik / qobiliyatga to‘g‘ri kelishi,"aptitude, suitability, compatibility",人によって仕事の向き不向きがあります。 (Har bir insonning o‘ziga mos keladigan va kelmaydigan ishlari bo‘ladi.)
+MUST 語彙 (1-qism),鑑みて,かんがみて,kangamite,Inobatga olib / hisobga olgan holda (amaliyot natijalariga qarab bo‘limga qo‘yish),"in view of, in light of, taking into account","研修の結果を鑑みて、配属先を決定します。 (O‘quv amaliyoti natijalarini inobatga olib, bo‘limga tayinlash hal qilinadi.)"
+MUST 語彙 (1-qism),本配属,ほんはいぞく,hon-haizoku,Asosiy bo‘limga rasman tayinlanish (2 oylik o‘quv amaliyotidan so‘ng),"official department assignment, final placement",試用期間を経て、開発部に本配属されました。 (Sinov muddatidan so‘ng dasturlash bo‘limiga rasman tayinlandi.)
+MUST 単語 (2-qism),説明,せつめい,setsumei,"Tushuntirish, izoh",explanation,
+MUST 単語 (2-qism),主に,おもに,omoni,"Asosan, ko'proq","mainly, primarily",
+MUST 単語 (2-qism),一般的,いっぱんてき,ippanteki,"Umumiy, odatiy, keng tarqalgan","general, standard",
+MUST 単語 (2-qism),営業,えいぎょう,eigyou,"Savdo, mijozlar bilan ishlash, biznes faoliyati","sales, business operations",
+MUST 単語 (2-qism),考える,かんがえる,kangaeru,"O‘ylamoq, hisoblamoq, mulohaza qilmoq","to think, consider",
+MUST 単語 (2-qism),結構,けっこう,kekkou,"Yetarli, yaxshi, ma'qul","quite, fairly, sufficient",
+MUST 単語 (2-qism),次,つぎ,tsugi,"Keyingi, navbatdagi",next,
+MUST 単語 (2-qism),支援,しえん,shien,"Yordam, qo‘llab-quvvatlash, madad","support, assistance",
+MUST 単語 (2-qism),開発,かいはつ,kaihatsu,"Ishlab chiqish, rivojlantirish",development,
+MUST 単語 (2-qism),管理,かんり,kanri,"Boshqarish, nazorat, ma'muriyat","management, administration",
+MUST 単語 (2-qism),開発マネジメント,かいはつマネジメント,kaihatsu manejimento,Dastur/ishlanma jarayonini boshqarish,development management,
+MUST 単語 (2-qism),最後,さいご,saigo,"Oxiri, so'nggi","end, conclusion, last",
+MUST 単語 (2-qism),新技術,しんぎじゅつ,shingijutsu,Yangi texnologiya,new technology,
+MUST 単語 (2-qism),調査,ちょうさ,chousa,"Tadqiqot, o'rganish, tekshirish","investigation, research, survey",
+MUST 単語 (2-qism),製品化,せいひんか,seihinka,"Mahsulotga aylantirish, tijoratlashtirish","commercialization, productization",
+MUST 単語 (2-qism),ほか,ほか,hoka,"Boshqa, tashqari","other, besides",
+MUST 単語 (2-qism),要望,ようぼう,youbou,"Talab, istak, iltimos","request, demand",
+MUST 単語 (2-qism),応じる,おうじる,oujiru,"Javob bermoq, talabga muvofiq harakat qilmoq","to respond, comply with",
+MUST 単語 (2-qism),システム,システム,shisutemu,"Tizim, tizimli dastur",system,
+MUST 単語 (2-qism),卒業生,そつぎょうせい,sotsugyousei,Bitiruvchi (talaba/o'quvchi),graduate,
+MUST 単語 (2-qism),対して,たいして,taishite,"Nisbatan, ...ga qarab","towards, regarding",
+MUST 単語 (2-qism),期待,きたい,kitai,"Kutish, umid, ishonch","expectation, anticipation",
+MUST 単語 (2-qism),部分,ぶぶん,bubun,"Qism, bo'lak, jihat","part, portion, section",
+MUST 単語 (2-qism),学ぶ,まなぶ,manabu,"O‘rganmoq, saboq olmoq","to learn, study",
+MUST 単語 (2-qism),応募,おうぼ,oubo,"Ariza topshirish, nomzod bo'lish","application, entry",
+MUST 単語 (2-qism),メイン,メイン,mein,"Asosiy, bosh","main, primary",
+MUST 単語 (2-qism),営業的,えいぎょうてき,eigyouteki,"Savdoga oid, tijoriy","sales-related, business-oriented",
+MUST 単語 (2-qism),素養,そよう,soyou,"Bilim va qobiliyat asosi, ko‘nikma","grounding, aptitude",
+MUST 単語 (2-qism),併せ持つ,あわせもつ,awasemotsu,Birgalikda o‘zida mujassam etmoq,to possess both simultaneously,
+MUST 単語 (2-qism),能力,のうりょく,nouryoku,"Qobiliyat, malaka, layoqat","ability, capability",
+MUST 単語 (2-qism),学び,まなび,manabi,"Ta'lim, o‘rganish, saboq","study, learning",
+MUST 単語 (2-qism),浮上する,ふじょうする,fujousuru,"Yuzaga chiqmoq, paydo bo‘lmoq","to surface, emerge",
+MUST IT & Biznes,コーディネータ,コーディネータ,koodineeta,Koordinator (mijoz va jamoa o'rtasida muvofiqlashtiruvchi),coordinator,
+MUST IT & Biznes,ディレクタ,ディレクタ,direkuta,Direktor / loyiha boshqaruvchisi,"director, project director",
+MUST IT & Biznes,エンジニア,エンジニア,enjinia,Muhandis / dasturchi,"engineer, software developer",
+MUST IT & Biznes,営業担当,えいぎょうたんとう,eigyou tantou,Savdo va mijozlar bilan ishlash bo'yicha mas'ul xodim,sales representative,
+MUST IT & Biznes,新技術の調査,しんぎじゅつのちょうさ,shingijutsu no chousa,Yangi texnologiyalarni o‘rganish va tadqiq qilish,research on new technologies,
+MUST IT & Biznes,プログラムの開発,プログラムのかいはつ,puroguramu no kaihatsu,Dasturiy ta'minot ishlab chiqish,software development,
+MUST IT & Biznes,システムの開発,システムのかいはつ,shisutemu no kaihatsu,Tizim ishlab chiqish va joriy etish,system development,
+MUST IT & Biznes,お客さんからの要望,おきゃくさんからのようぼう,okyakusan kara no youbou,Mijozlarning talablari va istaklari,customer requests and demands,
+MUST IT & Biznes,マネジメント能力,マネジメントのうりょく,manejimento nouryoku,Boshqaruv va yetakchilik qobiliyati,management skills / ability,
+MUST 表現 & 文法,ご説明します,ごせつめいします,gosetsumeishimasu,Tushuntirib beraman (muloyim / rasmiy),I will explain (polite),
+MUST 表現 & 文法,3つございまして,みっつございまして,mittsu gozaimashite,Uchta mavjud bo'lib... (biznes nutqi),there are three (formal),
+MUST 表現 & 文法,お考えください,おかんがえください,okangaekudasai,Shunday deb o‘ylang / tushuning (muloyim),please consider / think of it as,
+MUST 表現 & 文法,行うということもやります,おこなうということもやります,okonau to iu koto mo yarimasu,Bunday ishni ham bajaramiz / amalga oshiramiz,we also perform such tasks,
+MUST 表現 & 文法,応募がメインになる,おうぼがメインになる,oubo ga mein ni naru,Arizalarning asosiy qismi ... bo‘ladi,applications are mainly for...,
+MUST 表現 & 文法,期待している部分,きたいしているぶぶん,kitai shite iru bubun,Asosiy kutilayotgan jihatlar,the parts/aspects that are expected,
+MUST 表現 & 文法,1つ浮上する,ひとつふじょうする,hitotsu fujousuru,Bitta imkoniyat / variant yuzaga chiqadi,an option / opportunity emerges,
+MUST 表現 & 文法,～について,～について,~ni tsuite,"... haqida, ... to'g'risida (N3)","about, regarding",【Tuzilishi: N + について】職種についてご説明します。 (Kasblar haqida tushuntirib beraman.)
+MUST 表現 & 文法,～としましては,～としましては,~to shimashite wa,"... sifatida / ...ga kelsak (N2, rasmiy)","as for, from the viewpoint of",【Tuzilishi: N + としては (rasmiy: としましては)】主に期待してる部分としましては... (Asosan kutilayotgan jihatlarga kelsak...)
+MUST 表現 & 文法,～ということで,～ということで,~to iu koto de,... degan ma'noda / sababli / deb (N3),"meaning that, because of, as",【Tuzilishi: Oddiy gap + ということで】コーディネータということで営業を担当します。 (Koordinator degan kasb sifatida savdo bilan shug‘ullanadi.)
+MUST 表現 & 文法,～というふうに考える,～というふうにかんがえる,~to iu fuu ni kangaeru,... deb hisoblamoq / tarzda o‘ylamoq (N3),to think in the manner that...,"【Tuzilishi: Oddiy gap + というふうに考える】一般的には営業をする人というふうに考えていただければ結構です。 (Umuman olganda, savdo bilan shug‘ullanuvchi shaxs deb tushunsangiz kifoya.)"
+MUST 表現 & 文法,～ていただければ結構です,～ていただければけっこうです,~te itadakereba kekkou desu,"... qilsangiz bo‘ladi / kifoya (N2, juda muloyim)","it is fine if you do..., please feel free to",【Tuzilishi: Vて + いただければ結構です】そういうふうに考えていただければ結構です。 (Shunday deb tushunsangiz bo‘ladi / kifoya (juda muloyim).)
+MUST 表現 & 文法,～という職種,～というしょくしゅ,~to iu shokushu,... deb ataladigan kasb / lavozim turi,an occupation referred to as...,【Tuzilishi: N + という + 職種】ディレクタという職種について説明します。 (Direktor deb ataladigan lavozim haqida tushuntiraman.)
+MUST 表現 & 文法,～をサポートする,～をサポートする,~o sapooto suru,"...ni qo‘llab-quvvatlamoq, yordam bermoq",to support / assist...,【Tuzilishi: N + を + サポートする】営業活動をサポートする役割です。 (Savdo faoliyatini qo‘llab-quvvatlash vazifasidir.)
+MUST 表現 & 文法,～ほか,～ほか,~hoka,...dan tashqari / ... bilan bir qatorda (N3),"besides, in addition to...","【Tuzilishi: Nのほか / V oddiy + ほか】プログラムの開発のほか、マネジメントも行います。 (Dastur ishlab chiqishdan tashqari, boshqaruvni ham olib boradi.)"
+MUST 表現 & 文法,～に応じて,～におうじて,~ni oujite,...ga qarab / ...ga muvofiq (N2),"in accordance with, depending on",【Tuzilishi: N + に応じて】お客さんからの要望に応じてシステムを開発します。 (Mijozlarning talab va ehtiyojlariga muvofiq tizim yaratiladi.)
+MUST 表現 & 文法,～に対して,～にたいして,~ni taishite,...ga nisbatan / ...ga (N3),"towards, in contrast to, regarding",【Tuzilishi: N + に対して】JDU大学の卒業生に対して大きな期待を寄せています。 (JDU universiteti bitiruvchilariga nisbatan katta umid bildirilmoqda.)
+MUST 表現 & 文法,～として,～として,~to shite,... sifatida (N3),"as, in the capacity of",【Tuzilishi: N + として】エンジニアとしての応募がメインになります。 (Muhandis sifatida ishga ariza topshirish asosiy qism bo‘ladi.)
+MUST 表現 & 文法,～を併せ持つ,～をあわせもつ,~o awasemotsu,Birgalikda o‘zida mujassam etmoq (N2),to possess both at the same time,【Tuzilishi: N1 + と + N2 + を併せ持つ】開発能力と営業的な素養を併せ持つ人材です。 (Ishlab chiqish qobiliyati va savdo ko‘nikmalarini o‘zida birgalikda mujassam etgan mutaxassis.)
+MUST 表現 & 文法,～にとって,～にとって,~ni totte,... uchun / nuqtayi nazaridan (N3),"for, from the perspective of",【Tuzilishi: N + にとって】成長したい人にとっては、非常に良い環境です。 (O‘smoqchi bo‘lgan inson uchun juda qulay muhit.)
+MUST 表現 & 文法,～というような,～というような,~to iu you na,... kabi / ... singari,"such as, like...","【Tuzilishi: Oddiy gap + というような + N】開発を行うというような職種、お仕事になります。 (Ishlab chiqish bilan shug‘ullanadigan turdagi lavozim, ish hisoblanadi.)"
+MUST 単語 (3-qism),仕事,しごと,shigoto,"Ish, mehnat, kasb","work, job",
+MUST 単語 (3-qism),内容,ないよう,naiyou,"Mazmun, tarkib, tafsilotlar","content, details",
+MUST 単語 (3-qism),通り,とおり,toori,"...dek, ...bo‘yicha","as, in accordance with",
+MUST 単語 (3-qism),最初,さいしょ,saisho,"Boshida, avvalida, dastlab","beginning, first",
+MUST 単語 (3-qism),お客さん,おきゃくさん,okyakusan,"Mijoz, xaridor, mehmon","customer, client, guest",
+MUST 単語 (3-qism),行う,おこなう,okonau,"Bajarmoq, amalga oshirmoq","to conduct, carry out, perform",
+MUST 単語 (3-qism),中心,ちゅうしん,chuushin,"Markaz, asosiy qism, o‘zak","center, focus, core",
+MUST 単語 (3-qism),一緒,いっしょ,issho,"Birgalikda, birga",together,
+MUST 単語 (3-qism),資料,しりょう,shiryou,"Hujjat, material, ma'lumotlar to‘plami","materials, documents, data",
+MUST 単語 (3-qism),作る,つくる,tsukuru,"Tayyorlamoq, tuzmoq, yasamoq","to make, create, prepare",
+MUST 単語 (3-qism),実際,じっさい,jissai,"Amalda, haqiqatda, voqelik","actually, in practice, reality",
+MUST 単語 (3-qism),当社,とうしゃ,tousha,Bizning kompaniyamiz (rasmiy),our company,
+MUST 単語 (3-qism),提供,ていきょう,teikyou,"Taqdim etish, yetkazib berish","offer, provision, supply",
+MUST 単語 (3-qism),場合,ばあい,baai,"Holat, vaziyat, taqdirda","case, situation",
+MUST 単語 (3-qism),発生,はっせい,hassei,"Yuzaga kelish, paydo bo‘lish","occurrence, outbreak, emergence",
+MUST 単語 (3-qism),設計,せっけい,sekkei,"Loyihalash, arxitektura chizish","design, planning",
+MUST 単語 (3-qism),携わる,たずさわる,tazusawaru,"Ishtirok etmoq, mashg‘ul bo‘lmoq","to engage in, participate in",
+MUST 単語 (3-qism),指示,しじ,shiji,"Ko‘rsatma, buyruq, direktiva","instruction, direction, order",
+MUST 単語 (3-qism),従う,したがう,shitagau,"Amal qilmoq, bo‘ysunmoq, ergashmoq","to obey, follow, abide by",
+MUST 単語 (3-qism),形,かたち,katachi,"Shakl, tuzilma, ko‘rinish","form, shape",
+MUST 単語 (3-qism),それぞれ,それぞれ,sorezore,"Har biri, alohida-alohida","each, respectively",
+MUST 単語 (3-qism),機能,きのう,kinou,"Funksiya, vazifa, imkoniyat","function, feature",
+MUST 単語 (3-qism),機能する,きのうする,kinousuru,"Faoliyat yuritmoq, ishlamoq","to function, work",
+MUST 単語 (3-qism),進行,しんこう,shinkou,"Jarayon, rivojlanish, borish","progress, advancement",
+MUST 単語 (3-qism),主役,しゅやく,shuyaku,"Bosh qahramon, asosiy rol/yetakchi","leading role, main actor",
+MUST 単語 (3-qism),段階,だんかい,dankai,"Bosqich, daraja","stage, phase, step",
+MUST 単語 (3-qism),締め切り,しめきり,shimekiri,"Muddat, deadline, oxirgi muddat","deadline, closing date",
+MUST 単語 (3-qism),全て,すべて,subete,"Barcha, barchasi, butunlay","all, entire, completely",
+MUST 単語 (3-qism),お客様,おきゃくさま,okyakusama,Mijoz (juda hurmatli shakl),honored customer / client,
+MUST 単語 (3-qism),需要,じゅよう,juyou,"Talab, ehtiyoj (iqtisodiy)","demand, request",
+MUST 単語 (3-qism),ニーズ,ニーズ,niizu,"Ehtiyojlar, talablar (needs)","needs, requirements",
+MUST 単語 (3-qism),持つ,もつ,motsu,"Ega bo‘lmoq, tutmoq","to have, hold, possess",
+MUST 単語 (3-qism),社内,しゃない,shanai,"Kompaniya ichida, ichki","in-house, within company",
+MUST 単語 (3-qism),協議,きょうぎ,kyougi,"Muhokama, maslahatlashuv, muzokara","consultation, discussion, conference",
+MUST 単語 (3-qism),取りまとめる,とりまとめる,torimatomeru,"Umumlashtirmoq, muvofiqlashtirmoq","to coordinate, collect and arrange",
+MUST 単語 (3-qism),使役形,しえきけい,shiekikei,Majburiy/ruxsat fe'li grammatik shakli (bajartirmoq),causative form,
+MUST IT & Biznes,カスタマイズ,カスタマイズ,kasutamaizu,"Moslashtirish, mijoz talabiga ko‘ra o‘zgartirish (customization)",customization,
+MUST IT & Biznes,システム開発,システムかいはつ,shisutemu kaihatsu,Tizim / axborot tizimini ishlab chiqish,system development,
+MUST IT & Biznes,資料作成,しりょうさくせい,shiryou sakusei,Hujjatlar / taqdimot materiallarini tayyorlash,document / material preparation,
+MUST IT & Biznes,営業活動,えいぎょうかつどう,eigyou katsudou,Savdo va mijozlarni jalb qilish faoliyati,sales activities,
+MUST IT & Biznes,指示に従う,しじにしたがう,shiji ni shitagau,Ko‘rsatma va direktivaga qat'iy amal qilish,to follow instructions,ディレクタの指示に従って正確に作業します。 (Directorning ko‘rsatmalariga amal qilgan holda aniq ishlaydi.)
+MUST IT & Biznes,システムを提供する,システムをていきょうする,shisutemu o teikyou suru,Tizimni mijozga taqdim etish va o‘rnatib berish,to provide a system,
+MUST IT & Biznes,開発に携わる,かいはつにたずさわる,kaihatsu ni tazusawaru,Ishlab chiqish va dasturlash jarayonida qatnashish,to be involved in development,
+MUST IT & Biznes,プロジェクト進行,プロジェクトしんこう,purojekuto shinkou,Loyihaning borishi va boshqarilishi (progress),project progress,
+MUST IT & Biznes,フェーズ,フェーズ,feezu,"Bosqich, davr (phase)","phase, stage",
+MUST IT & Biznes,開発フェーズ,かいはつフェーズ,kaihatsu feezu,Ishlab chiqish (development) bosqichi,development phase,
+MUST IT & Biznes,社内エンジニア,しゃないエンジニア,shanai enjinia,Kompaniyaning ichki muhandislari / dasturchilari,in-house engineers,
+MUST IT & Biznes,プロジェクト管理,プロジェクトかんり,purojekuto kanri,Loyihani rejalashtirish va boshqarish (Project Management),project management,
+MUST 表現 & 文法,～た通り（に）,～たとおり（に）,~ta toori (ni),... aytilganidek / ... bo‘yicha / ... qilganimdek (N3),"as, just as, in the way...","【Tuzilishi: Vた + 通り / N + の通り】今説明した通り、ディレクタが主役です。 (Hozir tushuntirganimdek, Director asosiy rolni bajaradi.)"
+MUST 表現 & 文法,～時（に）,～とき（に）,~toki (ni),... vaqtida / ... paytida (N4/N3),"when, at the time of",【Tuzilishi: V辞書形/Vた/Nの + 時】お客さんに営業を行う時は資料を準備します。 (Mijozlarga savdo taklifini taqdim etish vaqtida hujjatlar tayyorlanadi.)
+MUST 表現 & 文法,～たり～たりする,～たり～たりする,~tari ~tari suru,"... qilish, ... qilish kabi ishlarni bajarish (N4)",doing such things as... and...,"【Tuzilishi: Vた + り、Vた + りする】一緒に説明をしたり、資料を作ったりします。 (Birgalikda tushuntirish berish, hujjatlar tayyorlash kabi ishlarni bajaramiz.)"
+MUST 表現 & 文法,～ことがございます,～ことがございます,~koto ga gozaimasu,... holatlari bo‘ladi / qilishimiz mumkin (juda rasmiy),there are occasions when...,【Tuzilishi: V辞書形 + ことがございます】資料を作ったりすることがございます。 (Hujjatlar tayyorlash kabi ishlar ham bo‘lib turadi (rasmiy).)
+MUST 表現 & 文法,～なくてはいけない,～なくてはいけない,~nakute wa ikenai,... qilish kerak / qilmaslik mumkin emas (N3),"must, have to",【Tuzilishi: Vない (い→くて) + はいけない】新しいシステムを開発しなくてはいけない。 (Yangi tizimni ishlab chiqish kerak / shart.)
+MUST 表現 & 文法,あるいは,あるいは,aruiwa,"Yoki, yoxud, bo‘lmasa (rasmiy)","or, alternatively",【Tuzilishi: A + あるいは + B】当社のシステムを提供する、あるいは新規開発を行います。 (Kompaniyamiz tizimini taqdim etamiz yoki yangi dastur ishlab chiqamiz.)
+MUST 表現 & 文法,～わけなんです,～わけなんです,~wake nan desu,"... degani / vaziyat shunday (tushuntirish ohangida, N2)","that explains why, the fact is...","【Tuzilishi: Oddiy gap + わけなんです】システムを提供してるわけなんですけど、カスタマイズも行います。 (Tizimni taqdim etib kelamiz, lekin moslashtirish ishlarini ham bajaramiz (vaziyat shunday).)"
+MUST 表現 & 文法,～場合には,～ばあいには,~baai ni wa,... holatida / ... bo‘lgan taqdirda (N3),"in case of, if...",【Tuzilishi: V辞書形/Vない/Nの + 場合には】カスタマイズが発生する場合には連絡してください。 (Moslashtirish zarurati yuzaga kelgan holatda xabar bering.)
+MUST 表現 & 文法,～に携わる,～にたずさわる,~ni tazusawaru,...da ishtirok etmoq / ... bilan shug‘ullanmoq (N2),"to participate in, engage in",【Tuzilishi: N + に携わる】設計や開発に携わっていきます。 (Loyihalash va ishlab chiqish ishlarida faol ishtirok etadi.)
+MUST 表現 & 文法,～に従って,～にしたがって,~ni shitagatte,...ga muvofiq / ...ga amal qilgan holda (N2),"in accordance with, following...",【Tuzilishi: N + に従って】ディレクタの指示に従って作業を進めます。 (Directorning ko‘rsatmalariga amal qilgan holda ish olib boriladi.)
+MUST 表現 & 文法,～というような形で,～というようなかたちで,~to iu you na katachi de,... degan shaklda / ... tarzida,in the form of...,【Tuzilishi: Oddiy gap + というような形で】開発を行うというような形で進めます。 (Dastur ishlab chiqish bilan shug‘ullanadigan tarzda olib boramiz.)
+MUST 表現 & 文法,～については,～については,~ni tsuite wa,...ga kelsak / ... haqida gapiradigan bo‘lsak (N3),"as for, regarding...","【Tuzilishi: N + については】ディレクタ職については、進行の主役となります。 (Director lavozimiga kelsak, u loyihaning bosh boshqaruvchisi hisoblanadi.)"
+MUST 表現 & 文法,～になった時（には）,～になったとき（には）,~ni natta toki (ni wa),...ga kelgan paytda / ... bo‘lganida,when it reaches/becomes...,【Tuzilishi: N + になった時 / Vた + 時】実際に開発のフェーズになった時には設計書を作ります。 (Amalda development bosqichiga kelgan paytda loyiha hujjati yoziladi.)
+MUST 表現 & 文法,～どのような～,～どのような～,~dono you na~,Qanday / qanaqa / qaysi turdagi (N3),what kind of...,【Tuzilishi: どのような + N】お客様がどのようなニーズを持っているか確認します。 (Mijozlar qanday ehtiyojlarga ega ekanligini aniqlaymiz.)
+MUST 表現 & 文法,～させる（使役形）,～させる（しえきけい）,~saseru (shiekikei),...ga bajartirmoq / ish buyurmoq (N3),causative (make/let do),【Tuzilishi: 使役形 (書かせる / 食べさせる / させる)】社内のエンジニアに開発をさせます。 (Kompaniya ichidagi dasturchilarga ishlab chiqish ishlarini bajartiradi.)
+MUST 表現 & 文法,～等（など）,～とう（など）,~tou (nado),...va hokazo / ...kabi narsalar (rasmiy),"etc., and the like",【Tuzilishi: N + 等（など）】どういう開発をさせるか等について話し合います。 (Qanday development ishlarini bajartirish va hokazolar haqida maslahatlashamiz.)
+MUST 表現 & 文法,お仕事の内容としましては,おしごとのないようとしましては,oshigoto no naiyou to shimashite wa,Ish mazmuniga kelsak (muloyim),as for the content of the work,"お仕事の内容としましては、Web開発がメインです。 (Ish mazmuniga kelsak, veb-dasturlash asosiy yo‘nalishdir.)"
+MUST 表現 & 文法,今説明した通り,いませつめいしたとおり,ima setsumei shita toori,Hozir tushuntirganimdek / aytib o'tganimdek,as I just explained,"今説明した通り、来週から選考が始まります。 (Hozir tushuntirganimdek, keyingi haftadan saralash boshlanadi.)"
+MUST 表現 & 文法,一緒に説明をする,いっしょにせつめいをする,issho ni setsumei o suru,Birgalikda tushuntirish berish,explain together,先輩と一緒にクライアントへ説明をします。 (Katta hamkasb bilan birgalikda mijozga tushuntirish beradi.)
+MUST 表現 & 文法,資料を作る,しりょうをつくる,shiryou o tsukuru,Hujjatlar tayyorlash,prepare materials / documents,提案のためのプレゼン資料を作ります。 (Taklif taqdimoti uchun materiallar tayyorlaydi.)
+MUST 表現 & 文法,開発しなくてはいけない,かいはつしなくてはいけない,kaihatsu shinakute wa ikenai,Ishlab chiqish / yaratish kerak,must develop,来月までにシステムを開発しなくてはいけない。 (Kelgusi oygacha tizimni ishlab chiqish shart.)
+MUST 表現 & 文法,カスタマイズする,カスタマイズする,kasutamaizu suru,"Moslashtirish, customization qilish",to customize,顧客の要望に合わせてシステムをカスタマイズします。 (Mijozning talablariga moslab tizimni o‘zgartirib moslashtiradi.)
+MUST 表現 & 文法,発生する場合には,はっせいするばあいには,hassei suru baai ni wa,Yuzaga kelgan taqdirda / holatda,in case it occurs,不具合が発生する場合には、速やかに報告します。 (Nosozlik yuzaga kelgan taqdirda tezda hisobot beradi.)
+MUST 表現 & 文法,設計・開発に携わる,せっけい・かいはつにたずさわる,sekkei - kaihatsu ni tazusawaru,Loyihalash va ishlab chiqishda qatnashish,participate in design and development,要件定義から設計・開発に携わります。 (Talablarni belgilashdan tortib loyihalash va dasturlashda qatnashadi.)
+MUST 表現 & 文法,指示に従って,しじにしたがって,shiji ni shitagatte,Ko‘rsatmaga amal qilgan holda,following instructions,指示に従ってコードを修正してください。 (Ko‘rsatmaga amal qilib kodni to‘g‘rilang.)
+MUST 表現 & 文法,それぞれが機能する,それぞれがきのおする,sorezore ga kinou suru,Har biri o‘z vazifasini bajaradi,each functions properly,各モジュールがそれぞれ正常に機能する。 (Har bir modul alohida to‘g‘ri ishlaydi.)
+MUST 表現 & 文法,ディレクタが主役,ディレクタがしゅやく,direkuta ga shuyaku,Director asosiy rolni / yetakchilikni bajaradi,director plays the leading role,プロジェクト進行においてディレクタが主役です。 (Loyihaning borishida Director bosh yetakchidir.)
+MUST 表現 & 文法,開発のフェーズ,かいはつのフェーズ,kaihatsu no feezu,Development bosqichi,development phase,要件定義が終わり、開発のフェーズに入りました。 (Talablar yozib bo‘lindi va ishlab chiqish bosqichiga o‘tildi.)
+MUST 表現 & 文法,全ての締め切り,すべてのしめきり,subete no shimekiri,Barcha muddatlar / deadline'lar,all deadlines,全ての締め切りを厳守する必要があります。 (Barcha deadline muddatlariga qat'iy rioya qilish kerak.)
+MUST 表現 & 文法,どういうお仕事をするか,どういうおしごとをするか,douiu oshigoto o suru ka,Qanday ish bajarilishi kerakligi,what kind of work is to be done,入社後にどういうお仕事をするか相談します。 (Ishga kirgach qanday vazifalarni bajarish haqida maslahatlashadi.)
+MUST 表現 & 文法,どのようなニーズを持っているか,どのようなニーズをもっているか,dono you na niizu o motte iru ka,Mijozlar qanday ehtiyojlarga ega ekanligi,what kind of needs they have,顧客がどのようなニーズを持っているか分析します。 (Mijoz qanday ehtiyojlarga ega ekanligini tahlil qilamiz.)
+MUST 表現 & 文法,社内のエンジニアと協議する,しゃないのエンジニアときょうぎする,shanai no enjinia to kyougi suru,Ichki dasturchilar bilan muhokama qilish,discuss with in-house engineers,仕様について社内のエンジニアと協議します。 (Xususiyatlar bo‘yicha ichki dasturchilar bilan maslahatlashadi.)
+MUST 表現 & 文法,開発をさせる,かいはつをさせる,kaihatsu o saseru,Development ishlarini bajartirish,have them carry out development,外部パートナーに一部の開発をさせます。 (Tashqi hamkorlarga dasturning bir qismini bajartiradi.)
+MUST 単語 (3-qism),また,また,mata,"Shuningdek, yana, bundan tashqari","also, again, furthermore",
+MUST 単語 (3-qism),採用,さいよう,saiyou,"Ishga qabul qilish, tanlab olish","recruitment, employment, adoption",
+MUST 単語 (3-qism),職,しょく,shoku,"Kasb, lavozim, ish o‘rni","job, occupation, employment",
+MUST 単語 (3-qism),主な,おもな,omona,"Asosiy, yetakchi, bosh","main, primary, principal",
+MUST 単語 (3-qism),簡単,かんたん,kantan,"Oson, oddiy, qisqacha","simple, brief, easy",
+MUST 単語 (3-qism),視野,しや,shiya,"Ko‘rish maydoni, nazar, ufq","field of vision, horizon, outlook",
+MUST 単語 (3-qism),興味,きょうみ,kyoumi,"Qiziqish, rag‘bat","interest, curiosity",
+MUST 単語 (3-qism),申し込み,もうしこみ,moushikomi,"Ariza, talabnoma, ro‘yxatdan o‘tish","application, entry, registration",
+MUST 単語 (3-qism),以上,いじょう,ijou,"Shu bilan tamom, yuqoridagilar, ...dan ortiq","that is all, more than, above-mentioned",
+MUST 単語 (3-qism),よろしく,よろしく,yoroshiku,"Iltimos, yaxshi munosabatda bo‘lishni so‘rayman","regards, please treat favorably",
+MUST IT & Biznes,エンジニア職,エンジニアしょく,enjinia shoku,Engineer (muhandislik) lavozimi,engineer position,
+MUST IT & Biznes,ディレクタ職,ディレクタしょく,direkuta shoku,Director (loyiha boshqaruvchisi) lavozimi,director position,
+MUST IT & Biznes,応募する,おうぼする,oubo suru,Ishga ariza topshirmoq,to apply for a job,
+MUST IT & Biznes,採用される,さいようされる,saiyou sareru,Ishga qabul qilinmoq,to be hired / recruited,
+MUST IT & Biznes,設計したもの,せっけいしたもの,sekkei shita mono,Loyihalashtirilgan tizim/yechim,designed system / product,
+MUST IT & Biznes,主な仕事,おもなしごと,omona shigoto,"Asosiy ish, bosh vazifa","main duty, primary work",
+MUST IT & Biznes,申し込む,もうしこむ,moushikomu,"Ariza bermoq, ro‘yxatdan o‘tmoq","to apply, sign up",
+MUST 表現 & 文法,～っていうことになります,～っていうことになります,~tte iu koto ni narimasu,... degani bo‘ladi / hisoblanadi (N3),"means that, comes down to...","【Tuzilishi: Oddiy gap + ということになります (og'zaki: っていうことになります)】エンジニアがシステム開発を行うっていうことになります。 (Engineer tizim ishlab chiqish bilan shug‘ullanadi, degani bo‘ladi.)"
+MUST 表現 & 文法,～ので,～ので,~node,... sababli / ... bo‘lgani uchun (N4),"because, since","【Tuzilishi: Oddiy shakl + ので / N・な-sifat + なので】時間があるので、先に質疑応答に入りましょう。 (Vaqtimiz borligi sababli, avval savol-javobga o‘taylik.)"
+MUST 表現 & 文法,～ていただく,～ていただく,~te itadaku,... qilishingizni so‘ramoq / sharafiga ega bo‘lmoq (N3),to have someone politely do...,【Tuzilishi: Vて + いただく】応募していただいてありがとうございます。 (Ariza topshirganingiz uchun minnatdormiz (hurmat shakli).)
+MUST 表現 & 文法,～てもらう,～てもらう,~te morau,... qilib olish / kimdir siz uchun bajarishi (N4),to get someone to do...,【Tuzilishi: Vて + もらう】エンジニアにシステム開発を行ってもらいます。 (Dasturchilarga tizim ishlab chiqish vazifasini bajartirib olamiz.)
+MUST 表現 & 文法,～っていうのが,～っていうのが,~tte iu no ga,... degan narsa / ... degani (izohlash),"the thing called..., as for...","【Tuzilishi: Oddiy gap + というのが (og'zaki: っていうのが)】主な仕事になるっていうのがポイントです。 (Asosiy ish bo‘ladi, degani eng muhim nuqtadir.)"
+MUST 表現 & 文法,～かと思います,～かとおもいます,~ka to omoimasu,"... deb o‘ylayman / bo‘lsa kerak (muloyim fikr, N2)",I think that probably...,"【Tuzilishi: Oddiy shakl + かと思います】このやり方が一番いいかと思います。 (Menimcha, bu yo‘l eng ma'quli bo‘lsa kerak deb hisoblayman.)"
+MUST 表現 & 文法,～ではありますが,～ではありますが,~dewa arimasu ga,... bo‘lsa-da / bo‘lsa ham (N2),"although it is..., even so","【Tuzilishi: N / な-sifat + ではありますが】簡単ではありますが、職種について説明させていただきます。 (Qisqacha bo‘lsa-da, lavozimlar haqida tushuntirish berishga ruxsat bergaysiz.)"
+MUST 表現 & 文法,～のかなと思っています,～のかなとおもっています,~no kana to omotte imasu,... bo‘lsa kerak deb taxmin qilyapman,I am wondering/thinking if...,【Tuzilishi: Oddiy gap + のかなと思う/思っています】ディレクタ職が視野に入るのかなと思ってます。 (Director lavozimi ham ko‘rib chiqilishi mumkin deb o‘ylayapman.)
+MUST 表現 & 文法,～いただければと思います,～いただければとおもいます,~itadakereba to omoimasu,... qilsangiz xursand bo‘lardik (rasmiy taklif),we would appreciate it if you could...,"【Tuzilishi: Vて + いただければと思います】ぜひお申し込みいただければと思います。 (Albatta ariza topshirsangiz, juda xursand bo‘lardik.)"
+MUST 表現 & 文法,応募していただく,おうぼしていただく,oubo shite itadaku,Ariza topshirishingiz (hurmat shakli),you kindly applying,
+MUST 表現 & 文法,採用になった時,さいようになったとき,saiyou ni natta toki,Ishga qabul qilingan paytda,when hired,
+MUST 表現 & 文法,主な仕事になる,おもなしごとになる,omona shigoto ni naru,Asosiy vazifa / ish bo‘ladi,becomes the primary work,
+MUST 表現 & 文法,簡単ではありますが,かんたんではありますが,kantan dewa arimasu ga,Qisqacha bo‘lsa-da (muloyim kirish),brief though it may be,
+MUST 表現 & 文法,ご興味がおありになった場合,ごきょうみがおありになったばあい,gokyoumi ga oari ni natta baai,Agar qiziqishingiz bo‘lsa (juda muloyim),in case you have interest,
+MUST 表現 & 文法,お申し込みいただければと思います,おもうしこみいただければとおもいます,omoushikomi itadakereba to omoimasu,Ariza topshirishingizni so‘rab qolamiz,we hope you will apply,
+MUST 表現 & 文法,よろしくお願いします,よろしくおねがいします,yoroshiku onegaishimasu,Hamkorlik uchun oldindan rahmat / marhamat,thank you in advance / looking forward,
+MUST 表現 & 文法,以上です,いじょうです,ijou desu,Shu bilan tamom (taqdimot yakuni),that is all / thank you,
+MUST 単語 (3-qism),選考,せんこう,senkou,"Nomzodlarni saralash, tanlov","selection, screening",
+MUST 単語 (3-qism),流れ,ながれ,nagare,"Jarayon, ketma-ketlik, oqim","flow, stream, procedure",
+MUST 単語 (3-qism),フロー,フロー,furoo,"Jarayon, bosqichlar ketma-ketligi (flow)","flow, process sequence",
+MUST 単語 (3-qism),案内,あんない,annai,"Yo‘l-yo‘riq, ma'lumot berish, yo‘naltirish","guidance, information",
+MUST 単語 (3-qism),私,わたし,watashi,Men,"I, me",
+MUST 単語 (3-qism),方,ほう,hou,"Tomon, taraf, yo‘nalish","side, direction",
+MUST 単語 (3-qism),時間,じかん,jikan,"Vaqt, soat","time, hour",
+MUST 単語 (3-qism),先に,さきに,sakini,"Avval, oldin, birinchi bo‘lib","ahead, before, first",
+MUST 単語 (3-qism),質問,しつもん,shitsumon,Savol,"question, inquiry",
+MUST 単語 (3-qism),先生,せんせい,sensei,"O‘qituvchi, ustoz, mutaxassis","teacher, instructor",
+MUST 単語 (3-qism),感じ,かんじ,kanji,"His, taassurot, kayfiyat, vaziyat","feeling, sense, impression",
+MUST 単語 (3-qism),いただく,いただく,itadaku,"Qabul qilmoq, olmoq (kamtarlik shakli)",to receive (humble),
+MUST 単語 (3-qism),ありがとうございます,ありがとうございます,arigatou gozaimasu,"Rahmat, minnatdorman (muloyim)",thank you very much,
+MUST IT & Biznes,選考フロー,せんこうフロー,senkou furoo,Ishga qabul qilish / saralash bosqichlari,selection / recruitment process flow,
+MUST IT & Biznes,最後のフロー,さいごのフロー,saigo no furoo,Saralash jarayonining oxirgi bosqichi,final stage of selection flow,
+MUST IT & Biznes,案内する,あんないする,annai suru,"Ma'lumot bermoq, yo‘l-yo‘riq ko‘rsatmoq","to guide, show around, inform",
+MUST IT & Biznes,質疑応答の時間,しつぎおうとうのじかん,shitsugi outou no jikan,Savol-javob sessiyasi vaqti,Q&A session time,
+MUST IT & Biznes,質問を受け付ける,しつもんをうけつける,shitsumon o uketsukeru,Savollarni qabul qilmoq / eshitmoq,to accept questions,
+MUST IT & Biznes,質問があれば,しつもんがあれば,shitsumon ga areba,Agar savollar bo‘lsa,if there are any questions,
+MUST 表現 & 文法,～では,～では,~dewa,Unday bo‘lsa / u holda / xo‘sh (N4),"well then, in that case","【Tuzilishi: では (gap boshida)】では、選考の最後のフローの案内をします。 (Unday bo‘lsa, saralash jarayonining oxirgi bosqichini tanishtiraman.)"
+MUST 表現 & 文法,～の方から,～のほうから,~no hou kara,... tomonidan / ... tarafdan (gapni muloyimlashtiradi),from the side of...,"【Tuzilishi: N + の方から】私の方からご案内するんですけれども... (Men tomondan tushuntirib bermoqchi edim, lekin...)"
+MUST 表現 & 文法,～んですけれども,～んですけれども,~n desu keredomo,"... qilmoqchiman, lekin... / ... bo‘ladi-yu (N3)","I would like to..., but...",【Tuzilishi: Oddiy shakl + んですけれども】ちょっと聞きたいことがあるんですけれども。 (Biroz so‘ramoqchi bo‘lgan savolim bor edi-yu (muloyim).)
+MUST 表現 & 文法,～ばと思います,～ばとおもいます,~ba to omoimasu,... qilsak yaxshi bo‘lardi deb o‘ylayman (N2),I hope/think it would be good if...,【Tuzilishi: Vば + と思います】先に質疑応答の時間に入れればと思います。 (Avval savol-javob vaqtiga o‘tsak yaxshi bo‘lardi deb o‘ylayman.)
+MUST 表現 & 文法,じゃあ,じゃあ,jaa,Unday bo‘lsa / xo‘sh / yaxshi (og‘zaki),"well then, so","【Tuzilishi: じゃあ (og'zaki)】じゃあ、どんな感じかな？ (Unday bo‘lsa, vaziyat qanday?)"
+MUST 表現 & 文法,～かな,～かな,~kana,"...mikan? / ... qanday ekan? (o‘y-mulohaza, N3)",I wonder if...,【Tuzilishi: Oddiy shakl + かな】どんな感じかな？質問はあるかな？ (Vaziyat qanday ekan? Savollar bormikan?)
+MUST 表現 & 文法,～とか,～とか,~toka,... kabi / ... yoki shunga o‘xshash,"such as, like, and so on","【Tuzilishi: N + とか / V辞書形 + とか】もし質問とかあれば、遠慮なくどうぞ。 (Agar savol yoki shunga o‘xshash narsa bo‘lsa, tortinmasdan bering.)"
+MUST 表現 & 文法,～ば,～ば,~ba,"Agar ... bo‘lsa (shart shakli, N4)","if, provided that","【Tuzilishi: 条件形 (Vば)】時間があれば、参加してください。 (Vaqtingiz bo‘lsa, qatnashing.)"
+MUST 表現 & 文法,～ていただけますか,～ていただけますか,~te itadakemasu ka,"... qilib bera olasizmi? (rasmiy iltimos, N2)",could you please do...?,【Tuzilishi: Vて + いただけますか】この時間に質問をいただけますか？ (Shu vaqt ichida savollaringizni bera olasizmi? (rasmiy))
+MUST 表現 & 文法,私の方から,わたしのかたから,watashi no hou kara,Men tomondan / shaxsan men,"from my side, from me",
+MUST 表現 & 文法,案内をする,あんないをする,annai o suru,"Yo‘l-yo‘riq ko‘rsatmoq, ma'lumot bermoq",to provide guidance,
+MUST 表現 & 文法,時間があるので,じかんがあるので,jikan ga aru node,Vaqt borligi sababli / imkoniyat borida,since there is time,
+MUST 表現 & 文法,質疑応答の時間に入る,しつぎおうとうのじかんにはいる,shitsugi outou no jikan ni hairu,Savol-javob qismiga o‘tmoq,enter into Q&A time,
+MUST 表現 & 文法,どんな感じかな,どんなかんじかな,donna kanji kana,Qanday vaziyat ekan? / qanday holatda?,how does it feel / how is it?,
+MUST 表現 & 文法,もし質問とかあれば,もししつもんとかあれば,moshi shitsumon toka areba,Agar savollaringiz yoki tushunarsiz joylar bo‘lsa,if you have any questions,
+MUST 表現 & 文法,いただけますか,いただけますか,itadakemasu ka,Qilib bera olasizmi? / mumkinmi?,could you please?,
+MUST 単語 (3-qism),聞こえる,きこえる,kikoeru,"Eshitilmoq, quloqqa chalinmoq","to be heard, audible",
+MUST 単語 (3-qism),転職,てんしょく,tenshoku,Boshqa kompaniyaga ishga o‘tish (job change),"job change, career change",
+MUST 単語 (3-qism),部署,ぶしょ,busho,"Bo‘lim, departament, xizmat bo'linmasi","department, section",
+MUST 単語 (3-qism),またぐ,またぐ,matagu,"Kesib o‘tmoq, qamrab olmoq","to straddle, cross over, span",
+MUST 単語 (3-qism),別,べつ,betsu,"Boshqa, alohida, ajratilgan","different, another, separate",
+MUST 単語 (3-qism),挑戦,ちょうせん,chousen,"Sinov, chaqiriq, yangi narsaga urinish","challenge, attempt",
+MUST 単語 (3-qism),可能,かのう,kanou,"Mumkin, amalga oshirsa bo‘ladigan","possible, feasible",
+MUST 単語 (3-qism),変更,へんこう,henkou,"O‘zgartirish, tahrirlash","change, alteration, modification",
+MUST 単語 (3-qism),ありがち,ありがち,arigachi,"Tez-tez uchraydigan, odatiy hol","common, frequent",
+MUST 単語 (3-qism),もともと,もともと,motomoto,"Avvaldan, dastlab, aslida","originally, from the start",
+MUST 単語 (3-qism),方々,かたがた,katagata,"Kishilar, insonlar (hurmat shakli)","people, gentlemen/ladies",
+MUST 単語 (3-qism),部門,ぶもん,bumon,"Bo‘lim, tarmoq, departament","division, branch, sector",
+MUST 単語 (3-qism),先ほど,さきほど,sakihodo,"Biroz oldin, boyagina","a while ago, earlier",
+MUST 単語 (3-qism),市場,しじょう,shijou,"Bozor, iqtisodiy bozor yo‘nalishi",market,
+MUST 単語 (3-qism),大学向け,だいがくむけ,daigakumuke,Universitetlar va oliygohlar uchun mo‘ljallangan,intended for universities,
+MUST 単語 (3-qism),企業,きぎょう,kigyou,"Korxona, kompaniya, biznes tashkilot","enterprise, corporation",
+MUST 単語 (3-qism),研修,けんしゅう,kenshuu,"Trening, malaka oshirish, amaliyot","training, in-service study",
+MUST 単語 (3-qism),最近,さいきん,saikin,"So‘nggi paytlarda, yaqinda","recently, lately",
+MUST 単語 (3-qism),全社,ぜんしゃ,zensha,"Butun kompaniya, jamoa",whole company,
+MUST 単語 (3-qism),製品,せいひん,seihin,"Mahsulot, tayyor tovar","product, manufactured goods",
+MUST 単語 (3-qism),試す,ためす,tamesu,"Sinab ko‘rmoq, tekshirib ko‘rmoq","to try, test, attempt",
+MUST 単語 (3-qism),既存,きそん,kison,"Mavjud, amaldagi, avvaldan bor","existing, established",
+MUST 単語 (3-qism),事業部,じぎょうぶ,jigyoubu,Biznes / operatsion bo‘lim,business division,
+MUST 単語 (3-qism),体制,たいせい,taisei,"Tashkiliy tizim, tuzilma","system, structure, organization",
+MUST 単語 (3-qism),枠,わく,waku,"Chegara, ramka, me'yor doirasi","frame, limit, boundary",
+MUST 単語 (3-qism),越える,こえる,koeru,"Oshib o‘tmoq, chegaradan chiqmoq","to cross over, exceed, transcend",
+MUST 単語 (3-qism),任務,にんむ,ninmu,"Vazifa, topshiriq, burch","duty, task, mission",
+MUST 単語 (3-qism),制度,せいど,seido,"Tizim, tartib, qoida, institut","system, institution, policy",
+MUST 単語 (3-qism),機会,きかい,kikai,"Imkoniyat, qulay fursat","opportunity, chance",
+MUST 単語 (3-qism),部門長,ぶもんちょう,bumonchou,"Bo‘lim boshlig‘i, departament rahbari","department manager, division head",
+MUST 単語 (3-qism),単に,たんに,tanni,"Shunchaki, faqatgina","simply, merely, solely",
+MUST 単語 (3-qism),与える,あたえる,ataeru,"Bermoq, taqdim qilmoq, yuklamoq","to give, grant, assign",
+MUST 単語 (3-qism),叶える,かなえる,kanaeru,Orzu yoki istakni amalga oshirmoq,"to fulfill, grant (a dream/wish)",
+MUST 単語 (3-qism),付け加える,つけくわえる,tsukekuwaeru,"Qo‘shimcha qilmoq, ilova qilmoq","to add, append",
+MUST 単語 (3-qism),業務,ぎょうむ,gyoumu,"Xizmat vazifasi, ish faoliyati, operatsiyalar","business operations, duties",
+MUST 単語 (3-qism),時間外,じかんがい,jikangai,Ish vaqtidan tashqari vaqt,"overtime, outside hours",
+MUST 単語 (3-qism),研究,けんきゅう,kenkyuu,"Tadqiqot, ilmiy izlanish","research, study",
+MUST 単語 (3-qism),抱える,かかえる,kakaeru,"O‘z zimmasida bo‘lmoq, muammoga ega bo‘lmoq","to hold, shoulder, have (problems)",
+MUST 単語 (3-qism),生まれる,うまれる,umareru,"Yaratilmoq, dunyoga kelmoq, paydo bo‘lmoq","to be born, created, come into being",
+MUST IT & Biznes,職種変更,しょくしゅへんこう,shokushu henkou,Kompaniya ichida kasb/lavozim turini o‘zgartirish (Career Change),internal career change / position change,社内制度を利用して職種変更を行いました。 (Kompaniya ichki tizimidan foydalanib lavozim turini o‘zgartirdi.)
+MUST IT & Biznes,部署異動,ぶしょいどう,busho idou,Boshqa bo‘limga o‘tish (Department Transfer),"department transfer, reassignment",来月から新しいチームへ部署異動します。 (Kelgusi oydan boshlab yangi jamoaga bo‘lim bo‘yicha o‘taman.)
+MUST IT & Biznes,下流工程,かりゅうこうてい,karyuu koutei,"Quyi loyiha bosqichlari (dasturlash, testlash va o'rnatish)","downstream process (coding, testing, deployment)",コーディングやテストなどの下流工程を担当します。 (Kod yozish va testlash kabi quyi bosqichlarni bajaradi.)
+MUST IT & Biznes,企業研修,きぎょうけんしゅう,kigyou kenshuu,Korxona / korporativ trening (Corporate Training),corporate training,
+MUST IT & Biznes,市場調査,しじょうちょうさ,shijou chousa,Bozor tadqiqoti va tahlili (Market Research),"market research, marketing analysis",
+MUST IT & Biznes,新製品開発,しんせいひんかいはつ,shinseihin kaihatsu,Yangi mahsulot ishlab chiqish (Product Development),new product development,
+MUST IT & Biznes,組織体制,そしきたいせい,soshiki taisei,Tashkiliy tuzilma va jamoa strukturosi,organizational structure,
+MUST IT & Biznes,ミッションチーム,ミッションチーム,misshon chiimu,Maxsus vazifali jamoa (Mission Team),"mission team, task force",新規事業のためのミッションチームに参加します。 (Yangi biznes uchun tuzilgan maxsus vazifali jamoada qatnashaman.)
+MUST IT & Biznes,チャレンジプロジェクト,チャレンジプロジェクト,charenji purojekuto,Sinov va erkin tashabbus loyihasi (Challenge Project),challenge project,チャレンジプロジェクトで新しいアプリを作りました。 (Challenge Project doirasida yangi ilova yaratdim.)
+MUST IT & Biznes,研究開発,けんきゅうかいはつ,kenkyuu kaihatsu,Tadqiqot va ishlab chiqish (R&D),research and development (R&D),AIを活用した新しいサービスの研究開発を進めています。 (AI texnologiyalaridan foydalangan holda yangi xizmatlar R&D tadqiqotini olib bormoqda.)
+MUST 表現 & 文法,～っていうのは,～っていうのは,~tte iu no wa,... degani nima? / ... deganda nimani tushunamiz? (N3),as for what is called...,"【Tuzilishi: N + というのは (og'zaki: っていうのは)】「転職」っていうのは、別の会社に行くことですよね。 (""転職"" degani boshqa kompaniyaga o‘tish, shunday emasmi?)"
+MUST 表現 & 文法,～をまたいで,～をまたいで,~o mataide,... chegarasini kesib o‘tib / bir nechta sohani qamrab olib,"straddling across, spanning...",【Tuzilishi: N + をまたいで】複数の部署をまたいでプロジェクトを進めます。 (Bir nechta bo‘limlar chegarasini qamrab loyihani olib boramiz.)
+MUST 表現 & 文法,～たい,～たい,~tai,...moqchi bo‘lmoq / qilishni xohlamoq (N5),want to do...,【Tuzilishi: Vます + たい】新しいことにチャレンジしたいです。 (Yangi narsani sinab ko‘rmoqchiman.)
+MUST 表現 & 文法,～ってことですよね,～ってことですよね,~tte koto desu yo ne,"... degani, to‘g‘rimi? / ... demoqchisiz, shundaymi? (N3)","you mean that..., right?","【Tuzilishi: Oddiy gap + ってことですよね】新しい分野に挑戦したいってことですよね。 (Yangi sohaga qadam qo‘ymoqchisiz, demoqchisiz, to‘g‘rimi?)"
+MUST 表現 & 文法,～可能だ,～かのうだ,~kanou da,... imkoniyati mavjud / mumkin (N3),it is possible to...,【Tuzilishi: N + が可能 / 可能だ】社内で職種を変更することが可能です。 (Kompaniya ichida lavozim turini o‘zgartirish mumkin.)
+MUST 表現 & 文法,～ありがちだ,～ありがちだ,~arigachi da,Ko‘p uchraydigan / tez-tez sodir bo‘ladigan (N2),"prone to, frequently occurring",【Tuzilishi: Vます + がち / N + がち】忙しい時は、連絡を忘れがちです。 (Band paytda xabar berishni unutib qo‘yishga moyil bo‘lamiz.)
+MUST 表現 & 文法,～ごとに,～ごとに,~goto ni,Har bir ...ga / ... bo‘yicha (N2),"every, per, each",【Tuzilishi: N + ごとに】市場ごとに専門の部門があります。 (Har bir bozor yo‘nalishi bo‘yicha alohida ixtisoslashgan bo‘lim mavjud.)
+MUST 表現 & 文法,～てみたい,～てみたい,~te mitai,... qilib ko‘rmoqchi bo‘lmoq (N3),want to try doing...,【Tuzilishi: Vて + みたい】企業研修とかやってみたいです。 (Korporativ treninglarni ham o‘tkazib ko‘rmoqchiman.)
+MUST 表現 & 文法,～を挙げて,～をあげて,~o agete,...ni safarbar qilib / barchasini jalb qilib (N2),"with the whole..., mobilizing...",【Tuzilishi: N + を挙げて】全社を挙げて新しいプロジェクトに取り組みます。 (Butun kompaniya barcha kuchini birlashtirib yangi loyiha ustida ishlaydi.)
+MUST 表現 & 文法,～を越えて,～をこえて,~o koete,... chegarasidan oshib / ...dan o‘tib (N3),"crossing beyond, transcending...",【Tuzilishi: N + を越えて】既存の枠を越えて新しいチームを作ります。 (Mavjud doiralar chegarasidan chiqib yangi jamoa tuzamiz.)
+MUST 表現 & 文法,～みたいな,～みたいな,~mitai na,...ga o‘xshagan / ... kabi,"like, similar to...",【Tuzilishi: N + みたいな + N】ミッションチームみたいなのを作ることもあります。 (Mission team kabi maxsus jamoalarni tashkil qilish holatlari ham bo‘ladi.)
+MUST 表現 & 文法,～こともある,～こともある,~koto mo aru,... holatlari ham bo‘ladi / qilish ham mumkin (N3),sometimes there are cases where...,【Tuzilishi: V辞書形 + こともある】新しい製品をトライアルすることもあります。 (Yangi mahsulotni sinab ko‘radigan paytlarimiz ham bo‘ladi.)
+MUST 表現 & 文法,～に手を挙げる,～にてをあげる,~ni te o ageru,Ko‘ngilli bo‘lib chiqmoq / tashabbus ko'rsatmoq (biznes),"volunteer for, raise hand for",【Tuzilishi: N + に手を挙げる】新しいプロジェクトに手を挙げることができます。 (Yangi loyihada ishtirok etish uchun o‘z nomzodingizni bildirishingiz mumkin.)
+MUST 表現 & 文法,～ていただくこともできる,～ていただくこともできる,~te itadaku koto mo dekiru,... qilishingiz ham mumkin (rasmiy taklif),it is also possible for you to...,【Tuzilishi: Vて + いただくこともできる】自由に手を挙げていただくこともできます。 (Ixtiyoriy ravishda o‘z tashabbusingizni bildirishingiz ham mumkin.)
+MUST 表現 & 文法,～し,～し,~shi,"... ham / ... va bundan tashqari (sabab/omil, N3)","and, moreover, besides","【Tuzilishi: Oddiy gap + し】いろんなチャレンジが行えますし、待遇もいいです。 (Turli yangi tashabbuslarni amalga oshirsa bo‘ladi, bundan tashqari sharoitlar ham yaxshi.)"
+MUST 表現 & 文法,～なくても,～なくても,~nakutemo,... bo‘lmasa ham / qilmasdan ham (N3),"even without, even if not...","【Tuzilishi: Vない (い→くても)】そういう機会がなくても、面談で相談できます。 (Bunday imkoniyat bo‘lmagan taqdirda ham, yakkama-yakka suhbatda maslahatlashish mumkin.)"
+MUST 表現 & 文法,～際に,～さいに,~sai ni,... vaqtida / ... paytida (N3),"at the time of, on the occasion of","【Tuzilishi: Nの際に / V辞書形・Vた + 際に】面談の際に「やってみたい」と希望を伝えます。 (Suhbat vaqtida ""qilib ko‘rmoqchiman"" deb o‘z istagini bildiradi.)"
+MUST 表現 & 文法,～だけじゃなくて,～だけじゃなくて,~dake ja nakute,"...gina emas, balki... (N3)",not only... but also...,"【Tuzilishi: N + だけじゃなくて】単に与えられた仕事をするだけじゃなくて、研究もできます。 (Shunchaki berilgan topshiriqni bajarish bilangina cheklanmasdan, tadqiqot ham qila oladi.)"
+MUST 表現 & 文法,～を叶える,～をかなえる,~o kanaeru,Orzu yoki istakni amalga oshirmoq,"to fulfill, make (a wish) come true",【Tuzilishi: N + を叶える】社員の「やってみたい」という思いを叶えます。 (Xodimlarning biror ishni sinab ko‘rish orzusini ro‘yobga chiqaradi.)
+MUST 表現 & 文法,～という制度がある,～というせいどがある,~to iu seido ga aru,... degan tizim / tartib mavjud,there is a system called...,"【Tuzilishi: N + という制度がある】「チャレンジプロジェクト」という制度があります。 (""Challenge Project"" deb ataladigan o‘ziga xos tizim mavjud.)"
+MUST 表現 & 文法,～時間外に,～じかんがいに,~jikangai ni,Ish vaqtidan tashqarida,outside working hours,【Tuzilishi: N + 時間外に】業務時間外に自分の研究を進めます。 (Ish vaqtidan tashqarida shaxsiy tadqiqotini olib boradi.)
+MUST 表現 & 文法,～というふうにして,～というふうにして,~to iu fuu ni shite,... shu tarzda / ... yo‘li bilan,in such a way that...,【Tuzilishi: Oddiy shakl + というふうにして】そういうふうにして生まれたサービスがたくさんあります。 (Aynan shu yo‘sinda yaratilgan juda ko‘p xizmatlar mavjud.)
+MUST 表現 & 文法,職種を変更する,しょくしゅをへんこうする,shokushu o henkou suru,Lavozim turini o‘zgartirish,to change job category,
+MUST 表現 & 文法,新しいことに挑戦する,あたらしいことにちょうせんする,atarashii koto ni chousen suru,Yangi sohaga urinish / sinab ko‘rish,take on a new challenge,
+MUST 表現 & 文法,上流工程に変える,じょうりゅうこうていにかえる,jouryuu koutei ni kaeru,Yuqori bosqichdagi loyihalash ishlariga o‘tish,shift to upstream processes,
+MUST 表現 & 文法,市場ごとに部門がある,しじょうごとにぶもんがある,shijou goto ni bumon ga aru,Har bir bozor yo‘nalishi uchun alohida bo‘lim mavjud,there is a division for each market,
+MUST 表現 & 文法,大学向けのシステム,だいがくむけのシステム,daigakumuke no shisutemu,Universitetlar va OTMlar uchun tizim,systems for universities,
+MUST 表現 & 文法,企業研修をやってみる,きぎょうけんしゅうをやってみる,kigyou kenshuu o yatte miru,Korporativ trening o‘tkazib ko‘rmoq,try conducting corporate training,
+MUST 表現 & 文法,枠を越える,わくをこえる,waku o koeru,Doira va chegaralardan tashqariga chiqish,transcend the boundaries,
+MUST 表現 & 文法,部門長と面談する,ぶもんちょうとめんだんする,bumonchou to mendan suru,Bo‘lim boshlig‘i bilan suhbatlashish,interview with department manager,
+MUST 表現 & 文法,自分の希望を伝える,じぶんのきぼうをつたえる,jibun no kibou o tsutaeru,O‘z xohish va maqsadlarini ochiq bildirish,express one's wishes,
+MUST 表現 & 文法,研究・開発を行う,けんきゅう・かいはつをおこなう,kenkyuu - kaihatsu o okonau,Tadqiqot va yangi ishlanmalar ustida ishlash,conduct R&D,
+MUST 表現 & 文法,新しいサービスが生まれる,あたらしいサービスがうまれる,atarashii saabisu ga umareru,Yangi xizmat va mahsulotning yaratilishi,new service is born,
