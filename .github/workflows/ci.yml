@@ -29,7 +29,7 @@ jobs:
           assert os.path.exists('index.html'), 'index.html missing'
           assert os.path.getsize('index.html') > 100000, 'index.html too small'
           
-          for csv_file in ['sozlar-dekiru.csv', 'sozlar-n2.csv']:
+          for csv_file in ['sozlar-dekiru.csv', 'sozlar-n2.csv', 'sozlar-must.csv']:
               assert os.path.exists(csv_file), f'{csv_file} missing'
               with open(csv_file, 'r', encoding='utf-8') as f:
                   reader = csv.reader(f)
