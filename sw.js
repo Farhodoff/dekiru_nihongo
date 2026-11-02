@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dekiru-n2-v7';
+const CACHE_NAME = 'dekiru-n2-v8';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
