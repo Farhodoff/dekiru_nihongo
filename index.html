@@ -22,417 +22,6 @@
       }
     }catch(e){}
   })();
-
-// === MENSETSU (INTERVIEW PREPARATION) LOGIC ===
-const DATA_ES = [{"id": 1, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "１．何社の会社説明会を受けましたか？", "q_uz": "1. Nechta kompaniyaning taqdimot (tushuntirish) yig'ilishida qatnashdingiz?", "point_uz": "Ko'p yoki kam aytish emas, real va muvozanatli raqam (3-5 ta) aytish maqsadga muvofiq. Bir nechta IT kompaniyalarni solishtirib, aynan nima uchun DK ni tanlaganingizni ko'rsatishga imkon beradi.", "ans_jp": "3社です。主にIT・Web開発および教育工学領域の企業の説明会に参加いたしました。", "ans_uz": "3 ta kompaniya. Asosan IT, veb-dasturlash va ta'lim texnologiyalari sohasidagi korxonalar taqdimotida qatnashdim.", "keywords": ["会社説明会 (Taqdimot yig'ilishi)", "教育工学 (Ta'lim texnologiyalari)", "企業理解 (Kompaniyani o'rganish)"]}, {"id": 2, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "２．今まで参加された会社説明会で、良い印象を受けたのはどのような内容でしたか？", "q_uz": "2. Hozirgacha qatnashgan tushuntirish yig'ilishlarida qaysi jihatlar yaxshi taassurot qoldirdi?", "point_uz": "Siz qanday ish muhitini qadrlashingizni bilishmoqchi. Kompaniyaning ijtimoiy hissasi va muhandislarning o'sish muhitini ta'kidlash eng yaxshi javobdir.", "ans_jp": "自社のサービス（特に主力製品であるLMSやeラーニング技術）が、教育現場や社会にどのように貢献しているかが明確に伝わり、若手エンジニアのキャリアパスや成長環境が具体的に説明されている点に大変良い印象を受けました。", "ans_uz": "Kompaniya xizmatlari (ayniqsa, LMS va e-Learning texnologiyalari) ta'limga qanday hissa qo'shayotgani aniq ko'rsatilgani hamda yosh dasturchilarning o'sish imkoniyatlari batafsil tushuntirilgani juda ijobiy taassurot qoldirdi.", "keywords": ["教育現場への貢献 (Ta'limga hissa qo'shish)", "主力製品 (Asosiy mahsulot)", "成長環境 (O'sish muhiti)"]}, {"id": 3, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "３．同じく今まで参加された会社説明会で、悪い印象を受けたのはどのような内容でしたか？", "q_uz": "3. Qatnashgan yig'ilishlaringizda qaysi jihatlar noaniq yoki salbiy taassurot uyg'otdi?", "point_uz": "Boshqa kompaniyalarni yomonlash emas, balki shaffoflik va aniq texnik maqsadlarni qadrlashingizni madaniyatli ifodalash kerak.", "ans_jp": "業務内容や求める人物像が抽象的で、入社後にどのような技術スタックでどのようなプロジェクトに携わるのかが不透明な説明会には、やや不安を感じました。", "ans_uz": "Ish mazmuni va qidirilayotgan mutaxassis qiyofasi noaniq bo'lgan, ishga kirgach qanday texnologiyalar ustida ishlash ochiq aytilmagan taqdimotlar biroz ikkilanish uyg'otdi.", "keywords": ["求める人物像 (Kutilgan nomzod)", "技術スタック (Texnologiyalar to'plami)", "不透明 (Noaniq/mavhum)"]}, {"id": 4, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "４．当社の会社説明会で、良かった/悪かった点、参考になった/ならなかった点をお知らせ下さい", "q_uz": "4. Bizning (Digital Knowledge) taqdimotimizda qaysi jihatlar ma'qul bo'ldi va nimalar foydali bo'ldi?", "point_uz": "Kompaniyaning KnowledgeDeliver mahsuloti va AI strategiyasini bilishingizni ko'rsatish intervyuerda chuqur qiziqish uyg'otadi.", "ans_jp": "【良かった点・参考になった点】教育×IT（eラーニング）のリーディングカンパニーとしての強みや、KnowledgeDeliverなどの自社開発プラットフォームの技術展開、さらにAI技術を教育に統合していくビジョンが非常に明確で、エンジニアとして強く惹かれました。\n【改善点】特にございませんが、若手エンジニアの1日の具体的な開発フローをさらに詳しく伺えたらより嬉しいと感じました。", "ans_uz": "【Ijobiy jihatlar】Ta'lim×IT sohasining yetakchi kompaniyasi sifatidagi ustunlik, KnowledgeDeliver kabi mualliflik tizimlarining rivoji va AI ni ta'limga tatbiq etish rejasi dasturchi sifatida meni juda qiziqtirdi. 【Istak】Yosh dasturchilarning bir kunlik amaliy ish tartibini ham ko'proq eshitsam ajoyib bo'lardi.", "keywords": ["リーディングカンパニー (Yetakchi kompaniya)", "KnowledgeDeliver (Asosiy LMS mahsulot)", "AI統合 (AI ni integratsiya qilish)"]}, {"id": 5, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "５．当社以外に応募された会社（及び選考状況）があれば挙げてください（可能な範囲で結構です）", "q_uz": "5. Bizdan tashqari qaysi kompaniyalarga hujjat topshirdingiz va hozirgi holati qanday?", "point_uz": "Boshqa joylarga ham topshirganingiz tabiiy, lekin Digital Knowledge siz uchun 1-raqamli ustuvor tanlov (第一志望) ekanligini ta'kidlash zarur.", "ans_jp": "IT・Web開発企業2社（書類選考・一次面接準備中）に応募しておりますが、教育工学とeラーニング領域において圧倒的な実績を持つ貴社を第一志望としております。", "ans_uz": "Yana 2 ta veb-ishlab chiquvchi kompaniyaga topshirganman (hujjat tekshiruvi va 1-bosqich suhbati arafasida), biroq ta'lim texnologiyalarida eng boy tajribaga ega bo'lgan sizning kompaniyangiz mening birinchi raqamli tanlovimdir.", "keywords": ["第一志望 (Birinchi raqamli tanlov)", "選考状況 (Tanlov bosqichi)", "圧倒的な実績 (Katta tajriba va natijalar)"]}, {"id": 6, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "６．入社を希望される決め手は何になりますか？（重要視する点を記載下さい：例-会社理念､会社風土､条件etc.）", "q_uz": "6. Ishga kirishni xohlashingizdagi eng asosiy hal qiluvchi omil nima?", "point_uz": "Bu savol — 志望動機 (Motivatsiya) ning o'zagi! Shunchaki chet elda ishlash emas, aynan kompaniyaning o'z mahsulotiga egaligi va missiyasini urg'ulash lozim.", "ans_jp": "「教育×テクノロジーで人々の学びを変革する」という貴社の理念と、自社開発のeラーニング製品に深く共感したことが最大の決め手です。受託開発にとどまらず、自社プロダクトを持つ環境で、フロントエンド・バックエンド・AI技術を駆使してユーザーの成長を支えるシステムを開発したいと考えています。", "ans_uz": "«Ta'lim×Texnologiya orqali insonlar bilim olishini yangi bosqichga olib chiqish» falsafasi va kompaniyangizning o'z mualliflik mahsulotiga ega ekanligi eng asosiy sababdir. Frontend, backend va AI imkoniyatlarini birlashtirib, o'rganuvchilar o'sishiga yordam beradigan tizimlar yaratishni istayman.", "keywords": ["理念への共感 (Kompaniya g'oyasiga qo'shilish)", "自社プロダクト (Mualliflik mahsuloti)", "学びの変革 (Ta'limdagi yangilanish)"]}, {"id": 7, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "７．あなたの長所と、短所を客観的に述べて下さい", "q_uz": "7. Kuchli (長所) va zaif (短所) tomonlaringizni xolisona aytib bering", "point_uz": "Kamchilikni aytganda, uni qanday nazorat qilishingiz va yechimini ko'rsatishingiz kerak (masalan, detallarga berilish -> reja va taymlayn tuzish orqali boshqarish).", "ans_jp": "【長所】課題解決に対する探究心と行動力です。技術的な問題に直面した際も原因を論理的に突き止め、モダンな技術やAIを活用して迅速に形にする実行力があります。\n【短所】こだわりが強く、細部に熱中しすぎてしまう点です。そのため、事前に優先順位とタイムラインを明確にし、全体最適を意識して開発を進めるよう徹底しています。", "ans_uz": "【Kuchli tomonim】Muammolarni yechishdagi izlanuvchanlik va harakatchanlik. Muammoga duch kelganda uning tub sababini topib, zamonaviy texnologiyalar orqali tezda ishlaydigan holatga keltiraman. 【Zaif tomonim】Detallarga haddan ortiq berilib ketishim. Buni bartaraf etish uchun oldindan muhimlik darajasini va vaqt chegarasini belgilab, umumiy loyiha muddatini ushlashga odatlanganman.", "keywords": ["探究心と行動力 (Izlanuvchanlik va amaliy harakat)", "論理的 (Mantiqiy yondashuv)", "全体最適 (Umumiy samaradorlik)"]}, {"id": 8, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "８．あなたの趣味と特技は何ですか？", "q_uz": "8. Qiziqishlaringiz (hobbi) va alohida mahoratingiz nimalardan iborat?", "point_uz": "Shaxsiy qiziqishingiz ham dasturlash va o'rganishga bog'liq ekanligi sizning kasbingizga chin dildan mehr qo'yganingizni ko'rsatadi.", "ans_jp": "【趣味】新しいWeb技術やAIツールのキャッチアップ、個人アプリ開発、技術書の読書です。\n【特技】フルスタックWeb開発（React, TypeScript, FastAPI）、日常的な課題を解決するWebツールの迅速なプロトタイピング、タッチタイピングです。", "ans_uz": "【Qiziqishlarim】Yangi veb-texnologiyalar va AI vositalarini o'rganish, mustaqil ilovalar yaratish, IT adabiyotlarini mutolaa qilish. 【Mahoratim】Full-stack dasturlash (React, TypeScript, FastAPI), muammolarga tezda veb-prototiplar yaratish va klaviaturada qaramay tez yozish.", "keywords": ["キャッチアップ (Yangi bilimlarni o'zlashtirish)", "プロトタイピング (Tezkor prototip yaratish)", "タッチタイピング (Tez yozish)"]}, {"id": 9, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "９．仕事を行なうに当たって、あなたが会社（又は管理監督者）に望むことは何ですか？", "q_uz": "9. Ishlash davomida kompaniyadan (yoki rahbardan) nimani istaysiz?", "point_uz": "Maqsadlarning aniq qo'yilishi va samimiy ochiq fikr almashish muhitini so'rash jamoaviy ishlashga tayyorligingizni ko'rsatadi.", "ans_jp": "目的や期待される成果が明確に共有されること、そしてチームで率直に技術やアイデアを議論し合えるオープンなコミュニケーション環境を望みます。いただいたフィードバックを積極的に吸収し、チームの成果に貢献したいです。", "ans_uz": "Vazifaning maqsadi va kutilayotgan natijalar aniq bo'lishini hamda jamoa bilan yangi texnologiya va g'oyalarni erkin muhokama qila oladigan ochiq muloqot muhitini istayman. Berilgan maslahat va tavsiyalarni tezda qabul qilib, jamoa yutug'iga hissa qo'shishga tayyorman.", "keywords": ["オープンなコミュニケーション (Ochiq muloqot)", "フィードバックの吸収 (Maslahatlarni qabul qilish)", "チーム貢献 (Jamoaga hissa qo'shish)"]}, {"id": 10, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "10．あなたの得意な業務や仕事はどのようなことですか？", "q_uz": "10. Qaysi yo'nalishdagi ishlarni eng yaxshi bajarasiz?", "point_uz": "Aniq texnologiyalar (React, Next.js, API, WebSocket, AI) va foydalanuvchiga qulay interfeys yaratish qobiliyatingizni ko'rsatish lozim.", "ans_jp": "React/Next.jsを用いたモダンでレスポンシブなUI/UXの設計・実装、およびFastAPIやNode.jsによるスケーラブルなREST API/リアルタイム通信（WebSocket）の構築が得意です。ユーザー目線での使いやすさとパフォーマンス改善を両立させる実装に強みがあります。", "ans_uz": "React va Next.js yordamida zamonaviy va moslashuvchan UI/UX yaratish, shuningdek, FastAPI va Node.js da yuqori yuklamaga chidamli REST API va real vaqtdagi muloqot (WebSocket) tizimlarini qurish mening kuchli tomonimdir.", "keywords": ["レスポンシブなUI/UX (Moslashuvchan interfeys)", "リアルタイム通信 (Real vaqtdagi aloqa)", "パフォーマンス改善 (Tezlikni optimallashtirish)"]}, {"id": 11, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "11．現在はご実家にお住まいでしょうか？内定となった場合、一人暮らしの予定はありますか？", "q_uz": "11. Hozir oilangiz bilan yashayapsizmi? Qabul qilinsangiz, mustaqil yolg'iz yashash rejangiz bormi?", "point_uz": "Yaponiyaga borib mustaqil yashashga ruhiy va amaliy tayyorligingizni tasdiqlash HR dagi barcha xavotirlarni yo'q qiladi.", "ans_jp": "現在はウズベキスタン（実家）在住です。内定をいただき日本へ渡航した際は、勤務地近隣にて一人暮らしを開始する予定であり、自立した生活管理にも全く問題ございません。", "ans_uz": "Hozirda O'zbekistonda oilam bilan yashayman. Ishga qabul qilinib Yaponiyaga borganimda, ish joyim yaqinida mustaqil yashay boshlayman va shaxsiy turmushni mustaqil boshqarishga to'liq tayyorman.", "keywords": ["一人暮らし (Mustaqil yolg'iz yashash)", "自立した生活管理 (Mustaqil hayotni boshqarish)", "渡航 (Yaponiyaga borish)"]}, {"id": 12, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "12．転勤に関して、いかがお考えですか？", "q_uz": "12. Boshqa shaharga ko'chib ishlash (転勤) bo'yicha fikringiz qanday?", "point_uz": "Yapon kompaniyalarida moslashuvchanlik juda qadrlanadi. Ish zarurati bo'lsa rozilik bildirish ijobiy taassurot beradi.", "ans_jp": "業務上の必要性に応じた転勤であれば、前向きに対応可能です。様々な環境や地域での経験を通じて、エンジニアとしてより視野を広げ、成長したいと考えております。", "ans_uz": "Agar ish ehtiyoji talab qilsa, boshqa joyga ko'chib ishlashga to'liq tayyorman. Turli muhitdagi yangi tajribalar dasturchi sifatida dunyoqarashimni kengaytiradi deb hisoblayman.", "keywords": ["前向きに対応 (Ijobiy/tayyor munosabat)", "視野を広げる (Dunyoqarashni kengaytirish)", "転勤 (Filialga ko'chish)"]}, {"id": 13, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "13．英語の読解力や会話力についてどの程度かお知らせ下さい", "q_uz": "13. Ingliz tilidagi o'qish va muloqot darajangiz qanday?", "point_uz": "IT sohasida inglizcha texnik hujjatlarni o'qiy olish katta ustunlik hisoblanadi.", "ans_jp": "【読解力】最新の公式技術ドキュメントやリファレンス、GitHubのディスカッションを問題なく英語で読解可能です。\n【会話力】日常会話および基礎的な業務上の意見交換が可能なレベルです。", "ans_uz": "【O'qib tushunish】Eng so'nggi rasmiy texnik hujjatlar va GitHub muhokamalarini erkin o'qib tushunaman. 【So'zlashuv】Kundalik hayotda va asosiy ish muloqotida o'z fikrimni tushuntira olaman.", "keywords": ["技術ドキュメント読解 (Hujjatlarni tushunish)", "日常会話 (Kundalik muloqot)", "リファレンス (Rasmiy manbalar)"]}, {"id": 14, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "14．あなたにとって「仕事」又は「働く事」とは、どの様に考えていますか？", "q_uz": "14. Siz uchun «ish» yoki «ishlash» nimani anglatadi?", "point_uz": "Ishga shunchaki oylik olish manbai deb emas, balki jamiyatga qiymat berish va shaxsiy o'sish yo'li deb qarash Yaponiyada eng oliy baholanadi.", "ans_jp": "「自分の技術と能力を通じて社会や他者に価値を提供し、その過程で自らも絶えず成長し続けること」と考えています。特にソフトウェア開発を通じて、多くの人々の学びや生活をより便利で豊かにすることにやりがいを感じます。", "ans_uz": "«O'z bilim va salohiyatim orqali jamiyatga foyda keltirish va bu jarayonda to'xtovsiz o'sib borish» deb bilaman. Ayniqsa, dasturiy ta'minot orqali insonlarning o'rganishini osonlashtirish men uchun eng katta mamnuniyatdir.", "keywords": ["価値の提供 (Qiymat yetkazish)", "絶えざる成長 (Doimiy o'sish)", "やりがい (Hissiy mamnuniyat)"]}, {"id": 15, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "15．給料はどの様に使いますか？", "q_uz": "15. Oylik maoshingizni qanday sarflaysiz?", "point_uz": "Tejamkorlik, mustaqil yashash xarajatlari va o'z kasbiy bilimiga sarmoya kiritish (自己投資) aytilishi kerak.", "ans_jp": "自立した生活費を堅実に管理した上で、技術書やオンライン学習、自己投資（資格取得や開発環境の整備）に計画的に充て、将来に備えた貯蓄も行います。", "ans_uz": "Kundalik yashash xarajatlarimni puxta boshqargan holda, texnik kitoblar, onlayn ta'lim va kasbiy o'sishga (sertifikatlar va texnik jihozlar) reja bilan sarflayman hamda kelajak uchun jamg'arma qilaman.", "keywords": ["自己投資 (Shaxsiy rivojlanishga sarmoya)", "堅実な管理 (Puxta boshqaruv)", "計画的 (Rejali)"]}, {"id": 16, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "16．将来の夢は何ですか？", "q_uz": "16. Kelajakdagi orzungiz va maqsadingiz nima?", "point_uz": "Kompaniyaning sohasi (EdTech / Ta'lim) bilan hamohang bo'lgan uzoq muddatli maqsadni aytish lozim.", "ans_jp": "教育とテクノロジーを融合させ、国境や環境に関わらず誰もが質の高い学習を享受できる次世代の教育プラットフォームをリードするフルスタックエンジニア・テックリードになることです。", "ans_uz": "Ta'lim va texnologiyani uyg'unlashtirib, dunyoning qayerida bo'lishidan qat'i nazar har bir inson sifatli bilim olishi mumkin bo'lgan ta'lim platformasini boshqaruvchi Tech Lead / yetakchi muhandis bo'lishdir.", "keywords": ["テックリード (Tech Lead)", "次世代教育基盤 (Yangi avlod ta'lim platformasi)", "国境を越えた学び (Chegarasiz ta'lim)"]}, {"id": 17, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "17．教育業界で仕事をするに当たって、またeラーニングの今後の展望についてどのようにお考えですか？", "q_uz": "17. Ta'lim sohasida ishlash va e-Learningning kelajak istiqbollari haqida fikringiz qanday?", "point_uz": "Aynan Digital Knowledge ning yuragi bo'lgan mavzu! Sun'iy intellekt orqali shaxsiylashtirilgan ta'lim (超個別最適化 / Adaptive Learning) haqida gapirish ayni muddao.", "ans_jp": "教育は社会の基盤であり、人々の可能性を広げる最も価値ある分野だと捉えています。今後のeラーニングは、画一的な動画配信から、AIを活用した「超個別最適化（アダプティブラーニング）」やリアルタイム双方向のインタラクティブな学びへと進化すると確信しています。学習者一人ひとりの理解度や感情に寄り添うスマートな学習環境を構築することが、今後の鍵になると考えています。", "ans_uz": "Ta'lim — jamiyat poydevori va inson salohiyatini ochuvchi eng buyuk sohadir. Kelajakda e-Learning oddiy videolardan sun'iy intellekt yordamidagi «shaxsga moslashtirilgan o'qitish» (Adaptive Learning) va real vaqtdagi ikki tomonlama jonli muloqotga o'tadi deb ishonaman.", "keywords": ["超個別最適化 (Har bir insonga moslashtirish)", "アダプティブラーニング (Adaptive Learning)", "双方向インタラクティブ (Ikki tomonlama muloqot)"]}, {"id": 18, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "18．デジタル･ナレッジでどのような業務を行ないたいと思っていますか？（希望職種記載必須）", "q_uz": "18. Digital Knowledge kompaniyasida qaysi lavozimda va qanday ishlarni bajarishni xohlaysiz?", "point_uz": "Lavozim aniq bo'lishi shart (Webエンジニア). Kompaniyaning asosiy mahsuloti KnowledgeDeliver ga hissa qo'shishingizni ayting.", "ans_jp": "【希望職種：Webエンジニア（フロントエンド／フルスタック）】\nKnowledgeDeliverをはじめとするeラーニングシステムの新機能開発、UI/UXのモダン化、およびAIやリアルタイム音声・インタラクション技術を取り入れた先進的な学習機能の研究・実装に携わりたいです。", "ans_uz": "【Istalgan kasb: Web Engineer (Frontend / Full-stack)】\nKnowledgeDeliver kabi e-Learning platformalarida yangi funksiyalar ishlab chiqish, UI/UX ni zamonaviylashtirish hamda AI va ovozli jonli muloqot texnologiyalarini tizimga tatbiq etish ustida ishlashni xohlayman.", "keywords": ["希望職種 (Istalgan lavozim)", "新機能開発 (Yangi funksiyalar yaratish)", "UI/UXのモダン化 (Zamonaviy interfeys)"]}, {"id": 19, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "19．ご希望条件等がありましたらご記入下さい", "q_uz": "19. Biror alohida talab yoki shartlaringiz bormi?", "point_uz": "Yangi bitiruvchi (新卒) sifatida ortiqcha shart qo'ymaslik, kompaniya qoidalariga rioya qilish va tezroq jamoaga hissa qo'shish niyatini bildirish eng professional javobdir.", "ans_jp": "貴社の就業規則および給与規定に従います。早期に自立し、チームに貢献できるエンジニアになれるよう全力を尽くします。", "ans_uz": "Kompaniyangiz ichki mehnat qoidalari va ish haqi me'yorlariga to'liq roziman. Qisqa fursatda jamoaga mustaqil hissa qo'sha oladigan mutaxassis bo'lish uchun bor kuchimni sarflayman.", "keywords": ["就業規則 (Mehnat qoidalari)", "給与規定 (Ish haqi me'yorlari)", "全力を尽くす (Bor kuchini berish)"]}, {"id": 20, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "20．最近、感動したことを文章でご記入下さい", "q_uz": "20. Yaqin orada sizni qattiq hayajonlantirgan / ta'sirlantirgan voqeani yozing", "point_uz": "Dasturlash orqali insonlarga foyda keltirganingizni so'zlash sizning kasbiy muhabbatingizni va amaliy tajribangizni ko'rsatadi.", "ans_jp": "自身が開発した語学学習・対話Webアプリをテスト公開した際、ユーザーから「学習のハードルが下がり、楽しく継続できるようになった」と直接感謝のメッセージをもらったことです。自らが書いたコードが誰かの学習体験を豊かにし、人の力になれるというソフトウェアの持つ力に深く感動しました。", "ans_uz": "O'zim yaratgan til o'rganish veb-ilovasini sinovdan o'tkazish uchun ochganimda, foydalanuvchilardan «O'rganish ancha osonlashdi, qiziqib har kuni shug'ullanyapman» degan iliq minnatdorchilik xabarini olganimda juda qattiq ta'sirlandim. O'z qo'lim bilan yozgan kod insonlar hayotiga yordam bera olishini ko'rish men uchun katta ilhom bo'ldi.", "keywords": ["学習体験の向上 (Ta'lim tajribasini oshirish)", "感謝のメッセージ (Minnatdorchilik xabari)", "ソフトウェアの力 (Dasturiy ta'minot kuchi)"]}, {"id": 21, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "21．最後に自分をPRできることや伝えたいことがあれば、簡潔に記入下さい。", "q_uz": "21. Yakuniy so'z: o'zingizni namoyon qiluvchi (PR) va aytmoqchi bo'lgan eng muhim fikringiz", "point_uz": "Suhbat yakunida o'zingizning JDU, JLPT N2, mustaqil amaliy dasturlash tajribangiz va yuqori motivatsiyangizni ixcham jamlab bering.", "ans_jp": "私はJDUでの学びを通じて日本語能力試験N2を取得し、技術面では自発的なフルスタックWeb開発やAI統合に取り組んできました。「自ら課題を見つけ、最後まで形にする遂行力」が私の最大の強みです。教育×ITの最先端を走るデジタル・ナレッジの一員として、高い熱量と探究心をもって貢献いたします。何卒よろしくお願いいたします。", "ans_uz": "Men JDU dagi ta'lim orqali JLPT N2 darajasiga erishdim, texnik jihatdan esa mustaqil ravishda zamonaviy full-stack tizimlar va AI integratsiyasini amalga oshirib kelmoqdaman. «Muammoni o'zi aniqlab, oxirigacha yetkazib ishlaydigan shaklga keltirish» mening bosh ustunligimdir. Digital Knowledge jamoasida butun kuch va ishtiyoqim bilan ishlashga tayyorman.", "keywords": ["最後まで形にする遂行力 (Oxirigacha yetkazish qobiliyati)", "高い熱量 (Yuqori ishtiyoq)", "教育×ITの最先端 (Ta'lim va IT peshqadami)"]}];
-const DATA_EXCEL = [{"id": "ex1", "title": "Excelスキルチェックの取り組みについて (Excel testini yechish jarayoni)", "q_jp": "提出いただいた「Excelスキルチェック」で、工夫した点や意識したことは何ですか？", "q_uz": "Topshirgan «Excel mahorat testi»da qanday jihatlarga e'tibor berdingiz va qanday qulayliklar kiritdingiz?", "point_uz": "Statik raqamlar yozmasdan, barcha kataklarni formulalar orqali dinamik bog'laganingizni, RANDBETWEEN orqali sonlar o'zgarganda ham tizim to'g'ri ishlashini ta'kidlang.", "ans_jp": "数値がRANDBETWEEN関数で動的に変化することを前提に、数値を直接打ち込むのではなく、全て計算式と関数（SUM, ROUND, VLOOKUPなど）で設計いたしました。特に表２の成績判定ルールや集計結果を絶対参照（$マーク）で確実に参照し、データの再計算や行追加にも崩れない保守性の高いシート作成を意識しました。", "ans_uz": "Sonlar RANDBETWEEN orqali tasodifiy o'zgarishini inobatga olib, sonlarni qo'lda kiritmasdan, barchasini formulalar (SUM, ROUND, VLOOKUP va h.k.) bilan bog'ladim. Ayniqsa, baholash qoidalari va jami qatorlarni absolut murojaat ($) orqali ulab, har qanday qayta hisoblashda ham mustahkam ishlaydigan tizim qildim.", "keywords": ["動的変化 (Dinamik o'zgarish)", "絶対参照 (Absolyut murojaat $)", "保守性 (Qo'llab-quvvatlash qulayligi)"]}, {"id": "ex2", "title": "偏差値の算出とSTDEVP関数の選定 (Hensachi va STDEVP tanlovi)", "q_jp": "課題その２の「偏差値」はどのように計算しましたか？また標準偏差の関数は何を選びましたか？", "q_uz": "2-topshiriqdagi «Hensachi (偏差値)»ni qanday hisobladingiz va standart chetlanish uchun qaysi funksiyani tanladingiz?", "point_uz": "Hensachi formulasi: 50 + 10 * (Ball - O'rtacha) / Standart chetlanish. 1000 nafar butun imtihon ishtirokchilari bu «bosh to'plam (母集団)» bo'lgani uchun STDEV.S (namuna) emas, STDEVP (yoki STDEV.P) ishlatilganini aytish statistika bilimingizni namoyish etadi.", "ans_jp": "偏差値は「50 + 10 × (得点 - 平均得点) ÷ 標準偏差」という数式を用い、ROUND関数で指定通り小数第2位に四捨五入しました。標準偏差には、受験者1,000名全員が全体の母集団であるため、不偏分散ではなく母集団を対象とする「STDEVP（またはSTDEV.P）」関数を選択して正確に算出しました。", "ans_uz": "Hensachini «50 + 10 × (Ball - O'rtacha) / Standart chetlanish» formulasi bilan hisoblab, ROUND orqali 2 xona aniqlikda yaxlitladim. Standart chetlanishda 1000 nafar ishtirokchi to'liq bosh to'plam (母集団) bo'lganligi sababli STDEVP funksiyasidan foydalandim.", "keywords": ["母集団 (Bosh to'plam / Population)", "標準偏差 (STDEVP)", "四捨五入 (ROUND)", "偏差値 (T-score)"]}, {"id": "ex3", "title": "成績検索システムのVLOOKUP実装 (VLOOKUP qidiruv tizimi)", "q_jp": "6-Fの「成績検索システム」で工夫した点や、エラーを防ぐための注意点は何ですか？", "q_uz": "6-F dagi «Natijalarni qidiruv tizimi»da xatoliklarning oldini olish uchun nimalarga e'tibor berdingiz?", "point_uz": "VLOOKUP da 4-argument sifatida FALSE (完全一致 - to'liq moslik) berilgani va qidirilayotgan ID yacheykasi ($H$100) hamda qidiruv jadvali ($A$12:$E$1011) absolut bog'langanini tushuntiring.", "ans_jp": "受験番号をキーとして都道府県・得点・判定・偏差値を抽出するため、VLOOKUP関数を使用しました。その際、検索の型として必ず「FALSE（完全一致）」を指定し、類似データによる誤判定を防ぎました。また、検索対象範囲（$A$12:$E$1011）を絶対参照にすることで、数式のコピーや拡張時にも参照ズレが起きないよう堅牢に実装しました。", "ans_uz": "Imtihon raqami bo'yicha ma'lumotlarni chiqarishda VLOOKUP ishlatdim. Noto'g'ri moslashuvlarning oldini olish uchun 4-argumentni qat'iy «FALSE (to'liq moslik)» qilib belgiladim va jadval chegarasini ($A$12:$E$1011) absolut qilib qotirdim.", "keywords": ["完全一致 (FALSE / Aniq moslik)", "参照ズレの防止 (Manzil siljishini oldini olish)", "堅牢な実装 (Mustahkam arxitektura)"]}, {"id": "ex4", "title": "グラフの選定理由 (Grafik turini tanlash mantig'i)", "q_jp": "課題その１で棒グラフと円グラフを選んだ理由を教えてください。", "q_uz": "1-topshiriqda nima sababdan ustunli grafik (棒グラフ) va doiraviy grafik (円グラフ) ni tanladingiz?", "point_uz": "Taqqoslama uchun ustunli grafik (Bar chart), ulush/nisbatni ko'rsatish uchun doiraviy grafik (Pie chart) eng to'g'ri vizualizatsiya ekanligini izohlang.", "ans_jp": "問（２）の果物の購入価格では、品目ごとの金額の大小を視覚的に一目で比較できるよう「縦棒グラフ（Column Chart）」を選択しました。一方、問（４）のりんごの産地別データでは、全国の生産量に対する各産地のシェア・構成比を直感的に把握できるよう「円グラフ（Pie Chart）」を採用し、目的に最適な可視化を行いました。", "ans_uz": "(2)-masalada mevalarning narxini o'zaro solishtirish uchun ustunli grafikni tanladim. (4)-masalada esa umumiy hajmga nisbatan hududlarning ulushini (foizini) ko'rsatish uchun doiraviy grafikni qo'lladim.", "keywords": ["縦棒グラフ (Ustunli grafik)", "円グラフ (Doiraviy grafik)", "構成比の可視化 (Ulushni vizuallashtirish)"]}];
-const DATA_SEIKA = [{"id": "sk1", "title": "成果報告書（自己学習研究）の取り組みと自走力", "q_jp": "成果報告書を拝見すると、日々の学習や開発が非常に細かく記録されていますが、どのように習慣化しましたか？", "q_uz": "O'z ustida ishlash hisobotingizda (成果報告書) har kunlik izlanishlar puxta yozilgan. Buni qanday qilib kundalik odatga aylantirdingiz?", "point_uz": "Mustaqil izlanish qobiliyati (自走力 - jisouryoku), maqsadni kichik qismlarga bo'lib ishlash va har kuni amaliy kod yozish odatini ta'kidlang.", "ans_jp": "エンジニアとして成長するために「毎日小さくても動くものを作る」ことを目標に掲げました。毎日の開始時に作業名と予想工数を設定し、作業後に実装内容と課題を振り返って記録することをルーティン化しました。この自走力と自己管理の習慣が、短期間でのフルスタック開発力習得につながっています。", "ans_uz": "Dasturchi sifatida o'sish uchun «har kuni amalda ishlaydigan kichik bo'lsa ham qism yaratish»ni maqsad qildim. Har kuni ish boshida vazifa va sarflanadigan vaqtni belgilab, yakunida tahlil qilib yozib bordim. Ushbu mustaqil intizom menga qisqa vaqtda Full-Stack darajasiga chiqishga yordam berdi.", "keywords": ["習慣化 (Odatga aylantirish)", "自走力 (Mustaqil harakat qilish)", "自己管理 (O'zini boshqarish)"]}, {"id": "sk2", "title": "音声・AI対話アプリ（kaiwa.live）の開発動機と技術的課題", "q_jp": "10月の報告書にもある音声対話や学習アプリ開発で、最も難しかった技術的課題と解決策は何ですか？", "q_uz": "10-oylik hisobotingizda qayd etilgan audio va nutq tizimlarida eng katta texnik qiyinchilik nima bo'ldi va uni qanday hal qildingiz?", "point_uz": "Real-vaqtdagi audio seanslar, tarmoq uzilishlari, HTTP header overflow (masalan, 431 xatosi) yoki kechikishni (latency) qanday bartaraf etganingizni aniq texnik atamalar bilan ayting.", "ans_jp": "音声のリアルタイム送受信におけるレイテンシ（遅延）の削減と、ネットワーク断絶時のセッション維持が最大の課題でした。WebSocket通信とWeb Audio APIを最適化し、バッファリングとトークン更新処理を見直すことで、低遅延で滑らかな双方向音声対話を実現しました。また、HTTPヘッダーの肥大化によるエラーも認証トークンの分割管理で解決しました。", "ans_uz": "Eng katta qiyinchilik audioni real vaqtda uzatishdagi kechikishni (latency) kamaytirish va internet uzilganda seansni yo'qotmaslik bo'ldi. WebSocket va Web Audio API ni optimallashtirib, buferlashni to'g'irladim. Natijada kechikishsiz ravon audio muloqotga erishdim.", "keywords": ["レイテンシ削減 (Kechikishni kamaytirish)", "WebSocket (Ikki tomonlama ulanish)", "Web Audio API"]}, {"id": "sk3", "title": "dekiru_nihongo（本アプリ）をPWA & Zero-Dependencyで設計した理由", "q_jp": "この「dekiru_nihongo」アプリは完全オフライン対応のPWAとして作られていますが、なぜこのアーキテクチャを選んだのですか？", "q_uz": "Ushbu «dekiru_nihongo» ilovasini to'liq oflayn ishlaydigan PWA va qo'shimcha kutubxonalarsiz (Zero-dependency) yaratishingizga sabab nima?", "point_uz": "O'quvchi har qanday joyda (metro, safar, internetsiz) tez va qulay o'rganishi uchun og'ir freymvorklarsiz, Service Worker kesh bilan yengil qilib qurganingizni tushuntiring.", "ans_jp": "学習者が地下鉄や移動中など、インターネットが不安定な環境でもストレスなく単語や試験問題を反復学習できるようにするためです。外部ライブラリに依存しない軽量な設計とService Workerによる完全キャッシュを採用し、起動速度とバッテリー消費を最小限に抑え、MacBookやスマホに直接インストールして使えるPWAとして開発しました。", "ans_uz": "O'quvchi metroda yoki yo'lda internet bo'lmaganda ham bemalol so'z va testlarni takrorlashi uchun shunday qildim. Og'ir kutubxonalarsiz, Service Worker yordamida to'liq keshlanuvchi yengil tizim qilib, Mac va telefonga mustaqil o'rnatiladigan (PWA) qilib ishlab chiqdim.", "keywords": ["Zero-Dependency (Qaramliklarsiz)", "Service Worker (Oflayn kesh)", "PWA (Ilova sifatida o'rnatish)"]}];
-const DATA_DK = [{"id": "dk1", "title": "KnowledgeDeliverに対する理解と開発への意欲", "q_jp": "弊社の主力製品である「KnowledgeDeliver」について知っていることと、携わりたい開発を教えてください。", "q_uz": "Kompaniyamizning bosh mahsuloti bo'lmish «KnowledgeDeliver» haqida nimalarni bilasiz va qaysi yo'nalishida ishlashni istaysiz?", "point_uz": "KnowledgeDeliver ning 3 ta asosiy ustuni: 教材作成 (kontent yaratish), 学習 (o'rganish), 運用管理 (boshqaruv) ekanligini va unga zamonaviy AI/interaktiv funksiyalar qo'shish niyatini bildiring.", "ans_jp": "KnowledgeDeliverは、教材作成・学習・運用管理の3大機能をワンストップで備え、3,000以上の企業や学校に導入されている日本屈指のLMSプラットフォームだと理解しております。私は特に、PC・スマホのマルチデバイス対応UI/UXの更なるモダン化や、AIメンタリング・リアルタイム対話技術を組み込んだ次世代の学習体験機能の開発に携わりたいと考えています。", "ans_uz": "KnowledgeDeliver — darslik yaratish, o'rganish va boshqaruv funksiyalarini bitta joyda birlashtirgan, 3000 dan ortiq tashkilotda ishlatiladigan Yaponiyadagi eng yetakchi LMS deb bilaman. Men ayniqsa mobil va kompyuter interfeysini zamonaviylashtirish hamda AI mentorlik va jonli muloqot imkoniyatlarini tizimga tatbiq etishda qatnashmoqchiman.", "keywords": ["KnowledgeDeliver (LMS mahsulot)", "教材作成・学習・運用管理 (3 asosiy funksiya)", "AIメンタリング (AI murabbiylik)"]}, {"id": "dk2", "title": "JDU設立母体としてのデジタル・ナレッジと自身の強み", "q_jp": "デジタル・ナレッジがJDUを設立・運営していることについて、JDU生であるあなたの視点からどう捉えていますか？", "q_uz": "Digital Knowledge JDU universitetining asoschisi va boshqaruvchisi ekanligiga JDU talabasi sifatida qanday qaraysiz?", "point_uz": "JDU orqali yapon ta'limi va texnologiyasini bevosita o'zlashtirganingizni, kompaniyaning xalqaro ta'lim ko'prigi (学びの架け橋) missiyasining tirik natijasi ekanligingizni ayting.", "ans_jp": "デジタル・ナレッジの『ITで世界中に学びの架け橋を架ける』という使命が、まさにJDUという形で結実し、私自身がその教育を受けて成長した当事者です。JDUで培ったIT技術と日本語力（N2）、そして中央アジアと日本をつなぐ多文化理解を強みとして、今度は貴社の一員として次の世代や世界中の学習者に価値を還元したいと強く決意しています。", "ans_uz": "Digital Knowledge kompaniyasining «IT orqali dunyo bo'ylab bilim ko'prigi qurish» missiyasi aynan JDU misolida amalda namoyon bo'ldi va men shaxsan shu ta'limdan bahramand bo'lgan talabaman. JDU da olgan IT bilimim va yapon tilim (N2) bilan endi kompaniyangiz xodimi sifatida keyingi avlodlarga foyda keltirishga qat'iy qaror qilganman.", "keywords": ["学びの架け橋 (Bilim ko'prigi)", "JDU設立母体 (JDU asoschisi)", "価値の還元 (Qiymatni qaytarish)"]}, {"id": "dk3", "title": "日本最大のMOOC「gacco」の運営移管と今後の可能性", "q_jp": "弊社が2026年4月より日本最大のMOOCプラットフォーム「gacco」の運営を100%引き継いだことをどう評価していますか？", "q_uz": "Kompaniyamiz 2026-yil apreldan Yaponiyaning eng yirik MOOC platformasi «gacco» boshqaruvini to'liq o'z zimmasiga olganiga qanday baho berasiz?", "point_uz": "132 milliondan ortiq foydalanuvchiga ega ochiq ta'lim platformasi ekanligi va katta hajmdagi ta'lim ma'lumotlarini (Learning Analytics / Big Data) tahlil qilish imkoniyatini ta'kidlang.", "ans_jp": "会員数130万人を超える日本最大のオープン学習基盤gaccoが貴社の傘下に入ったことは、社会人教育やリスキリング分野において計り知れない成長機会だと捉えています。大学や官公庁の良質な講座データを分析（ラーニングアナリティクス）し、一人ひとりに最適な学習推薦を行うなど、巨大トラフィックを支えるエンジニアリング面でも非常に挑戦したい領域です。", "ans_uz": "1.3 milliondan ortiq a'zosi bo'lgan eng katta ochiq ta'lim platformasi «gacco»ning Digital Knowledge ga o'tishi katta strategik imkoniyatdir. Katta hajmdagi ta'lim tahlili (Learning Analytics) va yuqori yuklamani ushlab turuvchi muhandislik yo'nalishida ishlash men uchun katta qiziqish uyg'otadi.", "keywords": ["gacco (MOOC platformasi)", "130万人会員 (1.3 mln a'zo)", "ラーニングアナリティクス (Ta'lim tahlili)"]}];
-const DATA_GYAKU = [{"id": "gq1", "title": "KnowledgeDeliver × 生成AIの技術展開について", "q_jp": "御社が開発されている『KnowledgeDeliver』において、生成AIを活用した自動メンタリングやアダプティブラーニングの今後の技術展開について、エンジニアの視点から特に注力されているポイントを伺えますでしょうか。", "q_uz": "Kompaniyangiz ishlab chiqqan KnowledgeDeliver tizimida generativ AI vositasidagi avtomatik murabbiylik (mentoring) va moslashuvchan ta'lim bo'yicha injiniring nuqtayi nazaridan eng ustuvor qaratilayotgan jihatlar haqida so'rasam bo'ladimi?", "point_uz": "Kompaniya mahsuloti va AI strategiyasini chuqur o'rganganingizni hamda kelajakdagi rivojlanishga befarq emasligingizni namoyish etadi."}, {"id": "gq2", "title": "JDU出身先輩社員の活躍と若手エンジニアの自走について", "q_jp": "説明会にて、入社後の丁寧な新入社員研修とチューター制度について伺い、大変魅力に感じました。実際にJDU出身の先輩社員や若手エンジニアの方々は、本配属後にどのようなプロジェクトで自走力を発揮して活躍されているか、具体的な事例をお聞かせいただけますでしょうか。", "q_uz": "Taqdimotda yangi xodimlar treningi va murabbiylik tizimi haqida eshitib juda qiziqdim. Amalda JDU bitiruvchisi bo'lgan xodimlar yoki yosh mutaxassislar asosiy bo'limga o'tgach, qanday loyihalarda o'zlarining mustaqil qobiliyatlarini (自走力) ko'rsatib faoliyat yuritmoqdalar?", "point_uz": "Taqdimotdagi JDU bitiruvchisi haqidagi ma'lumotni eslab qolganingizni va ishga kirgach o'sishga qat'iy intilayotganingizni ko'rsatadi."}, {"id": "gq3", "title": "130万人会員『gacco』のデータ活用と開発挑戦", "q_jp": "2026年4月より130万人以上の会員基盤を持つ日本最大のMOOC『gacco』の運営が御社に移管されたと伺いました。今後、この大規模な学習データを活用したラーニングアナリティクスや機能改善において、新卒エンジニアが挑戦できる機会はございますでしょうか。", "q_uz": "2026-yil apreldan 1.3 milliondan ortiq a'zoga ega bo'lgan «gacco» platformasi boshqaruvi sizning kompaniyangizga o'tganidan xabardorman. Katta ma'lumotlar tahlili (Learning Analytics) va tizimni yaxshilashda yosh muhandislar qatnasha oladigan imkoniyatlar bormi?", "point_uz": "Kompaniyaning eng so'nggi va eng yirik yangiligini bilishingizni isbotlaydi. Intervyuerda eng yuqori ijobiy bahoni keltiradi."}, {"id": "gq4", "title": "内定から入社（来春）までに準備しておくべき技術", "q_jp": "もしご縁をいただき入社させていただけることになった場合、入社までの期間にウズベキスタンで重点的に学んでおくべき技術領域や、準備しておくべきことがあればご教示いただけますでしょうか。", "q_uz": "Agar kompaniyangizga qabul qilinish baxtiga muyassar bo'lsam, kelgusi bahorgacha bo'lgan davrda O'zbekistonda turib aynan qaysi texnologiyalarni chuqurroq o'rganib tayyorgarlik ko'rishimni maslahat berasiz?", "point_uz": "O'rganishga bo'lgan chanqoqlik, jiddiylik va mas'uliyatni ifodalaydi. Yapon ish beruvchilari eng sevadigan savollardan biri."}];
-const DATA_GLOSSARY = [{"term": "完全一致 (FALSE)", "kana": "かんぜんいっち", "ro": "kanzen icchi", "cat": "Excel/データ", "uz": "To'liq moslik; VLOOKUP da aniq qidiruv (4-argument FALSE/0)", "desc": "Excelda kod yoki ID qidirganda xatolik bo'lmasligi uchun aniq mos qiymatni topish talab qilinadi."}, {"term": "近似一致 (TRUE)", "kana": "きんじいっち", "ro": "kinji icchi", "cat": "Excel/データ", "uz": "Taqribiy moslik; oraliqlar bo'yicha qidirish (4-argument TRUE/1)", "desc": "Ballar oralig'i (masalan 60-79 oralig'i) bo'yicha baholashda jadval saralangan bo'lsa qo'llaniladi."}, {"term": "絶対参照 ($)", "kana": "ぜったいさんしょう", "ro": "zettai sanshou", "cat": "Excel/データ", "uz": "Absolyut murojaat; yacheyka manzilini qotirib qo'yish ($A$1)", "desc": "Formulani boshqa qatorlarga nusxalaganda hisoblash asosi bo'lgan katak siljib ketmasligi uchun $ belgisi qo'yiladi."}, {"term": "相対参照", "kana": "そうたいさんしょう", "ro": "soutai sanshou", "cat": "Excel/データ", "uz": "Nisbiy murojaat; qator surilganda birga siljiydigan manzil (A1)", "desc": "Masalan, har bir qatorda yonidagi sonlarni ko'paytirishda nisbiy murojaat ishlatiladi."}, {"term": "母集団 (Population)", "kana": "ぼしゅうだん", "ro": "boshuudan", "cat": "統計/データ", "uz": "Bosh to'plam; o'rganilayotgan barcha obyektlar yig'indisi", "desc": "Imtihondagi barcha 1000 nafar talaba bosh to'plam hisoblanadi (STDEVP funksiyasi shuning uchun tanlanadi)."}, {"term": "標本 (Sample)", "kana": "ひょうほん", "ro": "hyouhon", "cat": "統計/データ", "uz": "Tanlanma; bosh to'plamdan tahlil uchun ajratib olingan qism", "desc": "Agar 1000 kishidan faqat 50 tasi namuna qilib olinganda STDEV.S (namuna standart chetlanishi) ishlatilardi."}, {"term": "標準偏差 (STDEVP)", "kana": "ひょうじゅんへんさ", "ro": "hyoujun hensa", "cat": "統計/データ", "uz": "Standart chetlanish; natijalarning o'rtacha qiymatdan tarqoqlik darajasi", "desc": "Ballar o'rtacha ball atrofida qanchalik zich yoki tarqoq joylashganini ko'rsatuvchi asosiy statistik ko'rsatkich."}, {"term": "偏差値 (Hensachi / T-score)", "kana": "へんさち", "ro": "hensachi", "cat": "統計/教育", "uz": "Standart ball; o'quvchining umumiy guruh ichidagi aniq o'rni", "desc": "O'rtacha ball 50 ga tenglashtiriladi. 60 dan yuqori ball juda yaxshi, 50 o'rtacha hisoblanadi."}, {"term": "四捨五入 (ROUND)", "kana": "ししゃごにゅう", "ro": "shishagonyuu", "cat": "Excel/算数", "uz": "Yaxlitlash; 4 gacha tashlab yuborish, 5 dan boshlab yuqoriga qo'shish", "desc": "ROUND(son, 2) orqali verguldan keyin 2 ta xona qoldiriladi."}, {"term": "加重平均 (Weighted Average)", "kana": "かじゅうへいきん", "ro": "kajuu heikin", "cat": "統計/データ", "uz": "Vaznli o'rtacha; miqdor ulushini hisobga olgan o'rtacha narx", "desc": "Har bir hududning ishlab chiqarish tonnasini hisobga olgan holda respublika o'rtacha narxini topish."}, {"term": "乱数 (RANDBETWEEN)", "kana": "らんすう", "ro": "ransuu", "cat": "Excel/関数", "uz": "Tasodifiy sonlar generatsiyasi", "desc": "Excelda har safar jadval yangilanganda sonlarni tasodifiy o'zgartirib turuvchi funksiya."}, {"term": "要件定義", "kana": "ようけんていぎ", "ro": "youken teigi", "cat": "開発工程", "uz": "Talablarni aniqlash va spetsifikatsiya tuzish (Requirements)", "desc": "Mijoz yoki foydalanuvchi tizimdan nimalarni kutayotganini aniqlab rasmiylashtirish bosqichi."}, {"term": "基本設計 (外部設計)", "kana": "きほんせっけい", "ro": "kihon sekkei", "cat": "開発工程", "uz": "Asosiy / Tashqi arxitektura loyihalash (UI, DB, API)", "desc": "Ekranlar dizayni, foydalanuvchi harakatlari va ma'lumotlar tuzilmasini belgilash."}, {"term": "詳細設計 (内部設計)", "kana": "しょうさいせっけい", "ro": "shousai sekkei", "cat": "開発工程", "uz": "Tafsilotli / Ichki kod darajasidagi loyihalash", "desc": "Har bir modul, funksiya va ma'lumotlar oqimining ichki algoritmlarini ishlab chiqish."}, {"term": "単体テスト (Unit Test)", "kana": "たんたいてすと", "ro": "tantai tesuto", "cat": "品質/テスト", "uz": "Modul testi; har bir kichik funksiyani alohida sinash", "desc": "Dasturning alohida qismlari to'g'ri ishlashini avtomatik testlar orqali tekshirish."}, {"term": "結合テスト (Integration Test)", "kana": "けつごうてすと", "ro": "ketsugou tesuto", "cat": "品質/テスト", "uz": "Integratsion test; modullarning birgalikda ishlashini tekshirish", "desc": "Frontend va Backend o'zaro to'g'ri ma'lumot almashayotganini sinash."}, {"term": "負荷テスト (Load Test)", "kana": "ふかてすと", "ro": "fuka tesuto", "cat": "品質/テスト", "uz": "Yuklama testi; yuqori oqimda tizim bardoshini tekshirish", "desc": "Bir vaqtda minglab foydalanuvchilar kirganda serverning barqarorligini o'lchash."}, {"term": "客先常駐なし", "kana": "きゃくさきじょうちゅうなし", "ro": "kyakusaki jouchuu nashi", "cat": "企業文化/DK", "uz": "Mijoz ofisiga yuborilmaslik; o'z ofisida mustaqil ishlash", "desc": "Digital Knowledge dasturchilari begona kompaniyaga jo'natilmaydi, o'z ofisida (Akihabara) ishlaydi."}, {"term": "自社開発", "kana": "じしゃかいはつ", "ro": "jisha kaihatsu", "cat": "企業文化/DK", "uz": "Kompaniyaning o'z mualliflik mahsulotlarini ishlab chiqishi", "desc": "Buyurtmachi uchun emas, o'z brendiga tegishli platformalarni yaratish va rivojlantirish."}, {"term": "KnowledgeDeliver", "kana": "ナレッジデリバー", "ro": "karejji deribaa", "cat": "DK製品", "uz": "Digital Knowledge ning flagman LMS platformasi (3000+ tashkilot)", "desc": "Darslik yaratish, o'rganish va boshqaruv funksiyalarini mujassam etgan yirik ta'lim platformasi."}, {"term": "gacco", "kana": "ガッコ", "ro": "gakko", "cat": "DK製品/MOOC", "uz": "Yaponiyaning 1.32 mln a'zoga ega eng yirik ochiq MOOC platformasi", "desc": "2026-yil 1-apreldan NTT DOCOMO dan to'liq Digital Knowledge boshqaruviga o'tgan."}, {"term": "LMS (学習管理システム)", "kana": "エルエムエス", "ro": "eru emu esu", "cat": "EdTech/DK", "uz": "Learning Management System; ta'lim jarayonini boshqarish tizimi", "desc": "O'quvchilar ro'yxati, dars materiallari, testlar va natijalarni nazorat qiluvchi platforma."}, {"term": "CBT (Computer Based Testing)", "kana": "シービーティー", "ro": "shii bii tii", "cat": "EdTech/DK", "uz": "Kompyuter orqali o'tkaziladigan standartlashtirilgan imtihon tizimi", "desc": "Qog'ozsiz, to'g'ridan-to'g'ri kompyuter orqali avtomatik tekshiriladigan test shakli."}, {"term": "ラーニングアナリティクス", "kana": "ラーニングアナリティクス", "ro": "raaningu anaritikusu", "cat": "EdTech/DK", "uz": "Learning Analytics; o'rganish xatti-harakatlarini katta ma'lumotlar bilan tahlil qilish", "desc": "O'quvchi qayerda sekinlashyapti, qaysi savolda xato qilyapti — barchasini tahlil qilib tavsiya berish."}, {"term": "学びの架け橋", "kana": "まなみのかけはし", "ro": "manabi no kakehashi", "cat": "DK理念", "uz": "«Bilim ko'prigi» — Digital Knowledge kompaniyasining bosh shiori", "desc": "Dunyoning har bir burchagidagi insonlarga sifatli ta'lim yetkazib berish missiyasi."}, {"term": "育つ喜びを全ての人へ", "kana": "そだつよろこびをすべてのひとへ", "ro": "sodatsu yorokobi o subete no hito e", "cat": "DK理念", "uz": "«O'sish va rivojlanish quvonchi har bir insonga» — DK oliy maqsadi", "desc": "Har bir shaxsning o'rganish orqali yuksalishini qo'llab-quvvatlash falsafasi."}];
-
-let mMensetsuModule = "es"; // "es", "excel", "seika", "dk", "gyaku", "sim", "glossary"
-let mCurrentCat = "all";
-let mBlurred = {};
-
-// Simulator state
-let simQuestions = [];
-let simCurrentIdx = 0;
-let simTimer = null;
-let simSecondsLeft = 60;
-
-function playJapaneseTTS(text, btn) {
-  if (!('speechSynthesis' in window)) {
-    alert("Brauzeringiz ovozli o'qish (Web Speech API) funksiyasini qo'llab-quvvatlamaydi.");
-    return;
-  }
-  window.speechSynthesis.cancel();
-  const ut = new SpeechSynthesisUtterance(text);
-  ut.lang = 'ja-JP';
-  ut.rate = 0.95;
-  if(btn) btn.classList.add("speaking");
-  ut.onend = () => { if(btn) btn.classList.remove("speaking"); };
-  ut.onerror = () => { if(btn) btn.classList.remove("speaking"); };
-  window.speechSynthesis.speak(ut);
-}
-
-function initSubtabs() {
-  const container = $("#mSubTabs");
-  if(!container) return;
-  container.querySelectorAll(".m-subtab").forEach(btn => {
-    btn.onclick = () => {
-      mMensetsuModule = btn.dataset.mod;
-      mCurrentCat = "all";
-      container.querySelectorAll(".m-subtab").forEach(b => b.classList.toggle("on", b === btn));
-      renderMensetsu();
-    };
-  });
-}
-
-function renderMensetsu() {
-  initSubtabs();
-  
-  if (mMensetsuModule === "sim") {
-    renderSimulatorModule();
-    return;
-  }
-  
-  if (mMensetsuModule === "glossary") {
-    renderGlossaryModule();
-    return;
-  }
-  
-  if (mMensetsuModule === "gyaku") {
-    renderGyakuModule();
-    return;
-  }
-  
-  let currentDataset = [];
-  let cats = [];
-  
-  if (mMensetsuModule === "es") {
-    currentDataset = DATA_ES;
-    cats = [
-      {"id": "all", "title": "Barchasi (21)"},
-      {"id": "shibou", "title": "志望動機・企業理解 (4)"},
-      {"id": "jiko_pr", "title": "自己PR・技術スキル (4)"},
-      {"id": "career", "title": "キャリア・仕事観 (4)"},
-      {"id": "condition", "title": "勤務条件・状況 (9)"}
-    ];
-  } else if (mMensetsuModule === "excel") {
-    currentDataset = DATA_EXCEL;
-    cats = [
-      {"id": "all", "title": "Barchasi (4 ta asosiy savol)"}
-    ];
-  } else if (mMensetsuModule === "seika") {
-    currentDataset = DATA_SEIKA;
-    cats = [
-      {"id": "all", "title": "Barchasi (3 ta amaliy savol)"}
-    ];
-  } else if (mMensetsuModule === "dk") {
-    currentDataset = DATA_DK;
-    cats = [
-      {"id": "all", "title": "Barchasi (3 ta korporativ savol)"}
-    ];
-  }
-  
-  const fContainer = $("#mFilters");
-  if(fContainer) {
-    if(cats.length > 1) {
-      fContainer.style.display = "flex";
-      fContainer.innerHTML = cats.map(c => `
-        <button class="mensetsu-btn-cat ${mCurrentCat === c.id ? 'on' : ''}" data-cat="${c.id}">
-          ${esc(c.title)}
-        </button>
-      `).join("");
-      fContainer.querySelectorAll(".mensetsu-btn-cat").forEach(b => {
-        b.onclick = () => {
-          mCurrentCat = b.dataset.cat;
-          renderMensetsu();
-        };
-      });
-    } else {
-      fContainer.style.display = "none";
-    }
-  }
-  
-  const k = norm(q.trim());
-  const filtered = currentDataset.filter(item => {
-    const matchCat = (mCurrentCat === "all" || item.cat === mCurrentCat);
-    if (!matchCat) return false;
-    if (!k) return true;
-    return norm(item.q_jp).includes(k) || norm(item.q_uz).includes(k) || norm(item.ans_jp).includes(k) || norm(item.ans_uz).includes(k) || (item.keywords && item.keywords.some(kw => norm(kw).includes(k)));
-  });
-  
-  const countEl = $("#mCount");
-  if(countEl) {
-    countEl.textContent = `${filtered.length} ta intervyu savoli va to'liq tayyorlangan javoblari`;
-  }
-  
-  const listEl = $("#mListContainer");
-  if(!listEl) return;
-  
-  listEl.innerHTML = filtered.map(item => {
-    const isBlur = mBlurred[item.id] === true;
-    const catBadge = item.cat_name ? `🏷️ ${esc(item.cat_name)}` : (item.title ? `📌 ${esc(item.title)}` : "");
-    return `
-      <article class="mensetsu-card" id="mcard-${item.id}">
-        <div class="mensetsu-header">
-          <span class="mensetsu-q-badge">${item.id}</span>
-          <span class="mensetsu-q-cat">${catBadge}</span>
-        </div>
-        
-        <h3 class="mensetsu-q-jp">${esc(item.q_jp)}</h3>
-        <p class="mensetsu-q-uz">${esc(item.q_uz)}</p>
-        
-        <div class="mensetsu-point-box">
-          <span class="ico">💡</span>
-          <div><b>Suhbat strategiyasi (Point):</b> ${esc(item.point_uz)}</div>
-        </div>
-        
-        <div class="mensetsu-ans-box">
-          <div class="mensetsu-ans-title">
-            <span>🗣️ Mukammal Yaponcha Javob (模範回答)</span>
-            <button class="btn-m-action" onclick="toggleBlur('${item.id}')" title="Javobni yashirib o'zingizni sinab ko'ring">
-              ${isBlur ? '👁️ Javobni ko\'rsatish' : '🙈 Yashirish (O\'zingizni sinang)'}
-            </button>
-          </div>
-          <div class="mensetsu-ans-jp ${isBlur ? 'blurred' : ''}" id="mans-jp-${item.id}">
-            ${esc(item.ans_jp).replace(/\n/g, '<br>')}
-          </div>
-          <div class="mensetsu-ans-uz">
-            <b>🇺🇿 O'zbekcha izoh va tarjimasi:</b><br>
-            ${esc(item.ans_uz)}
-          </div>
-        </div>
-        
-        ${item.keywords && item.keywords.length ? `
-          <div class="mensetsu-kw-row">
-            <span class="mensetsu-kw-label">🔑 Kalit atamalar:</span>
-            ${item.keywords.map(kw => `<span class="mensetsu-kw-pill">${esc(kw)}</span>`).join("")}
-          </div>
-        ` : ''}
-        
-        <div class="mensetsu-card-actions">
-          <button class="btn-m-action" onclick="playJapaneseTTS('${item.ans_jp.replace(/'/g, "\\'").replace(/\n/g, ' ')}', this)">
-            <span>🔊</span> Javobni eshitish (ja-JP TTS)
-          </button>
-          <button class="btn-m-action" onclick="playJapaneseTTS('${item.q_jp.replace(/'/g, "\\'")}', this)">
-            <span>🎙️</span> Savolni eshitish
-          </button>
-        </div>
-      </article>
-    `;
-  }).join("");
-}
-
-function renderGyakuModule() {
-  const fContainer = $("#mFilters");
-  if(fContainer) fContainer.style.display = "none";
-  
-  const countEl = $("#mCount");
-  if(countEl) countEl.textContent = `4 ta eng kuchli teskari savol (逆質問)`;
-  
-  const listEl = $("#mListContainer");
-  if(!listEl) return;
-  
-  listEl.innerHTML = `
-    <div style="background:var(--ai-light);border:1px solid var(--ai-border);border-radius:14px;padding:16px;margin-bottom:18px;">
-      <h3 style="color:var(--ai);margin:0 0 6px;">💡 逆質問 (Gyaku-shitsumon) — Suhbatdagi hal qiluvchi lahza</h3>
-      <p style="margin:0;font-size:0.92rem;color:var(--ink);line-height:1.5;">Yapon intervyusining oxirida suhbatdosh: <i>「最後に、何か質問はありますか？」</i> (Oxirida biror savolingiz bormi?) deb so'raydi. Bu yerda «savolim yo'q» deb aytish qiziqish yo'qligini bildiradi. Quyidagi 4 ta chuqur savoldan birini berish esa kompaniyani mukammal bilishingizni isbotlaydi!</p>
-    </div>
-    
-    <div style="display:flex;flex-direction:column;gap:16px;">
-      ${DATA_GYAKU.map((item, idx) => `
-        <article class="mensetsu-card">
-          <div class="mensetsu-header">
-            <span class="mensetsu-q-badge">Teskari Savol #${idx+1}</span>
-            <span class="mensetsu-q-cat">📌 ${esc(item.title)}</span>
-          </div>
-          
-          <h3 class="mensetsu-q-jp">${esc(item.q_jp)}</h3>
-          <p class="mensetsu-q-uz">${esc(item.q_uz)}</p>
-          
-          <div class="mensetsu-point-box">
-            <span class="ico">🎯</span>
-            <div><b>Nega bu savol hayratga soladi?</b> ${esc(item.point_uz)}</div>
-          </div>
-          
-          <div class="mensetsu-card-actions">
-            <button class="btn-m-action" onclick="playJapaneseTTS('${item.q_jp.replace(/'/g, "\\'")}', this)">
-              <span>🔊</span> Savol talaffuzini eshitish (ja-JP TTS)
-            </button>
-          </div>
-        </article>
-      `).join("")}
-    </div>
-  `;
-}
-
-function renderSimulatorModule() {
-  const fContainer = $("#mFilters");
-  if(fContainer) fContainer.style.display = "none";
-  const countEl = $("#mCount");
-  if(countEl) countEl.textContent = `Jonli suhbat simulyatori — Audio va taymer bilan mashq qilish`;
-  
-  const listEl = $("#mListContainer");
-  if(!listEl) return;
-  
-  listEl.innerHTML = `
-    <div class="sim-container">
-      <div class="sim-intro" id="simIntro">
-        <h3><span>🎙️</span> Jonli Intervyu Simulyatori (面接シミュレーター)</h3>
-        <p>Virtual yapon suhbatdoshi sizga tasodifiy 5 ta rasmiy savol beradi (savolni ovozli o'qiydi). Har bir savolga 60 soniya ichida ovoz chiqarib javob berishingiz kerak. Tayyormisiz?</p>
-        <button class="sim-start-btn" onclick="startSimGame()">🚀 Suhbatni Boshlash (面接スタート)</button>
-      </div>
-      
-      <div class="sim-box" id="simBox">
-        <div class="sim-status-bar">
-          <span style="font-weight:700;color:var(--ai);" id="simStep">Savol: 1 / 5</span>
-          <div class="sim-timer-pill" id="simTimerEl">⏱️ <span id="simSeconds">60</span>s</div>
-        </div>
-        
-        <div class="sim-q-box">
-          <div class="sim-q-title" id="simQText">Savol yuklanmoqda...</div>
-          <div class="sim-q-trans" id="simQTrans">...</div>
-        </div>
-        
-        <div class="sim-controls">
-          <button class="btn-m-action" onclick="replaySimQuestion()">
-            <span>🔊</span> Savolni qayta eshitish
-          </button>
-          <button class="btn-m-action" style="background:var(--ai);color:#fff;border-color:var(--ai);" onclick="showSimAnswer()">
-            <span>✅</span> Javob berdim (Tahlilni ko'rish)
-          </button>
-          <button class="btn-m-action" onclick="nextSimQuestion()">
-            <span>⏭️</span> Keyingi savolga o'tish
-          </button>
-        </div>
-        
-        <div class="sim-ans-area" id="simAnsArea">
-          <div style="font-weight:700;color:var(--ai);margin-bottom:8px;">🗣️ Namunaviy Yaponcha Javob:</div>
-          <div id="simAnsJp" style="font-size:1.05rem;line-height:1.6;margin-bottom:12px;color:var(--ink);"></div>
-          <div style="font-weight:700;color:var(--mut);margin-bottom:4px;">🇺🇿 O'zbekcha mazmuni:</div>
-          <div id="simAnsUz" style="font-size:0.92rem;color:var(--mut);line-height:1.5;"></div>
-        </div>
-      </div>
-    </div>
-  `;
-}
-
-window.startSimGame = function() {
-  const pool = [...DATA_ES, ...DATA_EXCEL, ...DATA_SEIKA, ...DATA_DK];
-  // Shuffle and pick 5
-  simQuestions = pool.sort(() => 0.5 - Math.random()).slice(0, 5);
-  simCurrentIdx = 0;
-  
-  $("#simIntro").style.display = "none";
-  $("#simBox").style.display = "block";
-  
-  loadSimCurrentQuestion();
-};
-
-function loadSimCurrentQuestion() {
-  if(simCurrentIdx >= simQuestions.length) {
-    alert("🎉 Suhbat simulyatsiyasi yakunlandi! Ajoyib natija!");
-    mMensetsuModule = "es";
-    renderMensetsu();
-    return;
-  }
-  
-  const qItem = simQuestions[simCurrentIdx];
-  $("#simStep").textContent = `Savol: ${simCurrentIdx + 1} / ${simQuestions.length}`;
-  $("#simQText").textContent = qItem.q_jp;
-  $("#simQTrans").textContent = qItem.q_uz;
-  $("#simAnsArea").style.display = "none";
-  
-  $("#simAnsJp").innerHTML = esc(qItem.ans_jp).replace(/\n/g, '<br>');
-  $("#simAnsUz").textContent = qItem.ans_uz;
-  
-  playJapaneseTTS(qItem.q_jp);
-  
-  // Reset Timer
-  clearInterval(simTimer);
-  simSecondsLeft = 60;
-  $("#simSeconds").textContent = simSecondsLeft;
-  $("#simTimerEl").classList.remove("warning");
-  
-  simTimer = setInterval(() => {
-    simSecondsLeft--;
-    $("#simSeconds").textContent = simSecondsLeft;
-    if(simSecondsLeft <= 10) {
-      $("#simTimerEl").classList.add("warning");
-    }
-    if(simSecondsLeft <= 0) {
-      clearInterval(simTimer);
-      showSimAnswer();
-    }
-  }, 1000);
-}
-
-window.replaySimQuestion = function() {
-  if(simQuestions[simCurrentIdx]) {
-    playJapaneseTTS(simQuestions[simCurrentIdx].q_jp);
-  }
-};
-
-window.showSimAnswer = function() {
-  clearInterval(simTimer);
-  $("#simAnsArea").style.display = "block";
-  if(simQuestions[simCurrentIdx]) {
-    playJapaneseTTS(simQuestions[simCurrentIdx].ans_jp);
-  }
-};
-
-window.nextSimQuestion = function() {
-  clearInterval(simTimer);
-  simCurrentIdx++;
-  loadSimCurrentQuestion();
-};
-
-function renderGlossaryModule() {
-  const gCats = ["all", "Excel/データ", "統計/データ", "統計/教育", "開発工程", "品質/テスト", "企業文化/DK", "DK製品", "DK理念"];
-  const fContainer = $("#mFilters");
-  if(fContainer) {
-    fContainer.style.display = "flex";
-    fContainer.innerHTML = gCats.map(c => `
-      <button class="mensetsu-btn-cat ${mCurrentCat === c ? 'on' : ''}" data-cat="${c}">
-        ${c === 'all' ? 'Hammasi (26)' : esc(c)}
-      </button>
-    `).join("");
-    fContainer.querySelectorAll(".mensetsu-btn-cat").forEach(b => {
-      b.onclick = () => {
-        mCurrentCat = b.dataset.cat;
-        renderGlossaryModule();
-      };
-    });
-  }
-  
-  const k = norm(q.trim());
-  const filtered = DATA_GLOSSARY.filter(item => {
-    const matchCat = (mCurrentCat === "all" || item.cat === mCurrentCat || (mCurrentCat === "DK製品" && item.cat.includes("DK")));
-    if (!matchCat) return false;
-    if (!k) return true;
-    return norm(item.term).includes(k) || norm(item.kana).includes(k) || norm(item.ro).includes(k) || norm(item.uz).includes(k) || norm(item.desc).includes(k);
-  });
-  
-  const countEl = $("#mCount");
-  if(countEl) {
-    countEl.textContent = `${filtered.length} ta muhim intervyu va texnik atama`;
-  }
-  
-  const listEl = $("#mListContainer");
-  if(!listEl) return;
-  
-  listEl.innerHTML = `
-    <div class="glossary-grid">
-      ${filtered.map(item => `
-        <div class="glossary-card">
-          <div>
-            <div class="glossary-term-row">
-              <span class="glossary-term">${esc(item.term)}</span>
-              <span class="glossary-cat">${esc(item.cat)}</span>
-            </div>
-            <div class="glossary-kana">${esc(item.kana)} · <i>${esc(item.ro)}</i></div>
-            <div class="glossary-uz">${esc(item.uz)}</div>
-            <div class="glossary-desc">${esc(item.desc)}</div>
-          </div>
-          <button class="btn-m-action" style="align-self:flex-start" onclick="playJapaneseTTS('${item.term.replace(/'/g, "\\'")}', this)">
-            <span>🔊</span> Talaffuz
-          </button>
-        </div>
-      `).join("")}
-    </div>
-  `;
-}
-
-window.toggleBlur = function(id) {
-  mBlurred[id] = !mBlurred[id];
-  const el = document.getElementById("mans-jp-" + id);
-  if(el) el.classList.toggle("blurred", mBlurred[id]);
-  const btn = document.querySelector("#mcard-" + id + " .mensetsu-ans-title button");
-  if(btn) btn.textContent = mBlurred[id] ? "👁️ Javobni ko'rsatish" : "🙈 Yashirish (O'zingizni sinang)";
-};
 </script>
 <style>
 :root{
@@ -1204,10 +793,23 @@ window.addEventListener('appinstalled', () => {
   closeInstallModal();
 });
 
+
 // === MENSETSU (INTERVIEW PREPARATION) LOGIC ===
-const MENSETSU_DATA = [{"id": 1, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "１．何社の会社説明会を受けましたか？", "q_uz": "1. Nechta kompaniyaning taqdimot (tushuntirish) yig'ilishida qatnashdingiz?", "point_uz": "Ko'p yoki kam aytish emas, real va muvozanatli raqam (3-5 ta) aytish maqsadga muvofiq. Bir nechta IT kompaniyalarni solishtirib, aynan nima uchun DK ni tanlaganingizni ko'rsatishga imkon beradi.", "ans_jp": "3社です。主にIT・Web開発および教育工学領域の企業の説明会に参加いたしました。", "ans_uz": "3 ta kompaniya. Asosan IT, veb-dasturlash va ta'lim texnologiyalari sohasidagi korxonalar taqdimotida qatnashdim.", "keywords": ["会社説明会 (Taqdimot yig'ilishi)", "教育工学 (Ta'lim texnologiyalari)", "企業理解 (Kompaniyani o'rganish)"]}, {"id": 2, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "２．今まで参加された会社説明会で、良い印象を受けたのはどのような内容でしたか？", "q_uz": "2. Hozirgacha qatnashgan tushuntirish yig'ilishlarida qaysi jihatlar yaxshi taassurot qoldirdi?", "point_uz": "Siz qanday ish muhitini qadrlashingizni bilishmoqchi. Kompaniyaning ijtimoiy hissasi va muhandislarning o'sish muhitini ta'kidlash eng yaxshi javobdir.", "ans_jp": "自社のサービス（特に主力製品であるLMSやeラーニング技術）が、教育現場や社会にどのように貢献しているかが明確に伝わり、若手エンジニアのキャリアパスや成長環境が具体的に説明されている点に大変良い印象を受けました。", "ans_uz": "Kompaniya xizmatlari (ayniqsa, LMS va e-Learning texnologiyalari) ta'limga qanday hissa qo'shayotgani aniq ko'rsatilgani hamda yosh dasturchilarning o'sish imkoniyatlari batafsil tushuntirilgani juda ijobiy taassurot qoldirdi.", "keywords": ["教育現場への貢献 (Ta'limga hissa qo'shish)", "主力製品 (Asosiy mahsulot)", "成長環境 (O'sish muhiti)"]}, {"id": 3, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "３．同じく今まで参加された会社説明会で、悪い印象を受けたのはどのような内容でしたか？", "q_uz": "3. Qatnashgan yig'ilishlaringizda qaysi jihatlar noaniq yoki salbiy taassurot uyg'otdi?", "point_uz": "Boshqa kompaniyalarni yomonlash emas, balki shaffoflik va aniq texnik maqsadlarni qadrlashingizni madaniyatli ifodalash kerak.", "ans_jp": "業務内容や求める人物像が抽象的で、入社後にどのような技術スタックでどのようなプロジェクトに携わるのかが不透明な説明会には、やや不安を感じました。", "ans_uz": "Ish mazmuni va qidirilayotgan mutaxassis qiyofasi noaniq bo'lgan, ishga kirgach qanday texnologiyalar ustida ishlash ochiq aytilmagan taqdimotlar biroz ikkilanish uyg'otdi.", "keywords": ["求める人物像 (Kutilgan nomzod)", "技術スタック (Texnologiyalar to'plami)", "不透明 (Noaniq/mavhum)"]}, {"id": 4, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "４．当社の会社説明会で、良かった/悪かった点、参考になった/ならなかった点をお知らせ下さい", "q_uz": "4. Bizning (Digital Knowledge) taqdimotimizda qaysi jihatlar ma'qul bo'ldi va nimalar foydali bo'ldi?", "point_uz": "Kompaniyaning KnowledgeDeliver mahsuloti va AI strategiyasini bilishingizni ko'rsatish intervyuerda chuqur qiziqish uyg'otadi.", "ans_jp": "【良かった点・参考になった点】教育×IT（eラーニング）のリーディングカンパニーとしての強みや、KnowledgeDeliverなどの自社開発プラットフォームの技術展開、さらにAI技術を教育に統合していくビジョンが非常に明確で、エンジニアとして強く惹かれました。\n【改善点】特にございませんが、若手エンジニアの1日の具体的な開発フローをさらに詳しく伺えたらより嬉しいと感じました。", "ans_uz": "【Ijobiy jihatlar】Ta'lim×IT sohasining yetakchi kompaniyasi sifatidagi ustunlik, KnowledgeDeliver kabi mualliflik tizimlarining rivoji va AI ni ta'limga tatbiq etish rejasi dasturchi sifatida meni juda qiziqtirdi. 【Istak】Yosh dasturchilarning bir kunlik amaliy ish tartibini ham ko'proq eshitsam ajoyib bo'lardi.", "keywords": ["リーディングカンパニー (Yetakchi kompaniya)", "KnowledgeDeliver (Asosiy LMS mahsulot)", "AI統合 (AI ni integratsiya qilish)"]}, {"id": 5, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "５．当社以外に応募された会社（及び選考状況）があれば挙げてください（可能な範囲で結構です）", "q_uz": "5. Bizdan tashqari qaysi kompaniyalarga hujjat topshirdingiz va hozirgi holati qanday?", "point_uz": "Boshqa joylarga ham topshirganingiz tabiiy, lekin Digital Knowledge siz uchun 1-raqamli ustuvor tanlov (第一志望) ekanligini ta'kidlash zarur.", "ans_jp": "IT・Web開発企業2社（書類選考・一次面接準備中）に応募しておりますが、教育工学とeラーニング領域において圧倒的な実績を持つ貴社を第一志望としております。", "ans_uz": "Yana 2 ta veb-ishlab chiquvchi kompaniyaga topshirganman (hujjat tekshiruvi va 1-bosqich suhbati arafasida), biroq ta'lim texnologiyalarida eng boy tajribaga ega bo'lgan sizning kompaniyangiz mening birinchi raqamli tanlovimdir.", "keywords": ["第一志望 (Birinchi raqamli tanlov)", "選考状況 (Tanlov bosqichi)", "圧倒的な実績 (Katta tajriba va natijalar)"]}, {"id": 6, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "６．入社を希望される決め手は何になりますか？（重要視する点を記載下さい：例-会社理念､会社風土､条件etc.）", "q_uz": "6. Ishga kirishni xohlashingizdagi eng asosiy hal qiluvchi omil nima?", "point_uz": "Bu savol — 志望動機 (Motivatsiya) ning o'zagi! Shunchaki chet elda ishlash emas, aynan kompaniyaning o'z mahsulotiga egaligi va missiyasini urg'ulash lozim.", "ans_jp": "「教育×テクノロジーで人々の学びを変革する」という貴社の理念と、自社開発のeラーニング製品に深く共感したことが最大の決め手です。受託開発にとどまらず、自社プロダクトを持つ環境で、フロントエンド・バックエンド・AI技術を駆使してユーザーの成長を支えるシステムを開発したいと考えています。", "ans_uz": "«Ta'lim×Texnologiya orqali insonlar bilim olishini yangi bosqichga olib chiqish» falsafasi va kompaniyangizning o'z mualliflik mahsulotiga ega ekanligi eng asosiy sababdir. Frontend, backend va AI imkoniyatlarini birlashtirib, o'rganuvchilar o'sishiga yordam beradigan tizimlar yaratishni istayman.", "keywords": ["理念への共感 (Kompaniya g'oyasiga qo'shilish)", "自社プロダクト (Mualliflik mahsuloti)", "学びの変革 (Ta'limdagi yangilanish)"]}, {"id": 7, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "７．あなたの長所と、短所を客観的に述べて下さい", "q_uz": "7. Kuchli (長所) va zaif (短所) tomonlaringizni xolisona aytib bering", "point_uz": "Kamchilikni aytganda, uni qanday nazorat qilishingiz va yechimini ko'rsatishingiz kerak (masalan, detallarga berilish -> reja va taymlayn tuzish orqali boshqarish).", "ans_jp": "【長所】課題解決に対する探究心と行動力です。技術的な問題に直面した際も原因を論理的に突き止め、モダンな技術やAIを活用して迅速に形にする実行力があります。\n【短所】こだわりが強く、細部に熱中しすぎてしまう点です。そのため、事前に優先順位とタイムラインを明確にし、全体最適を意識して開発を進めるよう徹底しています。", "ans_uz": "【Kuchli tomonim】Muammolarni yechishdagi izlanuvchanlik va harakatchanlik. Muammoga duch kelganda uning tub sababini topib, zamonaviy texnologiyalar orqali tezda ishlaydigan holatga keltiraman. 【Zaif tomonim】Detallarga haddan ortiq berilib ketishim. Buni bartaraf etish uchun oldindan muhimlik darajasini va vaqt chegarasini belgilab, umumiy loyiha muddatini ushlashga odatlanganman.", "keywords": ["探究心と行動力 (Izlanuvchanlik va amaliy harakat)", "論理的 (Mantiqiy yondashuv)", "全体最適 (Umumiy samaradorlik)"]}, {"id": 8, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "８．あなたの趣味と特技は何ですか？", "q_uz": "8. Qiziqishlaringiz (hobbi) va alohida mahoratingiz nimalardan iborat?", "point_uz": "Shaxsiy qiziqishingiz ham dasturlash va o'rganishga bog'liq ekanligi sizning kasbingizga chin dildan mehr qo'yganingizni ko'rsatadi.", "ans_jp": "【趣味】新しいWeb技術やAIツールのキャッチアップ、個人アプリ開発、技術書の読書です。\n【特技】フルスタックWeb開発（React, TypeScript, FastAPI）、日常的な課題を解決するWebツールの迅速なプロトタイピング、タッチタイピングです。", "ans_uz": "【Qiziqishlarim】Yangi veb-texnologiyalar va AI vositalarini o'rganish, mustaqil ilovalar yaratish, IT adabiyotlarini mutolaa qilish. 【Mahoratim】Full-stack dasturlash (React, TypeScript, FastAPI), muammolarga tezda veb-prototiplar yaratish va klaviaturada qaramay tez yozish.", "keywords": ["キャッチアップ (Yangi bilimlarni o'zlashtirish)", "プロトタイピング (Tezkor prototip yaratish)", "タッチタイピング (Tez yozish)"]}, {"id": 9, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "９．仕事を行なうに当たって、あなたが会社（又は管理監督者）に望むことは何ですか？", "q_uz": "9. Ishlash davomida kompaniyadan (yoki rahbardan) nimani istaysiz?", "point_uz": "Maqsadlarning aniq qo'yilishi va samimiy ochiq fikr almashish muhitini so'rash jamoaviy ishlashga tayyorligingizni ko'rsatadi.", "ans_jp": "目的や期待される成果が明確に共有されること、そしてチームで率直に技術やアイデアを議論し合えるオープンなコミュニケーション環境を望みます。いただいたフィードバックを積極的に吸収し、チームの成果に貢献したいです。", "ans_uz": "Vazifaning maqsadi va kutilayotgan natijalar aniq bo'lishini hamda jamoa bilan yangi texnologiya va g'oyalarni erkin muhokama qila oladigan ochiq muloqot muhitini istayman. Berilgan maslahat va tavsiyalarni tezda qabul qilib, jamoa yutug'iga hissa qo'shishga tayyorman.", "keywords": ["オープンなコミュニケーション (Ochiq muloqot)", "フィードバックの吸収 (Maslahatlarni qabul qilish)", "チーム貢献 (Jamoaga hissa qo'shish)"]}, {"id": 10, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "10．あなたの得意な業務や仕事はどのようなことですか？", "q_uz": "10. Qaysi yo'nalishdagi ishlarni eng yaxshi bajarasiz?", "point_uz": "Aniq texnologiyalar (React, Next.js, API, WebSocket, AI) va foydalanuvchiga qulay interfeys yaratish qobiliyatingizni ko'rsatish lozim.", "ans_jp": "React/Next.jsを用いたモダンでレスポンシブなUI/UXの設計・実装、およびFastAPIやNode.jsによるスケーラブルなREST API/リアルタイム通信（WebSocket）の構築が得意です。ユーザー目線での使いやすさとパフォーマンス改善を両立させる実装に強みがあります。", "ans_uz": "React va Next.js yordamida zamonaviy va moslashuvchan UI/UX yaratish, shuningdek, FastAPI va Node.js da yuqori yuklamaga chidamli REST API va real vaqtdagi muloqot (WebSocket) tizimlarini qurish mening kuchli tomonimdir.", "keywords": ["レスポンシブなUI/UX (Moslashuvchan interfeys)", "リアルタイム通信 (Real vaqtdagi aloqa)", "パフォーマンス改善 (Tezlikni optimallashtirish)"]}, {"id": 11, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "11．現在はご実家にお住まいでしょうか？内定となった場合、一人暮らしの予定はありますか？", "q_uz": "11. Hozir oilangiz bilan yashayapsizmi? Qabul qilinsangiz, mustaqil yolg'iz yashash rejangiz bormi?", "point_uz": "Yaponiyaga borib mustaqil yashashga ruhiy va amaliy tayyorligingizni tasdiqlash HR dagi barcha xavotirlarni yo'q qiladi.", "ans_jp": "現在はウズベキスタン（実家）在住です。内定をいただき日本へ渡航した際は、勤務地近隣にて一人暮らしを開始する予定であり、自立した生活管理にも全く問題ございません。", "ans_uz": "Hozirda O'zbekistonda oilam bilan yashayman. Ishga qabul qilinib Yaponiyaga borganimda, ish joyim yaqinida mustaqil yashay boshlayman va shaxsiy turmushni mustaqil boshqarishga to'liq tayyorman.", "keywords": ["一人暮らし (Mustaqil yolg'iz yashash)", "自立した生活管理 (Mustaqil hayotni boshqarish)", "渡航 (Yaponiyaga borish)"]}, {"id": 12, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "12．転勤に関して、いかがお考えですか？", "q_uz": "12. Boshqa shaharga ko'chib ishlash (転勤) bo'yicha fikringiz qanday?", "point_uz": "Yapon kompaniyalarida moslashuvchanlik juda qadrlanadi. Ish zarurati bo'lsa rozilik bildirish ijobiy taassurot beradi.", "ans_jp": "業務上の必要性に応じた転勤であれば、前向きに対応可能です。様々な環境や地域での経験を通じて、エンジニアとしてより視野を広げ、成長したいと考えております。", "ans_uz": "Agar ish ehtiyoji talab qilsa, boshqa joyga ko'chib ishlashga to'liq tayyorman. Turli muhitdagi yangi tajribalar dasturchi sifatida dunyoqarashimni kengaytiradi deb hisoblayman.", "keywords": ["前向きに対応 (Ijobiy/tayyor munosabat)", "視野を広げる (Dunyoqarashni kengaytirish)", "転勤 (Filialga ko'chish)"]}, {"id": 13, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "13．英語の読解力や会話力についてどの程度かお知らせ下さい", "q_uz": "13. Ingliz tilidagi o'qish va muloqot darajangiz qanday?", "point_uz": "IT sohasida inglizcha texnik hujjatlarni o'qiy olish katta ustunlik hisoblanadi.", "ans_jp": "【読解力】最新の公式技術ドキュメントやリファレンス、GitHubのディスカッションを問題なく英語で読解可能です。\n【会話力】日常会話および基礎的な業務上の意見交換が可能なレベルです。", "ans_uz": "【O'qib tushunish】Eng so'nggi rasmiy texnik hujjatlar va GitHub muhokamalarini erkin o'qib tushunaman. 【So'zlashuv】Kundalik hayotda va asosiy ish muloqotida o'z fikrimni tushuntira olaman.", "keywords": ["技術ドキュメント読解 (Hujjatlarni tushunish)", "日常会話 (Kundalik muloqot)", "リファレンス (Rasmiy manbalar)"]}, {"id": 14, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "14．あなたにとって「仕事」又は「働く事」とは、どの様に考えていますか？", "q_uz": "14. Siz uchun «ish» yoki «ishlash» nimani anglatadi?", "point_uz": "Ishga shunchaki oylik olish manbai deb emas, balki jamiyatga qiymat berish va shaxsiy o'sish yo'li deb qarash Yaponiyada eng oliy baholanadi.", "ans_jp": "「自分の技術と能力を通じて社会や他者に価値を提供し、その過程で自らも絶えず成長し続けること」と考えています。特にソフトウェア開発を通じて、多くの人々の学びや生活をより便利で豊かにすることにやりがいを感じます。", "ans_uz": "«O'z bilim va salohiyatim orqali jamiyatga foyda keltirish va bu jarayonda to'xtovsiz o'sib borish» deb bilaman. Ayniqsa, dasturiy ta'minot orqali insonlarning o'rganishini osonlashtirish men uchun eng katta mamnuniyatdir.", "keywords": ["価値の提供 (Qiymat yetkazish)", "絶えざる成長 (Doimiy o'sish)", "やりがい (Hissiy mamnuniyat)"]}, {"id": 15, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "15．給料はどの様に使いますか？", "q_uz": "15. Oylik maoshingizni qanday sarflaysiz?", "point_uz": "Tejamkorlik, mustaqil yashash xarajatlari va o'z kasbiy bilimiga sarmoya kiritish (自己投資) aytilishi kerak.", "ans_jp": "自立した生活費を堅実に管理した上で、技術書やオンライン学習、自己投資（資格取得や開発環境の整備）に計画的に充て、将来に備えた貯蓄も行います。", "ans_uz": "Kundalik yashash xarajatlarimni puxta boshqargan holda, texnik kitoblar, onlayn ta'lim va kasbiy o'sishga (sertifikatlar va texnik jihozlar) reja bilan sarflayman hamda kelajak uchun jamg'arma qilaman.", "keywords": ["自己投資 (Shaxsiy rivojlanishga sarmoya)", "堅実な管理 (Puxta boshqaruv)", "計画的 (Rejali)"]}, {"id": 16, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "16．将来の夢は何ですか？", "q_uz": "16. Kelajakdagi orzungiz va maqsadingiz nima?", "point_uz": "Kompaniyaning sohasi (EdTech / Ta'lim) bilan hamohang bo'lgan uzoq muddatli maqsadni aytish lozim.", "ans_jp": "教育とテクノロジーを融合させ、国境や環境に関わらず誰もが質の高い学習を享受できる次世代の教育プラットフォームをリードするフルスタックエンジニア・テックリードになることです。", "ans_uz": "Ta'lim va texnologiyani uyg'unlashtirib, dunyoning qayerida bo'lishidan qat'i nazar har bir inson sifatli bilim olishi mumkin bo'lgan ta'lim platformasini boshqaruvchi Tech Lead / yetakchi muhandis bo'lishdir.", "keywords": ["テックリード (Tech Lead)", "次世代教育基盤 (Yangi avlod ta'lim platformasi)", "国境を越えた学び (Chegarasiz ta'lim)"]}, {"id": 17, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "17．教育業界で仕事をするに当たって、またeラーニングの今後の展望についてどのようにお考えですか？", "q_uz": "17. Ta'lim sohasida ishlash va e-Learningning kelajak istiqbollari haqida fikringiz qanday?", "point_uz": "Aynan Digital Knowledge ning yuragi bo'lgan mavzu! Sun'iy intellekt orqali shaxsiylashtirilgan ta'lim (超個別最適化 / Adaptive Learning) haqida gapirish ayni muddao.", "ans_jp": "教育は社会の基盤であり、人々の可能性を広げる最も価値ある分野だと捉えています。今後のeラーニングは、画一的な動画配信から、AIを活用した「超個別最適化（アダプティブラーニング）」やリアルタイム双方向のインタラクティブな学びへと進化すると確信しています。学習者一人ひとりの理解度や感情に寄り添うスマートな学習環境を構築することが、今後の鍵になると考えています。", "ans_uz": "Ta'lim — jamiyat poydevori va inson salohiyatini ochuvchi eng buyuk sohadir. Kelajakda e-Learning oddiy videolardan sun'iy intellekt yordamidagi «shaxsga moslashtirilgan o'qitish» (Adaptive Learning) va real vaqtdagi ikki tomonlama jonli muloqotga o'tadi deb ishonaman.", "keywords": ["超個別最適化 (Har bir insonga moslashtirish)", "アダプティブラーニング (Adaptive Learning)", "双方向インタラクティブ (Ikki tomonlama muloqot)"]}, {"id": 18, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "18．デジタル･ナレッジでどのような業務を行ないたいと思っていますか？（希望職種記載必須）", "q_uz": "18. Digital Knowledge kompaniyasida qaysi lavozimda va qanday ishlarni bajarishni xohlaysiz?", "point_uz": "Lavozim aniq bo'lishi shart (Webエンジニア). Kompaniyaning asosiy mahsuloti KnowledgeDeliver ga hissa qo'shishingizni ayting.", "ans_jp": "【希望職種：Webエンジニア（フロントエンド／フルスタック）】\nKnowledgeDeliverをはじめとするeラーニングシステムの新機能開発、UI/UXのモダン化、およびAIやリアルタイム音声・インタラクション技術を取り入れた先進的な学習機能の研究・実装に携わりたいです。", "ans_uz": "【Istalgan kasb: Web Engineer (Frontend / Full-stack)】\nKnowledgeDeliver kabi e-Learning platformalarida yangi funksiyalar ishlab chiqish, UI/UX ni zamonaviylashtirish hamda AI va ovozli jonli muloqot texnologiyalarini tizimga tatbiq etish ustida ishlashni xohlayman.", "keywords": ["希望職種 (Istalgan lavozim)", "新機能開発 (Yangi funksiyalar yaratish)", "UI/UXのモダン化 (Zamonaviy interfeys)"]}, {"id": 19, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "19．ご希望条件等がありましたらご記入下さい", "q_uz": "19. Biror alohida talab yoki shartlaringiz bormi?", "point_uz": "Yangi bitiruvchi (新卒) sifatida ortiqcha shart qo'ymaslik, kompaniya qoidalariga rioya qilish va tezroq jamoaga hissa qo'shish niyatini bildirish eng professional javobdir.", "ans_jp": "貴社の就業規則および給与規定に従います。早期に自立し、チームに貢献できるエンジニアになれるよう全力を尽くします。", "ans_uz": "Kompaniyangiz ichki mehnat qoidalari va ish haqi me'yorlariga to'liq roziman. Qisqa fursatda jamoaga mustaqil hissa qo'sha oladigan mutaxassis bo'lish uchun bor kuchimni sarflayman.", "keywords": ["就業規則 (Mehnat qoidalari)", "給与規定 (Ish haqi me'yorlari)", "全力を尽くす (Bor kuchini berish)"]}, {"id": 20, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "20．最近、感動したことを文章でご記入下さい", "q_uz": "20. Yaqin orada sizni qattiq hayajonlantirgan / ta'sirlantirgan voqeani yozing", "point_uz": "Dasturlash orqali insonlarga foyda keltirganingizni so'zlash sizning kasbiy muhabbatingizni va amaliy tajribangizni ko'rsatadi.", "ans_jp": "自身が開発した語学学習・対話Webアプリをテスト公開した際、ユーザーから「学習のハードルが下がり、楽しく継続できるようになった」と直接感謝のメッセージをもらったことです。自らが書いたコードが誰かの学習体験を豊かにし、人の力になれるというソフトウェアの持つ力に深く感動しました。", "ans_uz": "O'zim yaratgan til o'rganish veb-ilovasini sinovdan o'tkazish uchun ochganimda, foydalanuvchilardan «O'rganish ancha osonlashdi, qiziqib har kuni shug'ullanyapman» degan iliq minnatdorchilik xabarini olganimda juda qattiq ta'sirlandim. O'z qo'lim bilan yozgan kod insonlar hayotiga yordam bera olishini ko'rish men uchun katta ilhom bo'ldi.", "keywords": ["学習体験の向上 (Ta'lim tajribasini oshirish)", "感謝のメッセージ (Minnatdorchilik xabari)", "ソフトウェアの力 (Dasturiy ta'minot kuchi)"]}, {"id": 21, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "21．最後に自分をPRできることや伝えたいことがあれば、簡潔に記入下さい。", "q_uz": "21. Yakuniy so'z: o'zingizni namoyon qiluvchi (PR) va aytmoqchi bo'lgan eng muhim fikringiz", "point_uz": "Suhbat yakunida o'zingizning JDU, JLPT N2, mustaqil amaliy dasturlash tajribangiz va yuqori motivatsiyangizni ixcham jamlab bering.", "ans_jp": "私はJDUでの学びを通じて日本語能力試験N2を取得し、技術面では自発的なフルスタックWeb開発やAI統合に取り組んできました。「自ら課題を見つけ、最後まで形にする遂行力」が私の最大の強みです。教育×ITの最先端を走るデジタル・ナレッジの一員として、高い熱量と探究心をもって貢献いたします。何卒よろしくお願いいたします。", "ans_uz": "Men JDU dagi ta'lim orqali JLPT N2 darajasiga erishdim, texnik jihatdan esa mustaqil ravishda zamonaviy full-stack tizimlar va AI integratsiyasini amalga oshirib kelmoqdaman. «Muammoni o'zi aniqlab, oxirigacha yetkazib ishlaydigan shaklga keltirish» mening bosh ustunligimdir. Digital Knowledge jamoasida butun kuch va ishtiyoqim bilan ishlashga tayyorman.", "keywords": ["最後まで形にする遂行力 (Oxirigacha yetkazish qobiliyati)", "高い熱量 (Yuqori ishtiyoq)", "教育×ITの最先端 (Ta'lim va IT peshqadami)"]}];
+const DATA_ES = [{"id": 1, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "１．何社の会社説明会を受けましたか？", "q_uz": "1. Nechta kompaniyaning taqdimot (tushuntirish) yig'ilishida qatnashdingiz?", "point_uz": "Ko'p yoki kam aytish emas, real va muvozanatli raqam (3-5 ta) aytish maqsadga muvofiq. Bir nechta IT kompaniyalarni solishtirib, aynan nima uchun DK ni tanlaganingizni ko'rsatishga imkon beradi.", "ans_jp": "3社です。主にIT・Web開発および教育工学領域の企業の説明会に参加いたしました。", "ans_uz": "3 ta kompaniya. Asosan IT, veb-dasturlash va ta'lim texnologiyalari sohasidagi korxonalar taqdimotida qatnashdim.", "keywords": ["会社説明会 (Taqdimot yig'ilishi)", "教育工学 (Ta'lim texnologiyalari)", "企業理解 (Kompaniyani o'rganish)"]}, {"id": 2, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "２．今まで参加された会社説明会で、良い印象を受けたのはどのような内容でしたか？", "q_uz": "2. Hozirgacha qatnashgan tushuntirish yig'ilishlarida qaysi jihatlar yaxshi taassurot qoldirdi?", "point_uz": "Siz qanday ish muhitini qadrlashingizni bilishmoqchi. Kompaniyaning ijtimoiy hissasi va muhandislarning o'sish muhitini ta'kidlash eng yaxshi javobdir.", "ans_jp": "自社のサービス（特に主力製品であるLMSやeラーニング技術）が、教育現場や社会にどのように貢献しているかが明確に伝わり、若手エンジニアのキャリアパスや成長環境が具体的に説明されている点に大変良い印象を受けました。", "ans_uz": "Kompaniya xizmatlari (ayniqsa, LMS va e-Learning texnologiyalari) ta'limga qanday hissa qo'shayotgani aniq ko'rsatilgani hamda yosh dasturchilarning o'sish imkoniyatlari batafsil tushuntirilgani juda ijobiy taassurot qoldirdi.", "keywords": ["教育現場への貢献 (Ta'limga hissa qo'shish)", "主力製品 (Asosiy mahsulot)", "成長環境 (O'sish muhiti)"]}, {"id": 3, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "３．同じく今まで参加された会社説明会で、悪い印象を受けたのはどのような内容でしたか？", "q_uz": "3. Qatnashgan yig'ilishlaringizda qaysi jihatlar noaniq yoki salbiy taassurot uyg'otdi?", "point_uz": "Boshqa kompaniyalarni yomonlash emas, balki shaffoflik va aniq texnik maqsadlarni qadrlashingizni madaniyatli ifodalash kerak.", "ans_jp": "業務内容や求める人物像が抽象的で、入社後にどのような技術スタックでどのようなプロジェクトに携わるのかが不透明な説明会には、やや不安を感じました。", "ans_uz": "Ish mazmuni va qidirilayotgan mutaxassis qiyofasi noaniq bo'lgan, ishga kirgach qanday texnologiyalar ustida ishlash ochiq aytilmagan taqdimotlar biroz ikkilanish uyg'otdi.", "keywords": ["求める人物像 (Kutilgan nomzod)", "技術スタック (Texnologiyalar to'plami)", "不透明 (Noaniq/mavhum)"]}, {"id": 4, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "４．当社の会社説明会で、良かった/悪かった点、参考になった/ならなかった点をお知らせ下さい", "q_uz": "4. Bizning (Digital Knowledge) taqdimotimizda qaysi jihatlar ma'qul bo'ldi va nimalar foydali bo'ldi?", "point_uz": "Kompaniyaning KnowledgeDeliver mahsuloti va AI strategiyasini bilishingizni ko'rsatish intervyuerda chuqur qiziqish uyg'otadi.", "ans_jp": "【良かった点・参考になった点】教育×IT（eラーニング）のリーディングカンパニーとしての強みや、KnowledgeDeliverなどの自社開発プラットフォームの技術展開、さらにAI技術を教育に統合していくビジョンが非常に明確で、エンジニアとして強く惹かれました。\n【改善点】特にございませんが、若手エンジニアの1日の具体的な開発フローをさらに詳しく伺えたらより嬉しいと感じました。", "ans_uz": "【Ijobiy jihatlar】Ta'lim×IT sohasining yetakchi kompaniyasi sifatidagi ustunlik, KnowledgeDeliver kabi mualliflik tizimlarining rivoji va AI ni ta'limga tatbiq etish rejasi dasturchi sifatida meni juda qiziqtirdi. 【Istak】Yosh dasturchilarning bir kunlik amaliy ish tartibini ham ko'proq eshitsam ajoyib bo'lardi.", "keywords": ["リーディングカンパニー (Yetakchi kompaniya)", "KnowledgeDeliver (Asosiy LMS mahsulot)", "AI統合 (AI ni integratsiya qilish)"]}, {"id": 5, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "５．当社以外に応募された会社（及び選考状況）があれば挙げてください（可能な範囲で結構です）", "q_uz": "5. Bizdan tashqari qaysi kompaniyalarga hujjat topshirdingiz va hozirgi holati qanday?", "point_uz": "Boshqa joylarga ham topshirganingiz tabiiy, lekin Digital Knowledge siz uchun 1-raqamli ustuvor tanlov (第一志望) ekanligini ta'kidlash zarur.", "ans_jp": "IT・Web開発企業2社（書類選考・一次面接準備中）に応募しておりますが、教育工学とeラーニング領域において圧倒的な実績を持つ貴社を第一志望としております。", "ans_uz": "Yana 2 ta veb-ishlab chiquvchi kompaniyaga topshirganman (hujjat tekshiruvi va 1-bosqich suhbati arafasida), biroq ta'lim texnologiyalarida eng boy tajribaga ega bo'lgan sizning kompaniyangiz mening birinchi raqamli tanlovimdir.", "keywords": ["第一志望 (Birinchi raqamli tanlov)", "選考状況 (Tanlov bosqichi)", "圧倒的な実績 (Katta tajriba va natijalar)"]}, {"id": 6, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "６．入社を希望される決め手は何になりますか？（重要視する点を記載下さい：例-会社理念､会社風土､条件etc.）", "q_uz": "6. Ishga kirishni xohlashingizdagi eng asosiy hal qiluvchi omil nima?", "point_uz": "Bu savol — 志望動機 (Motivatsiya) ning o'zagi! Shunchaki chet elda ishlash emas, aynan kompaniyaning o'z mahsulotiga egaligi va missiyasini urg'ulash lozim.", "ans_jp": "「教育×テクノロジーで人々の学びを変革する」という貴社の理念と、自社開発のeラーニング製品に深く共感したことが最大の決め手です。受託開発にとどまらず、自社プロダクトを持つ環境で、フロントエンド・バックエンド・AI技術を駆使してユーザーの成長を支えるシステムを開発したいと考えています。", "ans_uz": "«Ta'lim×Texnologiya orqali insonlar bilim olishini yangi bosqichga olib chiqish» falsafasi va kompaniyangizning o'z mualliflik mahsulotiga ega ekanligi eng asosiy sababdir. Frontend, backend va AI imkoniyatlarini birlashtirib, o'rganuvchilar o'sishiga yordam beradigan tizimlar yaratishni istayman.", "keywords": ["理念への共感 (Kompaniya g'oyasiga qo'shilish)", "自社プロダクト (Mualliflik mahsuloti)", "学びの変革 (Ta'limdagi yangilanish)"]}, {"id": 7, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "７．あなたの長所と、短所を客観的に述べて下さい", "q_uz": "7. Kuchli (長所) va zaif (短所) tomonlaringizni xolisona aytib bering", "point_uz": "Kamchilikni aytganda, uni qanday nazorat qilishingiz va yechimini ko'rsatishingiz kerak (masalan, detallarga berilish -> reja va taymlayn tuzish orqali boshqarish).", "ans_jp": "【長所】課題解決に対する探究心と行動力です。技術的な問題に直面した際も原因を論理的に突き止め、モダンな技術やAIを活用して迅速に形にする実行力があります。\n【短所】こだわりが強く、細部に熱中しすぎてしまう点です。そのため、事前に優先順位とタイムラインを明確にし、全体最適を意識して開発を進めるよう徹底しています。", "ans_uz": "【Kuchli tomonim】Muammolarni yechishdagi izlanuvchanlik va harakatchanlik. Muammoga duch kelganda uning tub sababini topib, zamonaviy texnologiyalar orqali tezda ishlaydigan holatga keltiraman. 【Zaif tomonim】Detallarga haddan ortiq berilib ketishim. Buni bartaraf etish uchun oldindan muhimlik darajasini va vaqt chegarasini belgilab, umumiy loyiha muddatini ushlashga odatlanganman.", "keywords": ["探究心と行動力 (Izlanuvchanlik va amaliy harakat)", "論理的 (Mantiqiy yondashuv)", "全体最適 (Umumiy samaradorlik)"]}, {"id": 8, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "８．あなたの趣味と特技は何ですか？", "q_uz": "8. Qiziqishlaringiz (hobbi) va alohida mahoratingiz nimalardan iborat?", "point_uz": "Shaxsiy qiziqishingiz ham dasturlash va o'rganishga bog'liq ekanligi sizning kasbingizga chin dildan mehr qo'yganingizni ko'rsatadi.", "ans_jp": "【趣味】新しいWeb技術やAIツールのキャッチアップ、個人アプリ開発、技術書の読書です。\n【特技】フルスタックWeb開発（React, TypeScript, FastAPI）、日常的な課題を解決するWebツールの迅速なプロトタイピング、タッチタイピングです。", "ans_uz": "【Qiziqishlarim】Yangi veb-texnologiyalar va AI vositalarini o'rganish, mustaqil ilovalar yaratish, IT adabiyotlarini mutolaa qilish. 【Mahoratim】Full-stack dasturlash (React, TypeScript, FastAPI), muammolarga tezda veb-prototiplar yaratish va klaviaturada qaramay tez yozish.", "keywords": ["キャッチアップ (Yangi bilimlarni o'zlashtirish)", "プロトタイピング (Tezkor prototip yaratish)", "タッチタイピング (Tez yozish)"]}, {"id": 9, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "９．仕事を行なうに当たって、あなたが会社（又は管理監督者）に望むことは何ですか？", "q_uz": "9. Ishlash davomida kompaniyadan (yoki rahbardan) nimani istaysiz?", "point_uz": "Maqsadlarning aniq qo'yilishi va samimiy ochiq fikr almashish muhitini so'rash jamoaviy ishlashga tayyorligingizni ko'rsatadi.", "ans_jp": "目的や期待される成果が明確に共有されること、そしてチームで率直に技術やアイデアを議論し合えるオープンなコミュニケーション環境を望みます。いただいたフィードバックを積極的に吸収し、チームの成果に貢献したいです。", "ans_uz": "Vazifaning maqsadi va kutilayotgan natijalar aniq bo'lishini hamda jamoa bilan yangi texnologiya va g'oyalarni erkin muhokama qila oladigan ochiq muloqot muhitini istayman. Berilgan maslahat va tavsiyalarni tezda qabul qilib, jamoa yutug'iga hissa qo'shishga tayyorman.", "keywords": ["オープンなコミュニケーション (Ochiq muloqot)", "フィードバックの吸収 (Maslahatlarni qabul qilish)", "チーム貢献 (Jamoaga hissa qo'shish)"]}, {"id": 10, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "10．あなたの得意な業務や仕事はどのようなことですか？", "q_uz": "10. Qaysi yo'nalishdagi ishlarni eng yaxshi bajarasiz?", "point_uz": "Aniq texnologiyalar (React, Next.js, API, WebSocket, AI) va foydalanuvchiga qulay interfeys yaratish qobiliyatingizni ko'rsatish lozim.", "ans_jp": "React/Next.jsを用いたモダンでレスポンシブなUI/UXの設計・実装、およびFastAPIやNode.jsによるスケーラブルなREST API/リアルタイム通信（WebSocket）の構築が得意です。ユーザー目線での使いやすさとパフォーマンス改善を両立させる実装に強みがあります。", "ans_uz": "React va Next.js yordamida zamonaviy va moslashuvchan UI/UX yaratish, shuningdek, FastAPI va Node.js da yuqori yuklamaga chidamli REST API va real vaqtdagi muloqot (WebSocket) tizimlarini qurish mening kuchli tomonimdir.", "keywords": ["レスポンシブなUI/UX (Moslashuvchan interfeys)", "リアルタイム通信 (Real vaqtdagi aloqa)", "パフォーマンス改善 (Tezlikni optimallashtirish)"]}, {"id": 11, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "11．現在はご実家にお住まいでしょうか？内定となった場合、一人暮らしの予定はありますか？", "q_uz": "11. Hozir oilangiz bilan yashayapsizmi? Qabul qilinsangiz, mustaqil yolg'iz yashash rejangiz bormi?", "point_uz": "Yaponiyaga borib mustaqil yashashga ruhiy va amaliy tayyorligingizni tasdiqlash HR dagi barcha xavotirlarni yo'q qiladi.", "ans_jp": "現在はウズベキスタン（実家）在住です。内定をいただき日本へ渡航した際は、勤務地近隣にて一人暮らしを開始する予定であり、自立した生活管理にも全く問題ございません。", "ans_uz": "Hozirda O'zbekistonda oilam bilan yashayman. Ishga qabul qilinib Yaponiyaga borganimda, ish joyim yaqinida mustaqil yashay boshlayman va shaxsiy turmushni mustaqil boshqarishga to'liq tayyorman.", "keywords": ["一人暮らし (Mustaqil yolg'iz yashash)", "自立した生活管理 (Mustaqil hayotni boshqarish)", "渡航 (Yaponiyaga borish)"]}, {"id": 12, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "12．転勤に関して、いかがお考えですか？", "q_uz": "12. Boshqa shaharga ko'chib ishlash (転勤) bo'yicha fikringiz qanday?", "point_uz": "Yapon kompaniyalarida moslashuvchanlik juda qadrlanadi. Ish zarurati bo'lsa rozilik bildirish ijobiy taassurot beradi.", "ans_jp": "業務上の必要性に応じた転勤であれば、前向きに対応可能です。様々な環境や地域での経験を通じて、エンジニアとしてより視野を広げ、成長したいと考えております。", "ans_uz": "Agar ish ehtiyoji talab qilsa, boshqa joyga ko'chib ishlashga to'liq tayyorman. Turli muhitdagi yangi tajribalar dasturchi sifatida dunyoqarashimni kengaytiradi deb hisoblayman.", "keywords": ["前向きに対応 (Ijobiy/tayyor munosabat)", "視野を広げる (Dunyoqarashni kengaytirish)", "転勤 (Filialga ko'chish)"]}, {"id": 13, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "13．英語の読解力や会話力についてどの程度かお知らせ下さい", "q_uz": "13. Ingliz tilidagi o'qish va muloqot darajangiz qanday?", "point_uz": "IT sohasida inglizcha texnik hujjatlarni o'qiy olish katta ustunlik hisoblanadi.", "ans_jp": "【読解力】最新の公式技術ドキュメントやリファレンス、GitHubのディスカッションを問題なく英語で読解可能です。\n【会話力】日常会話および基礎的な業務上の意見交換が可能なレベルです。", "ans_uz": "【O'qib tushunish】Eng so'nggi rasmiy texnik hujjatlar va GitHub muhokamalarini erkin o'qib tushunaman. 【So'zlashuv】Kundalik hayotda va asosiy ish muloqotida o'z fikrimni tushuntira olaman.", "keywords": ["技術ドキュメント読解 (Hujjatlarni tushunish)", "日常会話 (Kundalik muloqot)", "リファレンス (Rasmiy manbalar)"]}, {"id": 14, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "14．あなたにとって「仕事」又は「働く事」とは、どの様に考えていますか？", "q_uz": "14. Siz uchun «ish» yoki «ishlash» nimani anglatadi?", "point_uz": "Ishga shunchaki oylik olish manbai deb emas, balki jamiyatga qiymat berish va shaxsiy o'sish yo'li deb qarash Yaponiyada eng oliy baholanadi.", "ans_jp": "「自分の技術と能力を通じて社会や他者に価値を提供し、その過程で自らも絶えず成長し続けること」と考えています。特にソフトウェア開発を通じて、多くの人々の学びや生活をより便利で豊かにすることにやりがいを感じます。", "ans_uz": "«O'z bilim va salohiyatim orqali jamiyatga foyda keltirish va bu jarayonda to'xtovsiz o'sib borish» deb bilaman. Ayniqsa, dasturiy ta'minot orqali insonlarning o'rganishini osonlashtirish men uchun eng katta mamnuniyatdir.", "keywords": ["価値の提供 (Qiymat yetkazish)", "絶えざる成長 (Doimiy o'sish)", "やりがい (Hissiy mamnuniyat)"]}, {"id": 15, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "15．給料はどの様に使いますか？", "q_uz": "15. Oylik maoshingizni qanday sarflaysiz?", "point_uz": "Tejamkorlik, mustaqil yashash xarajatlari va o'z kasbiy bilimiga sarmoya kiritish (自己投資) aytilishi kerak.", "ans_jp": "自立した生活費を堅実に管理した上で、技術書やオンライン学習、自己投資（資格取得や開発環境の整備）に計画的に充て、将来に備えた貯蓄も行います。", "ans_uz": "Kundalik yashash xarajatlarimni puxta boshqargan holda, texnik kitoblar, onlayn ta'lim va kasbiy o'sishga (sertifikatlar va texnik jihozlar) reja bilan sarflayman hamda kelajak uchun jamg'arma qilaman.", "keywords": ["自己投資 (Shaxsiy rivojlanishga sarmoya)", "堅実な管理 (Puxta boshqaruv)", "計画的 (Rejali)"]}, {"id": 16, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "16．将来の夢は何ですか？", "q_uz": "16. Kelajakdagi orzungiz va maqsadingiz nima?", "point_uz": "Kompaniyaning sohasi (EdTech / Ta'lim) bilan hamohang bo'lgan uzoq muddatli maqsadni aytish lozim.", "ans_jp": "教育とテクノロジーを融合させ、国境や環境に関わらず誰もが質の高い学習を享受できる次世代の教育プラットフォームをリードするフルスタックエンジニア・テックリードになることです。", "ans_uz": "Ta'lim va texnologiyani uyg'unlashtirib, dunyoning qayerida bo'lishidan qat'i nazar har bir inson sifatli bilim olishi mumkin bo'lgan ta'lim platformasini boshqaruvchi Tech Lead / yetakchi muhandis bo'lishdir.", "keywords": ["テックリード (Tech Lead)", "次世代教育基盤 (Yangi avlod ta'lim platformasi)", "国境を越えた学び (Chegarasiz ta'lim)"]}, {"id": 17, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "17．教育業界で仕事をするに当たって、またeラーニングの今後の展望についてどのようにお考えですか？", "q_uz": "17. Ta'lim sohasida ishlash va e-Learningning kelajak istiqbollari haqida fikringiz qanday?", "point_uz": "Aynan Digital Knowledge ning yuragi bo'lgan mavzu! Sun'iy intellekt orqali shaxsiylashtirilgan ta'lim (超個別最適化 / Adaptive Learning) haqida gapirish ayni muddao.", "ans_jp": "教育は社会の基盤であり、人々の可能性を広げる最も価値ある分野だと捉えています。今後のeラーニングは、画一的な動画配信から、AIを活用した「超個別最適化（アダプティブラーニング）」やリアルタイム双方向のインタラクティブな学びへと進化すると確信しています。学習者一人ひとりの理解度や感情に寄り添うスマートな学習環境を構築することが、今後の鍵になると考えています。", "ans_uz": "Ta'lim — jamiyat poydevori va inson salohiyatini ochuvchi eng buyuk sohadir. Kelajakda e-Learning oddiy videolardan sun'iy intellekt yordamidagi «shaxsga moslashtirilgan o'qitish» (Adaptive Learning) va real vaqtdagi ikki tomonlama jonli muloqotga o'tadi deb ishonaman.", "keywords": ["超個別最適化 (Har bir insonga moslashtirish)", "アダプティブラーニング (Adaptive Learning)", "双方向インタラクティブ (Ikki tomonlama muloqot)"]}, {"id": 18, "cat": "shibou", "cat_name": "志望動機・企業理解", "q_jp": "18．デジタル･ナレッジでどのような業務を行ないたいと思っていますか？（希望職種記載必須）", "q_uz": "18. Digital Knowledge kompaniyasida qaysi lavozimda va qanday ishlarni bajarishni xohlaysiz?", "point_uz": "Lavozim aniq bo'lishi shart (Webエンジニア). Kompaniyaning asosiy mahsuloti KnowledgeDeliver ga hissa qo'shishingizni ayting.", "ans_jp": "【希望職種：Webエンジニア（フロントエンド／フルスタック）】\nKnowledgeDeliverをはじめとするeラーニングシステムの新機能開発、UI/UXのモダン化、およびAIやリアルタイム音声・インタラクション技術を取り入れた先進的な学習機能の研究・実装に携わりたいです。", "ans_uz": "【Istalgan kasb: Web Engineer (Frontend / Full-stack)】\nKnowledgeDeliver kabi e-Learning platformalarida yangi funksiyalar ishlab chiqish, UI/UX ni zamonaviylashtirish hamda AI va ovozli jonli muloqot texnologiyalarini tizimga tatbiq etish ustida ishlashni xohlayman.", "keywords": ["希望職種 (Istalgan lavozim)", "新機能開発 (Yangi funksiyalar yaratish)", "UI/UXのモダン化 (Zamonaviy interfeys)"]}, {"id": 19, "cat": "condition", "cat_name": "勤務条件・状況", "q_jp": "19．ご希望条件等がありましたらご記入下さい", "q_uz": "19. Biror alohida talab yoki shartlaringiz bormi?", "point_uz": "Yangi bitiruvchi (新卒) sifatida ortiqcha shart qo'ymaslik, kompaniya qoidalariga rioya qilish va tezroq jamoaga hissa qo'shish niyatini bildirish eng professional javobdir.", "ans_jp": "貴社の就業規則および給与規定に従います。早期に自立し、チームに貢献できるエンジニアになれるよう全力を尽くします。", "ans_uz": "Kompaniyangiz ichki mehnat qoidalari va ish haqi me'yorlariga to'liq roziman. Qisqa fursatda jamoaga mustaqil hissa qo'sha oladigan mutaxassis bo'lish uchun bor kuchimni sarflayman.", "keywords": ["就業規則 (Mehnat qoidalari)", "給与規定 (Ish haqi me'yorlari)", "全力を尽くす (Bor kuchini berish)"]}, {"id": 20, "cat": "career", "cat_name": "キャリア・仕事観", "q_jp": "20．最近、感動したことを文章でご記入下さい", "q_uz": "20. Yaqin orada sizni qattiq hayajonlantirgan / ta'sirlantirgan voqeani yozing", "point_uz": "Dasturlash orqali insonlarga foyda keltirganingizni so'zlash sizning kasbiy muhabbatingizni va amaliy tajribangizni ko'rsatadi.", "ans_jp": "自身が開発した語学学習・対話Webアプリをテスト公開した際、ユーザーから「学習のハードルが下がり、楽しく継続できるようになった」と直接感謝のメッセージをもらったことです。自らが書いたコードが誰かの学習体験を豊かにし、人の力になれるというソフトウェアの持つ力に深く感動しました。", "ans_uz": "O'zim yaratgan til o'rganish veb-ilovasini sinovdan o'tkazish uchun ochganimda, foydalanuvchilardan «O'rganish ancha osonlashdi, qiziqib har kuni shug'ullanyapman» degan iliq minnatdorchilik xabarini olganimda juda qattiq ta'sirlandim. O'z qo'lim bilan yozgan kod insonlar hayotiga yordam bera olishini ko'rish men uchun katta ilhom bo'ldi.", "keywords": ["学習体験の向上 (Ta'lim tajribasini oshirish)", "感謝のメッセージ (Minnatdorchilik xabari)", "ソフトウェアの力 (Dasturiy ta'minot kuchi)"]}, {"id": 21, "cat": "jiko_pr", "cat_name": "自己PR・技術スキル", "q_jp": "21．最後に自分をPRできることや伝えたいことがあれば、簡潔に記入下さい。", "q_uz": "21. Yakuniy so'z: o'zingizni namoyon qiluvchi (PR) va aytmoqchi bo'lgan eng muhim fikringiz", "point_uz": "Suhbat yakunida o'zingizning JDU, JLPT N2, mustaqil amaliy dasturlash tajribangiz va yuqori motivatsiyangizni ixcham jamlab bering.", "ans_jp": "私はJDUでの学びを通じて日本語能力試験N2を取得し、技術面では自発的なフルスタックWeb開発やAI統合に取り組んできました。「自ら課題を見つけ、最後まで形にする遂行力」が私の最大の強みです。教育×ITの最先端を走るデジタル・ナレッジの一員として、高い熱量と探究心をもって貢献いたします。何卒よろしくお願いいたします。", "ans_uz": "Men JDU dagi ta'lim orqali JLPT N2 darajasiga erishdim, texnik jihatdan esa mustaqil ravishda zamonaviy full-stack tizimlar va AI integratsiyasini amalga oshirib kelmoqdaman. «Muammoni o'zi aniqlab, oxirigacha yetkazib ishlaydigan shaklga keltirish» mening bosh ustunligimdir. Digital Knowledge jamoasida butun kuch va ishtiyoqim bilan ishlashga tayyorman.", "keywords": ["最後まで形にする遂行力 (Oxirigacha yetkazish qobiliyati)", "高い熱量 (Yuqori ishtiyoq)", "教育×ITの最先端 (Ta'lim va IT peshqadami)"]}];
+const DATA_EXCEL = [{"id": "ex1", "title": "Excelスキルチェックの取り組みについて (Excel testini yechish jarayoni)", "q_jp": "提出いただいた「Excelスキルチェック」で、工夫した点や意識したことは何ですか？", "q_uz": "Topshirgan «Excel mahorat testi»da qanday jihatlarga e'tibor berdingiz va qanday qulayliklar kiritdingiz?", "point_uz": "Statik raqamlar yozmasdan, barcha kataklarni formulalar orqali dinamik bog'laganingizni, RANDBETWEEN orqali sonlar o'zgarganda ham tizim to'g'ri ishlashini ta'kidlang.", "ans_jp": "数値がRANDBETWEEN関数で動的に変化することを前提に、数値を直接打ち込むのではなく、全て計算式と関数（SUM, ROUND, VLOOKUPなど）で設計いたしました。特に表２の成績判定ルールや集計結果を絶対参照（$マーク）で確実に参照し、データの再計算や行追加にも崩れない保守性の高いシート作成を意識しました。", "ans_uz": "Sonlar RANDBETWEEN orqali tasodifiy o'zgarishini inobatga olib, sonlarni qo'lda kiritmasdan, barchasini formulalar (SUM, ROUND, VLOOKUP va h.k.) bilan bog'ladim. Ayniqsa, baholash qoidalari va jami qatorlarni absolut murojaat ($) orqali ulab, har qanday qayta hisoblashda ham mustahkam ishlaydigan tizim qildim.", "keywords": ["動的変化 (Dinamik o'zgarish)", "絶対参照 (Absolyut murojaat $)", "保守性 (Qo'llab-quvvatlash qulayligi)"]}, {"id": "ex2", "title": "偏差値の算出とSTDEVP関数の選定 (Hensachi va STDEVP tanlovi)", "q_jp": "課題その２の「偏差値」はどのように計算しましたか？また標準偏差の関数は何を選びましたか？", "q_uz": "2-topshiriqdagi «Hensachi (偏差値)»ni qanday hisobladingiz va standart chetlanish uchun qaysi funksiyani tanladingiz?", "point_uz": "Hensachi formulasi: 50 + 10 * (Ball - O'rtacha) / Standart chetlanish. 1000 nafar butun imtihon ishtirokchilari bu «bosh to'plam (母集団)» bo'lgani uchun STDEV.S (namuna) emas, STDEVP (yoki STDEV.P) ishlatilganini aytish statistika bilimingizni namoyish etadi.", "ans_jp": "偏差値は「50 + 10 × (得点 - 平均得点) ÷ 標準偏差」という数式を用い、ROUND関数で指定通り小数第2位に四捨五入しました。標準偏差には、受験者1,000名全員が全体の母集団であるため、不偏分散ではなく母集団を対象とする「STDEVP（またはSTDEV.P）」関数を選択して正確に算出しました。", "ans_uz": "Hensachini «50 + 10 × (Ball - O'rtacha) / Standart chetlanish» formulasi bilan hisoblab, ROUND orqali 2 xona aniqlikda yaxlitladim. Standart chetlanishda 1000 nafar ishtirokchi to'liq bosh to'plam (母集団) bo'lganligi sababli STDEVP funksiyasidan foydalandim.", "keywords": ["母集団 (Bosh to'plam / Population)", "標準偏差 (STDEVP)", "四捨五入 (ROUND)", "偏差値 (T-score)"]}, {"id": "ex3", "title": "成績検索システムのVLOOKUP実装 (VLOOKUP qidiruv tizimi)", "q_jp": "6-Fの「成績検索システム」で工夫した点や、エラーを防ぐための注意点は何ですか？", "q_uz": "6-F dagi «Natijalarni qidiruv tizimi»da xatoliklarning oldini olish uchun nimalarga e'tibor berdingiz?", "point_uz": "VLOOKUP da 4-argument sifatida FALSE (完全一致 - to'liq moslik) berilgani va qidirilayotgan ID yacheykasi ($H$100) hamda qidiruv jadvali ($A$12:$E$1011) absolut bog'langanini tushuntiring.", "ans_jp": "受験番号をキーとして都道府県・得点・判定・偏差値を抽出するため、VLOOKUP関数を使用しました。その際、検索の型として必ず「FALSE（完全一致）」を指定し、類似データによる誤判定を防ぎました。また、検索対象範囲（$A$12:$E$1011）を絶対参照にすることで、数式のコピーや拡張時にも参照ズレが起きないよう堅牢に実装しました。", "ans_uz": "Imtihon raqami bo'yicha ma'lumotlarni chiqarishda VLOOKUP ishlatdim. Noto'g'ri moslashuvlarning oldini olish uchun 4-argumentni qat'iy «FALSE (to'liq moslik)» qilib belgiladim va jadval chegarasini ($A$12:$E$1011) absolut qilib qotirdim.", "keywords": ["完全一致 (FALSE / Aniq moslik)", "参照ズレの防止 (Manzil siljishini oldini olish)", "堅牢な実装 (Mustahkam arxitektura)"]}, {"id": "ex4", "title": "グラフの選定理由 (Grafik turini tanlash mantig'i)", "q_jp": "課題その１で棒グラフと円グラフを選んだ理由を教えてください。", "q_uz": "1-topshiriqda nima sababdan ustunli grafik (棒グラフ) va doiraviy grafik (円グラフ) ni tanladingiz?", "point_uz": "Taqqoslama uchun ustunli grafik (Bar chart), ulush/nisbatni ko'rsatish uchun doiraviy grafik (Pie chart) eng to'g'ri vizualizatsiya ekanligini izohlang.", "ans_jp": "問（２）の果物の購入価格では、品目ごとの金額の大小を視覚的に一目で比較できるよう「縦棒グラフ（Column Chart）」を選択しました。一方、問（４）のりんごの産地別データでは、全国の生産量に対する各産地のシェア・構成比を直感的に把握できるよう「円グラフ（Pie Chart）」を採用し、目的に最適な可視化を行いました。", "ans_uz": "(2)-masalada mevalarning narxini o'zaro solishtirish uchun ustunli grafikni tanladim. (4)-masalada esa umumiy hajmga nisbatan hududlarning ulushini (foizini) ko'rsatish uchun doiraviy grafikni qo'lladim.", "keywords": ["縦棒グラフ (Ustunli grafik)", "円グラフ (Doiraviy grafik)", "構成比の可視化 (Ulushni vizuallashtirish)"]}];
+const DATA_SEIKA = [{"id": "sk1", "title": "成果報告書（自己学習研究）の取り組みと自走力", "q_jp": "成果報告書を拝見すると、日々の学習や開発が非常に細かく記録されていますが、どのように習慣化しましたか？", "q_uz": "O'z ustida ishlash hisobotingizda (成果報告書) har kunlik izlanishlar puxta yozilgan. Buni qanday qilib kundalik odatga aylantirdingiz?", "point_uz": "Mustaqil izlanish qobiliyati (自走力 - jisouryoku), maqsadni kichik qismlarga bo'lib ishlash va har kuni amaliy kod yozish odatini ta'kidlang.", "ans_jp": "エンジニアとして成長するために「毎日小さくても動くものを作る」ことを目標に掲げました。毎日の開始時に作業名と予想工数を設定し、作業後に実装内容と課題を振り返って記録することをルーティン化しました。この自走力と自己管理の習慣が、短期間でのフルスタック開発力習得につながっています。", "ans_uz": "Dasturchi sifatida o'sish uchun «har kuni amalda ishlaydigan kichik bo'lsa ham qism yaratish»ni maqsad qildim. Har kuni ish boshida vazifa va sarflanadigan vaqtni belgilab, yakunida tahlil qilib yozib bordim. Ushbu mustaqil intizom menga qisqa vaqtda Full-Stack darajasiga chiqishga yordam berdi.", "keywords": ["習慣化 (Odatga aylantirish)", "自走力 (Mustaqil harakat qilish)", "自己管理 (O'zini boshqarish)"]}, {"id": "sk2", "title": "音声・AI対話アプリ（kaiwa.live）の開発動機と技術的課題", "q_jp": "10月の報告書にもある音声対話や学習アプリ開発で、最も難しかった技術的課題と解決策は何ですか？", "q_uz": "10-oylik hisobotingizda qayd etilgan audio va nutq tizimlarida eng katta texnik qiyinchilik nima bo'ldi va uni qanday hal qildingiz?", "point_uz": "Real-vaqtdagi audio seanslar, tarmoq uzilishlari, HTTP header overflow (masalan, 431 xatosi) yoki kechikishni (latency) qanday bartaraf etganingizni aniq texnik atamalar bilan ayting.", "ans_jp": "音声のリアルタイム送受信におけるレイテンシ（遅延）の削減と、ネットワーク断絶時のセッション維持が最大の課題でした。WebSocket通信とWeb Audio APIを最適化し、バッファリングとトークン更新処理を見直すことで、低遅延で滑らかな双方向音声対話を実現しました。また、HTTPヘッダーの肥大化によるエラーも認証トークンの分割管理で解決しました。", "ans_uz": "Eng katta qiyinchilik audioni real vaqtda uzatishdagi kechikishni (latency) kamaytirish va internet uzilganda seansni yo'qotmaslik bo'ldi. WebSocket va Web Audio API ni optimallashtirib, buferlashni to'g'irladim. Natijada kechikishsiz ravon audio muloqotga erishdim.", "keywords": ["レイテンシ削減 (Kechikishni kamaytirish)", "WebSocket (Ikki tomonlama ulanish)", "Web Audio API"]}, {"id": "sk3", "title": "dekiru_nihongo（本アプリ）をPWA & Zero-Dependencyで設計した理由", "q_jp": "この「dekiru_nihongo」アプリは完全オフライン対応のPWAとして作られていますが、なぜこのアーキテクチャを選んだのですか？", "q_uz": "Ushbu «dekiru_nihongo» ilovasini to'liq oflayn ishlaydigan PWA va qo'shimcha kutubxonalarsiz (Zero-dependency) yaratishingizga sabab nima?", "point_uz": "O'quvchi har qanday joyda (metro, safar, internetsiz) tez va qulay o'rganishi uchun og'ir freymvorklarsiz, Service Worker kesh bilan yengil qilib qurganingizni tushuntiring.", "ans_jp": "学習者が地下鉄や移動中など、インターネットが不安定な環境でもストレスなく単語や試験問題を反復学習できるようにするためです。外部ライブラリに依存しない軽量な設計とService Workerによる完全キャッシュを採用し、起動速度とバッテリー消費を最小限に抑え、MacBookやスマホに直接インストールして使えるPWAとして開発しました。", "ans_uz": "O'quvchi metroda yoki yo'lda internet bo'lmaganda ham bemalol so'z va testlarni takrorlashi uchun shunday qildim. Og'ir kutubxonalarsiz, Service Worker yordamida to'liq keshlanuvchi yengil tizim qilib, Mac va telefonga mustaqil o'rnatiladigan (PWA) qilib ishlab chiqdim.", "keywords": ["Zero-Dependency (Qaramliklarsiz)", "Service Worker (Oflayn kesh)", "PWA (Ilova sifatida o'rnatish)"]}];
+const DATA_DK = [{"id": "dk1", "title": "KnowledgeDeliverに対する理解と開発への意欲", "q_jp": "弊社の主力製品である「KnowledgeDeliver」について知っていることと、携わりたい開発を教えてください。", "q_uz": "Kompaniyamizning bosh mahsuloti bo'lmish «KnowledgeDeliver» haqida nimalarni bilasiz va qaysi yo'nalishida ishlashni istaysiz?", "point_uz": "KnowledgeDeliver ning 3 ta asosiy ustuni: 教材作成 (kontent yaratish), 学習 (o'rganish), 運用管理 (boshqaruv) ekanligini va unga zamonaviy AI/interaktiv funksiyalar qo'shish niyatini bildiring.", "ans_jp": "KnowledgeDeliverは、教材作成・学習・運用管理の3大機能をワンストップで備え、3,000以上の企業や学校に導入されている日本屈指のLMSプラットフォームだと理解しております。私は特に、PC・スマホのマルチデバイス対応UI/UXの更なるモダン化や、AIメンタリング・リアルタイム対話技術を組み込んだ次世代の学習体験機能の開発に携わりたいと考えています。", "ans_uz": "KnowledgeDeliver — darslik yaratish, o'rganish va boshqaruv funksiyalarini bitta joyda birlashtirgan, 3000 dan ortiq tashkilotda ishlatiladigan Yaponiyadagi eng yetakchi LMS deb bilaman. Men ayniqsa mobil va kompyuter interfeysini zamonaviylashtirish hamda AI mentorlik va jonli muloqot imkoniyatlarini tizimga tatbiq etishda qatnashmoqchiman.", "keywords": ["KnowledgeDeliver (LMS mahsulot)", "教材作成・学習・運用管理 (3 asosiy funksiya)", "AIメンタリング (AI murabbiylik)"]}, {"id": "dk2", "title": "JDU設立母体としてのデジタル・ナレッジと自身の強み", "q_jp": "デジタル・ナレッジがJDUを設立・運営していることについて、JDU生であるあなたの視点からどう捉えていますか？", "q_uz": "Digital Knowledge JDU universitetining asoschisi va boshqaruvchisi ekanligiga JDU talabasi sifatida qanday qaraysiz?", "point_uz": "JDU orqali yapon ta'limi va texnologiyasini bevosita o'zlashtirganingizni, kompaniyaning xalqaro ta'lim ko'prigi (学びの架け橋) missiyasining tirik natijasi ekanligingizni ayting.", "ans_jp": "デジタル・ナレッジの『ITで世界中に学びの架け橋を架ける』という使命が、まさにJDUという形で結実し、私自身がその教育を受けて成長した当事者です。JDUで培ったIT技術と日本語力（N2）、そして中央アジアと日本をつなぐ多文化理解を強みとして、今度は貴社の一員として次の世代や世界中の学習者に価値を還元したいと強く決意しています。", "ans_uz": "Digital Knowledge kompaniyasining «IT orqali dunyo bo'ylab bilim ko'prigi qurish» missiyasi aynan JDU misolida amalda namoyon bo'ldi va men shaxsan shu ta'limdan bahramand bo'lgan talabaman. JDU da olgan IT bilimim va yapon tilim (N2) bilan endi kompaniyangiz xodimi sifatida keyingi avlodlarga foyda keltirishga qat'iy qaror qilganman.", "keywords": ["学びの架け橋 (Bilim ko'prigi)", "JDU設立母体 (JDU asoschisi)", "価値の還元 (Qiymatni qaytarish)"]}, {"id": "dk3", "title": "日本最大のMOOC「gacco」の運営移管と今後の可能性", "q_jp": "弊社が2026年4月より日本最大のMOOCプラットフォーム「gacco」の運営を100%引き継いだことをどう評価していますか？", "q_uz": "Kompaniyamiz 2026-yil apreldan Yaponiyaning eng yirik MOOC platformasi «gacco» boshqaruvini to'liq o'z zimmasiga olganiga qanday baho berasiz?", "point_uz": "132 milliondan ortiq foydalanuvchiga ega ochiq ta'lim platformasi ekanligi va katta hajmdagi ta'lim ma'lumotlarini (Learning Analytics / Big Data) tahlil qilish imkoniyatini ta'kidlang.", "ans_jp": "会員数130万人を超える日本最大のオープン学習基盤gaccoが貴社の傘下に入ったことは、社会人教育やリスキリング分野において計り知れない成長機会だと捉えています。大学や官公庁の良質な講座データを分析（ラーニングアナリティクス）し、一人ひとりに最適な学習推薦を行うなど、巨大トラフィックを支えるエンジニアリング面でも非常に挑戦したい領域です。", "ans_uz": "1.3 milliondan ortiq a'zosi bo'lgan eng katta ochiq ta'lim platformasi «gacco»ning Digital Knowledge ga o'tishi katta strategik imkoniyatdir. Katta hajmdagi ta'lim tahlili (Learning Analytics) va yuqori yuklamani ushlab turuvchi muhandislik yo'nalishida ishlash men uchun katta qiziqish uyg'otadi.", "keywords": ["gacco (MOOC platformasi)", "130万人会員 (1.3 mln a'zo)", "ラーニングアナリティクス (Ta'lim tahlili)"]}];
+const DATA_GYAKU = [{"id": "gq1", "title": "KnowledgeDeliver × 生成AIの技術展開について", "q_jp": "御社が開発されている『KnowledgeDeliver』において、生成AIを活用した自動メンタリングやアダプティブラーニングの今後の技術展開について、エンジニアの視点から特に注力されているポイントを伺えますでしょうか。", "q_uz": "Kompaniyangiz ishlab chiqqan KnowledgeDeliver tizimida generativ AI vositasidagi avtomatik murabbiylik (mentoring) va moslashuvchan ta'lim bo'yicha injiniring nuqtayi nazaridan eng ustuvor qaratilayotgan jihatlar haqida so'rasam bo'ladimi?", "point_uz": "Kompaniya mahsuloti va AI strategiyasini chuqur o'rganganingizni hamda kelajakdagi rivojlanishga befarq emasligingizni namoyish etadi."}, {"id": "gq2", "title": "JDU出身先輩社員の活躍と若手エンジニアの自走について", "q_jp": "説明会にて、入社後の丁寧な新入社員研修とチューター制度について伺い、大変魅力に感じました。実際にJDU出身の先輩社員や若手エンジニアの方々は、本配属後にどのようなプロジェクトで自走力を発揮して活躍されているか、具体的な事例をお聞かせいただけますでしょうか。", "q_uz": "Taqdimotda yangi xodimlar treningi va murabbiylik tizimi haqida eshitib juda qiziqdim. Amalda JDU bitiruvchisi bo'lgan xodimlar yoki yosh mutaxassislar asosiy bo'limga o'tgach, qanday loyihalarda o'zlarining mustaqil qobiliyatlarini (自走力) ko'rsatib faoliyat yuritmoqdalar?", "point_uz": "Taqdimotdagi JDU bitiruvchisi haqidagi ma'lumotni eslab qolganingizni va ishga kirgach o'sishga qat'iy intilayotganingizni ko'rsatadi."}, {"id": "gq3", "title": "130万人会員『gacco』のデータ活用と開発挑戦", "q_jp": "2026年4月より130万人以上の会員基盤を持つ日本最大のMOOC『gacco』の運営が御社に移管されたと伺いました。今後、この大規模な学習データを活用したラーニングアナリティクスや機能改善において、新卒エンジニアが挑戦できる機会はございますでしょうか。", "q_uz": "2026-yil apreldan 1.3 milliondan ortiq a'zoga ega bo'lgan «gacco» platformasi boshqaruvi sizning kompaniyangizga o'tganidan xabardorman. Katta ma'lumotlar tahlili (Learning Analytics) va tizimni yaxshilashda yosh muhandislar qatnasha oladigan imkoniyatlar bormi?", "point_uz": "Kompaniyaning eng so'nggi va eng yirik yangiligini bilishingizni isbotlaydi. Intervyuerda eng yuqori ijobiy bahoni keltiradi."}, {"id": "gq4", "title": "内定から入社（来春）までに準備しておくべき技術", "q_jp": "もしご縁をいただき入社させていただけることになった場合、入社までの期間にウズベキスタンで重点的に学んでおくべき技術領域や、準備しておくべきことがあればご教示いただけますでしょうか。", "q_uz": "Agar kompaniyangizga qabul qilinish baxtiga muyassar bo'lsam, kelgusi bahorgacha bo'lgan davrda O'zbekistonda turib aynan qaysi texnologiyalarni chuqurroq o'rganib tayyorgarlik ko'rishimni maslahat berasiz?", "point_uz": "O'rganishga bo'lgan chanqoqlik, jiddiylik va mas'uliyatni ifodalaydi. Yapon ish beruvchilari eng sevadigan savollardan biri."}];
+const DATA_GLOSSARY = [{"term": "完全一致 (FALSE)", "kana": "かんぜんいっち", "ro": "kanzen icchi", "cat": "Excel/データ", "uz": "To'liq moslik; VLOOKUP da aniq qidiruv (4-argument FALSE/0)", "desc": "Excelda kod yoki ID qidirganda xatolik bo'lmasligi uchun aniq mos qiymatni topish talab qilinadi."}, {"term": "近似一致 (TRUE)", "kana": "きんじいっち", "ro": "kinji icchi", "cat": "Excel/データ", "uz": "Taqribiy moslik; oraliqlar bo'yicha qidirish (4-argument TRUE/1)", "desc": "Ballar oralig'i (masalan 60-79 oralig'i) bo'yicha baholashda jadval saralangan bo'lsa qo'llaniladi."}, {"term": "絶対参照 ($)", "kana": "ぜったいさんしょう", "ro": "zettai sanshou", "cat": "Excel/データ", "uz": "Absolyut murojaat; yacheyka manzilini qotirib qo'yish ($A$1)", "desc": "Formulani boshqa qatorlarga nusxalaganda hisoblash asosi bo'lgan katak siljib ketmasligi uchun $ belgisi qo'yiladi."}, {"term": "相対参照", "kana": "そうたいさんしょう", "ro": "soutai sanshou", "cat": "Excel/データ", "uz": "Nisbiy murojaat; qator surilganda birga siljiydigan manzil (A1)", "desc": "Masalan, har bir qatorda yonidagi sonlarni ko'paytirishda nisbiy murojaat ishlatiladi."}, {"term": "母集団 (Population)", "kana": "ぼしゅうだん", "ro": "boshuudan", "cat": "統計/データ", "uz": "Bosh to'plam; o'rganilayotgan barcha obyektlar yig'indisi", "desc": "Imtihondagi barcha 1000 nafar talaba bosh to'plam hisoblanadi (STDEVP funksiyasi shuning uchun tanlanadi)."}, {"term": "標本 (Sample)", "kana": "ひょうほん", "ro": "hyouhon", "cat": "統計/データ", "uz": "Tanlanma; bosh to'plamdan tahlil uchun ajratib olingan qism", "desc": "Agar 1000 kishidan faqat 50 tasi namuna qilib olinganda STDEV.S (namuna standart chetlanishi) ishlatilardi."}, {"term": "標準偏差 (STDEVP)", "kana": "ひょうじゅんへんさ", "ro": "hyoujun hensa", "cat": "統計/データ", "uz": "Standart chetlanish; natijalarning o'rtacha qiymatdan tarqoqlik darajasi", "desc": "Ballar o'rtacha ball atrofida qanchalik zich yoki tarqoq joylashganini ko'rsatuvchi asosiy statistik ko'rsatkich."}, {"term": "偏差値 (Hensachi / T-score)", "kana": "へんさち", "ro": "hensachi", "cat": "統計/教育", "uz": "Standart ball; o'quvchining umumiy guruh ichidagi aniq o'rni", "desc": "O'rtacha ball 50 ga tenglashtiriladi. 60 dan yuqori ball juda yaxshi, 50 o'rtacha hisoblanadi."}, {"term": "四捨五入 (ROUND)", "kana": "ししゃごにゅう", "ro": "shishagonyuu", "cat": "Excel/算数", "uz": "Yaxlitlash; 4 gacha tashlab yuborish, 5 dan boshlab yuqoriga qo'shish", "desc": "ROUND(son, 2) orqali verguldan keyin 2 ta xona qoldiriladi."}, {"term": "加重平均 (Weighted Average)", "kana": "かじゅうへいきん", "ro": "kajuu heikin", "cat": "統計/データ", "uz": "Vaznli o'rtacha; miqdor ulushini hisobga olgan o'rtacha narx", "desc": "Har bir hududning ishlab chiqarish tonnasini hisobga olgan holda respublika o'rtacha narxini topish."}, {"term": "乱数 (RANDBETWEEN)", "kana": "らんすう", "ro": "ransuu", "cat": "Excel/関数", "uz": "Tasodifiy sonlar generatsiyasi", "desc": "Excelda har safar jadval yangilanganda sonlarni tasodifiy o'zgartirib turuvchi funksiya."}, {"term": "要件定義", "kana": "ようけんていぎ", "ro": "youken teigi", "cat": "開発工程", "uz": "Talablarni aniqlash va spetsifikatsiya tuzish (Requirements)", "desc": "Mijoz yoki foydalanuvchi tizimdan nimalarni kutayotganini aniqlab rasmiylashtirish bosqichi."}, {"term": "基本設計 (外部設計)", "kana": "きほんせっけい", "ro": "kihon sekkei", "cat": "開発工程", "uz": "Asosiy / Tashqi arxitektura loyihalash (UI, DB, API)", "desc": "Ekranlar dizayni, foydalanuvchi harakatlari va ma'lumotlar tuzilmasini belgilash."}, {"term": "詳細設計 (内部設計)", "kana": "しょうさいせっけい", "ro": "shousai sekkei", "cat": "開発工程", "uz": "Tafsilotli / Ichki kod darajasidagi loyihalash", "desc": "Har bir modul, funksiya va ma'lumotlar oqimining ichki algoritmlarini ishlab chiqish."}, {"term": "単体テスト (Unit Test)", "kana": "たんたいてすと", "ro": "tantai tesuto", "cat": "品質/テスト", "uz": "Modul testi; har bir kichik funksiyani alohida sinash", "desc": "Dasturning alohida qismlari to'g'ri ishlashini avtomatik testlar orqali tekshirish."}, {"term": "結合テスト (Integration Test)", "kana": "けつごうてすと", "ro": "ketsugou tesuto", "cat": "品質/テスト", "uz": "Integratsion test; modullarning birgalikda ishlashini tekshirish", "desc": "Frontend va Backend o'zaro to'g'ri ma'lumot almashayotganini sinash."}, {"term": "負荷テスト (Load Test)", "kana": "ふかてすと", "ro": "fuka tesuto", "cat": "品質/テスト", "uz": "Yuklama testi; yuqori oqimda tizim bardoshini tekshirish", "desc": "Bir vaqtda minglab foydalanuvchilar kirganda serverning barqarorligini o'lchash."}, {"term": "客先常駐なし", "kana": "きゃくさきじょうちゅうなし", "ro": "kyakusaki jouchuu nashi", "cat": "企業文化/DK", "uz": "Mijoz ofisiga yuborilmaslik; o'z ofisida mustaqil ishlash", "desc": "Digital Knowledge dasturchilari begona kompaniyaga jo'natilmaydi, o'z ofisida (Akihabara) ishlaydi."}, {"term": "自社開発", "kana": "じしゃかいはつ", "ro": "jisha kaihatsu", "cat": "企業文化/DK", "uz": "Kompaniyaning o'z mualliflik mahsulotlarini ishlab chiqishi", "desc": "Buyurtmachi uchun emas, o'z brendiga tegishli platformalarni yaratish va rivojlantirish."}, {"term": "KnowledgeDeliver", "kana": "ナレッジデリバー", "ro": "karejji deribaa", "cat": "DK製品", "uz": "Digital Knowledge ning flagman LMS platformasi (3000+ tashkilot)", "desc": "Darslik yaratish, o'rganish va boshqaruv funksiyalarini mujassam etgan yirik ta'lim platformasi."}, {"term": "gacco", "kana": "ガッコ", "ro": "gakko", "cat": "DK製品/MOOC", "uz": "Yaponiyaning 1.32 mln a'zoga ega eng yirik ochiq MOOC platformasi", "desc": "2026-yil 1-apreldan NTT DOCOMO dan to'liq Digital Knowledge boshqaruviga o'tgan."}, {"term": "LMS (学習管理システム)", "kana": "エルエムエス", "ro": "eru emu esu", "cat": "EdTech/DK", "uz": "Learning Management System; ta'lim jarayonini boshqarish tizimi", "desc": "O'quvchilar ro'yxati, dars materiallari, testlar va natijalarni nazorat qiluvchi platforma."}, {"term": "CBT (Computer Based Testing)", "kana": "シービーティー", "ro": "shii bii tii", "cat": "EdTech/DK", "uz": "Kompyuter orqali o'tkaziladigan standartlashtirilgan imtihon tizimi", "desc": "Qog'ozsiz, to'g'ridan-to'g'ri kompyuter orqali avtomatik tekshiriladigan test shakli."}, {"term": "ラーニングアナリティクス", "kana": "ラーニングアナリティクス", "ro": "raaningu anaritikusu", "cat": "EdTech/DK", "uz": "Learning Analytics; o'rganish xatti-harakatlarini katta ma'lumotlar bilan tahlil qilish", "desc": "O'quvchi qayerda sekinlashyapti, qaysi savolda xato qilyapti — barchasini tahlil qilib tavsiya berish."}, {"term": "学びの架け橋", "kana": "まなみのかけはし", "ro": "manabi no kakehashi", "cat": "DK理念", "uz": "«Bilim ko'prigi» — Digital Knowledge kompaniyasining bosh shiori", "desc": "Dunyoning har bir burchagidagi insonlarga sifatli ta'lim yetkazib berish missiyasi."}, {"term": "育つ喜びを全ての人へ", "kana": "そだつよろこびをすべてのひとへ", "ro": "sodatsu yorokobi o subete no hito e", "cat": "DK理念", "uz": "«O'sish va rivojlanish quvonchi har bir insonga» — DK oliy maqsadi", "desc": "Har bir shaxsning o'rganish orqali yuksalishini qo'llab-quvvatlash falsafasi."}];
+
+let mMensetsuModule = "es";
 let mCurrentCat = "all";
 let mBlurred = {};
+
+let simQuestions = [];
+let simCurrentIdx = 0;
+let simTimer = null;
+let simSecondsLeft = 60;
 
 function playJapaneseTTS(text, btn) {
   if (!('speechSynthesis' in window)) {
@@ -1224,40 +826,97 @@ function playJapaneseTTS(text, btn) {
   window.speechSynthesis.speak(ut);
 }
 
+function initSubtabs() {
+  const container = $("#mSubTabs");
+  if(!container) return;
+  container.querySelectorAll(".m-subtab").forEach(btn => {
+    btn.onclick = () => {
+      mMensetsuModule = btn.dataset.mod;
+      mCurrentCat = "all";
+      container.querySelectorAll(".m-subtab").forEach(b => b.classList.toggle("on", b === btn));
+      renderMensetsu();
+    };
+  });
+}
+
 function renderMensetsu() {
-  const cats = [
-    {"id": "all", "title": "Barchasi (21)"},
-    {"id": "shibou", "title": "志望動機・企業理解 (4)"},
-    {"id": "jiko_pr", "title": "自己PR・技術スキル (4)"},
-    {"id": "career", "title": "キャリア・仕事観 (4)"},
-    {"id": "condition", "title": "勤務条件・状況 (9)"}
-  ];
+  initSubtabs();
+  
+  if (mMensetsuModule === "sim") {
+    renderSimulatorModule();
+    return;
+  }
+  
+  if (mMensetsuModule === "glossary") {
+    renderGlossaryModule();
+    return;
+  }
+  
+  if (mMensetsuModule === "gyaku") {
+    renderGyakuModule();
+    return;
+  }
+  
+  let currentDataset = [];
+  let cats = [];
+  
+  if (mMensetsuModule === "es") {
+    currentDataset = DATA_ES;
+    cats = [
+      {"id": "all", "title": "Barchasi (21)"},
+      {"id": "shibou", "title": "志望動機・企業理解 (4)"},
+      {"id": "jiko_pr", "title": "自己PR・技術スキル (4)"},
+      {"id": "career", "title": "キャリア・仕事観 (4)"},
+      {"id": "condition", "title": "勤務条件・状況 (9)"}
+    ];
+  } else if (mMensetsuModule === "excel") {
+    currentDataset = DATA_EXCEL;
+    cats = [
+      {"id": "all", "title": "Barchasi (4 ta asosiy savol)"}
+    ];
+  } else if (mMensetsuModule === "seika") {
+    currentDataset = DATA_SEIKA;
+    cats = [
+      {"id": "all", "title": "Barchasi (3 ta amaliy savol)"}
+    ];
+  } else if (mMensetsuModule === "dk") {
+    currentDataset = DATA_DK;
+    cats = [
+      {"id": "all", "title": "Barchasi (3 ta korporativ savol)"}
+    ];
+  }
   
   const fContainer = $("#mFilters");
   if(fContainer) {
-    fContainer.innerHTML = cats.map(c => `
-      <button class="mensetsu-btn-cat ${mCurrentCat === c.id ? 'on' : ''}" data-cat="${c.id}">
-        ${esc(c.title)}
-      </button>
-    `).join("");
-    fContainer.querySelectorAll(".mensetsu-btn-cat").forEach(b => {
-      b.onclick = () => {
-        mCurrentCat = b.dataset.cat;
-        renderMensetsu();
-      };
-    });
+    if(cats.length > 1) {
+      fContainer.style.display = "flex";
+      fContainer.innerHTML = cats.map(c => `
+        <button class="mensetsu-btn-cat ${mCurrentCat === c.id ? 'on' : ''}" data-cat="${c.id}">
+          ${esc(c.title)}
+        </button>
+      `).join("");
+      fContainer.querySelectorAll(".mensetsu-btn-cat").forEach(b => {
+        b.onclick = () => {
+          mCurrentCat = b.dataset.cat;
+          renderMensetsu();
+        };
+      });
+    } else {
+      fContainer.style.display = "none";
+    }
   }
   
   const k = norm(q.trim());
-  const filtered = MENSETSU_DATA.filter(item => {
+  const filtered = currentDataset.filter(item => {
     const matchCat = (mCurrentCat === "all" || item.cat === mCurrentCat);
     if (!matchCat) return false;
     if (!k) return true;
-    return norm(item.q_jp).includes(k) || norm(item.q_uz).includes(k) || norm(item.ans_jp).includes(k) || norm(item.ans_uz).includes(k) || item.keywords.some(kw => norm(kw).includes(k));
+    return norm(item.q_jp).includes(k) || norm(item.q_uz).includes(k) || norm(item.ans_jp).includes(k) || norm(item.ans_uz).includes(k) || (item.keywords && item.keywords.some(kw => norm(kw).includes(k)));
   });
+  
   const countEl = $("#mCount");
   if(countEl) {
-    countEl.textContent = `${filtered.length} ta intervyu savoli va to'liq javoblari`;
+    countEl.textContent = `${filtered.length} ta intervyu savoli va to'liq tayyorlangan javoblari`;
   }
   
   const listEl = $("#mListContainer");
@@ -1265,11 +924,12 @@ function renderMensetsu() {
   
   listEl.innerHTML = filtered.map(item => {
     const isBlur = mBlurred[item.id] === true;
+    const catBadge = item.cat_name ? `🏷️ ${esc(item.cat_name)}` : (item.title ? `📌 ${esc(item.title)}` : "");
     return `
       <article class="mensetsu-card" id="mcard-${item.id}">
         <div class="mensetsu-header">
-          <span class="mensetsu-q-badge">Savol ${item.id} / 21</span>
-          <span class="mensetsu-q-cat">🏷️ ${esc(item.cat_name)}</span>
+          <span class="mensetsu-q-badge">${item.id}</span>
+          <span class="mensetsu-q-cat">${catBadge}</span>
         </div>
         
         <h3 class="mensetsu-q-jp">${esc(item.q_jp)}</h3>
@@ -1283,7 +943,7 @@ function renderMensetsu() {
         <div class="mensetsu-ans-box">
           <div class="mensetsu-ans-title">
             <span>🗣️ Mukammal Yaponcha Javob (模範回答)</span>
-            <button class="btn-m-action" onclick="toggleBlur(${item.id})" title="Javobni yashirib o'zingizni sinab ko'ring">
+            <button class="btn-m-action" onclick="toggleBlur('${item.id}')" title="Javobni yashirib o'zingizni sinab ko'ring">
               ${isBlur ? '👁️ Javobni ko\'rsatish' : '🙈 Yashirish (O\'zingizni sinang)'}
             </button>
           </div>
@@ -1296,10 +956,12 @@ function renderMensetsu() {
           </div>
         </div>
         
-        <div class="mensetsu-kw-row">
-          <span class="mensetsu-kw-label">🔑 Kalit atamalar:</span>
-          ${item.keywords.map(kw => `<span class="mensetsu-kw-pill">${esc(kw)}</span>`).join("")}
-        </div>
+        ${item.keywords && item.keywords.length ? `
+          <div class="mensetsu-kw-row">
+            <span class="mensetsu-kw-label">🔑 Kalit atamalar:</span>
+            ${item.keywords.map(kw => `<span class="mensetsu-kw-pill">${esc(kw)}</span>`).join("")}
+          </div>
+        ` : ''}
         
         <div class="mensetsu-card-actions">
           <button class="btn-m-action" onclick="playJapaneseTTS('${item.ans_jp.replace(/'/g, "\\'").replace(/\n/g, ' ')}', this)">
@@ -1312,6 +974,224 @@ function renderMensetsu() {
       </article>
     `;
   }).join("");
+}
+
+function renderGyakuModule() {
+  const fContainer = $("#mFilters");
+  if(fContainer) fContainer.style.display = "none";
+  
+  const countEl = $("#mCount");
+  if(countEl) countEl.textContent = `4 ta eng kuchli teskari savol (逆質問)`;
+  
+  const listEl = $("#mListContainer");
+  if(!listEl) return;
+  
+  listEl.innerHTML = `
+    <div style="background:var(--ai-light);border:1px solid var(--ai-border);border-radius:14px;padding:16px;margin-bottom:18px;">
+      <h3 style="color:var(--ai);margin:0 0 6px;">💡 逆質問 (Gyaku-shitsumon) — Suhbatdagi hal qiluvchi lahza</h3>
+      <p style="margin:0;font-size:0.92rem;color:var(--ink);line-height:1.5;">Yapon intervyusining oxirida suhbatdosh: <i>「最後に、何か質問はありますか？」</i> (Oxirida biror savolingiz bormi?) deb so'raydi. Bu yerda «savolim yo'q» deb aytish qiziqish yo'qligini bildiradi. Quyidagi 4 ta chuqur savoldan birini berish esa kompaniyani mukammal bilishingizni isbotlaydi!</p>
+    </div>
+    
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      ${DATA_GYAKU.map((item, idx) => `
+        <article class="mensetsu-card">
+          <div class="mensetsu-header">
+            <span class="mensetsu-q-badge">Teskari Savol #${idx+1}</span>
+            <span class="mensetsu-q-cat">📌 ${esc(item.title)}</span>
+          </div>
+          
+          <h3 class="mensetsu-q-jp">${esc(item.q_jp)}</h3>
+          <p class="mensetsu-q-uz">${esc(item.q_uz)}</p>
+          
+          <div class="mensetsu-point-box">
+            <span class="ico">🎯</span>
+            <div><b>Nega bu savol hayratga soladi?</b> ${esc(item.point_uz)}</div>
+          </div>
+          
+          <div class="mensetsu-card-actions">
+            <button class="btn-m-action" onclick="playJapaneseTTS('${item.q_jp.replace(/'/g, "\\'")}', this)">
+              <span>🔊</span> Savol talaffuzini eshitish (ja-JP TTS)
+            </button>
+          </div>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderSimulatorModule() {
+  const fContainer = $("#mFilters");
+  if(fContainer) fContainer.style.display = "none";
+  const countEl = $("#mCount");
+  if(countEl) countEl.textContent = `Jonli suhbat simulyatori — Audio va taymer bilan mashq qilish`;
+  
+  const listEl = $("#mListContainer");
+  if(!listEl) return;
+  
+  listEl.innerHTML = `
+    <div class="sim-container">
+      <div class="sim-intro" id="simIntro">
+        <h3><span>🎙️</span> Jonli Intervyu Simulyatori (面接シミュレーター)</h3>
+        <p>Virtual yapon suhbatdoshi sizga tasodifiy 5 ta rasmiy savol beradi (savolni ovozli o'qiydi). Har bir savolga 60 soniya ichida ovoz chiqarib javob berishingiz kerak. Tayyormisiz?</p>
+        <button class="sim-start-btn" onclick="startSimGame()">🚀 Suhbatni Boshlash (面接スタート)</button>
+      </div>
+      
+      <div class="sim-box" id="simBox">
+        <div class="sim-status-bar">
+          <span style="font-weight:700;color:var(--ai);" id="simStep">Savol: 1 / 5</span>
+          <div class="sim-timer-pill" id="simTimerEl">⏱️ <span id="simSeconds">60</span>s</div>
+        </div>
+        
+        <div class="sim-q-box">
+          <div class="sim-q-title" id="simQText">Savol yuklanmoqda...</div>
+          <div class="sim-q-trans" id="simQTrans">...</div>
+        </div>
+        
+        <div class="sim-controls">
+          <button class="btn-m-action" onclick="replaySimQuestion()">
+            <span>🔊</span> Savolni qayta eshitish
+          </button>
+          <button class="btn-m-action" style="background:var(--ai);color:#fff;border-color:var(--ai);" onclick="showSimAnswer()">
+            <span>✅</span> Javob berdim (Tahlilni ko'rish)
+          </button>
+          <button class="btn-m-action" onclick="nextSimQuestion()">
+            <span>⏭️</span> Keyingi savolga o'tish
+          </button>
+        </div>
+        
+        <div class="sim-ans-area" id="simAnsArea">
+          <div style="font-weight:700;color:var(--ai);margin-bottom:8px;">🗣️ Namunaviy Yaponcha Javob:</div>
+          <div id="simAnsJp" style="font-size:1.05rem;line-height:1.6;margin-bottom:12px;color:var(--ink);"></div>
+          <div style="font-weight:700;color:var(--mut);margin-bottom:4px;">🇺🇿 O'zbekcha mazmuni:</div>
+          <div id="simAnsUz" style="font-size:0.92rem;color:var(--mut);line-height:1.5;"></div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+window.startSimGame = function() {
+  const pool = [...DATA_ES, ...DATA_EXCEL, ...DATA_SEIKA, ...DATA_DK];
+  simQuestions = pool.sort(() => 0.5 - Math.random()).slice(0, 5);
+  simCurrentIdx = 0;
+  
+  $("#simIntro").style.display = "none";
+  $("#simBox").style.display = "block";
+  
+  loadSimCurrentQuestion();
+};
+
+function loadSimCurrentQuestion() {
+  if(simCurrentIdx >= simQuestions.length) {
+    alert("🎉 Suhbat simulyatsiyasi yakunlandi! Ajoyib natija!");
+    mMensetsuModule = "es";
+    renderMensetsu();
+    return;
+  }
+  
+  const qItem = simQuestions[simCurrentIdx];
+  $("#simStep").textContent = `Savol: ${simCurrentIdx + 1} / ${simQuestions.length}`;
+  $("#simQText").textContent = qItem.q_jp;
+  $("#simQTrans").textContent = qItem.q_uz;
+  $("#simAnsArea").style.display = "none";
+  
+  $("#simAnsJp").innerHTML = esc(qItem.ans_jp).replace(/\n/g, '<br>');
+  $("#simAnsUz").textContent = qItem.ans_uz;
+  
+  playJapaneseTTS(qItem.q_jp);
+  
+  clearInterval(simTimer);
+  simSecondsLeft = 60;
+  $("#simSeconds").textContent = simSecondsLeft;
+  $("#simTimerEl").classList.remove("warning");
+  
+  simTimer = setInterval(() => {
+    simSecondsLeft--;
+    $("#simSeconds").textContent = simSecondsLeft;
+    if(simSecondsLeft <= 10) {
+      $("#simTimerEl").classList.add("warning");
+    }
+    if(simSecondsLeft <= 0) {
+      clearInterval(simTimer);
+      showSimAnswer();
+    }
+  }, 1000);
+}
+
+window.replaySimQuestion = function() {
+  if(simQuestions[simCurrentIdx]) {
+    playJapaneseTTS(simQuestions[simCurrentIdx].q_jp);
+  }
+};
+
+window.showSimAnswer = function() {
+  clearInterval(simTimer);
+  $("#simAnsArea").style.display = "block";
+  if(simQuestions[simCurrentIdx]) {
+    playJapaneseTTS(simQuestions[simCurrentIdx].ans_jp);
+  }
+};
+
+window.nextSimQuestion = function() {
+  clearInterval(simTimer);
+  simCurrentIdx++;
+  loadSimCurrentQuestion();
+};
+
+function renderGlossaryModule() {
+  const gCats = ["all", "Excel/データ", "統計/データ", "統計/教育", "開発工程", "品質/テスト", "企業文化/DK", "DK製品", "DK理念"];
+  const fContainer = $("#mFilters");
+  if(fContainer) {
+    fContainer.style.display = "flex";
+    fContainer.innerHTML = gCats.map(c => `
+      <button class="mensetsu-btn-cat ${mCurrentCat === c ? 'on' : ''}" data-cat="${c}">
+        ${c === 'all' ? 'Hammasi (26)' : esc(c)}
+      </button>
+    `).join("");
+    fContainer.querySelectorAll(".mensetsu-btn-cat").forEach(b => {
+      b.onclick = () => {
+        mCurrentCat = b.dataset.cat;
+        renderGlossaryModule();
+      };
+    });
+  }
+  
+  const k = norm(q.trim());
+  const filtered = DATA_GLOSSARY.filter(item => {
+    const matchCat = (mCurrentCat === "all" || item.cat === mCurrentCat || (mCurrentCat === "DK製品" && item.cat.includes("DK")));
+    if (!matchCat) return false;
+    if (!k) return true;
+    return norm(item.term).includes(k) || norm(item.kana).includes(k) || norm(item.ro).includes(k) || norm(item.uz).includes(k) || norm(item.desc).includes(k);
+  });
+  
+  const countEl = $("#mCount");
+  if(countEl) {
+    countEl.textContent = `${filtered.length} ta muhim intervyu va texnik atama`;
+  }
+  
+  const listEl = $("#mListContainer");
+  if(!listEl) return;
+  
+  listEl.innerHTML = `
+    <div class="glossary-grid">
+      ${filtered.map(item => `
+        <div class="glossary-card">
+          <div>
+            <div class="glossary-term-row">
+              <span class="glossary-term">${esc(item.term)}</span>
+              <span class="glossary-cat">${esc(item.cat)}</span>
+            </div>
+            <div class="glossary-kana">${esc(item.kana)} · <i>${esc(item.ro)}</i></div>
+            <div class="glossary-uz">${esc(item.uz)}</div>
+            <div class="glossary-desc">${esc(item.desc)}</div>
+          </div>
+          <button class="btn-m-action" style="align-self:flex-start" onclick="playJapaneseTTS('${item.term.replace(/'/g, "\\'")}', this)">
+            <span>🔊</span> Talaffuz
+          </button>
+        </div>
+      `).join("")}
+    </div>
+  `;
 }
 
 window.toggleBlur = function(id) {
