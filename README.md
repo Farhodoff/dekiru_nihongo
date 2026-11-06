@@ -12,7 +12,13 @@ Yapon tilini o'rganuvchilar va JLPT N2 imtihoniga tayyorlanuvchilar uchun intera
   - **できる日本語 (Dekiru Nihongo):** 1190+ so'z (1–15 darslar).
   - **20日で合格N2:** 1028+ so'z (20 kunlik to'liq dastur).
   - **MUST:** 784 ta amaliy va biznes leksikasi, IT/PM terminlari, tizim loyihalash, intervyu va kompaniya shartlari (6 ta kichik bo'lim).
-  - **Digital Knowledge:** 32 ta Digital Knowledge kompaniyasi intervyusi va suhbatiga tayyorgarlik leksikasi (3 ta kichik bo'lim).
+  - **Digital Knowledge & Rasmiy Hujjatlar:** 77 ta maxsus leksika — Digital Knowledge kompaniyasi intervyusi, 成果報告書, エントリーシート (ES), スキルチェックシート(新) va 質問事項 hujjatlari bo'yicha to'liq yaponcha-o'zbekcha lug'at (6 ta kichik bo'lim).
+- 🎯 **面接 (Intervyu) Maxsus Tayyorgarlik Sahifasi:**
+  - 21 ta rasmiy anketaviy savol (`質問事項`), ES va texnik suhbatlar uchun mukammal yaponcha javoblar (`模範回答`).
+  - 🔊 **Ovozli talaffuz (ja-JP TTS):** Savol va javoblarni toza yaponcha nutq orqali eshitish.
+  - 💡 **Suhbat strategiyasi (面接のポイント):** Intervyuerning asl maqsadi va to'g'ri urg'u berish uslubi.
+  - 👁️ **Mashq / O'zini sinash rejimi:** Javobni yashirib (blur), mustaqil gapirib ko'rish va tekshirish.
+  - 🔑 **Kalit iboralar (Keywords):** Har bir savol bo'yicha professional yaponcha terminlar kartochkalari.
 - 🔍 **Tezkor qidiruv va filtrlash:** Kanji, kana (o'qilishi), romaji va o'zbekcha tarjimalar bo'yicha real-vaqtda qidirish.
 - 🎴 **Kartochka (Flashcard) rejimi:** So'zlarni yodlash uchun interaktiv fleshkartalar.
 - 📝 **Test (Quiz) & Dokkai (読解 · 文章の文法) rejimi:** 
