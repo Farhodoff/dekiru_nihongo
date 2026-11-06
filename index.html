@@ -28,11 +28,18 @@ const DATA_ES = [{"id": 1, "cat": "condition", "cat_name": "勤務条件・状�
 const DATA_EXCEL = [{"id": "ex1", "title": "Excelスキルチェックの取り組みについて (Excel testini yechish jarayoni)", "q_jp": "提出いただいた「Excelスキルチェック」で、工夫した点や意識したことは何ですか？", "q_uz": "Topshirgan «Excel mahorat testi»da qanday jihatlarga e'tibor berdingiz va qanday qulayliklar kiritdingiz?", "point_uz": "Statik raqamlar yozmasdan, barcha kataklarni formulalar orqali dinamik bog'laganingizni, RANDBETWEEN orqali sonlar o'zgarganda ham tizim to'g'ri ishlashini ta'kidlang.", "ans_jp": "数値がRANDBETWEEN関数で動的に変化することを前提に、数値を直接打ち込むのではなく、全て計算式と関数（SUM, ROUND, VLOOKUPなど）で設計いたしました。特に表２の成績判定ルールや集計結果を絶対参照（$マーク）で確実に参照し、データの再計算や行追加にも崩れない保守性の高いシート作成を意識しました。", "ans_uz": "Sonlar RANDBETWEEN orqali tasodifiy o'zgarishini inobatga olib, sonlarni qo'lda kiritmasdan, barchasini formulalar (SUM, ROUND, VLOOKUP va h.k.) bilan bog'ladim. Ayniqsa, baholash qoidalari va jami qatorlarni absolut murojaat ($) orqali ulab, har qanday qayta hisoblashda ham mustahkam ishlaydigan tizim qildim.", "keywords": ["動的変化 (Dinamik o'zgarish)", "絶対参照 (Absolyut murojaat $)", "保守性 (Qo'llab-quvvatlash qulayligi)"]}, {"id": "ex2", "title": "偏差値の算出とSTDEVP関数の選定 (Hensachi va STDEVP tanlovi)", "q_jp": "課題その２の「偏差値」はどのように計算しましたか？また標準偏差の関数は何を選びましたか？", "q_uz": "2-topshiriqdagi «Hensachi (偏差値)»ni qanday hisobladingiz va standart chetlanish uchun qaysi funksiyani tanladingiz?", "point_uz": "Hensachi formulasi: 50 + 10 * (Ball - O'rtacha) / Standart chetlanish. 1000 nafar butun imtihon ishtirokchilari bu «bosh to'plam (母集団)» bo'lgani uchun STDEV.S (namuna) emas, STDEVP (yoki STDEV.P) ishlatilganini aytish statistika bilimingizni namoyish etadi.", "ans_jp": "偏差値は「50 + 10 × (得点 - 平均得点) ÷ 標準偏差」という数式を用い、ROUND関数で指定通り小数第2位に四捨五入しました。標準偏差には、受験者1,000名全員が全体の母集団であるため、不偏分散ではなく母集団を対象とする「STDEVP（またはSTDEV.P）」関数を選択して正確に算出しました。", "ans_uz": "Hensachini «50 + 10 × (Ball - O'rtacha) / Standart chetlanish» formulasi bilan hisoblab, ROUND orqali 2 xona aniqlikda yaxlitladim. Standart chetlanishda 1000 nafar ishtirokchi to'liq bosh to'plam (母集団) bo'lganligi sababli STDEVP funksiyasidan foydalandim.", "keywords": ["母集団 (Bosh to'plam / Population)", "標準偏差 (STDEVP)", "四捨五入 (ROUND)", "偏差値 (T-score)"]}, {"id": "ex3", "title": "成績検索システムのVLOOKUP実装 (VLOOKUP qidiruv tizimi)", "q_jp": "6-Fの「成績検索システム」で工夫した点や、エラーを防ぐための注意点は何ですか？", "q_uz": "6-F dagi «Natijalarni qidiruv tizimi»da xatoliklarning oldini olish uchun nimalarga e'tibor berdingiz?", "point_uz": "VLOOKUP da 4-argument sifatida FALSE (完全一致 - to'liq moslik) berilgani va qidirilayotgan ID yacheykasi ($H$100) hamda qidiruv jadvali ($A$12:$E$1011) absolut bog'langanini tushuntiring.", "ans_jp": "受験番号をキーとして都道府県・得点・判定・偏差値を抽出するため、VLOOKUP関数を使用しました。その際、検索の型として必ず「FALSE（完全一致）」を指定し、類似データによる誤判定を防ぎました。また、検索対象範囲（$A$12:$E$1011）を絶対参照にすることで、数式のコピーや拡張時にも参照ズレが起きないよう堅牢に実装しました。", "ans_uz": "Imtihon raqami bo'yicha ma'lumotlarni chiqarishda VLOOKUP ishlatdim. Noto'g'ri moslashuvlarning oldini olish uchun 4-argumentni qat'iy «FALSE (to'liq moslik)» qilib belgiladim va jadval chegarasini ($A$12:$E$1011) absolut qilib qotirdim.", "keywords": ["完全一致 (FALSE / Aniq moslik)", "参照ズレの防止 (Manzil siljishini oldini olish)", "堅牢な実装 (Mustahkam arxitektura)"]}, {"id": "ex4", "title": "グラフの選定理由 (Grafik turini tanlash mantig'i)", "q_jp": "課題その１で棒グラフと円グラフを選んだ理由を教えてください。", "q_uz": "1-topshiriqda nima sababdan ustunli grafik (棒グラフ) va doiraviy grafik (円グラフ) ni tanladingiz?", "point_uz": "Taqqoslama uchun ustunli grafik (Bar chart), ulush/nisbatni ko'rsatish uchun doiraviy grafik (Pie chart) eng to'g'ri vizualizatsiya ekanligini izohlang.", "ans_jp": "問（２）の果物の購入価格では、品目ごとの金額の大小を視覚的に一目で比較できるよう「縦棒グラフ（Column Chart）」を選択しました。一方、問（４）のりんごの産地別データでは、全国の生産量に対する各産地のシェア・構成比を直感的に把握できるよう「円グラフ（Pie Chart）」を採用し、目的に最適な可視化を行いました。", "ans_uz": "(2)-masalada mevalarning narxini o'zaro solishtirish uchun ustunli grafikni tanladim. (4)-masalada esa umumiy hajmga nisbatan hududlarning ulushini (foizini) ko'rsatish uchun doiraviy grafikni qo'lladim.", "keywords": ["縦棒グラフ (Ustunli grafik)", "円グラフ (Doiraviy grafik)", "構成比の可視化 (Ulushni vizuallashtirish)"]}];
 const DATA_SEIKA = [{"id": "sk1", "title": "成果報告書（自己学習研究）の取り組みと自走力", "q_jp": "成果報告書を拝見すると、日々の学習や開発が非常に細かく記録されていますが、どのように習慣化しましたか？", "q_uz": "O'z ustida ishlash hisobotingizda (成果報告書) har kunlik izlanishlar puxta yozilgan. Buni qanday qilib kundalik odatga aylantirdingiz?", "point_uz": "Mustaqil izlanish qobiliyati (自走力 - jisouryoku), maqsadni kichik qismlarga bo'lib ishlash va har kuni amaliy kod yozish odatini ta'kidlang.", "ans_jp": "エンジニアとして成長するために「毎日小さくても動くものを作る」ことを目標に掲げました。毎日の開始時に作業名と予想工数を設定し、作業後に実装内容と課題を振り返って記録することをルーティン化しました。この自走力と自己管理の習慣が、短期間でのフルスタック開発力習得につながっています。", "ans_uz": "Dasturchi sifatida o'sish uchun «har kuni amalda ishlaydigan kichik bo'lsa ham qism yaratish»ni maqsad qildim. Har kuni ish boshida vazifa va sarflanadigan vaqtni belgilab, yakunida tahlil qilib yozib bordim. Ushbu mustaqil intizom menga qisqa vaqtda Full-Stack darajasiga chiqishga yordam berdi.", "keywords": ["習慣化 (Odatga aylantirish)", "自走力 (Mustaqil harakat qilish)", "自己管理 (O'zini boshqarish)"]}, {"id": "sk2", "title": "音声・AI対話アプリ（kaiwa.live）の開発動機と技術的課題", "q_jp": "10月の報告書にもある音声対話や学習アプリ開発で、最も難しかった技術的課題と解決策は何ですか？", "q_uz": "10-oylik hisobotingizda qayd etilgan audio va nutq tizimlarida eng katta texnik qiyinchilik nima bo'ldi va uni qanday hal qildingiz?", "point_uz": "Real-vaqtdagi audio seanslar, tarmoq uzilishlari, HTTP header overflow (masalan, 431 xatosi) yoki kechikishni (latency) qanday bartaraf etganingizni aniq texnik atamalar bilan ayting.", "ans_jp": "音声のリアルタイム送受信におけるレイテンシ（遅延）の削減と、ネットワーク断絶時のセッション維持が最大の課題でした。WebSocket通信とWeb Audio APIを最適化し、バッファリングとトークン更新処理を見直すことで、低遅延で滑らかな双方向音声対話を実現しました。また、HTTPヘッダーの肥大化によるエラーも認証トークンの分割管理で解決しました。", "ans_uz": "Eng katta qiyinchilik audioni real vaqtda uzatishdagi kechikishni (latency) kamaytirish va internet uzilganda seansni yo'qotmaslik bo'ldi. WebSocket va Web Audio API ni optimallashtirib, buferlashni to'g'irladim. Natijada kechikishsiz ravon audio muloqotga erishdim.", "keywords": ["レイテンシ削減 (Kechikishni kamaytirish)", "WebSocket (Ikki tomonlama ulanish)", "Web Audio API"]}, {"id": "sk3", "title": "dekiru_nihongo（本アプリ）をPWA & Zero-Dependencyで設計した理由", "q_jp": "この「dekiru_nihongo」アプリは完全オフライン対応のPWAとして作られていますが、なぜこのアーキテクチャを選んだのですか？", "q_uz": "Ushbu «dekiru_nihongo» ilovasini to'liq oflayn ishlaydigan PWA va qo'shimcha kutubxonalarsiz (Zero-dependency) yaratishingizga sabab nima?", "point_uz": "O'quvchi har qanday joyda (metro, safar, internetsiz) tez va qulay o'rganishi uchun og'ir freymvorklarsiz, Service Worker kesh bilan yengil qilib qurganingizni tushuntiring.", "ans_jp": "学習者が地下鉄や移動中など、インターネットが不安定な環境でもストレスなく単語や試験問題を反復学習できるようにするためです。外部ライブラリに依存しない軽量な設計とService Workerによる完全キャッシュを採用し、起動速度とバッテリー消費を最小限に抑え、MacBookやスマホに直接インストールして使えるPWAとして開発しました。", "ans_uz": "O'quvchi metroda yoki yo'lda internet bo'lmaganda ham bemalol so'z va testlarni takrorlashi uchun shunday qildim. Og'ir kutubxonalarsiz, Service Worker yordamida to'liq keshlanuvchi yengil tizim qilib, Mac va telefonga mustaqil o'rnatiladigan (PWA) qilib ishlab chiqdim.", "keywords": ["Zero-Dependency (Qaramliklarsiz)", "Service Worker (Oflayn kesh)", "PWA (Ilova sifatida o'rnatish)"]}];
 const DATA_DK = [{"id": "dk1", "title": "KnowledgeDeliverに対する理解と開発への意欲", "q_jp": "弊社の主力製品である「KnowledgeDeliver」について知っていることと、携わりたい開発を教えてください。", "q_uz": "Kompaniyamizning bosh mahsuloti bo'lmish «KnowledgeDeliver» haqida nimalarni bilasiz va qaysi yo'nalishida ishlashni istaysiz?", "point_uz": "KnowledgeDeliver ning 3 ta asosiy ustuni: 教材作成 (kontent yaratish), 学習 (o'rganish), 運用管理 (boshqaruv) ekanligini va unga zamonaviy AI/interaktiv funksiyalar qo'shish niyatini bildiring.", "ans_jp": "KnowledgeDeliverは、教材作成・学習・運用管理の3大機能をワンストップで備え、3,000以上の企業や学校に導入されている日本屈指のLMSプラットフォームだと理解しております。私は特に、PC・スマホのマルチデバイス対応UI/UXの更なるモダン化や、AIメンタリング・リアルタイム対話技術を組み込んだ次世代の学習体験機能の開発に携わりたいと考えています。", "ans_uz": "KnowledgeDeliver — darslik yaratish, o'rganish va boshqaruv funksiyalarini bitta joyda birlashtirgan, 3000 dan ortiq tashkilotda ishlatiladigan Yaponiyadagi eng yetakchi LMS deb bilaman. Men ayniqsa mobil va kompyuter interfeysini zamonaviylashtirish hamda AI mentorlik va jonli muloqot imkoniyatlarini tizimga tatbiq etishda qatnashmoqchiman.", "keywords": ["KnowledgeDeliver (LMS mahsulot)", "教材作成・学習・運用管理 (3 asosiy funksiya)", "AIメンタリング (AI murabbiylik)"]}, {"id": "dk2", "title": "JDU設立母体としてのデジタル・ナレッジと自身の強み", "q_jp": "デジタル・ナレッジがJDUを設立・運営していることについて、JDU生であるあなたの視点からどう捉えていますか？", "q_uz": "Digital Knowledge JDU universitetining asoschisi va boshqaruvchisi ekanligiga JDU talabasi sifatida qanday qaraysiz?", "point_uz": "JDU orqali yapon ta'limi va texnologiyasini bevosita o'zlashtirganingizni, kompaniyaning xalqaro ta'lim ko'prigi (学びの架け橋) missiyasining tirik natijasi ekanligingizni ayting.", "ans_jp": "デジタル・ナレッジの『ITで世界中に学びの架け橋を架ける』という使命が、まさにJDUという形で結実し、私自身がその教育を受けて成長した当事者です。JDUで培ったIT技術と日本語力（N2）、そして中央アジアと日本をつなぐ多文化理解を強みとして、今度は貴社の一員として次の世代や世界中の学習者に価値を還元したいと強く決意しています。", "ans_uz": "Digital Knowledge kompaniyasining «IT orqali dunyo bo'ylab bilim ko'prigi qurish» missiyasi aynan JDU misolida amalda namoyon bo'ldi va men shaxsan shu ta'limdan bahramand bo'lgan talabaman. JDU da olgan IT bilimim va yapon tilim (N2) bilan endi kompaniyangiz xodimi sifatida keyingi avlodlarga foyda keltirishga qat'iy qaror qilganman.", "keywords": ["学びの架け橋 (Bilim ko'prigi)", "JDU設立母体 (JDU asoschisi)", "価値の還元 (Qiymatni qaytarish)"]}, {"id": "dk3", "title": "日本最大のMOOC「gacco」の運営移管と今後の可能性", "q_jp": "弊社が2026年4月より日本最大のMOOCプラットフォーム「gacco」の運営を100%引き継いだことをどう評価していますか？", "q_uz": "Kompaniyamiz 2026-yil apreldan Yaponiyaning eng yirik MOOC platformasi «gacco» boshqaruvini to'liq o'z zimmasiga olganiga qanday baho berasiz?", "point_uz": "132 milliondan ortiq foydalanuvchiga ega ochiq ta'lim platformasi ekanligi va katta hajmdagi ta'lim ma'lumotlarini (Learning Analytics / Big Data) tahlil qilish imkoniyatini ta'kidlang.", "ans_jp": "会員数130万人を超える日本最大のオープン学習基盤gaccoが貴社の傘下に入ったことは、社会人教育やリスキリング分野において計り知れない成長機会だと捉えています。大学や官公庁の良質な講座データを分析（ラーニングアナリティクス）し、一人ひとりに最適な学習推薦を行うなど、巨大トラフィックを支えるエンジニアリング面でも非常に挑戦したい領域です。", "ans_uz": "1.3 milliondan ortiq a'zosi bo'lgan eng katta ochiq ta'lim platformasi «gacco»ning Digital Knowledge ga o'tishi katta strategik imkoniyatdir. Katta hajmdagi ta'lim tahlili (Learning Analytics) va yuqori yuklamani ushlab turuvchi muhandislik yo'nalishida ishlash men uchun katta qiziqish uyg'otadi.", "keywords": ["gacco (MOOC platformasi)", "130万人会員 (1.3 mln a'zo)", "ラーニングアナリティクス (Ta'lim tahlili)"]}];
+const DATA_GYAKU = [{"id": "gq1", "title": "KnowledgeDeliver × 生成AIの技術展開について", "q_jp": "御社が開発されている『KnowledgeDeliver』において、生成AIを活用した自動メンタリングやアダプティブラーニングの今後の技術展開について、エンジニアの視点から特に注力されているポイントを伺えますでしょうか。", "q_uz": "Kompaniyangiz ishlab chiqqan KnowledgeDeliver tizimida generativ AI vositasidagi avtomatik murabbiylik (mentoring) va moslashuvchan ta'lim bo'yicha injiniring nuqtayi nazaridan eng ustuvor qaratilayotgan jihatlar haqida so'rasam bo'ladimi?", "point_uz": "Kompaniya mahsuloti va AI strategiyasini chuqur o'rganganingizni hamda kelajakdagi rivojlanishga befarq emasligingizni namoyish etadi."}, {"id": "gq2", "title": "JDU出身先輩社員の活躍と若手エンジニアの自走について", "q_jp": "説明会にて、入社後の丁寧な新入社員研修とチューター制度について伺い、大変魅力に感じました。実際にJDU出身の先輩社員や若手エンジニアの方々は、本配属後にどのようなプロジェクトで自走力を発揮して活躍されているか、具体的な事例をお聞かせいただけますでしょうか。", "q_uz": "Taqdimotda yangi xodimlar treningi va murabbiylik tizimi haqida eshitib juda qiziqdim. Amalda JDU bitiruvchisi bo'lgan xodimlar yoki yosh mutaxassislar asosiy bo'limga o'tgach, qanday loyihalarda o'zlarining mustaqil qobiliyatlarini (自走力) ko'rsatib faoliyat yuritmoqdalar?", "point_uz": "Taqdimotdagi JDU bitiruvchisi haqidagi ma'lumotni eslab qolganingizni va ishga kirgach o'sishga qat'iy intilayotganingizni ko'rsatadi."}, {"id": "gq3", "title": "130万人会員『gacco』のデータ活用と開発挑戦", "q_jp": "2026年4月より130万人以上の会員基盤を持つ日本最大のMOOC『gacco』の運営が御社に移管されたと伺いました。今後、この大規模な学習データを活用したラーニングアナリティクスや機能改善において、新卒エンジニアが挑戦できる機会はございますでしょうか。", "q_uz": "2026-yil apreldan 1.3 milliondan ortiq a'zoga ega bo'lgan «gacco» platformasi boshqaruvi sizning kompaniyangizga o'tganidan xabardorman. Katta ma'lumotlar tahlili (Learning Analytics) va tizimni yaxshilashda yosh muhandislar qatnasha oladigan imkoniyatlar bormi?", "point_uz": "Kompaniyaning eng so'nggi va eng yirik yangiligini bilishingizni isbotlaydi. Intervyuerda eng yuqori ijobiy bahoni keltiradi."}, {"id": "gq4", "title": "内定から入社（来春）までに準備しておくべき技術", "q_jp": "もしご縁をいただき入社させていただけることになった場合、入社までの期間にウズベキスタンで重点的に学んでおくべき技術領域や、準備しておくべきことがあればご教示いただけますでしょうか。", "q_uz": "Agar kompaniyangizga qabul qilinish baxtiga muyassar bo'lsam, kelgusi bahorgacha bo'lgan davrda O'zbekistonda turib aynan qaysi texnologiyalarni chuqurroq o'rganib tayyorgarlik ko'rishimni maslahat berasiz?", "point_uz": "O'rganishga bo'lgan chanqoqlik, jiddiylik va mas'uliyatni ifodalaydi. Yapon ish beruvchilari eng sevadigan savollardan biri."}];
 const DATA_GLOSSARY = [{"term": "完全一致 (FALSE)", "kana": "かんぜんいっち", "ro": "kanzen icchi", "cat": "Excel/データ", "uz": "To'liq moslik; VLOOKUP da aniq qidiruv (4-argument FALSE/0)", "desc": "Excelda kod yoki ID qidirganda xatolik bo'lmasligi uchun aniq mos qiymatni topish talab qilinadi."}, {"term": "近似一致 (TRUE)", "kana": "きんじいっち", "ro": "kinji icchi", "cat": "Excel/データ", "uz": "Taqribiy moslik; oraliqlar bo'yicha qidirish (4-argument TRUE/1)", "desc": "Ballar oralig'i (masalan 60-79 oralig'i) bo'yicha baholashda jadval saralangan bo'lsa qo'llaniladi."}, {"term": "絶対参照 ($)", "kana": "ぜったいさんしょう", "ro": "zettai sanshou", "cat": "Excel/データ", "uz": "Absolyut murojaat; yacheyka manzilini qotirib qo'yish ($A$1)", "desc": "Formulani boshqa qatorlarga nusxalaganda hisoblash asosi bo'lgan katak siljib ketmasligi uchun $ belgisi qo'yiladi."}, {"term": "相対参照", "kana": "そうたいさんしょう", "ro": "soutai sanshou", "cat": "Excel/データ", "uz": "Nisbiy murojaat; qator surilganda birga siljiydigan manzil (A1)", "desc": "Masalan, har bir qatorda yonidagi sonlarni ko'paytirishda nisbiy murojaat ishlatiladi."}, {"term": "母集団 (Population)", "kana": "ぼしゅうだん", "ro": "boshuudan", "cat": "統計/データ", "uz": "Bosh to'plam; o'rganilayotgan barcha obyektlar yig'indisi", "desc": "Imtihondagi barcha 1000 nafar talaba bosh to'plam hisoblanadi (STDEVP funksiyasi shuning uchun tanlanadi)."}, {"term": "標本 (Sample)", "kana": "ひょうほん", "ro": "hyouhon", "cat": "統計/データ", "uz": "Tanlanma; bosh to'plamdan tahlil uchun ajratib olingan qism", "desc": "Agar 1000 kishidan faqat 50 tasi namuna qilib olinganda STDEV.S (namuna standart chetlanishi) ishlatilardi."}, {"term": "標準偏差 (STDEVP)", "kana": "ひょうじゅんへんさ", "ro": "hyoujun hensa", "cat": "統計/データ", "uz": "Standart chetlanish; natijalarning o'rtacha qiymatdan tarqoqlik darajasi", "desc": "Ballar o'rtacha ball atrofida qanchalik zich yoki tarqoq joylashganini ko'rsatuvchi asosiy statistik ko'rsatkich."}, {"term": "偏差値 (Hensachi / T-score)", "kana": "へんさち", "ro": "hensachi", "cat": "統計/教育", "uz": "Standart ball; o'quvchining umumiy guruh ichidagi aniq o'rni", "desc": "O'rtacha ball 50 ga tenglashtiriladi. 60 dan yuqori ball juda yaxshi, 50 o'rtacha hisoblanadi."}, {"term": "四捨五入 (ROUND)", "kana": "ししゃごにゅう", "ro": "shishagonyuu", "cat": "Excel/算数", "uz": "Yaxlitlash; 4 gacha tashlab yuborish, 5 dan boshlab yuqoriga qo'shish", "desc": "ROUND(son, 2) orqali verguldan keyin 2 ta xona qoldiriladi."}, {"term": "加重平均 (Weighted Average)", "kana": "かじゅうへいきん", "ro": "kajuu heikin", "cat": "統計/データ", "uz": "Vaznli o'rtacha; miqdor ulushini hisobga olgan o'rtacha narx", "desc": "Har bir hududning ishlab chiqarish tonnasini hisobga olgan holda respublika o'rtacha narxini topish."}, {"term": "乱数 (RANDBETWEEN)", "kana": "らんすう", "ro": "ransuu", "cat": "Excel/関数", "uz": "Tasodifiy sonlar generatsiyasi", "desc": "Excelda har safar jadval yangilanganda sonlarni tasodifiy o'zgartirib turuvchi funksiya."}, {"term": "要件定義", "kana": "ようけんていぎ", "ro": "youken teigi", "cat": "開発工程", "uz": "Talablarni aniqlash va spetsifikatsiya tuzish (Requirements)", "desc": "Mijoz yoki foydalanuvchi tizimdan nimalarni kutayotganini aniqlab rasmiylashtirish bosqichi."}, {"term": "基本設計 (外部設計)", "kana": "きほんせっけい", "ro": "kihon sekkei", "cat": "開発工程", "uz": "Asosiy / Tashqi arxitektura loyihalash (UI, DB, API)", "desc": "Ekranlar dizayni, foydalanuvchi harakatlari va ma'lumotlar tuzilmasini belgilash."}, {"term": "詳細設計 (内部設計)", "kana": "しょうさいせっけい", "ro": "shousai sekkei", "cat": "開発工程", "uz": "Tafsilotli / Ichki kod darajasidagi loyihalash", "desc": "Har bir modul, funksiya va ma'lumotlar oqimining ichki algoritmlarini ishlab chiqish."}, {"term": "単体テスト (Unit Test)", "kana": "たんたいてすと", "ro": "tantai tesuto", "cat": "品質/テスト", "uz": "Modul testi; har bir kichik funksiyani alohida sinash", "desc": "Dasturning alohida qismlari to'g'ri ishlashini avtomatik testlar orqali tekshirish."}, {"term": "結合テスト (Integration Test)", "kana": "けつごうてすと", "ro": "ketsugou tesuto", "cat": "品質/テスト", "uz": "Integratsion test; modullarning birgalikda ishlashini tekshirish", "desc": "Frontend va Backend o'zaro to'g'ri ma'lumot almashayotganini sinash."}, {"term": "負荷テスト (Load Test)", "kana": "ふかてすと", "ro": "fuka tesuto", "cat": "品質/テスト", "uz": "Yuklama testi; yuqori oqimda tizim bardoshini tekshirish", "desc": "Bir vaqtda minglab foydalanuvchilar kirganda serverning barqarorligini o'lchash."}, {"term": "客先常駐なし", "kana": "きゃくさきじょうちゅうなし", "ro": "kyakusaki jouchuu nashi", "cat": "企業文化/DK", "uz": "Mijoz ofisiga yuborilmaslik; o'z ofisida mustaqil ishlash", "desc": "Digital Knowledge dasturchilari begona kompaniyaga jo'natilmaydi, o'z ofisida (Akihabara) ishlaydi."}, {"term": "自社開発", "kana": "じしゃかいはつ", "ro": "jisha kaihatsu", "cat": "企業文化/DK", "uz": "Kompaniyaning o'z mualliflik mahsulotlarini ishlab chiqishi", "desc": "Buyurtmachi uchun emas, o'z brendiga tegishli platformalarni yaratish va rivojlantirish."}, {"term": "KnowledgeDeliver", "kana": "ナレッジデリバー", "ro": "karejji deribaa", "cat": "DK製品", "uz": "Digital Knowledge ning flagman LMS platformasi (3000+ tashkilot)", "desc": "Darslik yaratish, o'rganish va boshqaruv funksiyalarini mujassam etgan yirik ta'lim platformasi."}, {"term": "gacco", "kana": "ガッコ", "ro": "gakko", "cat": "DK製品/MOOC", "uz": "Yaponiyaning 1.32 mln a'zoga ega eng yirik ochiq MOOC platformasi", "desc": "2026-yil 1-apreldan NTT DOCOMO dan to'liq Digital Knowledge boshqaruviga o'tgan."}, {"term": "LMS (学習管理システム)", "kana": "エルエムエス", "ro": "eru emu esu", "cat": "EdTech/DK", "uz": "Learning Management System; ta'lim jarayonini boshqarish tizimi", "desc": "O'quvchilar ro'yxati, dars materiallari, testlar va natijalarni nazorat qiluvchi platforma."}, {"term": "CBT (Computer Based Testing)", "kana": "シービーティー", "ro": "shii bii tii", "cat": "EdTech/DK", "uz": "Kompyuter orqali o'tkaziladigan standartlashtirilgan imtihon tizimi", "desc": "Qog'ozsiz, to'g'ridan-to'g'ri kompyuter orqali avtomatik tekshiriladigan test shakli."}, {"term": "ラーニングアナリティクス", "kana": "ラーニングアナリティクス", "ro": "raaningu anaritikusu", "cat": "EdTech/DK", "uz": "Learning Analytics; o'rganish xatti-harakatlarini katta ma'lumotlar bilan tahlil qilish", "desc": "O'quvchi qayerda sekinlashyapti, qaysi savolda xato qilyapti — barchasini tahlil qilib tavsiya berish."}, {"term": "学びの架け橋", "kana": "まなみのかけはし", "ro": "manabi no kakehashi", "cat": "DK理念", "uz": "«Bilim ko'prigi» — Digital Knowledge kompaniyasining bosh shiori", "desc": "Dunyoning har bir burchagidagi insonlarga sifatli ta'lim yetkazib berish missiyasi."}, {"term": "育つ喜びを全ての人へ", "kana": "そだつよろこびをすべてのひとへ", "ro": "sodatsu yorokobi o subete no hito e", "cat": "DK理念", "uz": "«O'sish va rivojlanish quvonchi har bir insonga» — DK oliy maqsadi", "desc": "Har bir shaxsning o'rganish orqali yuksalishini qo'llab-quvvatlash falsafasi."}];
 
-let mMensetsuModule = "es"; // "es", "excel", "seika", "dk", "glossary"
+let mMensetsuModule = "es"; // "es", "excel", "seika", "dk", "gyaku", "sim", "glossary"
 let mCurrentCat = "all";
 let mBlurred = {};
+
+// Simulator state
+let simQuestions = [];
+let simCurrentIdx = 0;
+let simTimer = null;
+let simSecondsLeft = 60;
 
 function playJapaneseTTS(text, btn) {
   if (!('speechSynthesis' in window)) {
@@ -65,8 +72,18 @@ function initSubtabs() {
 function renderMensetsu() {
   initSubtabs();
   
+  if (mMensetsuModule === "sim") {
+    renderSimulatorModule();
+    return;
+  }
+  
   if (mMensetsuModule === "glossary") {
     renderGlossaryModule();
+    return;
+  }
+  
+  if (mMensetsuModule === "gyaku") {
+    renderGyakuModule();
     return;
   }
   
@@ -188,6 +205,170 @@ function renderMensetsu() {
     `;
   }).join("");
 }
+
+function renderGyakuModule() {
+  const fContainer = $("#mFilters");
+  if(fContainer) fContainer.style.display = "none";
+  
+  const countEl = $("#mCount");
+  if(countEl) countEl.textContent = `4 ta eng kuchli teskari savol (逆質問)`;
+  
+  const listEl = $("#mListContainer");
+  if(!listEl) return;
+  
+  listEl.innerHTML = `
+    <div style="background:var(--ai-light);border:1px solid var(--ai-border);border-radius:14px;padding:16px;margin-bottom:18px;">
+      <h3 style="color:var(--ai);margin:0 0 6px;">💡 逆質問 (Gyaku-shitsumon) — Suhbatdagi hal qiluvchi lahza</h3>
+      <p style="margin:0;font-size:0.92rem;color:var(--ink);line-height:1.5;">Yapon intervyusining oxirida suhbatdosh: <i>「最後に、何か質問はありますか？」</i> (Oxirida biror savolingiz bormi?) deb so'raydi. Bu yerda «savolim yo'q» deb aytish qiziqish yo'qligini bildiradi. Quyidagi 4 ta chuqur savoldan birini berish esa kompaniyani mukammal bilishingizni isbotlaydi!</p>
+    </div>
+    
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      ${DATA_GYAKU.map((item, idx) => `
+        <article class="mensetsu-card">
+          <div class="mensetsu-header">
+            <span class="mensetsu-q-badge">Teskari Savol #${idx+1}</span>
+            <span class="mensetsu-q-cat">📌 ${esc(item.title)}</span>
+          </div>
+          
+          <h3 class="mensetsu-q-jp">${esc(item.q_jp)}</h3>
+          <p class="mensetsu-q-uz">${esc(item.q_uz)}</p>
+          
+          <div class="mensetsu-point-box">
+            <span class="ico">🎯</span>
+            <div><b>Nega bu savol hayratga soladi?</b> ${esc(item.point_uz)}</div>
+          </div>
+          
+          <div class="mensetsu-card-actions">
+            <button class="btn-m-action" onclick="playJapaneseTTS('${item.q_jp.replace(/'/g, "\\'")}', this)">
+              <span>🔊</span> Savol talaffuzini eshitish (ja-JP TTS)
+            </button>
+          </div>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderSimulatorModule() {
+  const fContainer = $("#mFilters");
+  if(fContainer) fContainer.style.display = "none";
+  const countEl = $("#mCount");
+  if(countEl) countEl.textContent = `Jonli suhbat simulyatori — Audio va taymer bilan mashq qilish`;
+  
+  const listEl = $("#mListContainer");
+  if(!listEl) return;
+  
+  listEl.innerHTML = `
+    <div class="sim-container">
+      <div class="sim-intro" id="simIntro">
+        <h3><span>🎙️</span> Jonli Intervyu Simulyatori (面接シミュレーター)</h3>
+        <p>Virtual yapon suhbatdoshi sizga tasodifiy 5 ta rasmiy savol beradi (savolni ovozli o'qiydi). Har bir savolga 60 soniya ichida ovoz chiqarib javob berishingiz kerak. Tayyormisiz?</p>
+        <button class="sim-start-btn" onclick="startSimGame()">🚀 Suhbatni Boshlash (面接スタート)</button>
+      </div>
+      
+      <div class="sim-box" id="simBox">
+        <div class="sim-status-bar">
+          <span style="font-weight:700;color:var(--ai);" id="simStep">Savol: 1 / 5</span>
+          <div class="sim-timer-pill" id="simTimerEl">⏱️ <span id="simSeconds">60</span>s</div>
+        </div>
+        
+        <div class="sim-q-box">
+          <div class="sim-q-title" id="simQText">Savol yuklanmoqda...</div>
+          <div class="sim-q-trans" id="simQTrans">...</div>
+        </div>
+        
+        <div class="sim-controls">
+          <button class="btn-m-action" onclick="replaySimQuestion()">
+            <span>🔊</span> Savolni qayta eshitish
+          </button>
+          <button class="btn-m-action" style="background:var(--ai);color:#fff;border-color:var(--ai);" onclick="showSimAnswer()">
+            <span>✅</span> Javob berdim (Tahlilni ko'rish)
+          </button>
+          <button class="btn-m-action" onclick="nextSimQuestion()">
+            <span>⏭️</span> Keyingi savolga o'tish
+          </button>
+        </div>
+        
+        <div class="sim-ans-area" id="simAnsArea">
+          <div style="font-weight:700;color:var(--ai);margin-bottom:8px;">🗣️ Namunaviy Yaponcha Javob:</div>
+          <div id="simAnsJp" style="font-size:1.05rem;line-height:1.6;margin-bottom:12px;color:var(--ink);"></div>
+          <div style="font-weight:700;color:var(--mut);margin-bottom:4px;">🇺🇿 O'zbekcha mazmuni:</div>
+          <div id="simAnsUz" style="font-size:0.92rem;color:var(--mut);line-height:1.5;"></div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+window.startSimGame = function() {
+  const pool = [...DATA_ES, ...DATA_EXCEL, ...DATA_SEIKA, ...DATA_DK];
+  // Shuffle and pick 5
+  simQuestions = pool.sort(() => 0.5 - Math.random()).slice(0, 5);
+  simCurrentIdx = 0;
+  
+  $("#simIntro").style.display = "none";
+  $("#simBox").style.display = "block";
+  
+  loadSimCurrentQuestion();
+};
+
+function loadSimCurrentQuestion() {
+  if(simCurrentIdx >= simQuestions.length) {
+    alert("🎉 Suhbat simulyatsiyasi yakunlandi! Ajoyib natija!");
+    mMensetsuModule = "es";
+    renderMensetsu();
+    return;
+  }
+  
+  const qItem = simQuestions[simCurrentIdx];
+  $("#simStep").textContent = `Savol: ${simCurrentIdx + 1} / ${simQuestions.length}`;
+  $("#simQText").textContent = qItem.q_jp;
+  $("#simQTrans").textContent = qItem.q_uz;
+  $("#simAnsArea").style.display = "none";
+  
+  $("#simAnsJp").innerHTML = esc(qItem.ans_jp).replace(/\n/g, '<br>');
+  $("#simAnsUz").textContent = qItem.ans_uz;
+  
+  playJapaneseTTS(qItem.q_jp);
+  
+  // Reset Timer
+  clearInterval(simTimer);
+  simSecondsLeft = 60;
+  $("#simSeconds").textContent = simSecondsLeft;
+  $("#simTimerEl").classList.remove("warning");
+  
+  simTimer = setInterval(() => {
+    simSecondsLeft--;
+    $("#simSeconds").textContent = simSecondsLeft;
+    if(simSecondsLeft <= 10) {
+      $("#simTimerEl").classList.add("warning");
+    }
+    if(simSecondsLeft <= 0) {
+      clearInterval(simTimer);
+      showSimAnswer();
+    }
+  }, 1000);
+}
+
+window.replaySimQuestion = function() {
+  if(simQuestions[simCurrentIdx]) {
+    playJapaneseTTS(simQuestions[simCurrentIdx].q_jp);
+  }
+};
+
+window.showSimAnswer = function() {
+  clearInterval(simTimer);
+  $("#simAnsArea").style.display = "block";
+  if(simQuestions[simCurrentIdx]) {
+    playJapaneseTTS(simQuestions[simCurrentIdx].ans_jp);
+  }
+};
+
+window.nextSimQuestion = function() {
+  clearInterval(simTimer);
+  simCurrentIdx++;
+  loadSimCurrentQuestion();
+};
 
 function renderGlossaryModule() {
   const gCats = ["all", "Excel/データ", "統計/データ", "統計/教育", "開発工程", "品質/テスト", "企業文化/DK", "DK製品", "DK理念"];
@@ -533,6 +714,28 @@ footer{color:var(--mut);font-size:12.5px;padding:34px 18px 56px;text-align:cente
 .glossary-uz { font-size:0.95rem; font-weight:700; color:var(--shu); margin-bottom:6px; line-height:1.4; }
 .glossary-desc { font-size:0.88rem; color:var(--mut); line-height:1.5; margin-bottom:12px; }
 
+
+/* === SIMULATOR & REVERSE QUESTIONS STYLES === */
+.sim-container { background:var(--card-inner); border:1px solid var(--line); border-radius:18px; padding:24px; box-shadow:var(--shadow); margin-top:12px; }
+.sim-intro { text-align:center; max-width:650px; margin:0 auto 20px; }
+.sim-intro h3 { font-size:1.35rem; color:var(--ink); margin-bottom:8px; display:flex; align-items:center; justify-content:center; gap:8px; }
+.sim-intro p { font-size:0.95rem; color:var(--mut); line-height:1.55; }
+.sim-start-btn { background:var(--shu); color:#fff; border:0; padding:12px 28px; border-radius:30px; font-size:16px; font-weight:700; cursor:pointer; box-shadow:0 6px 18px rgba(179,38,30,.25); transition:all .2s ease; margin-top:14px; }
+.sim-start-btn:hover { transform:scale(1.03); background:#931d17; }
+
+.sim-box { display:none; }
+.sim-status-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid var(--line); }
+.sim-timer-pill { background:var(--shu-bg); color:var(--shu); font-weight:800; font-size:16px; padding:6px 14px; border-radius:20px; border:1px solid rgba(179,38,30,.3); display:inline-flex; align-items:center; gap:6px; }
+.sim-timer-pill.warning { animation:pulseTimer 1s infinite alternate; }
+@keyframes pulseTimer { from { transform:scale(1); } to { transform:scale(1.08); background:#ffded9; } }
+
+.sim-q-box { background:var(--washi); border-radius:14px; padding:20px; margin-bottom:18px; border:1px solid var(--line); }
+.sim-q-title { font-size:1.25rem; font-weight:700; color:var(--ink); line-height:1.5; margin-bottom:8px; }
+.sim-q-trans { font-size:0.95rem; color:var(--mut); font-style:italic; }
+
+.sim-controls { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }
+.sim-ans-area { display:none; background:var(--paper); border:2px solid var(--ai); border-radius:14px; padding:18px; margin-bottom:18px; }
+
 </style>
 </head><body>
 <header class="hero"><div class="wrap">
@@ -610,7 +813,9 @@ footer{color:var(--mut);font-size:12.5px;padding:34px 18px 56px;text-align:cente
       <button class="m-subtab" data-mod="excel">📊 Excel & Statistika QA (4問)</button>
       <button class="m-subtab" data-mod="seika">🛠️ 成果報告書 & Loyihalar (3問)</button>
       <button class="m-subtab" data-mod="dk">🏢 Digital Knowledge & JDU (3問)</button>
-      <button class="m-subtab" data-mod="glossary">📚 Katta Texnik Lug'at (26 ta atama)</button>
+      <button class="m-subtab" data-mod="gyaku">🙋‍♂️ Intervyuerga Savollar (逆質問 4選)</button>
+      <button class="m-subtab" data-mod="sim">🎙️ Jonli Suhbat Simulyatori (シミュレーター)</button>
+      <button class="m-subtab" data-mod="glossary">📚 Katta Texnik Lug'at (26 atama)</button>
     </div>
 
     <div class="mensetsu-filters" id="mFilters"></div>
