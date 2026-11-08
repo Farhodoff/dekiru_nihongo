@@ -121,3 +121,308 @@ DK 面接の基本,卒業見込み,そつぎょうみこみ,sotsugyou mikomi,Bit
 DK 面接の基本,扶養家族,ふようかぞく,fuyou kazoku,Qaramog'idagi oila a'zolari (boquvchisi bo'lgan shaxslar),family dependents,"履歴書の扶養家族欄には、配偶者無・扶養家族0人と正確に記載しました。 (Rezyumening qaramog‘idagi oila a'zolari ustuniga turmush o‘rtog‘i yo‘q, qaramog‘ida hech kim yo‘q deb aniq yozdim.)"
 DK 面接の基本,本人希望記入欄,ほんにんきぼうきにゅうらん,honnin kibou kinyuuran,"Nomzodning shaxsiy istaklarini yozish katagi (maosh, shartlar)",personal preferences and condition request section in resume,本人希望記入欄には『貴社の規定に従います』と誠実に記入しました。 (Shaxsiy istaklar katagiga «Kompaniyangiz belgilagan tartib-qoidalarga bo‘ysunaman» deb samimiy qayd etdim.)
 DK 成果報告書 & 自己研究,間隔反復学習,かんかくはんぷくがくしゅう,kankaku hanpuku gakushuu,"Intervalli takrorlash usuli (Spaced Repetition, xotirani mustahkamlash)",spaced repetition learning system (SRS),kaiwa.liveにSM-2アルゴリズムに基づく間隔反復学習機能を実装しました。 (kaiwa.live platformasiga SM-2 algoritmi asosidagi intervalli takrorlash tizimini joriy qildim.)
+DK 業務・スキル,課題,かだい,kadai,"topshiriq, masala, vazifa",Ot · recruitment audit,"課題（かだい）— Vazifa, muammo yoki hal qilinishi kerak bo‘lgan masala (topshiriq, masala, vazifa.)"
+DK 業務・スキル,記載,きさい,kisai,"yozib ko'rsatish, qayd etish",Ot / Fe'l (suru) · recruitment audit,"６．入社を希望される決め手は何になりますか？（重要視する点を記載下さい：例-会社理念､会社風土､条件etc.） (yozib ko'rsatish, qayd etish.)"
+DK Excel課題 & データ分析,相対参照,そうたいさんしょう,soutaisanshou,nisbiy havola (A1),Ot · recruitment audit,絶対参照（$）と相対参照を正しく使い分けることに苦労しました。 (nisbiy havola (A1).)
+DK Excel課題 & データ分析,参照範囲,さんしょうはんい,sanshouhan'i,havola qilinadigan kataklar oralig'i,Ot · recruitment audit,Excelの各関数の使い方を調べ、数式の条件や参照範囲を見直して修正しました。その後、計算結果が正しいことを確認しました。 (havola qilinadigan kataklar oralig'i.)
+DK Excel課題 & データ分析,数式,すうしき,suushiki,matematik formula,Ot · recruitment audit,Excelの各関数の使い方を調べ、数式の条件や参照範囲を見直して修正しました。その後、計算結果が正しいことを確認しました。 (matematik formula.)
+DK Excel課題 & データ分析,計算結果,けいさんけっか,keisankekka,hisob-kitob natijasi,Ot · recruitment audit,Excelの各関数の使い方を調べ、数式の条件や参照範囲を見直して修正しました。その後、計算結果が正しいことを確認しました。 (hisob-kitob natijasi.)
+DK Excel課題 & データ分析,判定,はんてい,hantei,"baholash, xulosa chiqarish, qaror",Ot / Fe'l (suru) · recruitment audit,"IF関数を使ったA・B・Cの判定処理と、VLOOKUP関数によるデータ検索に苦労しました。また、COUNTIF関数やAVERAGEIF関数を使った集計処理にも時間がかかりました。 (baholash, xulosa chiqarish, qaror.)"
+DK Excel課題 & データ分析,集計,しゅうけい,shuukei,"jamlash, umumiy hisoblash",Ot / Fe'l (suru) · recruitment audit,"IF関数を使ったA・B・Cの判定処理と、VLOOKUP関数によるデータ検索に苦労しました。また、COUNTIF関数やAVERAGEIF関数を使った集計処理にも時間がかかりました。 (jamlash, umumiy hisoblash.)"
+DK 業務・スキル,受験番号,じゅけんばんごう,jukenbangou,imtihon topshiruvchi identifikatsiya raqami,Ot · recruitment audit,(6-F)下記は受験番号を入力すると、該当する人の情報を出力するシステムです。 (imtihon topshiruvchi identifikatsiya raqami.)
+DK Excel課題 & データ分析,平均得点,へいきんとくてん,heikintokuten,o'rtacha ball,Ot · recruitment audit,【Hint】平均得点は四捨五入し、小数点以下第１位まで表示してください。 (o'rtacha ball.)
+DK Excel課題 & データ分析,最高得点,さいこうとくてん,saikoutokuten,eng yuqori ball,Ot · recruitment audit,受験者の中での最高得点を抽出します。 (eng yuqori ball.)
+DK Excel課題 & データ分析,最低得点,さいていとくてん,saiteitokuten,eng past ball,Ot · recruitment audit,試験の最低得点を求めて表に反映します。 (eng past ball.)
+DK 業務・スキル,都道府県,とどうふけん,todoufuken,prefekturalar (Yaponiya ma'muriy birliklari),Ot · recruitment audit,(6-E)都道府県ごとに受験者数、平均得点を計算して表を埋めてください (prefekturalar (Yaponiya ma'muriy birliklari).)
+DK 業務・スキル,該当,がいとう,gaitou,"tegishli bo'lish, mos kelish",Ot / Fe'l (suru) · recruitment audit,"以下の質問には、１つでも該当する場合は「はい」、全てに該当しない場合は「いいえ」にチェックをして下さい (tegishli bo'lish, mos kelish.)"
+DK Excel課題 & データ分析,出荷量,しゅっかりょう,shukkaryou,jo'natilgan mahsulot hajmi/miqdori,Ot · recruitment audit,【Hint】出荷量割合や平均出荷額での出荷の計算には絶対参照の$マークを利用ください (jo'natilgan mahsulot hajmi/miqdori.)
+DK Excel課題 & データ分析,出荷単価,しゅっかたんか,shukkatanka,mahsulotning jo'natishdagi birlik narxi,Ot · recruitment audit,出荷単価(円/kg) (mahsulotning jo'natishdagi birlik narxi.)
+DK Excel課題 & データ分析,生産量,せいさんりょう,seisanryou,ishlab chiqarish hajmi,Ot · recruitment audit,生産量(t) (ishlab chiqarish hajmi.)
+DK Excel課題 & データ分析,割合,わりあい,wariai,"ulush, foiz, nisbat",Ot · recruitment audit,"【Hint】出荷量割合や平均出荷額での出荷の計算には絶対参照の$マークを利用ください (ulush, foiz, nisbat.)"
+DK Excel課題 & データ分析,桁,けた,keta,"raqam xonasi (birlik, o'nlik va h.k.)",Ot · recruitment audit,"小数点以下第1位の桁まで表示させてください。 (raqam xonasi (birlik, o'nlik va h.k.).)"
+DK Excel課題 & データ分析,空欄,くうらん,kuuran,"bo'sh katak, to'ldirilmagan joy",Ot · recruitment audit,"（４）以下の赤の空欄を計算して埋めてください。 (bo'sh katak, to'ldirilmagan joy.)"
+DK Excel課題 & データ分析,関数,かんすう,kansuu,funksiya (Excel yoki dasturlash),Ot · recruitment audit,IF関数を使ったA・B・Cの判定処理と、VLOOKUP関数によるデータ検索に苦労しました。また、COUNTIF関数やAVERAGEIF関数を使った集計処理にも時間がかかりました。 (funksiya (Excel yoki dasturlash).)
+DK Excel課題 & データ分析,抽出,ちゅうしゅつ,chuushutsu,"ajratib olish, filtrlash",Ot / Fe'l (suru) · recruitment audit,"条件に一致するレコードを抽出します。 (ajratib olish, filtrlash.)"
+DK Excel課題 & データ分析,並べ替え,ならべかえ,narabekae,"saralash, tartiblash (sorting)",Ot / Fe'l (suru) · recruitment audit,"データを昇順または降順に並べ替えます。 (saralash, tartiblash (sorting).)"
+DK Excel課題 & データ分析,昇順,しょうじゅん,shoujun,"o'sish tartibi (A-Z, 1-9)",Ot · recruitment audit,"売上順にデータを昇順で並べます。 (o'sish tartibi (A-Z, 1-9).)"
+DK Excel課題 & データ分析,降順,こうじゅん,koujun,"kamayish tartibi (Z-A, 9-1)",Ot · recruitment audit,"得点の高い順に降順で整理します。 (kamayish tartibi (Z-A, 9-1).)"
+DK Excel課題 & データ分析,結合,けつごう,ketsugou,birlashtirish (katak yoki matn),Ot / Fe'l (suru) · recruitment audit,結合テスト（けつごうテスト）— Integratsion test (birlashtirish (katak yoki matn).)
+DK Excel課題 & データ分析,条件付き書式,じょうけんつきしょしき,joukentsukishoshiki,shartli formatlash (conditional formatting),Ot · recruitment audit,条件付き書式で特定のセルに色を付けます。 (shartli formatlash (conditional formatting).)
+DK Excel課題 & データ分析,行,ぎょう,gyou,qator (Excel horizontal satr),Ot · recruitment audit,データベースの設計と管理を行いました。— Ma’lumotlar bazasini loyihalash va boshqarish bilan shug‘ullandim. (qator (Excel horizontal satr).)
+DK Excel課題 & データ分析,列,れつ,retsu,ustun (Excel vertikal ustun),Ot · recruitment audit,ちなみに、数字や文字列は乱数で適当に変更されます。数字をじかに書きこんではダメです。 (ustun (Excel vertikal ustun).)
+DK Excel課題 & データ分析,範囲,はんい,han'i,"diapazon, oraliq",Ot · recruitment audit,"Excelの各関数の使い方を調べ、数式の条件や参照範囲を見直して修正しました。その後、計算結果が正しいことを確認しました。 (diapazon, oraliq.)"
+DK Excel課題 & データ分析,修正,しゅうせい,shuusei,"tuzatish, to'g'rilash",Ot / Fe'l (suru) · recruitment audit,"私が得意とする業務は、フロントエンド開発、バックエンド開発、APIの開発、そしてプログラムの不具合の発見と修正です。また、その他の開発業務にも対応できます。 (tuzatish, to'g'rilash.)"
+DK Excel課題 & データ分析,削除編集不可,さくじょへんしゅうふか,sakujohenshuufuka,o'chirish va tahrirlash taqiqlangan,Ot / Sifat · recruitment audit,このシートは削除編集不可となっております。 (o'chirish va tahrirlash taqiqlangan.)
+DK Excel課題 & データ分析,入力,にゅうりょく,nyuuryoku,ma'lumot kiritish,Ot / Fe'l (suru) · recruitment audit,(6-F)下記は受験番号を入力すると、該当する人の情報を出力するシステムです。 (ma'lumot kiritish.)
+DK Excel課題 & データ分析,出力,しゅつりょく,shutsuryoku,natijani chiqarish (output),Ot / Fe'l (suru) · recruitment audit,(6-F)下記は受験番号を入力すると、該当する人の情報を出力するシステムです。 (natijani chiqarish (output).)
+DK Excel課題 & データ分析,表示,ひょうじ,hyouji,"ko'rsatish, ekranga chiqarish",Ot / Fe'l (suru) · recruitment audit,"【Hint】出荷量割合の%は四捨五入し、小数点以下第１位まで表示してください。 (ko'rsatish, ekranga chiqarish.)"
+DK Excel課題 & データ分析,反映,はんえい,han'ei,"aks ettirish, natijaga tatbiq qilish",Ot / Fe'l (suru) · recruitment audit,"本人申告のレベルを反映済み (aks ettirish, natijaga tatbiq qilish.)"
+DK Excel課題 & データ分析,集約,しゅうやく,shuuyaku,birlashtirib umumlashtirish,Ot / Fe'l (suru) · recruitment audit,各部門のデータを一つの表に集約します。 (birlashtirib umumlashtirish.)
+DK Excel課題 & データ分析,照合,しょうごう,shougou,solishtirib tekshirish (cross-check),Ot / Fe'l (suru) · recruitment audit,入力データと原本を照合します。 (solishtirib tekshirish (cross-check).)
+DK Excel課題 & データ分析,誤差,ごさ,gosa,"xatolik farqi, noaniqlik",Ot · recruitment audit,"計算結果に生じた誤差を確認します。 (xatolik farqi, noaniqlik.)"
+DK Excel課題 & データ分析,演算子,えんざんし,enzanshi,operator (matematik/mantiqiy),Ot · recruitment audit,比較演算子を用いて条件式を組み立てます。 (operator (matematik/mantiqiy).)
+DK Excel課題 & データ分析,置換,ちかん,chikan,almashtirish (find and replace),Ot / Fe'l (suru) · recruitment audit,特定の文字列を一括で置換します。 (almashtirish (find and replace).)
+DK Excel課題 & データ分析,書式,しょしき,shoshiki,"format, shakl",Ot · recruitment audit,"セルの表示書式を通貨形式に変更します。 (format, shakl.)"
+DK 面接の基本,新卒,しんそつ,shinsotsu,yangi bitiruvchi (universitet bitiruvchisi),Ot · recruitment audit,【新卒採用人数】 2026年:5名・ 2025年:5名・ 2024年:４名・ 2023年:3名・2022年:６名・2021年:６名 (yangi bitiruvchi (universitet bitiruvchisi).)
+DK 面接の基本,中途,ちゅうと,chuuto,ish tajribasiga ega mutaxassis (mid-career),Ot · recruitment audit,中途採用者向けの研修を実施します。 (ish tajribasiga ega mutaxassis (mid-career).)
+DK 面接の基本,応募,おうぼ,oubo,"ariza topshirish, hujjat topshirish",Ot / Fe'l (suru) · recruitment audit,"５．当社以外に応募された会社（及び選考状況）があれば挙げてください（可能な範囲で結構です） (ariza topshirish, hujjat topshirish.)"
+DK 面接の基本,選考,せんこう,senkou,"saralash bosqichi, tanlov",Ot / Fe'l (suru) · recruitment audit,"IT・Web開発企業2社（書類選考・一次面接準備中）ですが、教育工学とeラーニング領域において圧倒的な実績を持つ貴社を第一志望としております。 (saralash bosqichi, tanlov.)"
+DK 面接の基本,採用担当,さいようたんとう,saiyoutantou,ishga qabul qilish bo'yicha mas'ul shaxs,Ot · recruitment audit,株式会社デジタル･ナレッジ　採用担当 (ishga qabul qilish bo'yicha mas'ul shaxs.)
+DK 面接の基本,志望理由,しぼうりゆう,shibouriyuu,"intilish sababi, tanlash asosi",Ot · recruitment audit,"この職種を希望する志望理由を説明します。 (intilish sababi, tanlash asosi.)"
+DK 業務・スキル,職務経歴,しょくむけいれき,shokumukeireki,"ish faoliyati tarixi, mehnat tajribasi",Ot · recruitment audit,"職務経歴書（しょくむけいれきしょ）— Ish tajribasi haqida hujjat (ish faoliyati tarixi, mehnat tajribasi.)"
+DK 面接の基本,長所,ちょうしょ,chousho,"kuchli tomon, fazilat",Ot · recruitment audit,"７．あなたの長所と、短所を客観的に述べて下さい (kuchli tomon, fazilat.)"
+DK 面接の基本,短所,たんしょ,tansho,"kuchsiz/zaif tomon, kamchilik",Ot · recruitment audit,"７．あなたの長所と、短所を客観的に述べて下さい (kuchsiz/zaif tomon, kamchilik.)"
+DK 業務・スキル,価値観,かちかん,kachikan,"qadriyatlar tizimi, dunyoqarash",Ot · recruitment audit,"入社を決める際には、専門的なスキルを高め、新しい知識を学べる環境を重視しています。また、良好な人間関係や働きやすい職場環境、企業の理念や価値観に共感できること、給与や労働条件も重要な判断基準と考えています。 (qadriyatlar tizimi, dunyoqarash.)"
+DK 成果報告書 & 自己研究,優先順位,ゆうせんじゅんい,yuusenjun'i,ustuvorlik tartibi (priority),Ot · recruitment audit,タスクの優先順位を明確にして作業を進めます。 (ustuvorlik tartibi (priority).)
+DK 成果報告書 & 自己研究,貢献,こうけん,kouken,"hissa qo'shish, xizmat ko'rsatish",Ot / Fe'l (suru) · recruitment audit,"将来の夢は、高い技術力を持つエンジニアになり、自分自身の製品を開発することです。また、テクノロジーを通じて教育分野の発展に貢献し、国際的なプロジェクトにも携わりたいと考えています。 (hissa qo'shish, xizmat ko'rsatish.)"
+DK 成果報告書 & 自己研究,展望,てんぼう,tenbou,"istiqbol, kelajak manzarasi",Ot · recruitment audit,"17．教育業界で仕事をするに当たって、またeラーニングの今後の展望についてどのようにお考えですか？ (istiqbol, kelajak manzarasi.)"
+DK 業務・スキル,内定,ないてい,naitei,dastlabki ishga qabul taklifi (job offer),Ot / Fe'l (suru) · recruitment audit,現在はウズベキスタン（実家）在住です。内定をいただき日本へ渡航した際は、勤務地近隣にて一人暮らしを開始する予定であり、自立した生活管理にも全く問題ございません。 (dastlabki ishga qabul taklifi (job offer).)
+DK 社内・キャリア,転勤,てんきん,tenkin,boshqa filial yoki shaharga ish o'tkazilishi,Ot / Fe'l (suru) · recruitment audit,業務上の必要性に応じた転勤であれば、前向きに対応可能です。様々な環境での経験を通じて、エンジニアとしてより成長したいと考えております。 (boshqa filial yoki shaharga ish o'tkazilishi.)
+DK 社内・キャリア,実家,じっか,jikka,"ota-ona uyi, tug'ilib o'sgan xonadon",Ot · recruitment audit,"現在はウズベキスタン（実家）在住です。内定をいただき日本へ渡航した際は、勤務地近隣にて一人暮らしを開始する予定であり、自立した生活管理にも全く問題ございません。 (ota-ona uyi, tug'ilib o'sgan xonadon.)"
+DK 社内・キャリア,一人暮らし,ひとりぐらし,hitorigurashi,mustaqil/yakka o'zi yashash,Ot / Fe'l (suru) · recruitment audit,現在はウズベキスタン（実家）在住です。内定をいただき日本へ渡航した際は、勤務地近隣にて一人暮らしを開始する予定であり、自立した生活管理にも全く問題ございません。 (mustaqil/yakka o'zi yashash.)
+DK 業務・スキル,読解力,どっかいりょく,dokkairyoku,o'qib tushunish qobiliyati,Ot · recruitment audit,英語の読解力は中級程度で、技術文書の内容をある程度理解できます。一方、英語の会話力は初級程度で、簡単な表現を使ってコミュニケーションを取ることができます。 (o'qib tushunish qobiliyati.)
+DK 業務・スキル,会話力,かいわりょく,kaiwaryoku,og'zaki muloqot mahorati,Ot · recruitment audit,英語の読解力は中級程度で、技術文書の内容をある程度理解できます。一方、英語の会話力は初級程度で、簡単な表現を使ってコミュニケーションを取ることができます。 (og'zaki muloqot mahorati.)
+DK 社内・キャリア,給料,きゅうりょう,kyuuryou,oylik maosh,Ot · recruitment audit,給料（きゅうりょう）— Oylik maosh (oylik maosh.)
+DK 社内・キャリア,昇給,しょうきゅう,shoukyuu,maosh oshirilishi,Ot / Fe'l (suru) · recruitment audit,定期昇給（ていきしょうきゅう）— Muntazam ravishda maosh oshirilishi (maosh oshirilishi.)
+DK 社内・キャリア,賞与,しょうよ,shouyo,"bonus, mukofot puli",Ot · recruitment audit,"業績賞与（ぎょうせきしょうよ）— Kompaniya natijalariga qarab beriladigan bonus (bonus, mukofot puli.)"
+DK 社内・キャリア,試用期間,しようきかん,shiyoukikan,sinov muddati (probation period),Ot · recruitment audit,試用期間中（しようきかんちゅう）— Sinov muddati davomida (sinov muddati (probation period).)
+DK 社内・キャリア,福利厚生,ふくりこうせい,fukurikousei,ijtimoiy imtiyozlar va qulayliklar paketi,Ot · recruitment audit,福利厚生（ふくりこうせい）— Ijtimoiy imtiyozlar va xodimlar uchun qulayliklar (ijtimoiy imtiyozlar va qulayliklar paketi.)
+DK 社内・キャリア,有給休暇,ゆうきゅうきゅうか,yuukyuukyuuka,haq to'lanadigan mehnat ta'tili,Ot · recruitment audit,有給休暇を取得する（ゆうきゅうきゅうかをしゅとくする）— Pullik ta’til olmoq (haq to'lanadigan mehnat ta'tili.)
+DK 社内・キャリア,慶弔休暇,けいちょうきゅうか,keichoukyuuka,to'y yoki motam munosabati bilan beriladigan ta'til,Ot · recruitment audit,慶弔休暇（けいちょうきゅうか）— Oilaviy quvonchli yoki qayg‘uli marosimlar uchun ta’til (to'y yoki motam munosabati bilan beriladigan ta'til.)
+DK 社内・キャリア,研修制度,けんしゅうせいど,kenshuuseido,malaka oshirish va o'qitish tizimi,Ot · recruitment audit,研修制度（けんしゅうせいど）— Malaka oshirish va trening tizimi (malaka oshirish va o'qitish tizimi.)
+DK 社内・キャリア,服装マナー,ふくそうマナー,fukusoumanaa,kiyinish etiketi va qoidalari,Ot · recruitment audit,16. 職場のルールと服装マナー・ISH JOYI QOIDALARI VA KIYINISH ETIKETI (kiyinish etiketi va qoidalari.)
+DK 社内・キャリア,テレワーク,テレワーク,terewaaku,masofaviy ishlash (remote work),Ot / Fe'l (suru) · recruitment audit,出社率:80%　（2026年4月現在） ※テレワーク率：20% （週４日出勤、１日在宅が目安） (masofaviy ishlash (remote work).)
+DK 社内・キャリア,出社,しゅっしゃ,shussha,"ishxonaga kelish, idoraga chiqish",Ot / Fe'l (suru) · recruitment audit,"出社と在宅勤務（しゅっしゃとざいたくきんむ）— Ofis va uyda ishlash tartibi (ishxonaga kelish, idoraga chiqish.)"
+DK 社内・キャリア,退社,たいしゃ,taisha,ishdan chiqish yoki ishdan ketish,Ot / Fe'l (suru) · recruitment audit,定時に退社できるよう業務を効率化します。 (ishdan chiqish yoki ishdan ketish.)
+DK 成果報告書 & 自己研究,自己学習,じこがくしゅう,jikogakushuu,"mustaqil o'rganish, mustaqil ta'lim",Ot / Fe'l (suru) · recruitment audit,"3. 成果報告書（自己学習研究）_220075_Farhod_Soyilov.xlsx (mustaqil o'rganish, mustaqil ta'lim.)"
+DK 業務・スキル,会社説明会,かいしゃせつめいかい,kaishasetsumeikai,kompaniya taqdimoti va axborot uchrashuvi,Ot · recruitment audit,４．当社の会社説明会で、良かった/悪かった点、参考になった/ならなかった点をお知らせ下さい (kompaniya taqdimoti va axborot uchrashuvi.)
+DK 成果報告書 & 自己研究,教育業界,きょういくぎょうかい,kyouikugyoukai,ta'lim sohasi / industriyasi,Ot · recruitment audit,17．教育業界で仕事をするに当たって、またeラーニングの今後の展望についてどのようにお考えですか？ (ta'lim sohasi / industriyasi.)
+DK 面接の基本,役員面接,やくいんめんせつ,yakuinmensetsu,boshqaruv kengashi a'zolari bilan suhbat,Ot · recruitment audit,最終選考として役員面接に臨みます。 (boshqaruv kengashi a'zolari bilan suhbat.)
+DK 面接の基本,適性検査,てきせいけんさ,tekiseikensa,qobiliyat va kasbga layoqat testi,Ot · recruitment audit,適性検査を受検していただきます。 (qobiliyat va kasbga layoqat testi.)
+DK 面接の基本,提出書類,ていしゅつしょるい,teishutsushorui,topshirilishi lozim bo'lgan hujjatlar,Ot · recruitment audit,提出書類に不備がないか再確認します。 (topshirilishi lozim bo'lgan hujjatlar.)
+DK 面接の基本,締切,しめきり,shimekiri,oxirgi muddat (deadline),Ot · recruitment audit,提出の締切日時を厳守してください。 (oxirgi muddat (deadline).)
+DK 面接の基本,添付,てんぷ,tenpu,faylni ilova qilish (attachment),Ot / Fe'l (suru) · recruitment audit,つきましては、下記書類を本メールに添付いたしましたので、 (faylni ilova qilish (attachment).)
+DK 面接の基本,送付,そうふ,soufu,pochta yoki elektron yo'l bilan jo'natish,Ot / Fe'l (suru) · recruitment audit,ご依頼の書類を送付いたします。 (pochta yoki elektron yo'l bilan jo'natish.)
+DK 質問事項 & 健康申告,申告,しんこく,shinkoku,"rasmiy ma'lum qilish, deklaratsiya berish",Ot / Fe'l (suru) · recruitment audit,"2. ★質問（スキル・アンケート・申告）新卒_Farhod_Soyilov.xls (rasmiy ma'lum qilish, deklaratsiya berish.)"
+DK 質問事項 & 健康申告,健康状態,けんこうじょうたい,kenkoujoutai,salomatlik holati,Ot · recruitment audit,（スキルチェックシート、アンケート21問、健康状態申告書） (salomatlik holati.)
+DK 質問事項 & 健康申告,自己申告書,じこしんこくしょ,jikoshinkokusho,shaxsiy ma'lumot berish varaqasi (o'z-o'zini deklaratsiya qilish),Ot · recruitment audit,健康状態自己申告書にご記入ください。 (shaxsiy ma'lumot berish varaqasi (o'z-o'zini deklaratsiya qilish).)
+DK 業務・スキル,該当者,がいとうしゃ,gaitousha,"tegishli bo'lgan shaxs, to'g'ri keluvchi odam",Ot · recruitment audit,"該当者は詳細な状況をお知らせください。 (tegishli bo'lgan shaxs, to'g'ri keluvchi odam.)"
+DK 質問事項 & 健康申告,診察,しんさつ,shinsatsu,"shifokor ko'rigi, tibbiy tekshiruv",Ot / Fe'l (suru) · recruitment audit,"３．過去５年以内に、下記の病気で、医師の診察、検査、治療、投薬を受けたことがありますか？ (shifokor ko'rigi, tibbiy tekshiruv.)"
+DK 質問事項 & 健康申告,医師,いし,ishi,"shifokor, vrach",Ot · recruitment audit,"３．過去５年以内に、下記の病気で、医師の診察、検査、治療、投薬を受けたことがありますか？ (shifokor, vrach.)"
+DK 質問事項 & 健康申告,投薬,とうやく,touyaku,"dori berish, dori bilan muolaja qilish",Ot / Fe'l (suru) · recruitment audit,"３．過去５年以内に、下記の病気で、医師の診察、検査、治療、投薬を受けたことがありますか？ (dori berish, dori bilan muolaja qilish.)"
+DK 質問事項 & 健康申告,処方箋,しょほうせん,shohousen,shifokor retsepti,Ot · recruitment audit,医師の処方箋に従って服薬します。 (shifokor retsepti.)
+DK 質問事項 & 健康申告,既往歴,きおうれき,kioureki,o'tmishdagi kasalliklar tarixi (anamnez),Ot · recruitment audit,過去の既往歴について該当事項があれば記載します。 (o'tmishdagi kasalliklar tarixi (anamnez).)
+DK 質問事項 & 健康申告,視力障害,しりょくしょうがい,shiryokushougai,ko'rish qobiliyatining buzilishi,Ot · recruitment audit,４．視力障害（左右いずれかの矯正視力0.3未満）がありますか？ (ko'rish qobiliyatining buzilishi.)
+DK 質問事項 & 健康申告,矯正視力,きょうせいしりょく,kyouseishiryoku,ko'zoynak/linza bilan to'g'rilangan ko'rish qobiliyati,Ot · recruitment audit,４．視力障害（左右いずれかの矯正視力0.3未満）がありますか？ (ko'zoynak/linza bilan to'g'rilangan ko'rish qobiliyati.)
+DK 質問事項 & 健康申告,診断書,しんだんしょ,shindansho,tibbiy ma'lumotnoma (diagnoz hujjati),Ot · recruitment audit,必要に応じて医師の診断書を提出します。 (tibbiy ma'lumotnoma (diagnoz hujjati).)
+DK 質問事項 & 健康申告,自覚症状,じかくしょうじょう,jikakushoujou,bemor o'zi his qiladigan alomatlar,Ot · recruitment audit,現在、特に自覚症状はございません。 (bemor o'zi his qiladigan alomatlar.)
+DK 質問事項 & 健康申告,完治,かんち,kanchi,"to'liq tuzalish, butunlay sog'ayish",Ot / Fe'l (suru) · recruitment audit,"以前の病気はすでに完治しております。 (to'liq tuzalish, butunlay sog'ayish.)"
+DK 質問事項 & 健康申告,療養,りょうよう,ryouyou,"davolanish, dam olib sog'liqni tiklash",Ot / Fe'l (suru) · recruitment audit,"療養を経て現在は健康に過ごしています。 (davolanish, dam olib sog'liqni tiklash.)"
+DK 質問事項 & 健康申告,支障,ししょう,shishou,"to'siq, xalaqit, monelik",Ot · recruitment audit,"通常業務を行うにあたり支障はございません。 (to'siq, xalaqit, monelik.)"
+DK 質問事項 & 健康申告,通院,つういん,tsuuin,muntazam shifoxonaga qatnash,Ot / Fe'l (suru) · recruitment audit,定期的な通院の有無をお知らせください。 (muntazam shifoxonaga qatnash.)
+DK 質問事項 & 健康申告,入院,にゅういん,nyuuin,shifoxonaga yotish (statsionar),Ot / Fe'l (suru) · recruitment audit,過去に入院した経歴はございません。 (shifoxonaga yotish (statsionar).)
+DK 質問事項 & 健康申告,手術,しゅじゅつ,shujutsu,jarrohlik amaliyoti (operatsiya),Ot / Fe'l (suru) · recruitment audit,２．過去５年以内に、病気やケガで手術を受けたことがありますか？ (jarrohlik amaliyoti (operatsiya).)
+DK 質問事項 & 健康申告,予防,よぼう,yobou,"oldini olish, profilaktika",Ot / Fe'l (suru) · recruitment audit,"感染症の予防対策を徹底します。 (oldini olish, profilaktika.)"
+DK 質問事項 & 健康申告,健康診断,けんこうしんだん,kenkoushindan,davriy tibbiy ko'rik,Ot · recruitment audit,健康診断（けんこうしんだん）— Tibbiy ko‘rik (davriy tibbiy ko'rik.)
+DK 業務・スキル,勤務形態,きんむけいたい,kinmukeitai,ish tartibi va shakli,Ot · recruitment audit,勤務形態（きんむけいたい）— Ishlash shakli / ish tartibi (ish tartibi va shakli.)
+DK 質問事項 & 健康申告,同意,どうい,doui,"rozilik berish, ma'qullash",Ot / Fe'l (suru) · recruitment audit,"利用規約の内容に同意の上ご応募ください。 (rozilik berish, ma'qullash.)"
+DK 質問事項 & 健康申告,署名,しょめい,shomei,imzo qo'yish,Ot / Fe'l (suru) · recruitment audit,確認後に氏名を署名してください。 (imzo qo'yish.)
+DK 質問事項 & 健康申告,誓約,せいやく,seiyaku,"qasamyod, rasmiy va'da berish",Ot / Fe'l (suru) · recruitment audit,"虚偽のないことを誓約いたします。 (qasamyod, rasmiy va'da berish.)"
+DK 業務・スキル,取り組む,とりくむ,torikumu,"astoydil kirishish, jiddiy shug'ullanish",Fe'l · recruitment audit,"【開発内容】日本語学習の課題を解決するため、React・TypeScriptによる学習画面、Supabaseによる認証・学習データ管理、AI会話練習やJLPT対策の機能開発に取り組む。Azure SpeechやAI APIとの連携も実装。 (astoydil kirishish, jiddiy shug'ullanish.)"
+DK 業務・スキル,記入,きにゅう,kinyuu,forma yoki blankaga ma'lumot yozish,Ot / Fe'l (suru) · recruitment audit,記入日・氏名・年齢を記載後、以下1～21の質問にお答え下さい（記入場所：「ピンク」セル箇所） (forma yoki blankaga ma'lumot yozish.)
+DK 面接直前チートシート & 実践フレーズ,遵守,じゅんしゅ,junshu,qonun-qoidalarga qat'iy rioya qilish,Ot / Fe'l (suru) · recruitment audit,社内規定およびコンプライアンスを遵守します。 (qonun-qoidalarga qat'iy rioya qilish.)
+DK 業務・スキル,努める,つとめる,tsutomeru,"tirishish, harakat qilmoq, g'ayrat qilmoq",Fe'l · recruitment audit,"スキルアップに日々努めてまいります。 (tirishish, harakat qilmoq, g'ayrat qilmoq.)"
+DK 業務・スキル,満たす,みたす,mitasu,"shartlarni qanoatlantirmoq, to'ldirmoq",Fe'l · recruitment audit,"✔教育は生きるために必要な希望と活力を与え、尊厳を満たす、人間にとって必須のもの。 (shartlarni qanoatlantirmoq, to'ldirmoq.)"
+DK 業務・スキル,従う,したがう,shitagau,"bo'ysunmoq, ko'rsatmalarga ergashmoq",Fe'l · recruitment audit,"仕様に従う（しようにしたがう）— Spetsifikatsiyaga muvofiq bo‘lish (bo'ysunmoq, ko'rsatmalarga ergashmoq.)"
+DK 業務・スキル,申し出る,もうしでる,moushideru,"taklif bildirmoq, arz qilmoq, aytmoq",Fe'l · recruitment audit,"変更が生じた場合は速やかに申し出てください。 (taklif bildirmoq, arz qilmoq, aytmoq.)"
+DK 面接直前チートシート & 実践フレーズ,お送りする,おおくりする,ookurisuru,"yubormoq, jo'natmoq (kamtarona keigo)",Fe'l · recruitment audit,"選考書類をメールにてお送りいたします。 (yubormoq, jo'natmoq (kamtarona keigo).)"
+DK 面接直前チートシート & 実践フレーズ,拝見する,はいけんする,haikensuru,"ko'rmoq, ko'rib chiqmoq (kamtarona keigo)",Fe'l · recruitment audit,"募集要項を拝見いたしました。 (ko'rmoq, ko'rib chiqmoq (kamtarona keigo).)"
+DK 面接直前チートシート & 実践フレーズ,ご案内,ごあんない,goannai,"yo'l-yo'riq ko'rsatish, xabardor qilish",Ot / Fe'l (suru) · recruitment audit,"今後の選考ステップについてご案内いたします。 (yo'l-yo'riq ko'rsatish, xabardor qilish.)"
+DK 面接直前チートシート & 実践フレーズ,ご検討,ごけんとう,gokentou,"ko'rib chiqish, muhokama qilish (hurmat shakli)",Ot / Fe'l (suru) · recruitment audit,"何卒ご検討のほどよろしくお願い申し上げます。 (ko'rib chiqish, muhokama qilish (hurmat shakli).)"
+DK 面接直前チートシート & 実践フレーズ,ご教示,ごきょうじ,gokyouji,"ko'rsatma berish, o'rgatish (hurmat shakli)",Ot / Fe'l (suru) · recruitment audit,"ご不明な点がございましたらご教示ください。 (ko'rsatma berish, o'rgatish (hurmat shakli).)"
+DK 面接直前チートシート & 実践フレーズ,恐れ入る,おそれいる,osoreiru,uzr so'rash va xijolat bo'lish (keigo ifodasi),Fe'l · recruitment audit,大変恐れ入りますが、ご確認をお願いいたします。 (uzr so'rash va xijolat bo'lish (keigo ifodasi).)
+DK 面接直前チートシート & 実践フレーズ,存じる,ぞんじる,zonjiru,"deb o'ylamoq, bilmoq (kamtarona keigo)",Fe'l · recruitment audit,"お役に立てれば幸甚に存じます。 (deb o'ylamoq, bilmoq (kamtarona keigo).)"
+DK 面接直前チートシート & 実践フレーズ,承知,しょうち,shouchi,"tushunish, xabardor bo'lish (rozilik)",Ot / Fe'l (suru) · recruitment audit,"選考条件について承知いたしました。 (tushunish, xabardor bo'lish (rozilik).)"
+DK 面接直前チートシート & 実践フレーズ,把握,はあく,haaku,"mohiyatini chuqur anglash, vaziyatni bilish",Ot / Fe'l (suru) · recruitment audit,"ニーズを把握する（ニーズをはあくする）— Ehtiyojlarni aniqlash va tushunish (mohiyatini chuqur anglash, vaziyatni bilish.)"
+DK 面接直前チートシート & 実践フレーズ,共有,きょうゆう,kyouyuu,o'zaro bo'lishish (share qilish),Ot / Fe'l (suru) · recruitment audit,進捗を共有する（しんちょくをきょうゆうする）— Ish jarayoni haqida ma’lumot almashish (o'zaro bo'lishish (share qilish).)
+DK 面接直前チートシート & 実践フレーズ,配慮,はいりょ,hairyo,"e'tibor, g'amxo'rlik, hisobga olish",Ot / Fe'l (suru) · recruitment audit,"健康面や安全面に十分配慮して業務を行います。 (e'tibor, g'amxo'rlik, hisobga olish.)"
+DK 面接直前チートシート & 実践フレーズ,精進,しょうじん,shoujin,"astoydil intilish, o'z ustida ishlash",Ot / Fe'l (suru) · recruitment audit,"一日も早く貢献できるよう精進いたします。 (astoydil intilish, o'z ustida ishlash.)"
+DK 面接直前チートシート & 実践フレーズ,尽力,じんりょく,jinryoku,bor kuch-g'ayratini sarflamoq,Ot / Fe'l (suru) · recruitment audit,事業の成長に向けて全力を尽力いたします。 (bor kuch-g'ayratini sarflamoq.)
+DK 業務・スキル,基本設計,きほんせっけい,kihonsekkei,tizimning asosiy arxitektura dizayni (basic design),Ot · recruitment audit,"基本設計（きほんせっけい）— Asosiy loyihalash, yuqori darajadagi dizayn (tizimning asosiy arxitektura dizayni (basic design).)"
+DK 業務・スキル,詳細設計,しょうさいせっけい,shousaisekkei,batafsil texnik loyihalash (detailed design),Ot · recruitment audit,機能ごとの詳細設計（きのうごとのしょうさいせっけい）— Har bir funksiya bo‘yicha batafsil loyihalash (batafsil texnik loyihalash (detailed design).)
+DK 業務・スキル,開発,かいはつ,kaihatsu,dastur ishlab chiqish (development),Ot / Fe'l (suru) · recruitment audit,将来の夢は、高い技術力を持つエンジニアになり、自分自身の製品を開発することです。また、テクノロジーを通じて教育分野の発展に貢献し、国際的なプロジェクトにも携わりたいと考えています。 (dastur ishlab chiqish (development).)
+DK 業務・スキル,実装,じっそう,jissou,kod yozib amaliyotga tatbiq etish (implementation),Ot / Fe'l (suru) · recruitment audit,ECシステムのバックエンド開発。商品・ユーザー・注文データの管理、Telegram連携、API実装。 Python、Flask、SQLite、Telegram Bot API。 (kod yozib amaliyotga tatbiq etish (implementation).)
+DK 業務・スキル,単体テスト,たんたいてすと,tantaitesuto,birlik sinovi (unit test),Ot / Fe'l (suru) · recruitment audit,単体テスト（たんたいてすと）— Unit test (birlik sinovi (unit test).)
+DK Excel課題 & データ分析,結合テスト,けつごうてすと,ketsugoutesuto,integratsion sinov (integration test),Ot / Fe'l (suru) · recruitment audit,結合テスト（けつごうテスト）— Integratsion test (integratsion sinov (integration test).)
+DK 業務・スキル,保守,ほしゅ,hoshu,texnik qo'llab-quvvatlash va saqlash (maintenance),Ot / Fe'l (suru) · recruitment audit,運用・保守フェーズ（うんよう・ほしゅフェーズ）— Operatsion boshqaruv va texnik xizmat ko‘rsatish bosqichi (texnik qo'llab-quvvatlash va saqlash (maintenance).)
+DK 業務・スキル,運用,うんよう,unyou,tizimni ishlatish va boshqarish (operation),Ot / Fe'l (suru) · recruitment audit,運用・保守フェーズ（うんよう・ほしゅフェーズ）— Operatsion boshqaruv va texnik xizmat ko‘rsatish bosqichi (tizimni ishlatish va boshqarish (operation).)
+DK 業務・スキル,仕様書,しようしょ,shiyousho,texnik xususiyatlar hujjati (specification),Ot · recruitment audit,仕様書の内容に従ってプログラミングを行います。 (texnik xususiyatlar hujjati (specification).)
+DK 業務・スキル,納品,のうひん,nouhin,tayyor mahsulotni mijozga topshirish,Ot / Fe'l (suru) · recruitment audit,予定の期日までに成果物を納品いたします。 (tayyor mahsulotni mijozga topshirish.)
+DK 業務・スキル,顧客,こきゃく,kokyaku,"mijoz, buyurtmachi (client)",Ot · recruitment audit,"顧客と対面するときはスーツを着る — Mijoz bilan uchrashganda kostyum kiyish (mijoz, buyurtmachi (client).)"
+DK 業務・スキル,受託開発,じゅたくかいはつ,jutakukaihatsu,buyurtma asosida dasturiy ta'minot yaratish,Ot · recruitment audit,受託開発プロジェクトにおいて開発力を培いました。 (buyurtma asosida dasturiy ta'minot yaratish.)
+DK 業務・スキル,自社製品,じしゃせいひん,jishaseihin,kompaniyaning o'z shaxsiy mahsuloti,Ot · recruitment audit,自社製品のeラーニングプラットフォームを改善します。 (kompaniyaning o'z shaxsiy mahsuloti.)
+DK 業務・スキル,基盤,きばん,kiban,"infratuzilma, platforma, poydevor",Ot · recruitment audit,"クラウド基盤を活用してスケーラブルな構成にします。 (infratuzilma, platforma, poydevor.)"
+DK 業務・スキル,連携,れんけい,renkei,"integratsiya, tizimlarni bir-biriga bog'lash",Ot / Fe'l (suru) · recruitment audit,"ECシステムのバックエンド開発。商品・ユーザー・注文データの管理、Telegram連携、API実装。 Python、Flask、SQLite、Telegram Bot API。 (integratsiya, tizimlarni bir-biriga bog'lash.)"
+DK 業務・スキル,効率化,こうりつか,kouritsuka,samaradorlikni oshirish,Ot / Fe'l (suru) · recruitment audit,効率化（こうりつか）— Samaradorlikni oshirish (samaradorlikni oshirish.)
+DK 業務・スキル,最適化,さいてきか,saitekika,optimallashtirish (optimization),Ot / Fe'l (suru) · recruitment audit,PWA最適化 (optimallashtirish (optimization).)
+DK 成果報告書 & 自己研究,分析,ぶんせき,bunseki,tahlil qilish (analysis),Ot / Fe'l (suru) · recruitment audit,シラバスなどの情報をもとに、学習構造(Knowlege ID Map)を分析し、学習者に合わせて学習内容を (tahlil qilish (analysis).)
+DK 業務・スキル,進捗,しんちょく,shinchoku,"ish jarayonining siljishi, rivoji (progress)",Ot · recruitment audit,"進捗を共有する（しんちょくをきょうゆうする）— Ish jarayoni haqida ma’lumot almashish (ish jarayonining siljishi, rivoji (progress).)"
+DK 業務・スキル,不具合,ふぐあい,fuguai,"nosozlik, tizimdagi nuqson (bug)",Ot · recruitment audit,"私が得意とする業務は、フロントエンド開発、バックエンド開発、APIの開発、そしてプログラムの不具合の発見と修正です。また、その他の開発業務にも対応できます。 (nosozlik, tizimdagi nuqson (bug).)"
+DK 業務・スキル,改修,かいしゅう,kaishuu,"tizimni yangilash, tuzatib takomillashtirish",Ot / Fe'l (suru) · recruitment audit,"ユーザーの要望を反映してUIを改修します。 (tizimni yangilash, tuzatib takomillashtirish.)"
+DK 業務・スキル,品質,ひんしつ,hinshitsu,sifat darajasi (quality),Ot · recruitment audit,品質確認（ひんしつかくにん）— Sifatni tekshirish (sifat darajasi (quality).)
+DK 業務・スキル,担保,たんぽ,tanpo,"kafolatlash, ta'minlash",Ot / Fe'l (suru) · recruitment audit,"システムの信頼性と安全性を担保します。 (kafolatlash, ta'minlash.)"
+DK 業務・スキル,納期,のうき,nouki,topshirish muddati (delivery deadline),Ot · recruitment audit,納期（のうき）— Ish yoki loyihani topshirish muddati (deadline) (topshirish muddati (delivery deadline).)
+DK 業務・スキル,工数,こうすう,kousuu,"mehnat sarfi, inson-soat miqdori (man-hours)",Ot · recruitment audit,"タスクにかかる工数を見積もります。 (mehnat sarfi, inson-soat miqdori (man-hours).)"
+DK 業務・スキル,見積もり,みつもり,mitsumori,"smeta, oldindan baholash (estimate)",Ot / Fe'l (suru) · recruitment audit,"開発期間と費用の見積もりを作成します。 (smeta, oldindan baholash (estimate).)"
+DK 業務・スキル,合意,ごうい,goui,"o'zaro kelishuv, rozilik",Ot / Fe'l (suru) · recruitment audit,"クライアントとの間で仕様に関する合意を形成します。 (o'zaro kelishuv, rozilik.)"
+DK 業務・スキル,調整,ちょうせい,chousei,"muvofiqlashtirish, moslash (adjustment)",Ot / Fe'l (suru) · recruitment audit,"学習アプリの画面を調整し、Web技術の基礎を復習しました。 (muvofiqlashtirish, moslash (adjustment).)"
+DK 業務・スキル,検討,けんとう,kentou,"atroflicha o'rganib chiqish, muhokama",Ot / Fe'l (suru) · recruitment audit,"全世界ポストコロナにおける教育協力検討のための情報収集・確認調査（QCBS）（モザンビーク・ナイジェリア） (atroflicha o'rganib chiqish, muhokama.)"
+DK 業務・スキル,提案,ていあん,teian,taklif kiritish (proposal),Ot / Fe'l (suru) · recruitment audit,営業・提案フェーズ（えいぎょう・ていあんフェーズ）— Sotuv va taklif bosqichi (taklif kiritish (proposal).)
+DK 業務・スキル,要望,ようぼう,youbou,"talab-istak, ehtiyoj",Ot · recruitment audit,"ユーザーからの要望を新機能に反映させます。 (talab-istak, ehtiyoj.)"
+DK 業務・スキル,満足度,まんぞくど,manzokudo,qoniqish darajasi (satisfaction),Ot · recruitment audit,顧客満足度の向上に向けた取り組みを実施します。 (qoniqish darajasi (satisfaction).)
+DK 業務・スキル,市場,しじょう,shijou,bozor (market),Ot · recruitment audit,eラーニングの市場を拡大するための活動をしています。 (bozor (market).)
+DK 業務・スキル,動向,どうこう,doukou,"tendensiya, o'zgarish yo'nalishi (trend)",Ot · recruitment audit,"最新のAIおよび教育テクノロジーの動向を調査します。 (tendensiya, o'zgarish yo'nalishi (trend).)"
+DK 業務・スキル,創出,そうしゅつ,soushutsu,"yangi narsa yaratish, vujudga keltirish",Ot / Fe'l (suru) · recruitment audit,"新たな学習価値の創出に努めます。 (yangi narsa yaratish, vujudga keltirish.)"
+DK 社内・キャリア,理念,りねん,rinen,"falsafa, asosiy g'oya (corporate philosophy)",Ot · recruitment audit,"６．入社を希望される決め手は何になりますか？（重要視する点を記載下さい：例-会社理念､会社風土､条件etc.） (falsafa, asosiy g'oya (corporate philosophy).)"
+DK 社内・キャリア,風土,ふうど,fuudo,"tashkiliy muhit, korporativ madaniyat",Ot · recruitment audit,"６．入社を希望される決め手は何になりますか？（重要視する点を記載下さい：例-会社理念､会社風土､条件etc.） (tashkiliy muhit, korporativ madaniyat.)"
+DK 成果報告書 & 自己研究,主体性,しゅたいせい,shutaisei,"tashabbuskorlik, mustaqil yondashuv",Ot · recruitment audit,"主体性を持って自発的に行動します。 (tashabbuskorlik, mustaqil yondashuv.)"
+DK 成果報告書 & 自己研究,協調性,きょうちょうせい,kyouchousei,jamoa bilan hamjihatlikda ishlash qobiliyati,Ot · recruitment audit,チームワークを大切にし、協調性を発揮します。 (jamoa bilan hamjihatlikda ishlash qobiliyati.)
+DK 成果報告書 & 自己研究,柔軟性,じゅうなんせい,juunansei,"moslashuvchanlik, egiluvchanlik (flexibility)",Ot · recruitment audit,"変化の激しい環境にも柔軟性を持って対応します。 (moslashuvchanlik, egiluvchanlik (flexibility).)"
+DK 成果報告書 & 自己研究,論理的思考,ろんりてきしこう,ronritekishikou,mantiqiy fikrlash (logical thinking),Ot · recruitment audit,論理的思考に基づいて設計を行います。 (mantiqiy fikrlash (logical thinking).)
+DK 成果報告書 & 自己研究,問題意識,もんだいいしき,mondaiishiki,muammoni ko'ra bilish va unga befarq bo'lmaslik,Ot · recruitment audit,常に問題意識を持って改善点を探します。 (muammoni ko'ra bilish va unga befarq bo'lmaslik.)
+DK 業務・スキル,改善策,かいぜんさく,kaizensaku,yaxshilash va takomillashtirish chorasi,Ot · recruitment audit,発見された課題に対する具体的な改善策を立案します。 (yaxshilash va takomillashtirish chorasi.)
+DK Excel課題 & データ分析,実行力,じっこうりょく,jikkouryoku,rejalarni amalga oshirish kuchi/irodasi,Ot · recruitment audit,計画を迅速にやり遂げる実行力があります。 (rejalarni amalga oshirish kuchi/irodasi.)
+DK 成果報告書 & 自己研究,継続力,けいぞくりょく,keizokuryoku,"davomiylik, to'xtovsiz davom ettirish quvvati",Ot · recruitment audit,"毎日の学習を欠かさない継続力が強みです。 (davomiylik, to'xtovsiz davom ettirish quvvati.)"
+DK 成果報告書 & 自己研究,探究心,たんきゅうしん,tankyuushin,"izlanuvchanlik, yangi bilimlarga chanqoqlik",Ot · recruitment audit,"未知の技術に対しても旺盛な探究心を持って挑みます。 (izlanuvchanlik, yangi bilimlarga chanqoqlik.)"
+DK 成果報告書 & 自己研究,責任感,せきにんかん,sekininkan,mas'uliyat hissi,Ot · recruitment audit,強い責任感を持って最後まで職務を全うします。 (mas'uliyat hissi.)
+DK 成果報告書 & 自己研究,誠実,せいじつ,seijitsu,"rostgo'y, vijdonli, samimiy",Na-sifat · recruitment audit,"誠実な態度で顧客やチームメンバーと接します。 (rostgo'y, vijdonli, samimiy.)"
+DK 成果報告書 & 自己研究,熱意,ねつい,netsui,"shijoat, ishtiyoq, g'ayrat",Ot · recruitment audit,"仕事に対する熱意を持って面接に臨みます。 (shijoat, ishtiyoq, g'ayrat.)"
+DK 成果報告書 & 自己研究,意欲,いよく,iyoku,"xohish-istak, motivatsiya",Ot · recruitment audit,"新しいプログラミング言語を習得する意欲があります。 (xohish-istak, motivatsiya.)"
+DK 業務・スキル,適応,てきおう,tekiou,"yangi muhitga ko'nikish, moslashish",Ot / Fe'l (suru) · recruitment audit,"適応（てきおう）— Moslashish (yangi muhitga ko'nikish, moslashish.)"
+DK 業務・スキル,コミュニケーション,コミュニケーション,komyunikeeshon,"muloqot, aloqa",Ot · recruitment audit,"英語の読解力は中級程度で、技術文書の内容をある程度理解できます。一方、英語の会話力は初級程度で、簡単な表現を使ってコミュニケーションを取ることができます。 (muloqot, aloqa.)"
+DK 業務・スキル,円滑,えんかつ,enkatsu,"silliq, to'siqlarsiz, o'z maromida",Na-sifat · recruitment audit,"プロジェクトを円滑に進行させます。 (silliq, to'siqlarsiz, o'z maromida.)"
+DK 業務・スキル,齟齬,そご,sogo,"tushunmovchilik, nomuvofiqlik",Ot · recruitment audit,"認識の齟齬を防ぐために確認を徹底します。 (tushunmovchilik, nomuvofiqlik.)"
+DK 業務・スキル,認識,にんしき,ninshiki,"anglash, tushunish, bilish",Ot / Fe'l (suru) · recruitment audit,"レシート認識・割り勘アプリ。React Native、TypeScript、Gemini AI等。 ※技術構成は既存のプロジェクト説明に基づく。 (anglash, tushunish, bilish.)"
+DK 業務・スキル,定義,ていぎ,teigi,"ta'rif berish, belgilash",Ot / Fe'l (suru) · recruitment audit,"要件定義書（ようけんていぎしょ）— Talablar spetsifikatsiyasi / texnik talabnoma (ta'rif berish, belgilash.)"
+DK 業務・スキル,概念,がいねん,gainen,"tushuncha, konseptsiya",Ot · recruitment audit,"オブジェクト指向の基本概念を理解しています。 (tushuncha, konseptsiya.)"
+DK 業務・スキル,構造,こうぞう,kouzou,"tuzilma, arxitektura",Ot · recruitment audit,"シラバスなどの情報をもとに、学習構造(Knowlege ID Map)を分析し、学習者に合わせて学習内容を (tuzilma, arxitektura.)"
+DK 業務・スキル,体系的,たいけいてき,taikeiteki,"tizimli, tartibli",Na-sifat · recruitment audit,"プログラミングを体系的に学びました。 (tizimli, tartibli.)"
+DK 業務・スキル,実践的,じっせんてき,jissenteki,"amaliy, real hayotga tatbiq qilinadigan",Na-sifat · recruitment audit,"実践的なプロジェクト演習に取り組みました。 (amaliy, real hayotga tatbiq qilinadigan.)"
+DK 業務・スキル,段階的,だんかいてき,dankaiteki,bosqichma-bosqich,Na-sifat · recruitment audit,学習カリキュラムを段階的に進めます。 (bosqichma-bosqich.)
+DK 業務・スキル,網羅,もうら,moura,to'liq qamrab olish (comprehensive coverage),Ot / Fe'l (suru) · recruitment audit,網羅したカリキュラムを⽣成し、スライド資料‧ナレーション原稿‧動画教材を⾃動⽣成します。 (to'liq qamrab olish (comprehensive coverage).)
+DK 業務・スキル,多岐,たき,taki,"ko'p tarmoqli, turli tuman",Na-sifat · recruitment audit,"多岐にわたる分野の知識を習得します。 (ko'p tarmoqli, turli tuman.)"
+DK 面接直前チートシート & 実践フレーズ,迅速,じんそく,jinsoku,"tezkor, chaqqon, kechiktirmasdan",Na-sifat · recruitment audit,"トラブル発生時には迅速に対応します。 (tezkor, chaqqon, kechiktirmasdan.)"
+DK 面接直前チートシート & 実践フレーズ,的確,てきかく,tekikaku,"aniq, to'g'ri nishonga uradigan",Na-sifat · recruitment audit,"状況に応じた的確な判断を下します。 (aniq, to'g'ri nishonga uradigan.)"
+DK 業務・スキル,緻密,ちみつ,chimitsu,"juda sinchkov, mayda detallarigacha puxta",Na-sifat · recruitment audit,"緻密な設計によりバグの混入を防ぎます。 (juda sinchkov, mayda detallarigacha puxta.)"
+DK 業務・スキル,堅牢,けんろう,kenrou,"mustahkam, ishonchli (robust)",Na-sifat · recruitment audit,"障害に強い堅牢なシステムを構築します。 (mustahkam, ishonchli (robust).)"
+DK 業務・スキル,簡潔,かんけつ,kanketsu,"qisqa va lo'nda, ixcham",Na-sifat · recruitment audit,"21．最後に自分をPRできることや伝えたいことがあれば、簡潔に記入下さい。 (qisqa va lo'nda, ixcham.)"
+DK 業務・スキル,明瞭,めいりょう,meiryou,"ravshan, aniq-tiniq",Na-sifat · recruitment audit,"意図が明瞭に伝わるドキュメントを作成します。 (ravshan, aniq-tiniq.)"
+DK 面接直前チートシート & 実践フレーズ,徹底,てってい,tettei,"oxiriga yetkazish, qat'iy va to'liq amal qilish",Ot / Fe'l (suru) · recruitment audit,"コードレビューの徹底により品質を高めます。 (oxiriga yetkazish, qat'iy va to'liq amal qilish.)"
+DK 業務・スキル,抜本的,ばっぽんてき,bapponteki,"tubdan, ildizidan o'zgartiruvchi (radical)",Na-sifat · recruitment audit,"レガシーシステムを抜本的に刷新します。 (tubdan, ildizidan o'zgartiruvchi (radical).)"
+DK 業務・スキル,刷新,さっしん,sasshin,"yangilash, modernizatsiya qilish",Ot / Fe'l (suru) · recruitment audit,"ユーザーインターフェースを刷新しました。 (yangilash, modernizatsiya qilish.)"
+DK Excel課題 & データ分析,移行,いこう,ikou,"ko'chirish, boshqa tizimga o'tish (migration)",Ot / Fe'l (suru) · recruitment audit,"新サーバーへのデータ移行を完了しました。 (ko'chirish, boshqa tizimga o'tish (migration).)"
+DK 業務・スキル,互換性,ごかんせい,gokansei,"moslik, bir-biriga tushish (compatibility)",Ot · recruitment audit,"旧バージョンとの互換性を維持します。 (moslik, bir-biriga tushish (compatibility).)"
+DK 業務・スキル,拡張性,かくちょうせい,kakuchousei,kengayish imkoniyati (scalability),Ot · recruitment audit,"拡張性（かくちょうせい）— Kengaytirish imkoniyati, scalability (kengayish imkoniyati (scalability).)"
+DK 業務・スキル,可用性,かようせい,kayousei,ishlashga tayyorlik darajasi (availability),Ot · recruitment audit,高い可用性を誇るインフラを設計します。 (ishlashga tayyorlik darajasi (availability).)
+DK 業務・スキル,保守性,ほしゅせい,hoshusei,texnik xizmat ko'rsatish qulayligi (maintainability),Ot · recruitment audit,コードの保守性を高めるリファクタリングを行います。 (texnik xizmat ko'rsatish qulayligi (maintainability).)
+DK 業務・スキル,再利用,さいりよう,sairiyou,"qayta ishlatish, qayta foydalanish",Ot / Fe'l (suru) · recruitment audit,"共通コンポーネントを再利用します。 (qayta ishlatish, qayta foydalanish.)"
+DK 業務・スキル,汎用,はんよう,hanyou,"universal, umumiy maqsadli",Ot / Na-sifat · recruitment audit,"汎用的なライブラリを開発しました。 (universal, umumiy maqsadli.)"
+DK 業務・スキル,特化,とっか,tokka,muayyan sohaga ixtisoslashish,Ot / Fe'l (suru) · recruitment audit,DK特化の面接準備語彙および技術用語をまとめ、アプリへの連携を実装した。 (muayyan sohaga ixtisoslashish.)
+DK 業務・スキル,普及,ふきゅう,fukyuu,"keng tarqalish, ommalashish",Ot / Fe'l (suru) · recruitment audit,"日本型学力検定テストモデル導入に関する普及・実証・ビジネス化事業（ウズベキスタン） (keng tarqalish, ommalashish.)"
+DK 業務・スキル,寄与,きよ,kiyo,"hissa qo'shmoq, foyda keltirmoq",Ot / Fe'l (suru) · recruitment audit,"社会のDX推進に寄与いたします。 (hissa qo'shmoq, foyda keltirmoq.)"
+DK 業務・スキル,牽引,けんいん,ken'in,"yetakchilik qilish, oldinga yetaklash",Ot / Fe'l (suru) · recruitment audit,"次世代の教育テクノロジーを牽引します。 (yetakchilik qilish, oldinga yetaklash.)"
+DK 業務・スキル,先駆,せんく,senku,"kashshof, peshqadam, pioner",Ot · recruitment audit,"eラーニング業界の先駆者としての実績があります。 (kashshof, peshqadam, pioner.)"
+DK 業務・スキル,革新,かくしん,kakushin,"innovatsiya, yangilik kiritish",Ot / Fe'l (suru) · recruitment audit,"技術革新を取り入れたサービスを開発します。 (innovatsiya, yangilik kiritish.)"
+DK 業務・スキル,模索,もさく,mosaku,"paypaslab yo'l qidirish, yechim izlash",Ot / Fe'l (suru) · recruitment audit,"最適な学習手法を常に模索し続けます。 (paypaslab yo'l qidirish, yechim izlash.)"
+DK 業務・スキル,蓄積,ちくせき,chikuseki,"to'plash, yig'ib borish (jamg'arish)",Ot / Fe'l (suru) · recruitment audit,"長年蓄積された教育ノウハウを活用します。 (to'plash, yig'ib borish (jamg'arish).)"
+DK 面接直前チートシート & 実践フレーズ,培う,つちかう,tsuchikau,"yetishtirmoq, shakllantirib rivojlantirmoq",Fe'l · recruitment audit,"大学で培ったプログラミング技術を発揮します。 (yetishtirmoq, shakllantirib rivojlantirmoq.)"
+DK 面接直前チートシート & 実践フレーズ,身につける,みにつける,minitsukeru,"o'rganib o'zlashtirmoq, egallamoq",Fe'l · recruitment audit,"実務を通じて実践的なスキルを身につけます。 (o'rganib o'zlashtirmoq, egallamoq.)"
+DK 面接直前チートシート & 実践フレーズ,発揮,はっき,hakki,"o'z qobiliyatini namoyon etish, ko'rsatish",Ot / Fe'l (suru) · recruitment audit,"チームの中でリーダーシップを発揮します。 (o'z qobiliyatini namoyon etish, ko'rsatish.)"
+DK 面接直前チートシート & 実践フレーズ,携わる,たずさわる,tazusawaru,"biror ishga daxldor bo'lmoq, faoliyat yuritmoq",Fe'l · recruitment audit,"業務内容や求める人物像が抽象的で、入社後にどのような技術スタックでどのようなプロジェクトに携わるのかが不透明な説明会には、やや不安を感じました。 (biror ishga daxldor bo'lmoq, faoliyat yuritmoq.)"
+DK 面接直前チートシート & 実践フレーズ,促す,うながす,unagasu,"undamoq, turtki bermoq, rag'batlantirmoq",Fe'l · recruitment audit,"生徒の自発的な学習を促す機能を開発します。 (undamoq, turtki bermoq, rag'batlantirmoq.)"
+DK 面接直前チートシート & 実践フレーズ,支える,ささえる,sasaeru,"qo'llab-quvvatlamoq, tirgak bo'lmoq",Fe'l · recruitment audit,"社会基盤としての教育をITで支えます。 (qo'llab-quvvatlamoq, tirgak bo'lmoq.)"
+DK Excel課題 & データ分析,遂行,すいこう,suikou,"vazifani oxirigacha yetkazish, bajarish",Ot / Fe'l (suru) · recruitment audit,"与えられた職務を責任を持って遂行します。 (vazifani oxirigacha yetkazish, bajarish.)"
+DK 面接直前チートシート & 実践フレーズ,全う,まっとう,mattou,to'liq bajarib tamomlamoq,Ot / Fe'l (suru) · recruitment audit,自らの使命を最後まで全うします。 (to'liq bajarib tamomlamoq.)
+DK 面接直前チートシート & 実践フレーズ,達成,たっせい,tassei,maqsadga erishish (achievement),Ot / Fe'l (suru) · recruitment audit,プロジェクトの目標を達成いたしました。 (maqsadga erishish (achievement).)
+DK 面接直前チートシート & 実践フレーズ,克服,こくふく,kokufuku,qiyinchiliklarni yengib o'tish,Ot / Fe'l (suru) · recruitment audit,直面した技術的課題をチームで克服しました。 (qiyinchiliklarni yengib o'tish.)
+DK 面接直前チートシート & 実践フレーズ,向上,こうじょう,koujou,"o'sish, ko'tarilish, yuksalish",Ot / Fe'l (suru) · recruitment audit,"仕事を進めるにあたり、業務内容や指示を明確に説明していただけること、チームで協力しながら働ける環境、そして専門的なスキルを向上させる機会を望んでいます。 (o'sish, ko'tarilish, yuksalish.)"
+DK 業務・スキル,深化,しんか,shinka,yanada chuqurlashish,Ot / Fe'l (suru) · recruitment audit,専門分野の知識を深化させます。 (yanada chuqurlashish.)
+DK 業務・スキル,飛躍,ひやく,hiyaku,"katta sakrash, tezkor rivojlanish",Ot / Fe'l (suru) · recruitment audit,"グローバル市場に向けて飛躍的な成長を遂げます。 (katta sakrash, tezkor rivojlanish.)"
+DK 業務・スキル,足掛かり,あしがかり,ashigakari,"tramplin, boshlang'ich asos",Ot · recruitment audit,"日本での就職をキャリアの足掛かりとします。 (tramplin, boshlang'ich asos.)"
+DK 業務・スキル,礎,いしずえ,ishizue,"poydevor, tamal toshi",Ot · recruitment audit,"【読解力】技術ドキュメントや最新の公式リファレンスを問題なく英語で読解可能です。 【会話力】日常会話および基礎的な業務上の意見交換が可能なレベルです。 (poydevor, tamal toshi.)"
+DK 業務・スキル,真摯,しんし,shinshi,"samimiy, astoydil, jiddiy",Na-sifat · recruitment audit,"ユーザーからのフィードバックに真摯に向き合います。 (samimiy, astoydil, jiddiy.)"
+DK 業務・スキル,謙虚,けんきょ,kenkyo,"kamtargina, muloyim",Na-sifat · recruitment audit,"謙虚な姿勢で先輩からの指導を受けます。 (kamtargina, muloyim.)"
+DK 業務・スキル,切磋琢磨,せっさたくま,sessatakuma,o'zaro raqobatlashib va bir-biridan o'rganib o'smoq,Ot / Fe'l (suru) · recruitment audit,同僚たちと切磋琢磨しながら技術を磨きます。 (o'zaro raqobatlashib va bir-biridan o'rganib o'smoq.)
+DK 面接直前チートシート & 実践フレーズ,邁進,まいしん,maishin,oldindan to'xtamasdan dadil intilish,Ot / Fe'l (suru) · recruitment audit,目標達成に向けて一意専心、邁進いたします。 (oldindan to'xtamasdan dadil intilish.)
+DK 業務・スキル,精通,せいつう,seitsuu,"puxta bilmoq, o'ta xabardor bo'lmoq",Ot / Fe'l (suru) · recruitment audit,"クラウド技術やデータベース構造に精通しています。 (puxta bilmoq, o'ta xabardor bo'lmoq.)"
+DK 業務・スキル,習得,しゅうとく,shuutoku,o'rganib o'zlashtirmoq (skills),Ot / Fe'l (suru) · recruitment audit,現場で必要な実践スキルを迅速に習得します。 (o'rganib o'zlashtirmoq (skills).)
+DK 業務・スキル,熟知,じゅくち,jukuchi,ipidan ignasigacha bilmoq,Ot / Fe'l (suru) · recruitment audit,開発フレームワークの内部仕様を熟知しています。 (ipidan ignasigacha bilmoq.)
+DK 業務・スキル,練達,れんたつ,rentatsu,tajribali va usta bo'lish,Ot / Na-sifat · recruitment audit,コード作成における練達した技術を目指します。 (tajribali va usta bo'lish.)
+DK 業務・スキル,堪能,たんのう,tannou,mukammal egallagan bo'lish (til yoki hunar),Na-sifat · recruitment audit,ビジネス英語および日本語が堪能です。 (mukammal egallagan bo'lish (til yoki hunar).)
+DK 業務・スキル,造詣,ぞうけい,zoukei,chuqur bilim va tushuncha,Ot · recruitment audit,Webセキュリティ分野に深い造詣を持っています。 (chuqur bilim va tushuncha.)
+DK 業務・スキル,傾聴,けいちょう,keichou,diqqat bilan quloq solish,Ot / Fe'l (suru) · recruitment audit,顧客の悩みに真摯に傾聴します。 (diqqat bilan quloq solish.)
+DK 業務・スキル,受容,じゅよう,juyou,"qabul qilish, bag'rikenglik bilan o'zlashtirish",Ot / Fe'l (suru) · recruitment audit,"多様な意見を柔軟に受容します。 (qabul qilish, bag'rikenglik bilan o'zlashtirish.)"
+DK 業務・スキル,共感,きょうかん,kyoukan,"hamdardlik, fikriga qo'shilish (empathy)",Ot / Fe'l (suru) · recruitment audit,"そしてJDUを設立・運営される「学びの架け橋」としてのビジョンに深く共感し、 (hamdardlik, fikriga qo'shilish (empathy).)"
+DK 業務・スキル,牽制,けんせい,kensei,"nazorat qilib cheklash, tiyib turish",Ot / Fe'l (suru) · recruitment audit,"権限の分散により不正を防ぐ牽制体制を作ります。 (nazorat qilib cheklash, tiyib turish.)"
+DK 業務・スキル,相互,そうご,sougo,"o'zaro, bir-biriga",Ot · recruitment audit,"チーム内での相互理解を深めることが不可欠です。 (o'zaro, bir-biriga.)"
+DK 業務・スキル,有機的,ゆうきてき,yuukiteki,bir-biri bilan uzviy bog'langan holda,Na-sifat · recruitment audit,各部署が有機的に連携して課題を解決します。 (bir-biri bilan uzviy bog'langan holda.)
+DK 業務・スキル,相乗効果,そうじょうこうか,soujoukouka,sinergiya samarasi (synergy),Ot · recruitment audit,教育とデジタルの融合による相乗効果を生み出します。 (sinergiya samarasi (synergy).)
+DK 業務・スキル,一貫,いっかん,ikkan,"boshidan oxirigacha bir xil, izchil",Ot / Fe'l (suru) · recruitment audit,"要件定義から運用まで一貫して携わります。 (boshidan oxirigacha bir xil, izchil.)"
+DK 業務・スキル,俯瞰,ふかん,fukan,keng panoramada yuqoridan ko'ra bilish (helicopter view),Ot / Fe'l (suru) · recruitment audit,プロジェクト全体を俯瞰してリスクを予見します。 (keng panoramada yuqoridan ko'ra bilish (helicopter view).)
+DK 業務・スキル,予見,よけん,yoken,"oldindan ko'ra bilish, bashorat qilish",Ot / Fe'l (suru) · recruitment audit,"障害の発生を予見して未然に対策を打ちます。 (oldindan ko'ra bilish, bashorat qilish.)"
+DK 業務・スキル,未然,みぜん,mizen,sodir bo'lishidan avval,Ot · recruitment audit,不具合の発生を未然に防止します。 (sodir bo'lishidan avval.)
+DK 業務・スキル,恒久,こうきゅう,koukyuu,"doimiy, abadiy",Ot / Na-sifat · recruitment audit,"一時的な回避ではなく恒久的な対策を施します。 (doimiy, abadiy.)"
+DK 業務・スキル,是正,ぜせい,zesei,"noto'g'ri joyini tuzatish, to'g'rilash",Ot / Fe'l (suru) · recruitment audit,"ウズベキスタン国地方学校教員の能力向上及び教育格差是正向け学習管理システム（ (noto'g'ri joyini tuzatish, to'g'rilash.)"
+DK 業務・スキル,機密,きみつ,kimitsu,"maxfiy, konfidensial (confidential)",Ot · recruitment audit,"顧客の機密情報を適切に管理・保護します。 (maxfiy, konfidensial (confidential).)"
+DK 業務・スキル,保護,ほご,hogo,"himoya qilish, asrash",Ot / Fe'l (suru) · recruitment audit,"個人情報保護法に基づきデータを安全に取り扱います。 (himoya qilish, asrash.)"
+DK 業務・スキル,漏洩,ろうえい,rouei,ma'lumot sizib chiqishi (leak),Ot / Fe'l (suru) · recruitment audit,データの漏洩を防止するための暗号化を適用します。 (ma'lumot sizib chiqishi (leak).)
+DK 業務・スキル,認証,にんしょう,ninshou,"autentifikatsiya, tasdiqlash",Ot / Fe'l (suru) · recruitment audit,"WebRTC/音声通信におけるヘッダー肥大化（431エラー）対策と認証処理を改善した。 (autentifikatsiya, tasdiqlash.)"
+DK 業務・スキル,権限,けんげん,kengen,"huquq, vakolat (permissions)",Ot · recruitment audit,"権限管理（けんげんかんり）— Ruxsatlar va vakolatlarni boshqarish (huquq, vakolat (permissions).)"
+DK 業務・スキル,監査,かんさ,kansa,"taftish, audit",Ot / Fe'l (suru) · recruitment audit,"システムの定期的なセキュリティ監査を実施します。 (taftish, audit.)"
+DK 業務・スキル,負荷,ふか,fuka,yuklama (load / stress),Ot · recruitment audit,負荷テスト（ふかテスト）— Yuklama testi (yuklama (load / stress).)
+DK 業務・スキル,分散,ぶんさん,bunsan,taqsimlash (distribution / load balancing),Ot / Fe'l (suru) · recruitment audit,負荷分散装置を用いてトラフィックを制御します。 (taqsimlash (distribution / load balancing).)
+DK 業務・スキル,冗長化,じょうちょうか,jouchouka,zaxiralash (redundancy),Ot / Fe'l (suru) · recruitment audit,データベースを冗長化して障害対策を講じます。 (zaxiralash (redundancy).)
+DK 業務・スキル,復旧,ふっきゅう,fukkyuu,qayta tiklash (recovery),Ot / Fe'l (suru) · recruitment audit,システム障害からの迅速な復旧手順を策定します。 (qayta tiklash (recovery).)
+DK 業務・スキル,耐障害性,たいしょうがいせい,taishougaisei,nosozliklarga bardoshlilik (fault tolerance),Ot · recruitment audit,耐障害性に優れたクラウドインフラを構築します。 (nosozliklarga bardoshlilik (fault tolerance).)
+DK 業務・スキル,一元管理,いちげんかんり,ichigenkanri,yagona markazdan boshqarish,Ot / Fe'l (suru) · recruitment audit,受講生の学習履歴を一元管理します。 (yagona markazdan boshqarish.)
+DK 業務・スキル,可視化,かしか,kashika,"vizuallashtirish, ko'zga ko'rinadigan qilish",Ot / Fe'l (suru) · recruitment audit,"学習の進捗度をダッシュボードで可視化します。 (vizuallashtirish, ko'zga ko'rinadigan qilish.)"
+DK 業務・スキル,自動化,じどうか,jidouka,avtomatlashtirish,Ot / Fe'l (suru) · recruitment audit,自動化（じどうか）— Avtomatlashtirish (avtomatlashtirish.)
+DK 業務・スキル,省力化,しょうりょくか,shouryokuka,mehnatni tejash,Ot / Fe'l (suru) · recruitment audit,ツールの導入により大幅な省力化を実現します。 (mehnatni tejash.)
+DK 面接直前チートシート & 実践フレーズ,迅速化,じんそくか,jinsokuka,tezlashtirish,Ot / Fe'l (suru) · recruitment audit,意思決定の迅速化を図ります。 (tezlashtirish.)
+DK 業務・スキル,標準化,ひょうじゅんか,hyoujunka,standartlashtirish,Ot / Fe'l (suru) · recruitment audit,コーディング規約を策定して開発を標準化します。 (standartlashtirish.)
+DK 業務・スキル,平準化,へいじゅんか,heijunka,"teng taqsimlash, tekislash",Ot / Fe'l (suru) · recruitment audit,"メンバーの業務負荷を平準化します。 (teng taqsimlash, tekislash.)"
+DK 業務・スキル,体系化,たいけいか,taikeika,tizimlashtirish,Ot / Fe'l (suru) · recruitment audit,社内ノウハウをドキュメントとして体系化します。 (tizimlashtirish.)
+DK 業務・スキル,高度化,こうどか,koudoka,"yuqori darajaga ko'tarish, takomillashtirish",Ot / Fe'l (suru) · recruitment audit,"AI技術を活用して学習体験を高度化します。 (yuqori darajaga ko'tarish, takomillashtirish.)"
+DK 業務・スキル,多様化,たようか,tayouka,"xilma-xillashish, rang-baranglashish",Ot / Fe'l (suru) · recruitment audit,"学習者の多様化するニーズに対応します。 (xilma-xillashish, rang-baranglashish.)"
+DK 業務・スキル,活性化,かっせいか,kasseika,"jonlantirish, faollashtirish",Ot / Fe'l (suru) · recruitment audit,"✔少子高齢化の中でも、一人ひとりが学びたい時に学び、希望と活力をもてば、社会は活性化す (jonlantirish, faollashtirish.)"
+DK 業務・スキル,最大化,さいだいか,saidaika,maksimallashtirish,Ot / Fe'l (suru) · recruitment audit,学習効果の最大化を目指します。 (maksimallashtirish.)
+DK 業務・スキル,最小化,さいしょうか,saishouka,minimallashtirish,Ot / Fe'l (suru) · recruitment audit,システムダウンの時間を最小化します。 (minimallashtirish.)
+DK 業務・スキル,適正化,てきせいか,tekiseika,"muvofiqlashtirish, qoidaga solish",Ot / Fe'l (suru) · recruitment audit,"業務プロセスの適正化を推進します。 (muvofiqlashtirish, qoidaga solish.)"
+DK 業務・スキル,円滑化,えんかつか,enkatsuka,"osonlashtirish, yengillashtirish",Ot / Fe'l (suru) · recruitment audit,"チーム内外のコミュニケーションを円滑化します。 (osonlashtirish, yengillashtirish.)"
+DK 業務・スキル,具現化,ぐげんか,gugenka,"moddiylashtirish, amalda ko'rsatish",Ot / Fe'l (suru) · recruitment audit,"教育の理想をソフトウェアとして具現化します。 (moddiylashtirish, amalda ko'rsatish.)"
+DK 業務・スキル,明確化,めいかくか,meikakuka,"aniqlashtirish, ravshan qilish",Ot / Fe'l (suru) · recruitment audit,"開発タスクのゴールを明確化します。 (aniqlashtirish, ravshan qilish.)"
+DK 業務・スキル,厳格,げんかく,genkaku,"qat'iy, talabchan",Na-sifat · recruitment audit,"データセキュリティの基準を厳格に適用します。 (qat'iy, talabchan.)"
+DK 業務・スキル,厳正,げんせい,gensei,adolatli va qat'iy,Na-sifat · recruitment audit,厳正な選考プロセスを経て採用を決定します。 (adolatli va qat'iy.)
+DK 業務・スキル,厳守,げんしゅ,genshu,qat'iy rioya etish (muddat/qoida),Ot / Fe'l (suru) · recruitment audit,提出期限を厳守いたします。 (qat'iy rioya etish (muddat/qoida).)
+DK 面接直前チートシート & 実践フレーズ,遵守事項,じゅんしゅじこう,junshujikou,amal qilinishi shart bo'lgan talablar,Ot · recruitment audit,利用に際しての遵守事項をご確認ください。 (amal qilinishi shart bo'lgan talablar.)
+DK 業務・スキル,免責事項,めんせきじこう,mensekijikou,javobgarlikdan ozod etuvchi shartlar,Ot · recruitment audit,免責事項についてあらかじめご了承ください。 (javobgarlikdan ozod etuvchi shartlar.)
+DK 面接直前チートシート & 実践フレーズ,守秘義務,しゅひぎむ,shuhigimu,sir saqlash majburiyati (NDA),Ot · recruitment audit,業務上知り得た情報に関する守秘義務を負います。 (sir saqlash majburiyati (NDA).)
+DK 業務・スキル,著作権,ちょさくけん,chosakuken,mualliflik huquqi (copyright),Ot · recruitment audit,教材コンテンツの著作権を侵害しないよう留意します。 (mualliflik huquqi (copyright).)
+DK 業務・スキル,利用許諾,りようきょだく,riyoukyodaku,foydalanish ruxsati (license agreement),Ot · recruitment audit,ソフトウェアの利用許諾条件に合意します。 (foydalanish ruxsati (license agreement).)
+DK 業務・スキル,仕様変更,しようへんこう,shiyouhenkou,spetsifikatsiya o'zgarishi,Ot · recruitment audit,顧客からの仕様変更依頼に柔軟に対応します。 (spetsifikatsiya o'zgarishi.)
+DK 業務・スキル,優先度,ゆうせんど,yuusendo,ustuvorlik darajasi (priority level),Ot · recruitment audit,バグ修正の優先度を設定して対処します。 (ustuvorlik darajasi (priority level).)
+DK 業務・スキル,重要度,じゅうようど,juuyoudo,muhimlik darajasi,Ot · recruitment audit,要件の重要度に応じてリリース計画を立てます。 (muhimlik darajasi.)
+DK 業務・スキル,難易度,なんいど,nan'ido,qiyinchilik darajasi,Ot · recruitment audit,各開発タスクの難易度を評価します。 (qiyinchilik darajasi.)
+DK 業務・スキル,成熟度,せいじゅくど,seijukudo,yetuklik darajasi (maturity),Ot · recruitment audit,チームの開発プロセスの成熟度を高めます。 (yetuklik darajasi (maturity).)
+DK 成果報告書 & 自己研究,貢献度,こうけんど,koukendo,qo'shilgan hissa salmog'i,Ot · recruitment audit,プロジェクト成功に対する貢献度を評価します。 (qo'shilgan hissa salmog'i.)
+DK 業務・スキル,習熟度,しゅうじゅくど,shuujukudo,o'zlashtirish va mahorat darajasi,Ot · recruitment audit,受講生の習熟度に応じた問題を自動出題します。 (o'zlashtirish va mahorat darajasi.)
+DK 業務・スキル,理解度,りかいど,rikaido,tushunish darajasi,Ot · recruitment audit,小テストを実施して学生の理解度を測定します。 (tushunish darajasi.)
+DK 業務・スキル,親和性,しんわせい,shinwasei,"yaqinlik, bir-biriga mos kelish (affinity)",Ot · recruitment audit,"教育現場とIT技術の高い親和性を実感しています。 (yaqinlik, bir-biriga mos kelish (affinity).)"
+DK 業務・スキル,即効性,そっこうせい,sokkousei,"tez ta'sir qilish, darhol natija berish",Ot · recruitment audit,"即効性のある業務改善策を講じます。 (tez ta'sir qilish, darhol natija berish.)"
+DK 業務・スキル,実効性,じっこうせい,jikkousei,amaliy samaradorlik (effectiveness),Ot · recruitment audit,計画の実効性を高めるために検証を行います。 (amaliy samaradorlik (effectiveness).)
+DK 業務・スキル,再現性,さいげんせい,saigensei,qayta takrorlanish imkoniyati (reproducibility),Ot · recruitment audit,エラーの再現性を確認して原因を特定します。 (qayta takrorlanish imkoniyati (reproducibility).)
+DK 業務・スキル,透明性,とうめいせい,toumeisei,shaffoflik (transparency),Ot · recruitment audit,開発プロセスの透明性を確保します。 (shaffoflik (transparency).)
+DK 業務・スキル,整合性,せいごうせい,seigousei,"mantiqiy uyg'unlik, zid emaslik (consistency)",Ot · recruitment audit,"データベース全体の整合性を保ちます。 (mantiqiy uyg'unlik, zid emaslik (consistency).)"
+DK 業務・スキル,網羅性,もうらせい,mourasei,"to'liqlik, qamrab olinganlik darajasi",Ot · recruitment audit,"テスト仕様書の網羅性をチェックします。 (to'liqlik, qamrab olinganlik darajasi.)"
+DK 業務・スキル,追従,ついじゅう,tsuijuu,"ortidan ergashish, o'zgarishga moslashish",Ot / Fe'l (suru) · recruitment audit,"最新のブラウザ仕様に追従します。 (ortidan ergashish, o'zgarishga moslashish.)"
+DK 業務・スキル,昇華,しょうか,shouka,yuqoriroq pog'onaga ko'tarish,Ot / Fe'l (suru) · recruitment audit,日々の学びを実践的なビジネス価値へと昇華させます。 (yuqoriroq pog'onaga ko'tarish.)
