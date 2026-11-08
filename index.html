@@ -150,18 +150,22 @@ main.wrap{padding-bottom:30px}
 .chip:hover{border-color:var(--opt-hover)}
 .chip.on{background:var(--shu);border-color:var(--shu);color:#fff;font-weight:600}
 .countline{color:var(--mut);font-size:13px;margin:6px 2px 14px}
-.tablewrap{background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
-table{width:100%;border-collapse:collapse}
-thead th{position:sticky;top:62px;background:var(--th-bg);text-align:left;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);padding:11px 14px;border-bottom:1px solid var(--line);z-index:5}
-tbody td{padding:10px 14px;border-bottom:1px solid var(--tr-border);vertical-align:top;font-size:15px}
+.tablewrap{background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tablewrap::-webkit-scrollbar{height:8px}
+.tablewrap::-webkit-scrollbar-track{background:var(--washi);border-radius:4px}
+.tablewrap::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.tablewrap::-webkit-scrollbar-thumb:hover{background:var(--mut)}
+table{width:100%;min-width:880px;border-collapse:collapse}
+thead th{background:var(--th-bg);text-align:left;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+tbody td{padding:12px 14px;border-bottom:1px solid var(--tr-border);vertical-align:top;font-size:15px}
 tbody tr:last-child td{border-bottom:0}
 tbody tr:hover{background:var(--tr-hover)}
-td.n{color:var(--mut);font-size:12px;width:44px}
-td.jp{font-size:17px;font-weight:600;white-space:nowrap;color:var(--ink)}
-td.kana{color:var(--ink);white-space:nowrap}
-td.ro{color:var(--mut);font-style:italic;white-space:nowrap}
-td.uz{color:var(--td-uz);font-weight:500}
-td.en{display:none;color:var(--mut);font-size:13px}
+th.n,td.n{color:var(--mut);font-size:12px;width:44px;min-width:40px;text-align:center}
+th.jp,td.jp{font-size:16.5px;font-weight:600;color:var(--ink);width:17%;min-width:140px;word-break:break-word}
+th.kana,td.kana{color:var(--ink);width:17%;min-width:140px;word-break:break-word}
+th.ro,td.ro{color:var(--mut);font-style:italic;width:15%;min-width:130px;word-break:break-word}
+th.uz,td.uz{color:var(--td-uz);font-weight:500;min-width:320px;word-break:break-word}
+th.en,td.en{display:none;color:var(--mut);font-size:13px;width:18%;min-width:160px;word-break:break-word}
 body.showen td.en{display:table-cell}
 thead th.en{display:none}
 body.showen thead th.en{display:table-cell}
@@ -247,11 +251,11 @@ footer{color:var(--mut);font-size:12.5px;padding:34px 18px 56px;text-align:cente
 
 @media (max-width:700px){
   td.ro,thead th.ro{display:none}
-  thead th{top:56px}
   .toolbar .inner{gap:8px}
   .search{flex:1 1 100%}
   .theme-text,.install-text{display:none}
   .btn-tool{padding:8px 10px}
+  table{min-width:620px}
 }
 
 /* === MENSETSU (INTERVIEW PREP) STYLES === */
@@ -360,7 +364,7 @@ footer{color:var(--mut);font-size:12.5px;padding:34px 18px 56px;text-align:cente
 
   <section id="listView">
     <div class="tablewrap"><table>
-      <thead><tr><th class="n">#</th><th>Yaponcha</th><th>O'qilishi</th><th class="ro">Romaji</th><th>O'zbekcha tarjima</th><th class="en">English</th></tr></thead>
+      <thead><tr><th class="n">#</th><th class="jp">Yaponcha</th><th class="kana">O'qilishi</th><th class="ro">Romaji</th><th class="uz">O'zbekcha tarjima</th><th class="en">English</th></tr></thead>
       <tbody id="tbody"></tbody>
     </table></div>
     <div id="empty" class="empty"><h3>Bo'sh</h3><div id="emptyMsg"></div></div>
