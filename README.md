@@ -8,9 +8,10 @@ Yapon tilini o'rganuvchilar va JLPT N2 imtihoniga tayyorlanuvchilar uchun intera
 
 ## 🌟 Asosiy imkoniyatlar
 
-- 📚 **4 ta to'liq bo'lim:**
+- 📚 **5 ta to'liq bo'lim (3376 ta leksika va iboralar):**
   - **できる日本語 (Dekiru Nihongo):** 1190+ so'z (1–15 darslar).
   - **20日で合格N2:** 1028+ so'z (20 kunlik to'liq dastur).
+  - **JLPT N1 & IT ビジネス:** 250 ta oliy darajadagi leksika va rasmiy iboralar — 複合動詞 (murakkab fe'llar), 四字熟語 (4-kanji iboralari), IT arxitektura va biznes atamalari, nozik ravishlar (副詞) hamda N1 rasmiy grammatik konstruksiyalari (7 ta ixtisoslashgan bo'lim).
   - **MUST:** 784 ta amaliy va biznes leksikasi, IT/PM terminlari, tizim loyihalash, intervyu va kompaniya shartlari (6 ta kichik bo'lim).
   - **Digital Knowledge & Rasmiy Hujjatlar:** 122 ta maxsus leksika va jonli iboralar — Digital Knowledge kompaniyasi intervyusi, Excel mahorat testi (STDEVP, VLOOKUP, 偏差値), 面接直前チートシート (1 daqiqalik o'zini tanishtirish, 30s 志望動機, kutilmagan vaziyatlar), 成果報告書, エントリーシート (ES), スキルチェックシート va 21 ta savolnoma hujjatlari bo'yicha to'liq yaponcha-o'zbekcha lug'at (8 ta bo'lim).
 - 🎯 **面接 (Intervyu) Maxsus Tayyorgarlik Sahifasi:**
@@ -92,6 +93,7 @@ dekiru_nihongo/
 ├── icons/                 # PWA piktogrammalari (192x192, 512x512, SVG, Apple touch)
 ├── sozlar-dekiru.csv       # Dekiru Nihongo so'zlar bazasi (CSV)
 ├── sozlar-n2.csv           # N2 so'zlar bazasi (CSV)
+├── sozlar-n1.csv           # N1 & IT biznes so'zlar bazasi (CSV)
 ├── sozlar-must.csv         # MUST so'zlar bazasi (CSV)
 ├── sozlar-dk.csv           # Digital Knowledge & IT intervyu so'zlar bazasi (CSV)
 ├── README.md               # Loyiha qo'llanmasi
