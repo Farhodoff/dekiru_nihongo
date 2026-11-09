@@ -8,7 +8,7 @@ Yapon tilini o'rganuvchilar va JLPT N2 imtihoniga tayyorlanuvchilar uchun intera
 
 ## 🌟 Asosiy imkoniyatlar
 
-- 📚 **5 ta to'liq bo'lim (4100 ta leksika va iboralar):**
+- 📚 **5 ta to'liq bo'lim (4116 ta leksika va iboralar):**
   - **できる日本語 (Dekiru Nihongo):** 1190+ so'z (1–15 darslar).
   - **20日で合格N2:** 1028+ so'z (20 kunlik to'liq dastur).
   - **JLPT N1 & IT ビジネス:** 250 ta oliy darajadagi leksika va rasmiy iboralar — 複合動詞 (murakkab fe'llar), 四字熟語 (4-kanji iboralari), IT arxitektura va biznes atamalari, nozik ravishlar (副詞) hamda N1 rasmiy grammatik konstruksiyalari (7 ta ixtisoslashgan bo'lim).
