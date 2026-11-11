@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dekiru-nihongo-v3.2';
+const CACHE_NAME = 'dekiru-nihongo-v3.3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
